@@ -1,0 +1,174 @@
+country_decisions = {
+
+	chola_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_chola_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = MYS
+				tag = CEB
+				tag = VND
+				tag = KOC
+			}	
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2101   #Vanni
+				province_id = 2100   #Tirunelveli
+				province_id = 537   #Venad
+				province_id = 535   #Kochin
+				province_id = 533  #Mysore
+				province_id = 569  #Bijapur
+				province_id = 541  #Vijayanagar
+				province_id = 2032  #Malenadu
+				province_id = 545  #Marathwada
+				province_id = 1947  #Gingee
+				province_id = 572  #Kotte
+				province_id = 532  #Raichur Doab
+				province_id = 540  #Coromandel
+				province_id = 534  #Malabar
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}	
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			adm_tech = 10
+			has_institution = feudalism
+			NOT = { exists = COA }
+		   	owns_core_province = 2101   #Vanni
+			owns_core_province = 2100   #Tirunelveli
+			owns_core_province = 537    #Venad
+			owns_core_province = 535    #Kochin
+			owns_core_province = 533    #Mysore
+			owns_core_province = 569    #Bijapur
+			owns_core_province = 541    #Vijayanagar
+			owns_core_province = 2032   #Malenadu
+			owns_core_province = 545    #Marathwada
+			owns_core_province = 1947   #Gingee
+			owns_core_province = 572    #Kotte
+			owns_core_province = 532    #Raichur Doab
+		    owns_core_province = 540    #Coromandel
+			owns_core_province = 534    #Malabar
+		}	
+		effect = {
+			540 = { #Coromandel
+				move_capital_effect = yes
+				change_capital = "Coromandel"
+				2026 = {	
+					if = {
+						limit = {
+							province_has_center_of_trade_of_level = 2
+							NOT = {
+								province_has_center_of_trade_of_level = 3
+							}						
+						}
+						add_center_of_trade_level = 1
+					}
+				}
+			}	
+			set_country_flag = formed_chola
+			change_tag = COA
+			remove_non_electors_emperors_from_empire_effect = yes
+			define_ruler = {
+				dynasty= "Chola"
+				religion = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_prestige = 50
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			if = {
+				limit = {
+					OR = {
+						government = tribal_kingdom
+						government = tribal_despotism
+						government = tribal_federation
+						government = tribal_democracy
+					}
+				}
+				government = monarchy
+				add_government_reform = feudalism_reform
+			}
+			andhra_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			carnatic_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			lanka_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			madura_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			desh_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			kerala_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			kanara_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			mysore_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			rayalaseema_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = COA
+			}
+			set_country_flag = formed_chola_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } 
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+		ai_importance = 400
+	}
+}

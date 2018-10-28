@@ -1,0 +1,120 @@
+country_decisions = {
+	pala_nation = {
+		major = yes
+		potential = {
+			primary_culture = bengali
+			NOT = { has_country_flag = formed_pala_flag }
+			NOT = { exists = PAA }
+			NOT = { tag = JNP }
+			NOT = { tag = DLH }
+			NOT = { tag = BHR }
+			NOT = { tag = COA }
+			is_playing_custom_nation = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 563
+				province_id = 558	
+				province_id = 523
+				province_id = 2062
+				province_id = 522
+				province_id = 510	
+				province_id = 507
+				province_id = 524
+				province_id = 2039
+				province_id = 564
+		}		
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}	
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			adm_tech = 5
+			has_institution = feudalism
+			owns_core_province = 563
+			owns_core_province = 558
+			owns_core_province = 523
+			owns_core_province = 2062				
+			owns_core_province = 522
+			owns_core_province = 510
+			owns_core_province = 507
+			owns_core_province = 524
+			owns_core_province = 2039
+			owns_core_province = 564
+		}
+		effect = {
+			4497 = {	
+				if = {
+					limit = {
+						province_has_center_of_trade_of_level = 1
+						NOT = {
+							province_has_center_of_trade_of_level = 2
+						}						
+					}
+					add_center_of_trade_level = 1
+				}
+			}	
+			change_religion = buddhism
+			563 = {
+				change_religion = buddhism
+			}
+			558 = {
+				change_religion = buddhism
+				move_capital_effect = yes
+				capital = "Pataliputra"
+			}
+			523 = {
+				change_religion = buddhism
+			}
+			2062 = {
+				change_religion = buddhism
+			}
+			522 = {
+				change_religion = buddhism
+			}
+			510 = {
+				change_religion = buddhism
+			}
+			507 = {
+				change_religion = buddhism
+			}
+			524 = {
+				change_religion = buddhism
+			}
+			2039 = {
+				change_religion = buddhism
+			}
+			564 = {
+				change_religion = buddhism
+			}
+			change_tag = PAA
+			remove_non_electors_emperors_from_empire_effect = yes
+			define_ruler = {
+				dynasty= "Pala"
+				religion = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_prestige = 50
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				set_country_flag = formed_pala_flag
+		}
+		ai_will_do = {
+			factor = 400
+		}
+		ai_importance = 400
+	}
+}
