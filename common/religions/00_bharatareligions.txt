@@ -1,0 +1,61 @@
+dharmic = {
+	sanamahism = {
+		color = { 175 4 70 }
+		icon = 8
+		allowed_conversion = {
+			hinduism
+			buddhism
+		}
+		country = {
+			global_institution_spread = 0.15
+			global_tax_modifier = 0.05
+		}
+		country_as_secondary = {
+			build_time = -0.1
+			idea_cost = -0.05
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { PAGAN }
+		
+		harmonized_modifier = harmonized_sanamahism
+	}
+	
+	aghori = {
+		color = { 95 0 142 }
+		icon = 8
+		allowed_conversion = {
+			hinduism
+			buddhism
+		}
+		country = {
+			stability_cost_modifier = -0.2
+			religious_unity = 0.2
+		}
+		country_as_secondary = {
+			heir_chance = 0.5
+			culture_conversion_cost = -0.15
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMIST }
+		
+		uses_karma = yes
+	
+		harmonized_modifier = harmonized_aghori
+	}
+}	

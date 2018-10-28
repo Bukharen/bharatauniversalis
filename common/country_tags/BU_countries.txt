@@ -1,0 +1,23 @@
+#Hindu/Sikh
+BHR = "countries/Bharata.txt"
+SIK = "countries/Sikh.txt"
+COA = "countries/Chola.txt"
+PAA = "countries/Pala.txt"
+MAU = "countries/Maurya.txt"
+GAU = "countries/Galuh.txt"
+CHT = "countries/Chitradurga.txt"
+
+#Buddhist
+PAH = "countries/Pahang.txt"
+THO = "countries/Thonburi.txt"
+KEN = "countries/Kengtung.txt"
+SIT = "countries/Sitawaka.txt"
+
+#Sunni
+SAW = "countries/Sarawak.txt"
+JMU = "countries/Jammu.txt"
+
+#Other
+BOE = "countries/Bone.txt"
+TAY = "countries/Taytay.txt"
+DAP = "countries/Dapitan.txt"

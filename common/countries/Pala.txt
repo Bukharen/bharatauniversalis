@@ -1,0 +1,103 @@
+graphical_culture = indiangfx
+
+color = { 165  67  90 }
+
+historical_idea_groups = {
+	trade_ideas
+	spy_ideas
+	defensive_ideas
+	diplomatic_ideas
+	quality_ideas
+	humanist_ideas
+	offensive_ideas
+	economic_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	rajput_musketeer
+	mughal_mansabdar
+	indian_elephant
+	sikh_hit_and_run
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Swami Shahi #1" = 20
+	"Sher #0" = 20
+	"Ferozi Kali #2" = 20
+	"Rukwa al-Shahr #0" = 10
+	"Jalal ad-Din Fateh #0" = 10
+	"Nasir-ud-Din #1" = 20
+	"Nasir ad-Din Nasrat #0" = 10
+	"Islam #0" = 10
+	"Shams-ud-Din Yusuf #1" = 10
+	"Shams-ud-Din Ahmad #1" = 10
+	"Da'ud #0" = 5
+	"Sulayman #0" = 5
+	"Drupanad #0" = 5
+	"Azam #0" = 0
+	"Ahmad #0" = 0
+	"Nazram #0" = 0
+	"Barbak #0" = 0
+	"Farid #0" = 0
+	"Yusuf #0" = 0
+	"Husain #0" = 0
+	"Firuz #0" = 0
+	"Nasrat #0" = 0
+	"Fateh #0" = 0
+	"Bayazid #0" = 0
+	"Nasir #0" = 0
+	"Ghiyasuddin #0" = 0
+	"Mirza #0" = 0
+	"Raja #0" = 0
+	"Hamza #0" = 0
+	"Malika Bibi #0" = -1
+	"Sharat #0" = -1
+	"Kamala #0" = -1
+}
+
+leader_names = {
+	Azad
+	Bose
+	Chaudhary
+	Das
+	Debshikdar
+	Gangeksha
+	Ganesha
+	Ghosh
+	Karani
+	Majumdar
+	Mukerjhee
+	Pal
+	Roy
+	Saraswoti
+	Sarkar
+	Senakshi
+	Shaikh
+	Srikaulam
+	Suriksha
+	Swami
+	Thakur
+	Zamindar
+}
+
+ship_names = {
+	"Abu Bakr" "Ali Khan" Bhagirathi
+	Brahmaputra "Chingri Mach" Chittagong
+	Durbar Durdasha Fatima Ganga
+	"Hilsa Mach" Hooghly "Ilish Mach"
+	Jalangi Jasmine Kolkata Machli
+	"Kali Meghana" "Kali Nauk" "Lal Nauk"
+	Malda Meghna Mongla Murshidabad
+	"Nauk-i-Islam" "Nawaber Nauk" "Nil Nauk"
+	"Nil Sagor" Osman Padma "Rui Mach"
+	"Sagorer Bahini" "Shaheed" "Sheikher Nauk"
+	"Sonar Bangladesh" "Sunderboner Bahini"
+	"Samundar" Tasalasheena
+}
