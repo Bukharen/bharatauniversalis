@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = kashmiri
+religion = sunni
+technology_group = indian
+capital = 4449	#  Jammu
+religious_school = ismaili_school
+historical_rival = KSH

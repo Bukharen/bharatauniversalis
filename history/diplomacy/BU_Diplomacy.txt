@@ -1,0 +1,53 @@
+vassal = {
+	first = SIK
+	second = KGR
+	start_date = 1806.1.1
+	end_date = 1848.1.1
+}
+royal_marriage = {
+	first = MAJ
+	second = BLI
+	start_date = 1444.1.1
+	end_date = 1527.1.1
+}
+
+#Chitradurga
+vassal = {
+	first = MYS
+	second = CHT
+	start_date = 1686.1.1
+	end_date = 1756.1.1
+}	
+vassal = {
+	first = MAR
+	second = CHT
+	start_date = 1756.1.1
+	end_date = 1758.1.1
+}	
+alliance = {
+	first = MYS
+	second = CHT
+	start_date = 1758.1.1 
+	end_date = 1779.1.1
+}
+
+#Anti - Majapahit
+alliance = {
+	first = GAU
+	second = SUN
+	start_date = 1444.1.1
+	end_date = 1482.1.1
+}
+alliance = {
+	first = GAU
+	second = BLI
+	start_date = 1444.1.1
+	end_date = 1482.1.1
+}
+alliance = {
+	first = BLI
+	second = SUN
+	start_date = 1444.1.1
+	end_date = 1579.1.1
+}
+		

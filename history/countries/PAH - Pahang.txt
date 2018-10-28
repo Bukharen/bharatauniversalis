@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = malayan
+religion = mahayana
+technology_group = chinese
+capital = 598	# Pahang
+fixed_capital = 598 #Added to give a little more challenge to comply with Pahang ideas
+
+1444.11.11 = {
+	monarch = {
+		name = "Dewa Sura"
+		dynasty = "Pahang"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+
+

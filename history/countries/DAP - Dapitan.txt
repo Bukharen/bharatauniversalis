@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = chinese
+primary_culture = filipino
+capital = 4548	# Bohol
+religion = animism

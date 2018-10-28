@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = bornean
+religion = sunni
+technology_group = chinese
+capital = 275	# Kuching
+religious_school = shafii_school
+
+1598.1.1 = {
+	monarch = {
+		name = "Ibrahim Ali Omar"
+		dynasty = "Shah"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

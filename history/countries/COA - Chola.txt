@@ -1,0 +1,168 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+mercantilism = 10
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+add_accepted_culture = kannada
+add_accepted_culture = marathi
+add_accepted_culture = malayalam
+fixed_capital = 540	# Coromandel
+
+1070.1.1 = {
+	monarch = {
+		name = "Kulothunga I"
+		dynasty = "Chola"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1118.1.1 = {
+	heir = {
+		name = "Vikrama Chola"
+		monarch_name = "Vikrama Chola"
+		dynasty = "Chola"
+		birth_date = 1102.1.1
+		death_date = 1135.1.1 
+		claim = 90
+		adm = 4
+		dip = 1
+		mil = 6
+	}
+}
+
+1122.1.1 = {
+	monarch = {
+		name = "Vikrama Chola"
+		dynasty = "Chola"
+		adm = 4
+		dip = 1
+		mil = 6
+	}
+}
+
+1133.1.1 = {
+	heir = {
+		name = "Kulothunga Chola II"
+		monarch_name = "Kulothunga Chola II"
+		dynasty = "Chola"
+		birth_date = 1119.1.1
+		death_date = 1150.1.1 
+		claim = 90
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+}
+
+1135.1.1 = {
+	monarch = {
+		name = "Kulothunga Chola II" 
+		dynasty = "Chola"
+		adm = 6
+		dip = 2
+		mil = 3
+}
+1146.1.1 = {
+	heir = {
+		name = "Rajaraja II"
+		monarch_name = "Rajaraja Chola II"
+		dynasty = "Chola"
+		birth_date = 1131.1.1
+		death_date = 1173.1.1 
+		claim = 90
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+1150.1.1 = {
+	monarch = {
+		name = "Rajaraja Chola II" 
+		dynasty = "Chola"
+		adm = 0
+		dip = 0
+		mil = 1
+}
+
+1163.1.1 = {
+	heir = {
+		name = "Rajadhiraja II"
+		monarch_name = "Rajadhiraja Chola II"
+		dynasty = "Chola"
+		birth_date = 1131.1.1
+		death_date = 1163.1.1 
+		claim = 90
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1166.1.1 = {
+	monarch = {
+		name = "Rajadhiraja Chola II" 
+		dynasty = "Chola"
+		adm = 1
+		dip = 0
+		mil = 1
+}
+
+
+1178.1.1 = {
+	monarch = {
+		name = "Kulothunga Chola III" 
+		dynasty = "Chola"
+		adm = 4
+		dip = 6
+		mil = 6
+}
+
+1216.6.1 = {
+	heir = {
+		name = "Rajaraja III"
+		monarch_name = "Rajaraja Chola III"
+		dynasty = "Chola"
+		birth_date = 1203.1.1
+		death_date = 1246.1.1 
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1218.1.1 = {
+	monarch = {
+		name = "Rajaraja Chola III" 
+		dynasty = "Chola"
+		adm = 2
+		dip = 1
+		mil = 2
+}
+
+1246.1.1 = {
+	heir = {
+		name = "Rajendra III"
+		monarch_name = "Rajendra Chola III"
+		dynasty = "Chola"
+		birth_date = 1240.1.1
+		death_date = 1279.1.1 
+		claim = 90
+		adm = 3
+		dip = 0
+		mil = 2
+	}
+}
+
+1256.1.1 = {
+	monarch = {
+		name = "Rajendra Chola III" 
+		dynasty = "Chola"
+		adm = 3
+		dip = 0
+		mil = 2
+}

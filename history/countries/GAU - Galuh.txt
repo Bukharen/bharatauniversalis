@@ -1,0 +1,168 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = javanese
+technology_group = chinese
+religion = hinduism
+capital = 2687	# Pakuan
+historical_friend = SUN
+
+1399.1.1 = {
+	monarch = {
+		name = "Bangkapatera"  # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Ehrauza" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Bahanashaht" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Paramalabanga" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name ="Sankalpa" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.1.1 = {
+	monarch = {
+		name = "Betawen" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "Fakhrat" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Jambayala" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1619.1.1 = {
+	monarch = {
+		name = "Batabangkam" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1668.1.1 = {
+	monarch = {
+		name = "Batembandera" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Khaliq Khera" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Mai Tunyapa" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1729.1.1 = {
+	monarch = {
+		name = "Kamalapa" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1742.1.1 = {
+	monarch = {
+		name = "Majapahit" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Rajagaluh" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1807.1.1 = {
+	monarch = {
+		name = "Puertaclena" # fictional
+		dynasty = "Galuh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

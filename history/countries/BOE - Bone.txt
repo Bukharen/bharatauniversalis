@@ -1,0 +1,162 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = sulawesi
+religion = animism
+technology_group = chinese
+capital = 642	# Kendari
+
+1399.1.1 = {
+	monarch = {
+		name = "Tuni Pasulu"  # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Tuni Palonga" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Shahab" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "Parabung" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name ="Sankilang" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Djallori" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Fakhr" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1605.9.1 = {
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.15
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Batara Gowa" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Karaeng Tunibatta" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "'Abd al-Khaliq" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1679.1.1 = {
+	monarch = {
+		name = "Tunyachoka-Mai" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1729.1.1 = {
+	monarch = {
+		name = "Karaeng Tunibatta" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1747.1.1 = {
+	monarch = {
+		name = "'Uthmân" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1769.1.1 = {
+	monarch = {
+		name = "Muhammad 'Ali" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1819.1.1 = {
+	monarch = {
+		name = "Amir Hamza" # fictional
+		dynasty = "Bone"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

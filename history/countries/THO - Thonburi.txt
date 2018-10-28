@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = central_thai
+religion = buddhism
+technology_group = chinese
+capital = 600 # Thonburi
+
+1767.12.28 = {
+	monarch = {
+	name = "Taksin"
+	dynasty = "Thonburi"
+	adm = 4
+	dip = 3
+	mil = 6
+	}
+}
