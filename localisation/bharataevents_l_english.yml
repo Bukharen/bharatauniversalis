@@ -1,0 +1,16 @@
+﻿l_english:
+ aghori_events.1.t: "The Aghori Cult"
+ aghori_events.1.d: " In the 14th century, the Aghori cult started and spread in diaspora in Cambodia and some remote areas of India. Renowned to be very extreme, the Aghori do dangerous stunts, and are cult-like in more ways than one. We can either crack down on this blasphemy, or we can allow it, but with reprimand."
+ aghori_events.1.a: "Crack down on this extremism!"
+ aghori_events.1.b: "Perhaps we can convert to this religion?"
+ bharata_mughals_events.1.t: "Recent Conversion to Hinduism"
+ bharata_mughals_events.1.d: "Although we have recently converted to Hinduism, the upperclass are angered by this and demand we revert back to Islam. They threaten to rebel, and the [Root.GetName] Empire is at stake!"
+ bharata_mughals_events.1.a: "There is nothing we can do but listen to them."
+ taxila_events.1.t: "The Ancient University of Taxila"
+ taxila_events.1.d: "One of the oldest universities in the world, Takshashila, or Taxila, was international and Chinese scholars and Persian bureaucrats had access to this resource. However, in the 5th century A.D., it had been destroyed by invaders. We can choose to rebuild it, and attract and educate people across the world, or we can let the past fade away and move on.""
+ taxila_events.1.a: "Restore the ancient museum for all!"
+ taxila_events.1.b: "We do not have the funds to build the university."
+ 
+ #eventmodifiers
+ aghori_conversion: "Aghori Conversion"
+ taxila_university: "Taxila University"
