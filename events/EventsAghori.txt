@@ -1,0 +1,66 @@
+namespace = aghori_events
+
+country_event = {
+	id = aghori_events.1
+	title = aghori_events.1.t
+	desc = aghori_events.1.d
+	picture = PRAYING_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			tag = KHM
+			AND = {
+				technology_group = indian
+				religion = hinduism
+			}	
+		}
+		any_owned_province = {
+			religion = aghori
+		}	
+	}
+	
+	
+	option = {
+		name = aghori_events.1.a
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_any_disaster = yes
+			}	
+		}
+		every_owned_province = {
+			if = {
+				limit = { religion = aghori }
+				add_unrest = 10
+				add_province_modifier = {
+					name = aghori_conversion
+					duration = 1875
+				}
+			}
+		}
+		any_owned_province = {
+			if = {
+				limit = { religion = aghori }
+				spawn_rebels = {
+					type = aghori_rebels
+					size = 15
+				}
+			}
+		}	
+	}
+	option = {
+		name = aghori_events.1.b
+		change_religion = aghori
+		all_owned_province = {
+			limit = { NOT = { religion = aghori } }
+			add_unrest = 10
+		}
+	}	
+}
