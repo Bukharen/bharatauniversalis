@@ -1,0 +1,37 @@
+sulawesi_ideas = {
+	start = {
+		naval_forcelimit_modifier = 0.25
+		sailor_maintenance_modifer = -0.1
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = MKS
+	}
+	free = yes
+	
+	sulawesi_intra_asian_trade = {
+		trade_steering = 0.1
+	}
+	sulawesi_bajau = {
+		navy_tradition_decay = -0.01
+	}
+	sulawesi_prau = {
+		light_ship_cost = -0.2
+	}
+	sulawesi_unification = {
+		global_tax_modifier = 0.1
+	}
+	sulawesi_learning_from_outsiders = {
+		global_institution_spread = 0.1
+	}
+	sulawesi_entrepot = {
+		global_trade_power = 0.1
+	}
+	sulawesi_assymetrical_warfare = {
+		hostile_attrition = 1
+	}
+}

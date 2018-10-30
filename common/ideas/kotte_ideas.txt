@@ -1,0 +1,37 @@
+CEY_ideas = {
+	start = {
+		defensiveness = 0.1
+		trade_efficiency = 0.1		
+	}
+
+	bonus = {
+		global_own_trade_power = 0.1
+	}
+	
+	trigger = {
+		tag = CEY
+	}
+	free = yes		
+	
+	gabadagam = {
+		global_tax_modifier = 0.10
+	}
+	sinhalese_sandesas = {
+		prestige = 1
+	}
+	pearl_of_the_indian_ocean = {
+		merchants = 1
+	}
+	cey_centre_of_learning = {
+		diplomatic_reputation = 1
+	}
+	cey_cinnamon = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	cey_growth_of_new_castes = {
+		production_efficiency = 0.1
+	}
+	sinhalese_guerilla_warfare = {
+		hostile_attrition = 1.0
+	}
+}

@@ -1,0 +1,39 @@
+MAJ_ideas = {
+	start = {
+		galley_power = 0.05
+		leader_land_shock = 1
+    }
+	bonus = {
+		culture_conversion_cost = -0.1 
+	}
+	
+	trigger = {
+		tag = MAJ
+	}	
+	free = yes	
+	
+	MAJ_the_spice_islands = {
+		production_efficiency = 0.05
+	}
+	MAJ_the_three_faiths = {
+		tolerance_heathen = 2
+		tolerance_heretic = 1
+	}	
+	MAJ_pala_influence = {
+		build_time = -0.1
+		build_cost = -0.1
+	}
+	MAJ_true_heirs_to_singhasari =  {
+		prestige = 0.75
+	}
+	MAJ_religious_samskritam = {
+		all_power_cost = -0.05
+	}
+	MAJ_influential_empire = {
+		diplomats = 1
+		diplomatic_reputation = 2
+	}	
+	MAJ_excellent_administration = {
+		administrative_efficiency = 0.05
+	}
+}
