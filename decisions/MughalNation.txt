@@ -50,7 +50,7 @@ country_decisions = {
 				province_id = 447
 				province_id = 451
 				province_id = 2062
-				province_id = 524
+				province_id = 2075
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -69,8 +69,7 @@ country_decisions = {
 			owns_core_province = 447 #Kandahar
 			owns_core_province = 451 #Kabul
 			owns_core_province = 2062 #Panipat
-			owns_core_province = 524 #Central Doab
-			development = 375
+			owns_core_province = 2075 #Doaba
 		}
 		effect = {
 			522 = {
