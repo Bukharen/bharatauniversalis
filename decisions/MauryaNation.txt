@@ -117,7 +117,8 @@ country_decisions = {
 					add_center_of_trade_level = 1
 				}
 				move_capital_effect = yes
-				capital = "Pataliputra"
+				change_province_name = Pataliputra
+				rename_capital = Pataliputra
 				add_base_tax = 4
 				add_base_manpower = 4
 				add_base_production = 4

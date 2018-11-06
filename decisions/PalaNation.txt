@@ -58,38 +58,38 @@ country_decisions = {
 					add_center_of_trade_level = 1
 				}
 			}	
-			change_religion = buddhism
 			563 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			558 = {
-				change_religion = buddhism
+				change_religion = ROOT
 				move_capital_effect = yes
-				capital = "Pataliputra"
+				change_province_name = Pataliputra
+				rename_capital = Pataliputra
 			}
 			523 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			2062 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			522 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			510 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			507 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			524 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			2039 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			564 = {
-				change_religion = buddhism
+				change_religion = ROOT
 			}
 			change_tag = PAA
 			remove_non_electors_emperors_from_empire_effect = yes

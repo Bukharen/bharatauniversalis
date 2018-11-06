@@ -63,9 +63,9 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-				government = monarchy
-				add_government_reform = feudalism_reform
-				set_country_flag = formed_jammu_flag
+			change_government_via_reform = monarchy
+			add_government_reform = feudalism_reform
+			set_country_flag = formed_jammu_flag
 		}
 		ai_will_do = {
 			factor = 400

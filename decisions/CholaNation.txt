@@ -63,7 +63,8 @@ country_decisions = {
 		effect = {
 			540 = { #Coromandel
 				move_capital_effect = yes
-				change_capital = "Coromandel"
+				change_province_name = "Gangaikonda Cholapuram"
+				rename_capital = "Gangaikonda Cholapuram"
 				2026 = {	
 					if = {
 						limit = {
@@ -94,18 +95,8 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			if = {
-				limit = {
-					OR = {
-						government = tribal_kingdom
-						government = tribal_despotism
-						government = tribal_federation
-						government = tribal_democracy
-					}
-				}
-				government = monarchy
-				add_government_reform = feudalism_reform
-			}
+			change_government_via_reform = monarchy
+			add_government_reform = feudalism_reform
 			andhra_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
