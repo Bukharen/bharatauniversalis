@@ -45,22 +45,26 @@ country_event = {
 				}
 			}
 		}
-		any_owned_province = {
-			if = {
-				limit = { religion = aghori }
-				spawn_rebels = {
-					type = aghori_rebels
-					size = 15
-				}
+		ROOT = {
+			random_owned_province = {
+				if = {
+					limit = { religion = aghori }
+					spawn_rebels = {
+						type = aghori_rebels
+						size = 15
+					}
+				}	
 			}
 		}	
 	}
 	option = {
 		name = aghori_events.1.b
 		change_religion = aghori
-		all_owned_province = {
-			limit = { NOT = { religion = aghori } }
-			add_unrest = 10
-		}
+		ROOT = {
+			every_owned_province = {
+				limit = { NOT = { religion = aghori } }
+				add_unrest = 10
+			}
+		}	
 	}	
 }
