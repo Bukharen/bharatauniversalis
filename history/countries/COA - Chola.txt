@@ -65,7 +65,9 @@ fixed_capital = 540	# Coromandel
 		adm = 6
 		dip = 2
 		mil = 3
+	}
 }
+
 1146.1.1 = {
 	heir = {
 		name = "Rajaraja II"
@@ -79,6 +81,7 @@ fixed_capital = 540	# Coromandel
 		mil = 1
 	}
 }
+
 1150.1.1 = {
 	monarch = {
 		name = "Rajaraja Chola II" 
@@ -86,6 +89,7 @@ fixed_capital = 540	# Coromandel
 		adm = 0
 		dip = 0
 		mil = 1
+	}
 }
 
 1163.1.1 = {
@@ -109,17 +113,18 @@ fixed_capital = 540	# Coromandel
 		adm = 1
 		dip = 0
 		mil = 1
-}
-
+	}
+}	
 
 1178.1.1 = {
 	monarch = {
 		name = "Kulothunga Chola III" 
 		dynasty = "Chola"
 		adm = 4
-		dip = 6
+		dip = 6	
 		mil = 6
-}
+	}
+}	
 
 1216.6.1 = {
 	heir = {
@@ -142,7 +147,8 @@ fixed_capital = 540	# Coromandel
 		adm = 2
 		dip = 1
 		mil = 2
-}
+	}
+}	
 
 1246.1.1 = {
 	heir = {
@@ -165,4 +171,5 @@ fixed_capital = 540	# Coromandel
 		adm = 3
 		dip = 0
 		mil = 2
-}
+	}
+}	

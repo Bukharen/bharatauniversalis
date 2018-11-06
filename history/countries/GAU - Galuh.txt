@@ -3,7 +3,7 @@ add_government_reform = mandala_reform
 primary_culture = javanese
 technology_group = chinese
 religion = hinduism
-capital = 2687	# Pakuan
+capital = 626	# Karta
 historical_friend = SUN
 
 1399.1.1 = {
@@ -18,7 +18,7 @@ historical_friend = SUN
 
 1429.1.1 = {
 	monarch = {
-		name = "Ehrauza" # fictional
+		name = "Raza" # fictional
 		dynasty = "Galuh"
 		adm = 3
 		dip = 3
