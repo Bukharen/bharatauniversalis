@@ -10,6 +10,10 @@
  taxila_events.1.d: "One of the oldest universities in the world, Takshashila, or Taxila, was international and Chinese scholars and Persian bureaucrats had access to this resource. However, in the 5th century A.D., it had been destroyed by invaders. We can choose to rebuild it, and attract and educate people across the world, or we can let the past fade away and move on.""
  taxila_events.1.a: "Restore the ancient museum for all!"
  taxila_events.1.b: "We do not have the funds to build the university."
+ jizya_events.1.t: "Jizya"
+ jizya_events.1.d: "Jizya is a law that is enforced by the government that requires heathens to pay tax as long as they live under Islamic law. In the Indian Frontier, the majority of the lands are Hindu and do not currently pay any jizya. However, the economy of the [Root.GetName] has started to deteriorate, and we may even need that jizya, or we can remain tolerant of all faiths."
+ jizya_events.1.a: "We shall enforce jizya among the heathens."
+ jizya_events.1.b: "Our religious unity is low, we can not afford a rebellion."
  
  #eventmodifiers
  aghori_conversion: "Aghori Conversion"

@@ -1603,10 +1603,14 @@ mascarenes_area = { #3
 	1100 1102 1103
 }
 
-indian_ocean_islands_area = { #5
-	574 1101 1248 1998 1999
+indian_ocean_islands_area = { #4
+	574 1101  1998 1999
 }
 
+coastal_indian_area = { #3
+	1248 4549
+}
+	
 papua_area = { #5 (Papuan Peninsula)
 	1237 2719 2720 2721 2722
 }

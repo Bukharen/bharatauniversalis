@@ -779,6 +779,7 @@ coromandel_region = {
 		kongu_area
 		south_carnatic_area
 		north_carnatic_area
+		coastal_indian_area
 	}
 	monsoon = {
 		00.06.01
