@@ -1,0 +1,17 @@
+burman = {
+	meitei = {
+		primary = MBL
+			dynasty_names = { #copied grom Chin
+				Shubol Chandrakirti Ganavira Marjit Charajit Pitambara Moduchandra Harshachandra Nara Devendra
+			}
+			male_names = {
+				"Pengshiba" "Ningthou Khomba" "Senbi Kiyaamba" "Koiremba" "Chingkhong Lamgai Ngamba" "Nongyin Phaaba" 
+				"Senbi Khomba" "Taangjaamba" "Chalaamba" "Munghaamba" "Khagemba" "Khunjaoba" "Paikhomba" "Charairongba" 
+				"Paamheiba" "Chit Sai" "Bhorot Sai" "Maraamba" "Chingthang Khomba" "Labeinachandra" "Maramaba" 
+				"Madhuchandra" "Chourjit" "Marjit"
+			}
+			female_names = { #copied from Chin
+				"Mangaldahi" "Jira" "Hira" Tashi Tenzin Tenzing Yangchen
+			}
+	}
+}	

@@ -870,7 +870,8 @@ comorin_cape={
 		2100 4408 4409 #lanka_area
 		4523 4524 #added_provinces
 		572 2099 4407 4546 4547 #sri_lanka_area
-		574 1101 1248 1998 1999 #indian_ocean_islands_area
+		574 1101 1998 1999 #indian_ocean_islands_area
+		1248 4549 #maldives_area
 		538 2085 4414 #kongu_area
 		2026 4415 4416 #tanjore_area
 		533 2031 4421 4422 4426 #mysore_area

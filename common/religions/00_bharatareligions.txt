@@ -2,10 +2,6 @@ dharmic = {
 	sanamahism = {
 		color = { 175 4 70 }
 		icon = 8
-		allowed_conversion = {
-			hinduism
-			buddhism
-		}
 		country = {
 			global_institution_spread = 0.15
 			global_tax_modifier = 0.05
@@ -31,10 +27,6 @@ dharmic = {
 	aghori = {
 		color = { 95 0 142 }
 		icon = 8
-		allowed_conversion = {
-			hinduism
-			buddhism
-		}
 		country = {
 			stability_cost_modifier = -0.2
 			religious_unity = 0.2

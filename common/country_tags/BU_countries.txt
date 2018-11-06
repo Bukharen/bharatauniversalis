@@ -6,6 +6,7 @@ PAA = "countries/Pala.txt"
 MAU = "countries/Maurya.txt"
 GAU = "countries/Galuh.txt"
 CHT = "countries/Chitradurga.txt"
+TRV = "countries/Travancore.txt"
 
 #Buddhist
 PAH = "countries/Pahang.txt"
