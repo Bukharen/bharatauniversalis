@@ -27,13 +27,13 @@ MAJ_ideas = {
 		prestige = 0.75
 	}
 	MAJ_religious_samskritam = {
-		all_power_cost = -0.05
+		technology_cost = -0.05
 	}
 	MAJ_influential_empire = {
 		diplomats = 1
 		diplomatic_reputation = 2
 	}	
 	MAJ_excellent_administration = {
-		administrative_efficiency = 0.05
+		core_creation = -0.1
 	}
 }
