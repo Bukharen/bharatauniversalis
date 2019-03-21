@@ -1,0 +1,134 @@
+government = monarchy
+add_government_reform = nayankara_reform
+government_rank = 1
+primary_culture = kannada
+religion = hinduism
+technology_group = indian
+capital = 4426	# Chitradurga
+fixed_capital = 4426
+
+1588.1.1 = {
+	monarch = {
+		name = "Obanna I"
+		dynasty = "Nayaka"
+		ADM = 1
+		DIP = 3
+		MIL = 4
+	}
+	
+}
+1602.1.1 = {
+	monarch = {
+		name = "Kasturi Rangappa I"
+		dynasty = "Nayaka"
+		ADM = 3
+		DIP = 2
+		MIL = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
+1652.1.1 = {
+	monarch = {
+		name = "Madaraki II"
+		dynasty = "Nayaka"
+		ADM = 2
+		DIP = 4
+		MIL = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
+1674.1.1 = {
+	monarch = {
+		name = "Obanna II"
+		dynasty = "Nayaka"
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+}
+1675.1.1 = {
+	monarch = {
+		name = "Shoora Kantha"
+		dynasty = "Nayaka"
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+}
+1676.1.1 = {
+	monarch = {
+		name = "Chikkanna"
+		dynasty = "Nayaka"
+		ADM = 1
+		DIP = 5
+		MIL = 3
+	}
+	
+}
+1686.1.1 = {
+	monarch = {
+		name = "Madakari III"
+		dynasty = "Nayaka"
+		ADM = 3
+		DIP = 3
+		MIL = 4
+	}
+	
+}
+1688.1.1 = {
+	monarch = {
+		name = "Donne Rangapp"
+		dynasty = "Nayaka"
+		ADM = 5
+		DIP = 4
+		MIL = 2
+	}
+	
+}
+1689.1.1 = {
+	monarch = {
+		name = "Bharamappa"
+		dynasty = "Nayaka"
+		ADM = 4
+		DIP = 5
+		MIL = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
+1721.1.1 = {
+	monarch = {
+		name = "Madakari IV "
+		dynasty = "Nayaka"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}	
+}
+1748.1.1 = {
+	monarch = {
+		name = "Kasturi Rangappa II"
+		dynasty = "Nayaka"
+		ADM = 3
+		DIP = 5
+		MIL = 6
+	}	
+}
+1754.1.1 = {
+	monarch = {
+		name = "Madakari V"
+		dynasty = "Nayaka"
+		ADM = 5
+		DIP = 4
+		MIL = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = tactical_genius_personality
+}

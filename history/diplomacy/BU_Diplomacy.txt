@@ -14,19 +14,19 @@ royal_marriage = {
 #Chitradurga
 vassal = {
 	first = MYS
-	second = CHT
+	second = CDA
 	start_date = 1686.1.1
 	end_date = 1756.1.1
 }	
 vassal = {
 	first = MAR
-	second = CHT
+	second = CDA
 	start_date = 1756.1.1
 	end_date = 1758.1.1
 }	
 alliance = {
 	first = MYS
-	second = CHT
+	second = CDA
 	start_date = 1758.1.1 
 	end_date = 1779.1.1
 }

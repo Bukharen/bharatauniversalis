@@ -47,6 +47,7 @@ country_decisions = {
 			owns_core_province = 564
 		}
 		effect = {
+			change_religion = buddhism
 			4497 = {	
 				if = {
 					limit = {

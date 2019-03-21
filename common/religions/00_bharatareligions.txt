@@ -23,17 +23,16 @@ dharmic = {
 		
 		harmonized_modifier = harmonized_sanamahism
 	}
-	
-	aghori = {
-		color = { 95 0 142 }
-		icon = 8
+	jain_religion = {
+		color = { 120 213 255 }
+		icon = 23
 		country = {
-			stability_cost_modifier = -0.2
-			religious_unity = 0.2
+			tolerance_heathen = 3
+			embracement_cost = -0.1
 		}
 		country_as_secondary = {
-			heir_chance = 0.5
-			culture_conversion_cost = -0.15
+			land_morale = 0.05
+			build_cost = 0.075
 		}
 		on_convert = {
 			add_prestige = -100
@@ -44,10 +43,7 @@ dharmic = {
 			}
 		}
 		
-		heretic = { ANIMIST }
-		
+		harmonized_modifier = harmonized_jain
 		uses_karma = yes
-	
-		harmonized_modifier = harmonized_aghori
 	}
 }	

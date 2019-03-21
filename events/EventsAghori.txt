@@ -9,13 +9,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		OR = {
-			tag = KHM
-			AND = {
-				technology_group = indian
-				religion = hinduism
-			}	
-		}
+		tag = KHM
+		religion = hinduism			
 		any_owned_province = {
 			religion = aghori
 		}	
