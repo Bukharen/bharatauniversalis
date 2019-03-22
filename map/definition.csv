@@ -197,6 +197,7 @@ province;red;green;blue;x;x
 196;221;66;128;Samtoy;x
 197;94;68;192;Cagayan;x
 198;222;70;255;Riau;x
+394;56;52;255;El Catif;x
 660;94;72;0;Xishuan Banna;x
 661;222;74;64;Dali;x
 662;94;76;128;Yunnan;x
@@ -874,7 +875,7 @@ province;red;green;blue;x;x
 2211;187;215;128;Ardalan;x
 2212;60;143;34;Zanjan;x
 2214;81;81;192;Golestan;x
-2219;58;88;180;Bandar Langeh;x
+2219;58;88;181;Bandar Langeh;x
 2220;81;81;255;Bam;x
 2221;165;72;137;Mashhad;x
 2222;81;81;221;Ardakan;x
@@ -1068,6 +1069,7 @@ province;red;green;blue;x;x
 2748;80;32;128;Jianchang;x
 2786;86;100;255;Bosaso;x
 2788;201;201;89;Hafun;x
+2999;255;90;203;Hormuz;x
 3004;189;110;220;Unused1
 3005;190;110;220;Unused2
 3006;191;110;220;Unused3
