@@ -13,11 +13,11 @@ base_manpower = 1
 is_city = yes
 add_core = VIJ
 add_core = KLN
+discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
-discovered_by = muslim
 discovered_by = ottoman
-discovered_by = chinese
+discovered_by = muslim
 
 1498.1.1 = { discovered_by = POR }
 1565.7.1 = {
@@ -28,15 +28,15 @@ discovered_by = chinese
 1573.1.1 = { controller = BIJ } #Bijapuri expansion
 1574.1.1 = { controller = KLN }
 1588.1.1 = {
-	owner = CHT
-	controller = CHT
+	owner = CDA
+	controller = CDA
 	remove_core = KLN
 }
 1660.1.1 = { owner = BIJ controller = BIJ }
 1685.1.1 = {
-	owner = CHT
-	controller = CHT
-	add_core = CHT
+	owner = CDA
+	controller = CDA
+	add_core = CDA
 }
 }
 1779.1.1 = {

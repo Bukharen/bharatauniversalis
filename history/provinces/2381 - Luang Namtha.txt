@@ -13,12 +13,11 @@ base_manpower = 2
 is_city = yes
 add_core = LXA
 add_core = LUA
-
-
-
 discovered_by = chinese
 discovered_by = indian
-
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = muslim
 
 1579.1.1 = { unrest = 5 } # Revolt against vassalization
 1580.1.1 = { unrest = 0 }

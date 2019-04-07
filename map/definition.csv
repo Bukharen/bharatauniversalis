@@ -229,58 +229,17 @@ province;red;green;blue;x;x
 688;98;128;192;Kaifeng;x
 689;226;130;255;Fengyuan;x
 690;98;132;0;Shandong Bandao;x
-691;226;134;64;Jinan;x
 692;98;136;128;Handan;x
-693;227;138;192;Sanguan;x
 694;99;140;255;Changzhi;x
-695;227;142;0;Beijing;x
-696;99;144;64;Xuan Fu;x
-697;227;146;128;Datong;x
-698;99;148;192;Guyuan;x
 699;227;150;255;Lanzhou;x
 700;100;152;0;Shaanxi;x
-701;228;154;64;Ordos;x
-702;100;156;128;Ulaanchab;x
-703;228;158;192;Chengde;x
-704;100;32;255;Liaoxi;x
 705;228;34;0;Dangla;x
-706;100;36;64;Amdo;x
-707;229;38;128;Yumen;x
-708;101;40;192;Gansu;x
-709;229;42;255;Ningxia;x
 710;101;44;0;Hotan;x
 711;229;46;64;Qarqan;x
-712;101;48;128;Uighuristan;x
-713;229;50;192;Kuruk Tag;x
-714;102;52;255;Dzungaria;x
-715;230;54;0;Urumqi;x
-716;102;56;64;Tannu Tuva;x
-717;230;58;128;Selenge;x
-718;102;60;192;Govi Altay;x
-719;230;62;255;Khangai;x
-720;102;64;0;Dorno Govi;x
-721;231;66;64;Dornod;x
-722;103;68;128;Chahar;x
-723;231;70;192;Xilin Gol;x
-724;103;72;255;Yakesa;x
-725;231;74;0;Hinggan;x
-726;103;76;64;Liaodong;x
-727;231;78;128;Heilongjiang;x
-728;104;80;192;Sanxing;x
-729;232;82;255;Wusuli;x
-730;104;84;0;Haixi;x
-731;232;86;64;Ninguta;x
-732;104;88;128;Hamheung;x
-733;232;90;192;Hwangju;x
-734;104;92;255;Gangwon;x
-735;153;134;173;Hanseong;x
-736;217;164;164;Sangju;x
 737;233;98;128;Jeonju;x
 738;105;100;192;Taiwan;x
-739;233;102;255;Kashgar;x
 740;105;104;0;Chanderi;x
 1012;25;132;126;Satsuma;x
-1013;233;94;0;Cheongju;x
 1014;25;136;32;Bungo;x
 1015;153;138;79;Okinawa;x
 1016;26;140;126;Nghe An;x
@@ -291,92 +250,19 @@ province;red;green;blue;x;x
 1021;154;150;173;Settsu;x
 1022;26;152;32;Amaravati;x
 1023;155;154;79;Echizen;x
-1024;27;156;126;Echigo;x
-1025;155;158;173;Dewa;x
-1026;27;32;32;Mutsu;x
-1027;155;34;79;Hitachi;x
 1028;27;36;126;Musashi;x
 1029;155;38;173;Kai;x
 1030;28;40;32;Owari;x
-1031;156;42;79;Kamikawa;x
-1032;28;44;126;Kurils;x
-1033;156;46;173;Sakhalin;x
-1035;156;50;79;Penchisky;x
-1036;28;52;126;Podzhiversk;x
-1037;157;54;173;Nizhe-Kolymsk;x
-1038;29;56;32;Anadyrsk;x
-1042;29;64;32;Kamnuskoye;x
-1046;30;243;32;Butalsk;x
-1047;158;174;79;Jugjur;x
-1048;30;76;126;Udskoye;x
-1049;158;78;173;Saghalian Oula;x
-1050;30;80;32;Deren;x
-1051;159;82;79;Uchurskoye;x
-1052;31;84;126;Verkohzehkoye;x
-1053;159;86;173;Albazinsky;x
-1054;31;88;32;Ilimsk;x
-1055;159;90;79;Verkne-Angarsky;x
-1056;31;92;126;Barguzinsky;x
-1057;159;94;173;Udinsky;x
-1058;32;96;32;Nerchinsky;x
-1059;160;98;79;Bratsk;x
-1060;32;100;126;Irkutsk;x
-1061;160;102;173;Yeniseysk;x
-1062;32;104;32;Kachinsk;x
-1063;160;106;79;Sayan;x
-1064;32;108;126;Tomsk;x
-1065;161;110;173;Kuznetsk;x
-1066;33;112;32;Altai;x
-1067;161;114;79;Narym;x
-1068;33;116;126;Pegaya Orda;x
-1069;161;118;173;Surgut;x
-1070;33;120;32;Koda;x
-1071;161;122;79;Tara;x
-1072;34;124;126;Obdorsk;x
-1073;162;226;173;Berezov;x
-1074;34;228;32;Sibir;x
-1075;162;130;79;Tyumen;x
-1076;34;132;126;Kurgan;x
-1077;162;134;173;Solikamsk;x
-1078;34;136;32;Middle Urals;x
-1079;163;138;79;Viatka;x
-1080;35;140;126;North Urals;x
-1081;163;142;173;Simbirsk;x
-1082;35;144;32;Kazan;x
-1083;163;146;79;Zavolochye;x
-1084;35;148;126;Wadjuk;x
-1085;163;150;173;Paredarerme;x
-1086;36;152;32;Kaurna;x
-1087;164;154;79;Woiworung;x
-1088;36;156;126;Wergaia;x
-1089;164;158;173;Wiradjuri;x
-1090;36;232;32;Eora;x
-1091;164;34;79;Kamilaroi;x
-1092;36;36;126;Bundjalung;x
-1093;165;38;173;Barunggam;x
-1094;37;240;32;Gubbi Gubbi;x
-1095;165;42;79;Falklands;x
-1096;37;44;126;Cape Verde;x
-1097;165;46;173;Fernando Po;x
-1098;37;248;32;St. Helena;x
 1099;165;50;79;Socotra;x
 1100;38;52;126;Mahe;x
 1101;166;54;173;Diego Garcia;x
-1102;38;247;32;Mauritius;x
-1103;166;58;79;Bourbon;x
 1206;53;136;32;Mayertern;x
 1235;185;66;79;Guam;x
 1236;57;68;126;Rabaul;x
 1237;185;70;173;Papua;x
 1238;57;172;32;Solomon Islands;x
-1239;185;74;79;Vanuatu;x
-1241;186;78;173;Kiribati;x
-1242;58;180;32;Fiji;x
-1243;186;82;79;Samoa;x
-1244;58;84;126;Tahiti;x
 1245;186;86;173;Irian;x
 1248;59;92;126;Maldives;x
-1330;81;200;200;Straits of Obokk;x
 1331;82;200;250;Bal el Mandeb;x
 1332;83;220;250;Coast of Mascate;x
 1333;84;250;250;Gulf of Masirah;x
@@ -402,7 +288,6 @@ province;red;green;blue;x;x
 1353;104;250;250;Coast of Java;x
 1354;105;200;200;Coast of Surabaya;x
 1355;106;200;250;Straits of Lombok;x
-1356;107;220;250;Timor Sea;x
 1357;108;250;250;The Moluccas;x
 1358;109;200;200;Java Sea;x
 1359;110;200;250;Straits of Makassar;x
@@ -421,19 +306,7 @@ province;red;green;blue;x;x
 1372;123;220;250;Taiwan Strait;x
 1373;124;250;250;Yang Tse Delta;x
 1374;125;200;200;Western Yellow Sea;x
-1375;126;200;250;Korea Bay;x
 1376;127;220;250;South Korean Sea;x
-1377;0;251;251;North Korean Sea;x
-1378;1;201;201;Coast of Olga;x
-1379;2;201;251;Tatar Straits;x
-1380;3;221;251;Amur Delta;x
-1381;4;251;251;Baj of Ayan;x
-1382;5;201;201;Bay of Komenskoie;x
-1383;6;201;251;Coast of Kamchatska;x
-1384;7;221;251;Oktothsk Sea;x
-1385;8;251;251;Coast Sahkalin;x
-1386;9;201;201;Soya Strait;x
-1387;10;201;251;Tsugaru Strait;x
 1388;11;221;251;Yamato Basin;x
 1389;12;251;251;Amakusa Sea;x
 1390;13;201;201;Setto Inland Sea;x
@@ -457,27 +330,7 @@ province;red;green;blue;x;x
 1408;31;221;251;Arafuam Sea;x
 1409;32;251;251;Kolepom Bay;x
 1410;33;201;201;Gulf of Carpentaria;x
-1411;34;201;251;Great Barrier Reef;x
-1412;35;221;251;Capricorn Bay;x
-1413;36;251;251;Cape Howe;x
-1414;37;201;201;Bass Strait;x
-1415;38;201;251;Kangaroo Island;x
-1416;39;221;251;Great Australian Bight;x
-1417;40;251;251;Cape Leuwiin;x
-1418;41;201;201;Shark Bay;x
-1419;42;201;251;Northwest Cape;x
-1420;43;221;251;King Sound;x
-1421;44;251;251;Tasman Sea;x
-1422;45;201;201;Southern Tasman Sea;x
-1423;46;201;251;Cook Strait;x
-1424;47;221;251;Northern Tasman Sea;x
-1425;48;251;251;Cape Farwell;x
-1426;49;201;201;Coast of New Zealand;x
-1427;50;201;251;Cantebury Bight;x
-1428;51;221;251;Sea of Antarctica;x
-1429;52;251;251;New Caledonian Sea;x
 1430;53;201;201;Coral Sea;x
-1431;54;201;251;Gilbert Sea;x
 1432;55;221;251;Solomon Sea;x
 1433;56;251;251;Nauru Island;x
 1434;57;201;201;Melanesia Sea;x
@@ -486,21 +339,12 @@ province;red;green;blue;x;x
 1437;60;251;251;Mariana Islands;x
 1438;61;201;201;Tinian Sea;x
 1439;62;201;251;Iwo Jima Sea;x
-1440;63;221;251;Sanriku Coast;x
-1441;64;251;251;The Kuriles;x
-1442;65;201;201;Bay of Uka;x
-1443;66;201;251;Bay of Oljut;x
-1444;67;221;251;Bay of Anadyr;x
-1445;68;251;251;Bering Sea;x
 1446;69;201;201;Horn of Africa;x
 1447;70;201;251;Coast of Pepper;x
-1448;71;221;251;Zanzibar Strait;x
-1449;72;251;251;Mozambique Channel;x
 1450;73;201;201;Diego Suarez Bay;x
 1451;74;201;251;Western Arabian Sea;x
 1452;75;221;251;Eastern Arabian Sea;x
 1453;76;251;251;The Seychelles;x
-1610;105;202;202;Cape of Storms;x
 1611;106;202;252;Gulf of Bengal;x
 1612;107;222;252;Northen Bay of Bengal;x
 1613;108;252;252;Southern Bay of Bengal;x
@@ -515,115 +359,23 @@ province;red;green;blue;x;x
 1622;117;202;202;Indian Ocean #7;x
 1623;118;202;252;Indian Ocean #8;x
 1624;119;222;252;Indian Ocean #9;x
-1625;120;252;252;Indian Ocean #10;x
-1626;121;202;202;Indian Ocean #11;x
-1627;122;202;252;Indian Ocean #12;x
-1628;123;222;252;Indian Ocean #13;x
-1629;124;252;252;Indian Ocean #14;x
-1630;125;202;202;Indian Ocean #15;x
-1631;126;202;252;Indian Ocean #16;x
-1632;127;222;252;Indian Ocean #17;x
-1633;0;253;253;Indian Ocean #18;x
-1634;1;203;203;Indian Ocean #19;x
-1635;2;203;253;Indian Ocean #20;x
-1636;3;223;253;Indian Ocean #21;x
-1637;4;253;253;Indian Ocean #22;x
-1638;5;203;203;Indian Ocean #23;x
-1639;6;203;253;Indian Ocean #24;x
-1640;7;223;253;Indian Ocean #25;x
-1641;8;253;253;Indian Ocean #26;x
 1642;9;203;203;Indian Ocean #27;x
-1643;10;203;253;Indian Ocean #28;x
-1644;11;223;253;Indian Ocean #29;x
-1645;12;253;253;Indian Ocean #30;x
-1646;13;203;203;Indian Ocean #31;x
-1647;14;203;253;Indian Ocean #32;x
 1655;22;203;253;Poyang Lake;x
-1666;33;203;203;Western Pacific #1;x
-1667;34;203;253;Western Pacific #2;x
-1668;35;223;253;Western Pacific #3;x
-1669;36;253;253;Western Pacific #4;x
-1670;37;203;203;Western Pacific #5;x
 1671;38;203;253;Western Pacific #6;x
 1672;39;223;253;Western Pacific #7;x
 1673;40;253;253;Western Pacific #8;x
 1674;41;203;203;Western Pacific #9;x
 1675;42;203;253;Western Pacific #10;x
 1676;43;223;253;Western Pacific #11;x
-1677;44;253;253;Northern Pacific #1;x
-1678;45;203;203;Northern Pacific #2;x
-1679;46;203;253;Northern Pacific #3;x
-1680;47;223;253;Northern Pacific #4;x
-1681;48;253;253;Northern Pacific #5;x
-1682;49;203;203;Northern Pacific #6;x
-1683;50;203;253;Northern Pacific #7;x
-1684;51;223;253;Northern Pacific #8;x
-1685;52;253;253;Northern Pacific #9;x
-1686;53;203;203;Northern Pacific #10;x
-1687;54;203;253;Central Pacific #1;x
-1688;55;223;253;Central Pacific #2;x
-1689;56;253;253;Central Pacific #3;x
-1690;57;203;203;Central Pacific #4;x
 1691;58;203;253;Central Pacific #5;x
-1692;59;223;253;Central Pacific #6;x
-1693;60;253;253;Central Pacific #7;x
-1694;61;203;203;Central Pacific #8;x
-1695;62;203;253;Central Pacific #9;x
-1696;63;223;253;Central Pacific #10;x
 1698;65;203;203;Central Pacific #11;x
-1699;66;203;253;Central Pacific #12;x
-1700;67;223;253;Eastern Pacific #1;x
-1701;68;253;253;Eastern Pacific #2;x
-1702;69;203;203;Eastern Pacific #3;x
-1703;70;203;253;Eastern Pacific #4;x
-1704;71;223;253;Eastern Pacific #5;x
-1705;72;253;253;Eastern Pacific #6;x
-1706;73;203;203;Eastern Pacific #7;x
-1707;74;203;253;Eastern Pacific #8;x
-1708;75;223;253;Eastern Pacific #9;x
-1709;76;253;253;Eastern Pacific #10;x
-1710;77;203;203;Eastern Pacific #11;x
-1711;78;203;253;Eastern Pacific #12;x
-1712;79;223;253;Eastern Pacific #13;x
-1713;80;253;253;Eastern Pacific #14;x
-1714;81;203;203;Eastern Pacific #15;x
-1715;82;203;253;Eastern Pacific #16;x
-1716;83;223;253;Eastern Pacific #17;x
-1717;85;203;203;Southern Pacifc #1;x
-1718;86;203;253;Southern Pacifc #2;x
-1719;87;223;253;Southern Pacifc #3;x
-1720;88;253;253;Southern Pacifc #4;x
-1721;89;203;203;Southern Pacifc #5;x
-1722;90;203;253;Southern Pacifc #6;x
-1723;91;223;253;Southern Pacifc #7;x
-1724;92;253;253;Southern Pacifc #8;x
-1725;93;203;203;Southern Pacifc #9;x
-1726;94;203;253;Southern Pacifc #10;x
-1727;95;223;253;Southern Pacifc #11;x
-1728;96;253;253;Southern Pacifc #12;x
-1729;97;203;203;Southern Pacifc #13;x
-1730;98;203;253;Southern Pacifc #14;x
-1731;99;223;253;Southern Pacifc #15;x
-1732;100;253;253;Southern Pacifc #16;x
-1733;101;203;203;Southern Pacifc #17;x
 1734;102;203;253;Southern Pacifc #18;x
-1735;103;223;253;Southern Pacifc #19;x
-1736;104;203;203;Southern Pacifc #20;x
-1737;106;203;253;Southern Pacifc #22;x
-1738;107;223;253;Southern Pacifc #23;x
-1739;108;253;253;Southern Pacifc #24;x
-1740;109;203;203;Southern Pacifc #25;x
-1741;110;203;253;Southern Pacifc #26;x
 1779;199;142;173;Rub' al Khali;x
-1780;72;144;32;Komi;x
-1783;200;150;173;Koryak;x
 1784;72;152;32;Tiam Shan;x
 1785;200;154;79;Karakoram;x
-1786;72;156;126;Takla Makan;x
 1787;201;158;173;Himalaya;x
 1788;73;32;32;Arunachal;x
 1815;77;88;32;Ayeyarwady;x
-1816;205;90;79;Hejian;x
 1817;77;92;126;Nan;x
 1818;205;94;173;Chikuzen;x
 1819;77;96;32;Tosa;x
@@ -633,33 +385,16 @@ province;red;green;blue;x;x
 1823;78;104;32;Stung Treng;x
 1824;206;106;79;Wenzhou;x
 1825;78;108;126;Aki;x
-1826;206;110;173;Lika;x
-1827;78;112;32;Raska;x
-1828;207;114;79;Soli;x
 1829;79;116;126;Xiamen;x
 1830;207;118;173;Tajima;x
-1831;79;120;32;Travunia;x
 1832;207;122;79;Yamato;x
 1833;79;124;126;Ji'an;x
-1834;207;126;173;Dorpat;x
 1835;80;128;32;Mino;x
 1836;208;130;79;Nanyang;x
-1837;80;132;126;Etchu;x
 1838;208;134;173;Hefei;x
 1839;80;136;32;Totomi;x
 1840;208;138;79;Guilin;x
-1841;80;140;126;Marienburg;x
-1842;209;142;173;Narva;x
-1843;81;144;32;Kozuke;x
 1844;209;146;79;Xiankhouang;x
-1845;81;148;126;Pyeongyang;x
-1846;209;150;173;Amasya;x
-1847;81;152;32;Shiribeshi;x
-1848;209;154;79;Hamid;x
-1849;82;156;126;Hama;x
-1850;210;158;173;Mudanjiang;x
-1852;210;34;79;Tokachi;x
-1854;210;38;173;Jaffa;x
 1895;12;0;240;Lake Taihu;x
 1896;13;0;244;Lake Hongze;x
 1897;14;0;248;Dongting;x
@@ -669,21 +404,12 @@ province;red;green;blue;x;x
 1948;65;0;232;Bidar;x
 1949;66;0;236;Tirupati;x
 1950;67;0;240;Meghalaya;x
-1980;136;253;253;Sea of Japan;x
-1986;103;0;244;New Caledonia;x
-1987;104;0;248;Society Islands;x
-1988;105;0;232;Rapa Nui;x
-1989;106;0;236;Tonga;x
 1990;107;0;240;Tuvalu;x
-1991;108;0;244;Gilbert Islands;x
 1992;109;0;248;Nauru;x
 1993;110;0;232;Marshall Islands;x
 1994;111;0;236;Wake;x
 1995;112;0;240;Micronesia;x
 1996;113;0;244;Palau;x
-1997;114;0;248;Midway;x
-1998;115;0;232;Christmas Island;x
-1999;116;0;236;Cocos Island;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
 2024;255;15;160;Ajiraan;x
@@ -763,32 +489,8 @@ province;red;green;blue;x;x
 2099;193;207;44;Kandy;x
 2100;195;123;121;Vanni;x
 2101;186;239;22;Tirunelveli;x
-2102;215;191;26;Urkan;x
-2103;103;132;224;Udi;x
-2104;104;136;64;Birija;x
-2105;105;148;160;Kuru;x
-2106;105;162;80;Furdan;x
-2107;104;158;240;Ningguta;x
-2108;100;98;144;Huncun;x
-2109;100;90;80;Boduna;x
-2110;99;86;240;Yehe;x
-2111;199;223;102;Hetu Ala;x
-2112;115;210;143;Andong;x
-2113;193;133;132;Gaizhou;x
-2114;106;172;160;Ereen;x
-2115;107;180;224;Chahar;x
-2116;108;206;240;Ih Huree;x
-2117;219;224;124;Zasagt;x
-2118;116;102;240;Urzhar;x
-2119;114;56;64;Chuguchak;x
-2120;114;115;55;Ili;x
-2121;112;32;64;Kuqa;x
-2122;111;244;160;Hami;x
-2123;111;254;240;Qakilik;x
 2124;115;78;240;Yarkand;x
 2125;115;86;112;Kochkor;x
-2126;155;139;47;Chuy;x
-2127;115;82;80;Yashilkul;x
 2128;123;184;128;Ngari;x
 2129;122;174;240;Changtang;x
 2130;121;152;64;Nyingchi;x
@@ -797,16 +499,12 @@ province;red;green;blue;x;x
 2133;118;126;240;Dege;x
 2134;119;120;192;Rebgong;x
 2135;118;130;80;Garze;x
-2136;124;210;144;Xuanhua;x
 2137;143;75;75;Daming;x
-2138;86;118;240;Wuding;x
-2139;145;24;24;Laizhou;x
 2140;238;254;148;Yanzhou;x
 2141;107;218;111;Xuzhou;x
 2142;84;80;128;Huai'an;x
 2143;190;53;53;Fengyang;x
 2144;82;62;176;Fuyang;x
-2145;185;51;51;Zhenjiang;x
 2146;185;197;39;Ningguo;x
 2147;150;42;42;Huizhou;x
 2148;41;150;61;Shaoxin;x
@@ -838,43 +536,13 @@ province;red;green;blue;x;x
 2174;158;62;62;Hengyang;x
 2175;171;198;23;Runing;x
 2176;88;144;64;Shangqiu;x
-2177;89;162;208;Ningwu;x
 2178;90;172;96;Lu'an;x
 2179;91;188;224;Yan'an;x
 2180;79;246;240;Tianshui;x
 2181;93;216;64;Pingliang;x
-2182;95;236;224;Liangzhou;x
 2183;93;222;112;Taozhou;x
 2184;215;210;43;Xining;x
-2185;103;120;128;Mergen;x
-2186;105;156;224;Iman;x
-2187;106;164;96;Sartu;x
-2188;100;102;176;Alchuka;x
-2189;110;220;160;Tsetserleg;x
-2190;205;158;124;Qaraqorum;x
-2191;108;196;160;Ejin;x
-2192;217;220;84;Korla;x
-2193;96;42;80;Govi;x
-2194;113;106;26;Kunlun;x
-2195;255;18;160;Adyghe;x
-2196;255;19;40;Guria;x
-2197;255;25;0;Cabardia;x
-2198;255;126;40;Khundzia;x
-2199;255;200;150;Tarki;x
 2200;243;202;12;Suleiman Range;x
-2201;255;22;200;Alania;x
-2202;255;223;0;Melikates;x
-2203;255;23;23;Kakheti;x
-2204;255;224;200;Samtskhe;x
-2205;255;24;40;Nakhchivan;x
-2206;255;225;120;Urmia;x
-2207;255;125;200;Maragheh;x
-2208;255;125;215;Terek;x
-2209;255;24;90;Ilam;x
-2210;187;165;22;Kirmanshah;x
-2211;187;215;128;Ardalan;x
-2212;60;143;34;Zanjan;x
-2214;81;81;192;Golestan;x
 2219;58;88;181;Bandar Langeh;x
 2220;81;81;255;Bam;x
 2221;165;72;137;Mashhad;x
@@ -892,70 +560,12 @@ province;red;green;blue;x;x
 2233;152;137;59;Western Makran;x
 2234;193;215;62;Rafsanjan;x
 2235;190;72;96;Sabzevar;x
-2236;131;211;134;Bojnord;x
-2308;0;153;75;Urfa;x
-2309;132;41;144;Sinjar;x
-2310;250;19;41;Tikrit;x
-2311;51;130;63;Samawat;x
-2312;242;102;96;Wasit;x
-2313;181;181;52;Antioch;x
-2314;49;11;71;Rahba;x
-2315;139;22;59;Suez;x
-2316;4;24;61;Al Gharbia;x
-2317;149;201;61;Minya;x
-2318;157;215;209;Bahariya;x
-2319;206;231;202;Manfalut;x
-2320;62;48;146;Ras Gharib;x
-2321;203;185;45;Queseer;x
-2322;212;227;131;Wadi Halfa;x
-2323;158;168;213;Sahra an Nubyah;x
-2324;239;69;139;Halaib;x
-2325;245;244;179;Tarrana;x
-2326;178;31;114;Bardiyah;x
-2327;154;216;222;Maan;x
-2328;0;120;91;Tayma;x
-2329;101;125;54;Yanbu;x
-2330;59;82;37;Ma'din Sulaym;x
-2331;250;203;224;Jeddah;x
-2332;188;228;233;Truba;x
 2333;0;124;194;Abd al-Qays;x
-2334;225;224;174;Badiyat ash Sham;x
-2335;9;115;187;Dawasir;x
-2336;238;16;102;Aflaj;x
-2337;255;21;245;Buraydah;x
-2338;201;24;126;Hafar;x
 2339;157;34;114;Yabrin;x
-2340;91;4;48;Grane;x
 2341;213;231;178;Sharqiyah;x
 2342;56;16;31;Wusta;x
 2343;117;18;67;Hadramawt;x
-2344;210;25;111;Marib;x
-2345;240;238;129;Beihan;x
-2346;252;183;112;Jazan;x
 2347;0;120;94;Hofuf;x
-2348;108;157;64;Chios;x
-2349;71;208;47;Kizil-Su;x
-2350;151;50;205;Konjikala;x
-2351;169;158;86;Shekty;x
-2352;103;104;152;Alty-Kuduk;x
-2353;57;202;53;Tortkara;x
-2354;155;167;88;Shegendyk;x
-2355;189;174;66;Narym;x
-2356;39;216;132;Shymkent;x
-2357;211;106;44;Aksary;x
-2358;179;181;74;Altyn;x
-2359;69;186;122;Baganaly;x
-2360;68;40;113;Tobykty;x
-2361;23;130;61;Dzhaman-Kuduk;x
-2362;168;175;18;Gurganj;x
-2363;145;49;49;Atakent;x
-2364;193;255;128;Talas;x
-2365;183;191;72;Orda;x
-2366;179;165;85;Utva;x
-2367;88;175;171;Lower Yik;x
-2368;135;100;164;Karamegdan;x
-2369;175;88;119;Lower Ishim;x
-2370;108;130;155;Kungirot;x
 2371;127;0;0;Song La;x
 2372;0;38;255;Hai Phong;x
 2373;137;76;72;Hue;x
@@ -990,7 +600,6 @@ province;red;green;blue;x;x
 2402;137;255;104;Sandoway;x
 2403;255;92;71;Martaban;x
 2404;97;198;71;Mergui;x
-2411;179;204;153;Mansur;x
 2673;51;255;40;Pasai;x
 2674;60;214;57;Peureulak;x
 2675;29;38;119;Rokan;x
@@ -1012,7 +621,6 @@ province;red;green;blue;x;x
 2691;216;58;34;Kediri;x
 2692;216;67;201;Madura;x
 2693;104;16;91;Lombok;x
-2694;136;210;148;East Gangwon;x
 2695;107;66;100;East Timor;x
 2696;181;45;81;Yamdena;x
 2697;163;70;58;Tondo;x
@@ -1044,28 +652,9 @@ province;red;green;blue;x;x
 2723;33;198;152;Yos Sudarso;x
 2724;221;212;104;Asmat;x
 2725;124;63;62;Aru;x
-2726;147;120;31;Malgana;x
-2727;255;141;71;Minang;x
-2728;93;107;37;Tiwi;x
-2729;255;102;79;Yolngu;x
-2730;38;104;109;Awngthim;x
-2731;53;255;77;Guugu Yimithirr;x
-2732;45;107;40;Wulgurukaba;x
-2733;255;101;63;Baiali;x
-2734;170;83;124;Yuin;x
-2735;32;82;163;Gunditjmara;x
-2736;253;255;158;Nukunu;x
-2737;124;56;0;Ahuriri;x
-2738;186;139;0;Waitaha;x
-2739;152;83;186;Kirikiriroa;x
 2740;249;177;179;Borneo;x
 2741;138;58;45;Jeju;x
-2742;162;64;128;Yukjin;x
-2743;209;139;185;Gyeongseong;x
-2744;122;48;97;Nyeongbyeon;x
 2745;134;53;105;West Gyeongsang;x
-2746;213;38;84;Vidin;x
-2747;106;186;80;Khara Narin Ula;x
 2748;80;32;128;Jianchang;x
 2786;86;100;255;Bosaso;x
 2788;201;201;89;Hafun;x
@@ -2086,10 +1675,6 @@ province;red;green;blue;x;x
 4017;100;14;117;RNW
 4018;100;14;118;RNW
 4019;100;14;119;RNW
-4020;239;204;149;Comoros;x
-4172;22;236;239;Zagros2;x
-4173;106;34;172;Syrmia;x
-4174;200;147;147;Durres;x
 4180;224;105;71;Hyuga;x
 4181;171;64;58;Higo;x
 4182;222;162;158;Hizen;x
@@ -2101,90 +1686,23 @@ province;red;green;blue;x;x
 4188;219;191;83;Shinano;x
 4189;183;128;213;Sagami;x
 4190;74;53;198;Shimousa;x
-4191;150;104;225;Shimotsuke;x
-4192;207;150;214;Ugo;x
-4193;102;179;145;Oshima;x
-4194;94;52;48;Yongping;x
-4195;151;185;125;Zhending;x
 4196;104;143;106;Haizhou;x
 4197;148;197;227;Huangzhou;x
 4198;56;144;141;Fengxiang;x
 4199;45;117;59;Tongren;x
-4200;29;161;216;Hulan;x
-4201;44;97;35;Jianzhou;x
-4202;186;143;58;Taining;x
-4203;89;66;107;Ju Ud;x
-4204;44;45;128;Anding;x
 4205;35;68;112;Nagchu;x
-4206;38;129;72;Balikul;x
-4207;129;51;84;Turpan;x
-4208;196;198;53;Qurqara-usu;x
-4209;129;112;172;Maralbexi;x
-4210;101;69;107;Yangi Hissar;x
 4211;72;32;16;Dazhou;x
 4212;122;61;105;Jiazhou;x
 4213;40;46;10;Luzhou;x
-4214;26;53;83;Kalar;x
-4215;22;100;123;Fudali;x
-4216;74;143;77;Ulch;x
-4217;52;80;119;Pijin;x
-4218;69;105;171;Buteha;x
-4219;117;42;41;Bayan Tumen;x
-4220;44;113;137;Khiagt;x
-4221;148;144;46;Dundgovi;x
-4222;50;81;144;Ulaangom;x
-4223;209;115;2;Hetao;x
 4224;36;150;179;Tokai Sea;x
-4225;64;173;200;Coast of Hokkaido;x
-4226;29;124;148;North Japan Basin;x
 4227;105;96;64;Daegu;x
 4228;195;44;140;Naju;x
-4229;188;200;56;Chungju;x
-4230;158;186;44;Suwon;x
-4231;231;184;20;Haeju;x
-4232;145;81;35;Ganggye;x
-4233;31;182;184;Bahai Sea;x
 4234;45;117;167;Eastern Yellow Sea;x
 4283;224;24;38;Shihr;x
 4284;99;150;71;Al Ghayda;x
 4285;181;124;124;Baraimi Oasis;x
 4286;187;208;10;Sur;x
 4287;200;92;20;Ibra;x
-4288;83;203;86;Shatt;x
-4290;79;184;27;Hoveyzeh;x
-4291;168;219;32;Qazaniya;x
-4292;53;76;176;Mardin;x
-4293;212;79;154;Arbil;x
-4294;150;146;41;Sulimaniyeh;x
-4295;48;167;51;Hisn Kayfa;x
-4296;116;62;183;Bitlis;x
-4297;99;32;200;Homs;x
-4298;231;78;10;Ayntab;x
-4299;70;198;70;Shamakhi;x
-4300;225;205;36;Mianeh;x
-4301;232;184;55;Gori;x
-4302;13;94;109;Bayazid;x
-4303;213;197;16;Oltu;x
-4304;184;111;111;Khoy;x
-4305;210;42;42;Shaki;x
-4306;117;109;201;Khumuk;x
-4307;134;177;141;Aksaray;x
-4308;69;25;75;Denizli;x
-4309;118;176;123;Aydin;x
-4310;135;155;105;Divrigi;x
-4311;67;121;108;Karahisar;x
-4312;105;195;57;Sultanönü;x
-4313;94;189;108;Kangiri;x
-4314;159;73;73;Kirshehir;x
-4315;124;60;86;Tokat;x
-4316;51;172;108;Mansura;x
-4317;99;77;195;Buhaira;x
-4318;63;128;27;Atfih;x
-4319;163;183;82;Isna;x
-4320;195;83;191;Girga;x
-4321;121;21;154;Eastern Desert;x
-4322;184;65;29;Eastern Desert;x
-4323;224;40;15;Farafreh;x
 4324;149;186;149;Ghuriyan;x
 4325;222;47;29;Sarakhs;x
 4326;134;196;131;Nishapur;x
@@ -2193,17 +1711,9 @@ province;red;green;blue;x;x
 4329;96;128;136;Fasa;x
 4330;54;193;106;Darab;x
 4332;112;120;148;Siraf;x
-4333;104;180;181;Dahlak Archipelago;x
 4334;224;12;72;Tabas;x
-4335;236;112;20;Kashan;x
 4336;215;155;85;Tus;x
 4337;73;158;166;Savah;x
-4338;201;70;30;Soltanieh;x
-4339;208;71;200;Rasht;x
-4340;88;224;142;Astara;x
-4341;191;220;33;Sari;x
-4343;208;26;73;Termez;x
-4344;178;231;94;Kish;x
 4345;155;155;198;Saidabad;x
 4346;149;226;227;Qamr Bay;x
 4347;144;206;207;Pirate Coast;x

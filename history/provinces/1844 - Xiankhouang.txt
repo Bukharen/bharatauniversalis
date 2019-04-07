@@ -13,13 +13,11 @@ base_manpower = 2
 is_city = yes
 add_core = LXA
 add_core = MPH
-
-
-
 discovered_by = chinese
 discovered_by = indian
-
-
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = muslim
 1483.1.1 = { add_core = DAI } # Vietnamese Invasion
 1579.1.1 = { unrest = 5 } # Revolt against vassalization
 1580.1.1 = { unrest = 0 }
@@ -36,9 +34,4 @@ discovered_by = indian
 	remove_core = DAI
 	remove_core = TOK
 } # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-1767.12.28 = {
-	owner = THO
-	controller = THO
-	add_core = THO
-	remove_core = AYU
-}
+1780.1.1 = { unrest = 4 }

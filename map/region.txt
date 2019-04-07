@@ -52,9 +52,7 @@ arabia_region = {
 }
 horn_of_africa_region = {
 	areas = {
-		ajuuran_area
-		majarteen_area
-		mogadishu_area
+		somaliland_area
 	}
 }
 central_asia_region = {
@@ -63,10 +61,8 @@ central_asia_region = {
 		transoxiana_area
 		khiva_area
 		ferghana_area
-		jetysuu_area
 		arys_area
 		kashgaria_area
-		tarim_basin_area
 		shanshan_area
 		kyzylkum_area
 		termez_area
@@ -74,36 +70,13 @@ central_asia_region = {
 }
 mongolia_region = {
 	areas = {
-		outer_mongolia_area
-		inner_mongolia_area
-		ordos_area
-		zungaria_area
 		north_zungaria
-		altai_sayan_area
-		eastern_mongolia
-		central_mongolia_area
-		uliastai_area
-		turpan_kumul_area
-		tannu_uriankhai_area
 	}
 }
 
-manchuria_region = {
-	areas = {
-		heilongjiang_area
-		east_heilongjiang_area
-		jilin_area
-		central_jilin_area
-		ilan_hala_area
-		liaoning_area
-		ningguta_area
-		central_heilongjiang_area
-	}
-}
 
 korea_region = {
 	areas = {
-		western_korea_area
 		south_korea_area
 	}
 	monsoon = {
@@ -283,7 +256,6 @@ japan_region = {
 		chubu_area
 		eastern_chubu_area
 		kinai_area
-		thohoku_area
 		saigoku_area
 		sanindo_area
 		shikoku_area
@@ -325,7 +297,6 @@ xinan_region = {
 
 north_china_region = {
 	areas = {
-		hebei_area
 		south_hebei_area
 		shandong_area
 		henan_area
@@ -531,7 +502,6 @@ east_china_sea_region = {
 		east_china_sea_area
 		philipine_sea_area
 		sea_of_japan_area
-		sea_of_okhotsk_area
 	}
 }
 
@@ -544,7 +514,6 @@ north_west_pacific_region = {
 south_west_pacific_region = {
 	areas = {
 		coral_sea_area
-		tasman_sea_area
 		great_australian_bight_area
 	}
 }

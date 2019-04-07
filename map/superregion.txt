@@ -27,7 +27,6 @@ china_superregion = {
 }
 
 tartary_superregion = {
-	manchuria_region
 	mongolia_region
 	central_asia_region
 	tibet_region
