@@ -1,0 +1,39 @@
+VND_ideas = {
+	start = { #Cultural and Religious Tolerance
+		no_religion_penalty = yes
+		num_accepted_cultures = 1
+	}
+	
+	bonus = { #
+		discipline = 0.05 #Westernized Army
+	}
+	
+	trigger = {
+		tag = VND		#will be added at load.
+	}
+	free = yes
+	
+
+	VND_arab_trade = { #Arabian Sea Trade
+		global_trade_power = 0.1
+	}
+	VND_adoption = { #Adopting of Heirs
+		heir_chance = 0.5
+	}	
+	VND_women = { #Significance of Women
+		female_advisor_chance = 0.25
+	}	
+	VND_cheras = { #Legacy of the Cheras
+		army_tradition_decay = -0.01
+		merchants = 1
+	}
+	VND_western_ghats = { #The Western Ghats
+		defensiveness = 0.2
+	}		
+	VND_philanthropy = { #Prioritize the People
+		global_unrest = -2
+	}		
+	VND_dewans = { #Dewans
+		max_states = 5
+	}	
+}	

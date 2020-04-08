@@ -1,0 +1,632 @@
+jfn_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = JFN
+	}
+	has_country_shield = yes
+	
+	jfn_develop_yalppanam = {
+		icon = mission_end_manipuri_raids
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 2100
+		}	
+		
+		trigger = {
+			2100 = {
+				development = 12
+				base_tax = 5
+			}	
+		}
+		
+		effect = {
+			2100 = {
+				add_province_modifier = {
+					name = jfn_grander_capital
+					duration = 5475
+				}
+				change_province_name = Yalppanam
+				rename_capital = Yalppanam
+			}
+		}
+	}
+	jfn_palk_strait = {
+		icon = mission_subjugate_saurashtra
+		required_missions = { jfn_develop_yalppanam jfn_madura }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2100
+				province_id = 536
+			}	
+			NOT = {
+				development = 15
+			}	
+		}
+		
+		trigger = {
+			2100 = {
+				development = 15
+				base_production = 6
+			}	
+			536 = {
+				development = 15
+				base_production = 6
+			}	
+		}
+		
+		effect = {
+			536 = {
+				add_base_production = 2
+				add_base_tax = 1
+			}	
+		}
+	}	
+	jfn_coromandel_trade = {
+		icon = mission_conquer_arakan
+		required_missions = { jfn_palk_strait }
+		position = 6
+		
+		trigger = {
+			4425 = { #Rajamahendravaram
+				has_most_province_trade_power = ROOT
+			}	
+		}
+		
+		effect = {
+			add_mercantilism = 3	
+		}
+	}	
+}
+
+jfn_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = JFN
+	}
+	has_country_shield = yes
+	
+	jfn_buildforces = {
+		icon = mission_conquer_kannauj
+		required_missions = { }
+		position = 1
+		
+		
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 1
+			navy_size_percentage = 0.50
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = jfn_prepared
+				duration = 5475
+			}			
+		}
+	}
+	jfn_protect_yalppanam = {
+		icon = mission_fortify_mandu
+		required_missions = { jfn_develop_yalppanam }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 2100
+		}	
+		
+		trigger = {
+			2100 = {
+				has_building = fort_15th
+			}	
+		}
+		
+		effect = {
+			2100 = {
+				add_base_manpower = 3
+			}
+		}
+	}	
+	jfn_madura = {
+		icon = mission_order_in_the_domain
+		required_missions = { jfn_independence }
+		position = 4
+		provinces_to_highlight = {
+			area = madura_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			madura_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			malabar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}		
+		}
+	}
+	jfn_malabar = {
+		icon = mission_secure_the_malabar_coast
+		required_missions = { jfn_madura }
+		position = 5
+		provinces_to_highlight = {
+			area = malabar_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		
+		trigger = {
+			malabar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			4410 = {
+				add_base_tax = 1
+			}
+			if = {
+				limit = {
+					NOT = { accepted_culture = malayalam }
+					NOT = { primary_culture = malayalam }	
+				}	
+				add_accepted_culture = malayalam
+			}
+		}
+	}
+	jfn_kongu = {
+		icon = mission_control_the_desh
+		required_missions = { jfn_malabar }
+		position = 6
+		provinces_to_highlight = {
+			area = kongu_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		
+		trigger = {
+			kongu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			mysore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}			
+			add_prestige = 10
+		}
+	}	
+}
+jfn_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = JFN
+	}
+	has_country_shield = yes
+	
+	jfn_cityofvictory = {
+		icon = mission_city_of_victory_vij
+		required_missions = { jfn_buildforces jfn_allybahmanis }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 541	
+		}		
+		
+		trigger = {
+			541 = {
+				OR = {
+					controlled_by = JFN
+					controlled_by = BAH
+				}
+			}
+		}	
+		effect = {
+			custom_tooltip = tooltip_jfn.3
+			country_event = { id = events_jfn.4 }
+		}
+	}
+	jfn_independence = {
+		icon = mission_develop_the_capital
+		required_missions = { jfn_cityofvictory }
+		position = 3
+		
+		
+		trigger = {
+			is_at_war = no
+			is_subject = no
+		}	
+		effect = {
+			madura_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tanjore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+	jfn_lanka = {
+		icon = mission_conquer_lanka
+		required_missions = { jfn_independence }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = south_lanka_area
+				area = lanka_area
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		
+		trigger = {
+			south_lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}			
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jfn_conversions
+				duration = 7300
+			}	
+		}
+	}	
+	jfn_convert = {
+		icon = mission_temple_patronage
+		required_missions = { jfn_lanka }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = south_lanka_area
+				area = lanka_area
+			}	
+			NOT = {
+				religion = hinduism
+			}	
+		}		
+		
+		trigger = {
+			south_lanka_area = {
+				type = all
+				religion = hinduism
+			}
+			lanka_area = {
+				type = all
+				religion = hinduism
+			}			
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jfn_hinduism
+				duration = -1
+			}	
+		}
+	}
+	jfn_finisher = {
+		icon = mission_integrate_jaffna
+		required_missions = { jfn_kongu jfn_coromandel_trade jfn_convert jfn_convertmaldives }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = kongu_area
+				area = south_carnatic_area
+				area = south_lanka_area
+				area = lanka_area
+				area = madura_area
+				area = malabar_area
+				province_id = 1248
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		trigger = {
+			kongu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			malabar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			madura_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = hinduism
+			}
+			south_lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = hinduism
+			}
+			1248 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = hinduism
+			}
+			primary_culture = tamil
+			has_accepted_culture = malayalam
+		}
+		
+		effect = {
+			add_prestige = 25
+			set_government_rank = 2
+		}
+	}	
+}
+
+jfn_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = JFN
+	}
+	has_country_shield = yes
+	
+	jfn_allybahmanis = {
+		icon = mission_reliable_allies
+		required_missions = { }
+		position = 1
+		
+		
+		trigger = {
+			OR = {
+				alliance_with = BAH
+				is_rival = BAH
+				NOT = { exists = BAH }
+				BAH = {
+					is_at_war = no
+					has_opinion = {
+						who = ROOT
+						value = 90
+					}
+				}	
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					BAH = {
+						has_opinion = {
+							who = ROOT
+							value = 90
+						}
+					}	
+				}
+				custom_tooltip = tooltip_jfn.1
+				VIJ = {
+					country_event = { id = events_jfn.1 }
+				}
+			}
+			lanka_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			south_lanka_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}			
+		}
+	}
+	jfn_tanjore = {
+		icon = mission_cromandel_coast
+		required_missions = { jfn_independence }
+		position = 4
+		provinces_to_highlight = {
+			area = tanjore_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		
+		trigger = {
+			tanjore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			south_carnatic_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+			2026 = {
+				if = {
+					limit = {
+						NOT = {
+							province_has_center_of_trade_of_level = 2
+						}
+					}	
+					add_center_of_trade_level = 1
+				}	
+			}
+		}
+	}	
+	jfn_maldives = {
+		icon = mission_coromandel_expansion
+		required_missions = { jfn_lanka }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 1248
+		}
+		
+		trigger = {
+			owns_core_province = 1248			
+		}	
+		effect = {
+			1248 = {
+				center_of_trade = 1
+			}	
+		}
+	}
+	jfn_convertmaldives = {
+		icon = mission_demand_garjat_fealty
+		required_missions = { jfn_maldives }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 1248	
+		}		
+		
+		trigger = {
+			1248 = {
+				owned_by = ROOT
+				religion = hinduism
+			}	
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jfn_hindu
+				duration = -1
+			}	
+		}
+	}	
+}
+
+jfn_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = JFN
+	}
+	has_country_shield = yes
+
+	jfn_navy = {
+		icon = mission_bengal_entrepot
+		required_missions = { }
+		position = 1
+		
+		
+		trigger = {
+			navy_size_percentage = 1
+			num_of_admirals = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = jfn_navy
+				duration = 5475
+			}			
+		}
+	}
+	
+	jfn_south_carnatic = {
+		icon = mission_junnagadh_fort
+		required_missions = { jfn_tanjore jfn_navy }
+		position = 5
+		provinces_to_highlight = {
+			area = south_carnatic_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		
+		trigger = {
+			south_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			north_carnatic_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+		}
+	}
+	jfn_fortify = {
+		icon = mission_konkani_pirates
+		required_missions = { jfn_south_carnatic }
+		position = 6		
+		
+		trigger = {
+			OR = {
+				534 = {
+					has_building = fort_15th
+				}	
+				535 = {
+					has_building = fort_15th
+				}
+				537 = {
+					has_building = fort_15th
+				}
+				4410 {
+					has_building = fort_15th
+				}
+				4413 = {
+					has_building = fort_15th
+				}
+			}	
+		}
+		
+		effect = {
+			malabar_area = {
+				add_province_modifier = {
+					name = jfn_defense
+					duration = 18250
+				}
+			}
+		}
+	}	
+}	

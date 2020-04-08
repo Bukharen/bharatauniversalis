@@ -1,0 +1,8 @@
+593 = "Negara Sri Dharmaraja"
+596 = "Melaka"
+656 = "Selurong"
+2373 = "Lin-yi"
+2386 = "Jayabumi"
+2391 = "Tanjung Salang"
+2700 = "Madja-as"
+4352 = "Singapura"

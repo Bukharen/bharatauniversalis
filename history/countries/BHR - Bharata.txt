@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-technology_group = indian
-religion = hinduism
-primary_culture = kanauji
-capital = 522 # Delhi
-government_rank = 3

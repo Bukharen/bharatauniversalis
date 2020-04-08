@@ -1,0 +1,77 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 138 75 219 }
+
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	economic_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Rundantra #1" = 20
+	"Jeyakaraj #1" = 20
+	"Chettharaj #1" = 20
+	"Datvanyaraj #0" = 20
+	"Kumanjaraj #0" = 20
+	"Uthen #0" = 20
+	"Nokaraj #0" = 20
+	"Dasaraj #0" = 20
+	"Samsara #0" = 10
+	"Trangal #0" = 20
+	"Chilanka #0" = 20
+	"Brahmtarayo #0" = 10
+	
+	"Camadevi #0" = -1
+	"Jamadevi #0" = -1
+	"Vi #0" = -1
+	"Shin Sawbu #0" = -20
+	"Soe Min Wimala #0" = -1
+}
+
+leader_names = {
+	Jakaphadiraj
+	Myo
+	Than
+	Bourey
+	Rangsey
+	Nardu
+	Cobar
+	Leura
+	Mani
+	Than
+	Muksa
+	Yuvaraj
+	Kampo;=l
+}
+
+ship_names = {
+	Ceylon 
+	"Khu Bua"
+	"Mon"
+	"Sri Camadevi"
+	"Haribunjaya"
+	"Lamphun"
+	"Chiang Rai"
+	Suwannaphum
+	"Harinpunchai"
+}

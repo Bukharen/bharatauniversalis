@@ -1,0 +1,3 @@
+1248 = "Maladivaina"
+2099 = "Senkadagalapura"
+2100 = "Yapaapatuna"

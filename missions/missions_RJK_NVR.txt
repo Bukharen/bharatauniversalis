@@ -1,0 +1,527 @@
+jgd_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = NVR
+			tag = RJK
+		}	
+	}
+	has_country_shield = yes
+	
+	jgd_navy = {
+		icon = mission_dominate_gujarati_trade
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			navy_size_percentage = 1
+			num_of_admirals = 1
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jgd_naval
+				duration = 10950	
+			}	
+		}	
+	}	
+	
+	jgd_trade = {
+		icon = mission_dominate_gujarati_trade
+		required_missions = { jgd_treasury jgd_navy }
+		position = 2
+		
+		trigger = {
+			515 = { #Junagadh
+				has_most_province_trade_power = ROOT
+			}
+		}	
+		effect = {
+			add_permanent_claim = 2999
+			add_permanent_claim = 400
+			add_claim = 2030
+		}	
+	}	
+}	
+
+jgd_porbandar = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = NVR
+			tag = RJK
+		}	
+	}
+	has_country_shield = yes	
+	
+	jgd_treasury = {
+		icon = mission_bankers_of_cambay
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			treasury = 1000
+		}	
+		effect = {
+			add_treasury = -750
+			515 = {
+				center_of_trade = 3
+				add_base_tax = 2
+				add_base_production = 2
+			}	
+		}	
+	}	
+	
+	jgd_jethwas = {
+		icon = mission_subjugate_saurashtra
+		required_missions = { jgd_army }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 4454
+		}
+		
+		trigger = {
+			owns_core_province = 4454	
+		}	
+		effect = {
+			saurashtra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+		}	
+	}	
+	
+	jgd_jhalavad = {
+		icon = mission_rajputana_frontier
+		required_missions = { jgd_jethwas jgd_kutch }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 4456
+		}
+		
+		trigger = {
+			owns_core_province = 4456	
+		}	
+		effect = {
+			4456 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 7300
+					power = 15
+					key = CONQUERED_JHALAVAD
+				}	
+			}	
+		}	
+	}		
+}
+
+jgd_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = NVR
+			tag = RJK
+		}	
+	}
+	has_country_shield = yes
+	
+	nvr_independence = {
+		icon = mission_afghan_frontier
+		required_missions = { }
+		position = 1
+
+		trigger = {
+			is_subject = no	
+		}	
+		effect = {
+			add_army_tradition = 10	
+		}	
+	}
+	
+	jgd_army = {
+		icon = mission_conquer_kannauj
+		required_missions = { nvr_independence }
+		position = 2
+
+		trigger = {
+			515 = {
+				army_size_percentage = 1
+				num_of_generals = 1
+			}	
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jgd_army
+				duration = 9125	
+			}	
+		}	
+	}
+	
+	jgd_kutch = {
+		icon = mission_demand_garjat_fealty
+		required_missions = { jgd_jethwas prb_junagadh }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = saurashtra_area
+				province_id = 503
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			saurashtra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_core_province = 503
+		}	
+		effect = {
+			patan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+		}	
+	}	
+	
+	jgd_sindh = {
+		icon = mission_advance_to_the_arabian_sea
+		required_missions = { jgd_kutch jgd_defeat_gujarat }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = sindh_area
+				area = northern_sindh_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			northern_sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		effect = {
+			sindh_area = {
+				add_province_modifier = {
+					name = jgd_conversions
+					duration = 7300
+				}
+			}
+			northern_sindh_area = {
+				add_province_modifier = {
+					name = jgd_conversions
+					duration = 7300
+				}
+			}	
+			marwar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}			
+		}	
+	}		
+}
+
+jgd_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = NVR
+			tag = RJK
+		}	
+	}
+	has_country_shield = yes
+		
+	prb_junagadh = {
+		icon = mission_junnagadh_fort
+		required_missions = { jgd_army }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4455
+				province_id = 515
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			owns_core_province = 515
+			owns_core_province = 4455
+		}	
+		effect = {
+			patan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			add_permanent_claim = 2051
+		}	
+	}
+	
+	jgd_attack_gujarat = {
+		icon = mission_reduce_champaner
+		required_missions = { jgd_kutch prb_junagadh jgd_alliances }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 2054	
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = tooltip_JGD.1
+				war_with = GUJ
+				OR = {
+					AND = {
+						any_ally = { 
+							war_with = GUJ
+							controls = 2054
+						}
+					}
+					2054 = {
+						controlled_by = ROOT
+					}
+				}
+				war_score_against = {
+					who = GUJ
+					value = 25
+				}				
+			}		
+		}	
+		effect = {
+			country_event = { id = events_jgd.1 }	
+		}	
+	}	
+	
+	jgd_defeat_gujarat = {
+		icon = mission_growth_of_ahmedabad
+		required_missions = { jgd_attack_gujarat }
+		position = 6
+		provinces_to_highlight = {
+			area = ahmedabad_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			ahmedabad_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		effect = {
+			add_prestige = 25
+			add_legitimacy = 25
+			malwa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			mewar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}				
+		}	
+	}
+
+	jgd_mewar = {
+		icon = mission_defeat_mewar
+		required_missions = { jgd_sindh jgd_defeat_gujarat jgd_malwa }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = marwar_area
+				area = mewar_area
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			marwar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mewar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}			
+		}	
+		effect = {
+			jangladesh_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			gird_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			jaipur_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}		
+			2058 = {
+				add_province_modifier = {
+					name = jgd_udaipur
+					duration = -1
+				}
+				add_base_tax = 2
+				add_base_production = 3
+			}	
+		}	
+	}	
+}	
+
+jgd_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = NVR
+			tag = RJK
+		}	
+	}
+	has_country_shield = yes
+	
+	jgd_alliances = {
+		icon = mission_reliable_allies
+		required_missions = { }
+		position = 4
+		
+		trigger = {
+			any_ally = { 
+				is_rival = GUJ
+				is_neighbor_of = GUJ
+			}
+		}	
+		effect = {
+			add_country_modifier = {
+				name = jgd_diplomacy
+				duration = 9125	
+			}	
+		}	
+	}	
+	
+	jgd_malwa = {
+		icon = mission_city_of_gondwana
+		required_missions = { jgd_defeat_gujarat }
+		position = 7
+		provinces_to_highlight = {
+			area = malwa_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			malwa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		effect = {
+			khandesh_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			gondwana_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			bundelkhand_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = jgd_defeated_malwa
+				duration = 14600
+			}	
+		}	
+	}		
+	jgd_finisher = {
+		icon = mission_conquer_gujarat_dlh
+		required_missions = { jgd_mewar jgd_malwa }
+		position = 9
+		provinces_to_highlight = {
+			region = west_india_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			west_india_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		effect = {
+			change_government_rank = 2	
+			deccan_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}	
+			add_country_modifier = {
+				name = jgd_finished
+				duration = -1
+			}	
+		}	
+	}	
+}		

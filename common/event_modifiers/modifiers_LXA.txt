@@ -1,0 +1,60 @@
+lxa_religion = {
+	prestige_per_development_from_conversion = 0.5
+	missionary_maintenance_cost = -0.1
+}
+	
+lxa_road = {
+	local_friendly_movement_speed = 0.5
+	local_production_efficiency = 0.2
+}
+	
+lxa_saophas_suppressed = {
+	local_autonomy = -0.025
+}
+
+lxa_prepared = {
+	global_manpower_modifier = 0.1
+	manpower_recovery_speed = 0.1	
+}
+
+lxa_wat = {
+	local_tax_modifier = 0.2
+}
+
+lxa_converting = {
+	local_missionary_strength = 0.02
+
+}
+
+lxa_protector = {
+	prestige = 1
+}
+
+lxa_elephants = {
+	cavalry_power = 0.1
+}
+
+lxa_hegemony = {
+	diplomats = 1
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	global_trade_power = 0.1	
+}
+
+lxa_naval_opportunities = {
+	global_ship_cost = -0.1
+	global_ship_recruit_speed = -0.1
+}	
+
+lxa_mountainpassage = {
+	local_friendly_movement_speed = 0.33
+}	
+
+lxa_tolerant = {
+	religious_unity = 0.1
+}
+
+lxa_conversions = {
+	local_missionary_strength = 0.02
+	local_culture_conversion_cost = 0.2
+}

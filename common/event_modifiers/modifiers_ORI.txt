@@ -1,0 +1,96 @@
+ori_gonds = {
+	num_accepted_cultures = 1
+}
+
+ori_junglecombat = {
+	land_attrition = -0.25
+}
+
+ori_hinduism = {
+	religious_unity = 0.1
+	tolerance_own = 1
+}
+
+ori_boats = {
+	ship_durability = 0.05
+}
+	
+ori_fort = {
+	local_defensiveness = 0.25
+}
+
+ori_junglefort = {
+	hostile_attrition = 1
+}	
+	
+ori_development = {
+	province_trade_power_modifier = 0.15
+}
+
+ori_colonial = {
+	global_colonial_growth = 10
+	colonist_placement_chance = 0.05
+}
+	
+ori_elephants = {
+	cavalry_power = 0.1
+}	
+	
+ori_pirates_defeated = {
+	naval_morale = 0.1
+}	
+
+ori_empire = {
+	diplomats = 1
+	administrative_efficiency = 0.05
+	global_tax_modifier = 0.1
+	production_efficiency = 0.05
+}
+	
+ori_content = {
+	culture_conversion_cost = -0.25
+}
+	
+ori_happy = {
+	local_unrest = -5
+}
+	
+ori_vijayanagar = {
+	prestige = 1
+}
+
+ori_coromandel = {
+	global_trade_power = 0.1
+}
+
+ori_buddhism = {
+	missionary_maintenance_cost = -0.1
+	global_missionary_strength = 0.02
+}
+
+ori_horrified = {
+	local_unrest = 10
+}	
+
+ori_jagannath = {
+	tolerance_own = 1
+	tolerance_heretic = -1
+	global_missionary_strength = 0.01
+}
+
+ori_tolerance = {
+	religious_unity = 0.1
+}
+
+ori_western = {
+	technology_cost = -0.1
+}
+
+ori_vedic = {
+	global_institution_spread = 0.1
+	idea_cost = -0.05
+}
+
+ori_capital = {
+	local_development_cost = -0.1
+}

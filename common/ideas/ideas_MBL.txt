@@ -1,0 +1,39 @@
+MBL_ideas = {
+	start = { #Jungle Kings
+		land_attrition = -0.1
+		movement_speed = 0.1
+	}
+	
+	bonus = { #Bishnupriya Tussar Silk
+		global_trade_goods_size_modifier = 0.1 
+	}
+	
+	trigger = {
+		tag = MBL		#will be added at load.
+	}
+	free = yes
+	
+
+	MBL_terracotta = { #Expand the Terracotta Industry
+		build_cost = -0.1
+		build_time = -0.1
+	}	
+	MBL_bipodtarini = { #Bipodtarini Devi
+		global_unrest = -1
+	}	
+	MBL_temples = { #Land of Many Temples
+		global_missionary_strength = 0.02
+	}
+	MBL_culture = { #Benefactor of Bengali Culture
+		same_culture_advisor_cost = -0.2
+	}		
+	MBL_vaishnavism = { #Vaishnavism
+		tolerance_own = 2
+	}		
+	MBL_lineage = { #Lineage of the Malla Rajas
+		diplomatic_reputation = 1
+	}	
+	MBL_salary = { #Land-Based Salary
+		state_maintenance_modifier = -0.2
+	}
+}	

@@ -1,0 +1,10 @@
+143 = "Valona"
+285 = "Cafa"
+2348 = "Scio"
+3003 = "Negroponte"
+4174 = "Durazzo"
+4175 = "Scutari"
+
+2100 = "Jafanapatan"
+4409 = "Trinquilimala"
+4415 = "Negapatan"

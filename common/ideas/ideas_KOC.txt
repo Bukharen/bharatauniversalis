@@ -1,0 +1,39 @@
+KOC_ideas = {
+	start = {
+		religious_unity = 0.25 #Abrahamic Minorities
+		tolerance_heathen = 1
+	}
+	
+	bonus = {
+		technology_cost = -0.1 #European Influences
+	}
+	
+	trigger = {
+		tag = KOC		#will be added at load.
+	}
+	free = yes
+	
+	KOC_diplomacy = { #Centuries of Diplomacy
+		diplomatic_upkeep = 1
+	}
+	KOC_buddhism = { #Buddhism in Kochin
+		tolerance_heretic = 1
+	}	
+	KOC_harbor = { #Kochi Harbor
+		global_trade_power = 0.1
+	}	
+	KOC_matrilineal = { #Matrilineal Succession
+		advisor_pool = 1
+		female_advisor_chance = 0.2
+	}	
+	KOC_jews = { #Jewish Merchants
+		merchants = 1
+	}		
+	KOC_coast = { #A Defendable Coast
+		hostile_attrition = 1
+	}	
+	KOC_lineage = { #Traceable Lineage
+		legitimacy = 1
+	}	
+}	
+	

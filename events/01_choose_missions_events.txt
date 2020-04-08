@@ -1,0 +1,25 @@
+namespace = choose_missions
+normal_or_historical_nations = yes
+
+country_event = {
+	id = choose_missions.1
+	title = choose_missions.1.tt
+	desc = choose_missions.1.dd
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { #Pick Dharma/Vanilla
+		name = choose_missions.1.a 
+		ai_chance = { factor = 50 }
+		set_country_flag = picked_dharma
+		swap_non_generic_missions = yes
+	}
+	option = { #Picked mod
+		name = choose_missions.1.b 
+		ai_chance = { factor = 50 }		
+		swap_non_generic_missions = yes
+	}
+}

@@ -1,0 +1,65 @@
+namespace = events_jgd
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_jgd.1
+	title = "events_jgd.1.tt"
+	desc = "events_jgd.1.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jgd.1.a" #Install a Puppet	
+		ai_chance = { 
+			factor = 100 	
+		}
+		GUJ = {
+			white_peace = ROOT
+			kill_ruler = yes
+			kill_heir = yes
+			change_religion = ROOT
+			define_ruler = {
+				dynasty = ROOT
+				culture = ROOT
+				religion = ROOT
+			}	
+			every_subject_country = { 
+				grant_independence = yes		
+			}	
+		}
+		2054 = {
+			cede_province = ROOT
+			change_province_name = "Kavarnati"
+			rename_capital = "Kavarnati"			
+		}
+		2053 = {
+			cede_province = ROOT
+		}
+		4457 = {
+			cede_province = ROOT
+		}
+		vassalize = GUJ
+	}
+	option = {
+		name = "events_jgd.1.b" #Burn it to the ground.
+		2054 = {
+			add_base_tax = -3
+			add_base_production = -3
+			add_base_manpower = -3
+		}
+		capital_scope = {
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
+		}	
+	}
+	option = {
+		name = "events_jgd.1.c" #Be humane.
+		add_stability_or_adm_power = yes
+		add_dip_power = 100
+		add_prestige = -20
+	}	
+}

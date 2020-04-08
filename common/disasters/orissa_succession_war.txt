@@ -1,0 +1,117 @@
+orissa_succession_war = {
+	potential = {
+			tag = ORI
+		NOT = {
+			has_country_flag = had_orissan_succession_war
+		}
+		num_of_cities = 7
+		any_owned_province = {
+			is_capital = no
+		}
+		government = monarchy
+		is_free_or_tributary_trigger = yes
+		uses_doom = no
+		normal_or_historical_nations = yes
+		NOT = {
+			is_year = 1470
+		}
+	}
+
+	
+	
+	can_start = {
+		has_any_disaster = no
+		has_regency = no
+		NOT = {
+			has_ruler = "Kapilendra"
+		}
+	}
+	
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			has_regency = yes
+			heir_adm = 6
+			heir_dip = 6
+			AND = {
+				heir_mil = 6
+				NOT = { has_ruler = "Purushottama" }
+			}	
+			NOT = {
+				government = monarchy
+			}
+			NOT = {
+				dynasty = "Gajapati"
+			}	
+		}
+	}
+		
+	
+	
+	progress = {
+		modifier = {
+			factor = 2
+			NOT = { ADM = 2 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { ADM = 3 }
+		}		
+		modifier = {
+			factor = 2
+			NOT = { DIP = 2 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { DIP = 3 }
+		}		
+		modifier = {
+			factor = 2
+			NOT = { MIL = 2 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { MIL = 3 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { stability = 1 }
+		}		
+	}
+	
+	
+	
+	can_end = {
+		OR = {
+			AND = {
+				NOT = {
+					num_of_rebel_controlled_provinces = 1
+				}
+				NOT = {
+					num_of_rebel_armies = 1
+				}
+			}
+			has_ruler = "Purushottama"
+			has_ruler = "Hamvira"
+		}
+	}
+	
+
+	modifier = {
+		global_unrest = 5
+	}	
+	
+	
+	on_start = events_ori.9
+	on_end = events_ori.10
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			100 = 0
+			10 = events_ori.11
+		}
+	}
+}	

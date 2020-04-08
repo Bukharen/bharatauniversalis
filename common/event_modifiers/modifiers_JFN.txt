@@ -1,0 +1,29 @@
+jfn_grander_capital	= {
+	development_cost = -0.15
+}
+
+jfn_prepared = {
+	discipline = 0.05
+	land_morale = 0.1
+}
+
+jfn_conversions = {
+	global_missionary_strength = 0.02
+}
+
+jfn_hinduism = {
+	tolerance_own = 1
+}	
+
+jfn_defense = {
+	local_defensiveness = 0.25
+}	
+
+jfn_hindu = {
+	religious_unity = 0.15
+}
+	
+jfn_navy = {
+	naval_morale = 0.1
+	ship_durability = 0.05
+}	

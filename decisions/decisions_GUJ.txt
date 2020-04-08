@@ -1,0 +1,84 @@
+country_decisions = {
+	
+	gujarati_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_gujarat_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = GUJ }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = GUJ }
+			NOT = { government_rank = 2 }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				primary_culture = saurashtri
+				primary_culture = gujarati
+			}	
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4457			#Khambhat
+				province_id = 503			#Kutch
+				province_id = 2054			#Ahmadabad
+				province_id = 4454			#Porbandar
+				province_id = 4480			#Idar
+				province_id = 517			#Surat
+				province_id = 4457			#Khambhat
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 515 # Girnar
+			owns_core_province = 503 # Kutch
+			owns_core_province = 4454 #Porbandar
+			owns_core_province = 2054 #Ahmadabad
+			owns_core_province = 4480 #Idar
+			owns_core_province = 517 # Surat
+			owns_core_province = 4457 # Khambhat
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			western_india_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GUJ
+			}
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_gujarat_flag
+			change_tag = GUJ
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

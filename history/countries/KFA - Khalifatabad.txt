@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+primary_culture = bengali
+religion = sunni
+technology_group = indian
+capital = 2039 #Khalifatabad
+
+1444.1.1 = {
+	monarch = {
+		name = "Khan Jahan Ali"
+		dynasty = "Khalifatabad"
+		culture = uzbehk
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}

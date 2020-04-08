@@ -1,0 +1,724 @@
+namespace = events_ori
+normal_or_historical_nations = yes
+
+
+# The Velama Revolt
+country_event = {
+	id = events_ori.1
+	title = events_ori.1.tt
+	desc = events_ori.1.dd
+	picture = ANGRY_MOB_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { #Support dissidents.
+		custom_tooltip = tooltip_ori.1 
+		name = events_ori.1.a 
+		ai_chance = { factor = 95 }
+		BAH = {
+			country_event = { id = events_ori.2 }
+		}	
+		add_years_of_income = -0.25
+	}
+	option = {
+		name = events_ori.1.b 
+		ai_chance = { factor = 5 }
+		add_prestige = -10
+	}
+}
+
+#Bahmani Response
+country_event = {
+	id = events_ori.2
+	title = events_ori.2.tt
+	desc = events_ori.2.dd
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = events_ori.2.a #Declare war over this.
+		ai_chance = { 
+			factor = 95 
+			modifier = {
+				factor = 0.75
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				has_any_disaster = yes
+			}
+		
+		}
+		ORI = {
+			country_event = { id = events_ori.3 }
+		}	
+	}
+	option = {
+		name = events_ori.2.b #Let it be.
+		ai_chance = { factor = 5 }
+		add_prestige = -10
+		ORI = {
+			country_event = { id = events_ori.4 }
+		}
+		BAH = { add_core = 4439 }
+	}
+}
+#Bahmanis declares war
+country_event = {
+	id = events_ori.3
+	title = events_ori.3.tt
+	desc = events_ori.3.dd
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = events_ori.3.a 
+		TLG = {
+			grant_independence = yes
+		}
+		ORI = {
+			vassalize = TLG
+		}	
+		BAH = {
+			declare_war_with_cb = {
+				who = ORI
+				casus_belli = cb_insult
+			}
+			add_stability = -1	
+		}	
+	}
+}
+#Bahmanis backs down
+country_event = {
+	id = events_ori.4
+	title = events_ori.4.tt
+	desc = events_ori.4.dd
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = events_ori.4.a	
+		TLG = {
+			grant_independence = yes
+		}
+		ORI = {
+			vassalize = TLG
+		}
+	}
+}
+#The Fate of Gauda
+country_event = {
+	id = events_ori.5
+	title = events_ori.5.tt
+	desc = events_ori.5.dd
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		custom_tooltip = tooltip_ori.2
+		name = events_ori.5.a	#Just loot it
+		563 = {
+			add_base_tax = -2
+			add_base_production = -2
+			add_base_manpower = -2
+		}
+		capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}			
+		add_prestige = -10
+		add_mil_power = -50
+		hidden_effect = {	
+			every_owned_province = { 
+				limit = {
+					culture = bengali
+				}
+				add_province_modifier = {
+					name = ori_horrified
+					duration = 10950
+				}
+			}
+		}	
+	}
+	option = {
+		custom_tooltip = tooltip_ori.2
+		name = events_ori.5.b #Demolish the fort	
+		trigger = {
+			563 = {
+				has_building = fort_15th
+			}	
+		}	
+		563 = {
+			remove_building = fort_15th
+		}
+		add_treasury = 200
+		add_prestige = -10
+		add_mil_power = -50
+		hidden_effect = {	
+			every_owned_province = { 
+				limit = {
+					culture = bengali
+				}
+				add_province_modifier = {
+					name = ori_horrified
+					duration = 10950
+				}
+			}
+		}	
+	}
+	option = {
+		custom_tooltip = tooltip_ori.2
+		name = events_ori.5.c #Loot it and destroy the fort
+		trigger = {
+			563 = {
+				has_building = fort_15th
+			}	
+		}	
+		563 = {
+			add_base_tax = -2
+			add_base_production = -2
+			add_base_manpower = -2
+			remove_building = fort_15th
+		}
+		capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}			
+		add_treasury = 200
+		add_prestige = -20
+		add_mil_power = -100
+		hidden_effect = {	
+			every_owned_province = { 
+				limit = {
+					culture = bengali
+				}
+				add_province_modifier = {
+					name = ori_horrified
+					duration = 10950
+				}
+			}
+		}			
+	}
+	option = {
+		name = events_ori.5.d #Be humane
+		add_prestige = 10
+	}	
+}
+
+#Respecting Deities
+country_event = {
+	id = events_ori.6
+	title = events_ori.6.tt
+	desc = events_ori.6.dd
+	picture = BUDDHA_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { #Support Jagannath and Jagannath only.
+		name = events_ori.6.a 
+		ai_chance = { factor = 100 }
+		add_adm_power = -100
+		add_country_modifier = {
+			name = ori_jagannath
+			duration = -1
+		}	
+	} 
+	option = { #Allow people to pick their deities.
+		name = events_ori.6.b 
+		ai_chance = { factor = 0 }
+		add_adm_power = -100
+		add_prestige = -10
+		add_country_modifier = {
+			name = ori_tolerance
+			duration = -1
+		}		
+		
+	}
+}
+
+#Choosing between Vedic and Western Education
+country_event = {
+	id = events_ori.7
+	title = events_ori.7.tt
+	desc = events_ori.7.dd
+	picture = INVENTION_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { #Promote the Western way of life
+		name = events_ori.7.a 
+		ai_chance = { factor = 50 }
+		add_adm_power = -100
+		add_years_of_income = -0.1 #Only costs to change education system for Western because Vedic already was being used
+		add_country_modifier = {
+			name = ori_western
+			duration = -1
+		}	
+	} 
+	option = { #Promote Vedic Education
+		name = events_ori.7.b 
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = ori_vedic
+			duration = -1
+		}
+	}
+}
+
+#The Four Capitals
+country_event = {
+	id = events_ori.8
+	title = events_ori.8.tt
+	desc = events_ori.8.dd
+	picture = FORT_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = { #Viduranagar/Bidar
+		name = events_ori.8.a 
+		ai_chance = { factor = 25 }
+		add_adm_power = -100
+		add_years_of_income = -1
+		1948 = {
+			move_capital_effect = yes
+			rename_capital = "Viduranagar"
+			change_province_name = "Viduranagar"
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2	
+			if = {
+				limit = {
+					NOT = {
+						province_has_center_of_trade_of_level = 2
+					}
+				}
+				add_center_of_trade_level = 1
+			}	
+		}	
+		maidan_area = {
+			every_province_in_state = { 
+				add_province_modifier = {
+					name = ori_capital
+					duration = -1
+				}	
+			}
+		}		
+	} 
+	option = { #Hampi/Vijayanagar
+		name = events_ori.8.b 
+		ai_chance = { factor = 25 }
+		add_adm_power = -100
+		add_years_of_income = -1
+		541 = {
+			move_capital_effect = yes
+			rename_capital = "Hampi"
+			change_province_name = "Hampi"
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			if = {
+				limit = {
+					NOT = {
+						province_has_center_of_trade_of_level = 2
+					}
+				}
+				add_center_of_trade_level = 1
+			}
+		}
+		rayalaseema_area = {
+			every_province_in_state = { 
+				add_province_modifier = {
+					name = ori_capital
+					duration = -1
+				}	
+			}
+		}	
+	}
+	option = { #Lakhnauti/Gauda
+		name = events_ori.8.c 
+		ai_chance = { factor = 25 }
+		add_adm_power = -100
+		add_years_of_income = -1
+		563 = {
+			move_capital_effect = yes
+			rename_capital = "Lakhnauti"
+			change_province_name = "Lakhnauti"
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			if = {
+				limit = {
+					NOT = {
+						province_has_center_of_trade_of_level = 2
+					}
+				}
+				add_center_of_trade_level = 1
+			}		
+		}
+		gaur_area = {
+			every_province_in_state = { 
+				add_province_modifier = {
+					name = ori_capital
+					duration = -1
+				}	
+			}
+		}			
+	} 
+	option = { #Keep Cuttack
+		name = events_ori.8.d
+		ai_chance = { factor = 25 }
+		add_stability_or_adm_power = yes
+	}	
+}
+
+#Orissan Succession War
+country_event = {
+	id = events_ori.9
+	title = events_ori.9.tt
+	desc = events_ori.9.dd
+	picture = CIVIL_WAR_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					any_owned_province = {
+						is_core = ROOT
+						is_capital = no
+						controlled_by = ROOT
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_core = ROOT 
+						is_capital = no
+					}
+					spawn_rebels = {
+						type = pretender_rebels
+						religion = hinduism
+						size = 2
+						leader = "Hamvira Gajapati"
+						win = yes
+					}
+					add_local_autonomy = 25
+				}
+			}
+			else = {
+				capital_scope = {
+					spawn_rebels = {
+						type = pretender_rebels
+						religion = ROOT
+						size = 2
+						culture = oriya
+						religion = hinduism
+						leader = "Hamvira Gajapati"
+					}
+				}
+			}
+			set_country_flag = had_orissan_succession_war
+		}
+	}
+	
+	
+	option = {
+		name = "events_ori.9.a" #Crush all opposition
+		if = {
+			limit = {
+				NOT = {
+					has_ruler = "Purushottama"
+				}
+			}	
+			define_ruler = {
+				name = "Purushottama"
+				dynasty = "Gajapati"
+				claim = 20
+				age = 38
+				adm = 2
+				max_random_adm = 5
+				dip = 2
+				max_random_dip = 4
+				mil = 5
+			}
+		}	
+	}
+}
+
+# End of Civil War
+country_event = {
+	id = events_ori.10
+	title = events_ori.10.tt
+	desc = events_ori.10.dd
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = events_ori.10.a
+		add_legitimacy = 10
+		add_stability = 1
+		set_country_flag = orissan_civil_war_over
+	}
+}
+
+#Hamvira's Demands
+country_event = {
+	id = events_ori.11
+	title = events_ori.11.tt
+	desc = events_ori.11.dd
+	picture = CIVIL_WAR_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = monarchy
+	}
+	
+	option = {
+		name = events_ori.11.a
+		add_war_exhaustion = 2
+	}
+	
+	option = {
+		name = events_ori.11.b
+		if = {
+			limit = {
+				has_heir = yes
+			}
+			remove_heir = yes
+		}
+		define_ruler = {
+			dynasty = "Gajapati"
+			name = "Hamvira"
+			claim = 100
+			age = 40
+			male = yes
+			culture = ROOT
+			religion = ROOT
+		}
+		hidden_effect = {
+			disband_rebels = pretender_rebels
+		}
+	}
+	
+}
+
+#Hamvira appeals to Bahmanis
+country_event = {
+	id = events_ori.12
+	title = events_ori.12.tt
+	desc = events_ori.12.dd
+	picture = CIVIL_WAR_eventPicture
+	
+	
+	trigger = {
+		tag = BAH
+		ORI = {
+			has_country_flag = had_orissan_succession_war
+		}
+		NOT = {
+			ORI = {
+				has_country_flag = orissan_civil_war_over
+			}
+		}
+		num_of_cities = 6
+		golconda_area = {
+			type = all
+			owned_by = BAH
+		}	
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}	
+	
+	option = {
+		name = events_ori.12.a #Support him
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.25
+				is_at_war = yes
+			}
+		}
+		add_years_of_income = -0.15
+		uttarandhra_area = {
+			limit = {
+				NOT = { is_permanent_claim = BAH }
+				NOT = { is_core = BAH	}
+			}
+			add_permanent_claim = BAH
+		}	
+		ORI = { country_event = { id = events_ori.13 } }
+	}
+	
+	option = {
+		name = events_ori.12.b #Don't support him
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.25
+				is_at_war = no
+			}
+		}
+		add_prestige = -10
+	}	
+}
+
+#Bahmanis backs Hamvira
+country_event = {
+	id = events_ori.13
+	title = events_ori.13.tt
+	desc = events_ori.13.dd
+	picture = CIVIL_WAR_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 6
+	}	
+	
+	option = {
+		name = events_ori.13.a #Ok
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = pretender_rebels
+				religion = hinduism
+				size = 3
+				culture = oriya
+			}
+			add_local_autonomy = 25
+		}
+	}
+		
+}
+
+# Hamvira pays his debts
+country_event = {
+	id = events_ori.14
+	title = events_ori.14.tt
+	desc = events_ori.14.dd
+	picture = LAND_MILITARY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ORI
+		has_country_flag = ori_hamviras_offer_happened
+		NOT = { had_country_flag = { flag = ori_hamviras_offer_happened days = 3650 } } #Offer expired
+		has_ruler = "Hamvira"
+		dynasty = "Gajapati"
+		uttarandhra_area = {
+			type = all
+			owned_by = ORI
+		}	
+	}
+	
+	option = {
+		name = events_ori.14.a	#This isn't good.
+		tooltip = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						province_id = 549
+						province_id = 2080
+						province_id = 4998
+					}
+				}
+				cede_province = BAH
+			}
+		}
+		BAH = { country_event = { id = events_ori.15 } }
+	}
+}
+
+#Hamvira pays his debts (Bahmanis)
+country_event = {
+	id = events_ori.15
+	title = events_ori.15.tt
+	desc = events_ori.15.dd
+	picture = CITY_VIEW_eventPicture
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = events_ori.15.a	#Great!
+		ORI = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						province_id = 549
+						province_id = 2080
+						province_id = 4998
+					}
+				}
+				cede_province = BAH
+			}
+		}
+	}
+}
+
+country_event = {
+	id = events_ori.16
+	title = events_ori.16.tt
+	desc = events_ori.16.dd
+	picture = KING_SICK_IN_BED_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		year = 1460
+		has_ruler = "Kapilendra"	
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = events_ori.16.a	#Change Purushottama to heir
+		define_heir = {
+			name = "Purushottama"
+			dynasty = "Gajapati"
+			claim = 20
+			age = 38
+			adm = 2
+			max_random_adm = 5
+			dip = 3
+			max_random_dip = 4
+			mil = 5
+		}
+	}
+}

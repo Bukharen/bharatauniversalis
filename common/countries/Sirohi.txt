@@ -1,0 +1,108 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 253 202 64 }
+
+historical_idea_groups = {
+	spy_ideas
+	aristocracy_ideas
+	offensive_ideas
+	diplomatic_ideas
+	trade_ideas
+	defensive_ideas	
+	economic_ideas
+	religious_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	sikh_hit_and_run
+	reformed_mughal_mansabdar
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Udai Singh #0" = 30
+	"Prithviraj #0" = 20
+	"Askaran #1" = 10
+	"Sesmal #1" = 10
+	"Karam #0" = 10
+	"Punja Raj #0" = 10
+	"Girdhar Das #0" = 10
+	"Jaswant #0" = 10
+	"Vikramaditya Mahthan #0" = 10
+	"Karam Singh #0" = 10
+	"Karan #0" = 10
+	"Jagat Singh #0" = 10
+	"Khuman #0" = 10
+	"Jay Singh #0" = 10
+	"Sangrama Singh #1" = 10
+	"Bijay #1" = 10
+	"Hammir #1" = 10 
+	"Bhim Singh #1" = 10 
+	"Baz #0" = 0
+	"Kumbhakarna #0" = 0
+	"Natwar #0" = 0
+	"Ratan #0" = 0
+	"Jhala #0" = 0
+	"Khuman Singh #0" = 0
+	"Sidhraj #0" = 0
+	"Bijay Singh #0" = 0
+	"Jai #0" = 0
+	"Sangram #0" = 0
+	"Sejakji #0" = 0
+	"Dilip #0" = 0
+	"Kshetra #0" = 0
+	"Kunwar #0" = 0
+	"Nath #0" = 0
+	"Viram #0" = 0
+	"Baiji Lal #0" = 0
+	"Jawan #0" = 0
+	"Bhawani #0" = 0
+	"Naryan #0" = 0
+	"Krishna #0" = 0
+	"Ballu #0" = 0
+	"Lakshman #0" = -1
+	"Ajab #0" = -1
+	"Kamala #0" = -1
+	"Dev #0" = -1
+}
+
+leader_names = {
+	Sahu
+	Sisodiya
+	Saran
+	Bhati
+	Chandela
+	Das
+	Jadon
+	Jadeja
+	Chudasama
+	Tomara
+	Bhaal
+	Chauhan
+	Mori
+	Bargujar
+	Chundawa
+	Gohil
+	Khumba
+	Pratap
+	Singh
+	Vaghela
+}
+
+ship_names = {
+	Chambal Devi Durga Gayatri Ghaggar
+	Godwar Jalsena "Kala Jahazi" Lakshmi
+	"Lal Jahazi" Luni Nausena Padmini
+	"Merwar ka Nav" "Nav ka Yudh" "Nila Jahazi"
+	Parvati Radha Rani Ratri Sagar Sarasvati
+	Sekhawati Sita
+}

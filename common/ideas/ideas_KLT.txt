@@ -1,0 +1,40 @@
+KLT_ideas = {
+	start = {
+		years_of_nationalism = -5
+		global_unrest = -1
+	}
+	
+	bonus = {
+		state_maintenance_modifier = -0.25
+	}
+	
+	trigger = {
+		tag = KLT		#will be added at load.
+	}
+	free = yes
+	
+
+	KLT_samoothiri = {
+		army_tradition_decay = -0.01	
+	}
+	KLT_descendants = {
+		prestige = 1
+		prestige_decay = -0.01
+	}	
+	KLT_malayalam = {
+		idea_cost = -0.1
+	}	
+	KLT_travancore = {
+		diplomatic_reputation = 1
+	}		
+	KLT_intermarriage = {
+		heir_chance = 0.33
+	}		
+	KLT_trade = {
+		trade_efficiency = 0.1
+	}	
+	KLT_survival = {
+		land_morale = 0.1
+	}
+}	
+	

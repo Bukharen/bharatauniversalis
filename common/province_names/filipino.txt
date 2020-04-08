@@ -1,0 +1,5 @@
+656 = "Maynila"
+2698 = "Binalatongan"
+2699 = "Ibalong"
+2700 = "Aninipay"
+4352 = "Singhapala"

@@ -1,0 +1,6 @@
+596 = "Malakka"
+1248 = "Palativu"
+2100 = "Yalppanam"
+2394 = "Kadaram"
+4409 = "Thirukonamalai"
+4352 = "Singapur"

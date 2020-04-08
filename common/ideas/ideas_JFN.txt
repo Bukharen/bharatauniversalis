@@ -1,0 +1,37 @@
+JFN_ideas = { #Jaffna
+	start = {
+		ship_durability = 0.05
+		tolerance_heathen = 2
+	}
+	
+	bonus = {
+		core_creation = -0.1
+	}
+	
+	trigger = {
+		tag = JFN
+	}
+	free = yes		#will be added at load.
+		
+	JFN_tamil_lanka = {
+		army_tradition = 0.25
+	}
+	JFN_vijayanagari_diplomacy = {
+		improve_relation_modifier = 0.25
+	}	
+	JFN_palk_strait = {
+		global_trade_power = 0.1
+	}		
+	JFN_peninsular_navies = {
+		naval_forcelimit_modifier = 0.1
+	}		
+	JFN_chiefdom_tributaries = {
+		global_tax_modifier = 0.1
+	}	
+	JFN_cultural_coexistence = {
+		num_accepted_cultures = 2
+	}		
+	JFN_trade = {
+		merchants = 1
+	}
+}

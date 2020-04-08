@@ -1,0 +1,805 @@
+lxa_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = LXA
+	}
+	has_country_shield = yes
+
+	lxa_preparation = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			army_size_percentage = 0.9
+			num_of_generals = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = lxa_prepared
+				duration = 9125	
+			}	
+			add_permanent_claim = 1823
+			karenni_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
+			add_claim = 660
+			add_claim = 2166
+		}
+	}
+	
+	lxa_shan = {
+		icon = mission_end_the_shan_domination
+		required_missions = { lxa_preparation }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = shan_hill_area
+				area = karenni_area
+				province_id = 660
+				province_id = 2166
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			shan_hill_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			karenni_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			owns_core_province = 660
+			owns_core_province = 2166
+		}
+		effect = {
+			add_accepted_culture = shan
+			every_owned_province = {
+				limit = {
+					culture = shan
+				}
+				add_province_modifier = {
+					name = lxa_saophas_suppressed
+					duration = 9125
+				}
+			}	
+		}	
+	}	
+	
+	lxa_convert_shan = {
+		icon = mission_buddhist_monk_praying
+		required_missions = { lxa_shan }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = shan_hill_area
+				area = karenni_area
+			}	
+			NOT = {
+				religion = ROOT
+			}	
+		}		
+		trigger = {
+			shan_hill_area = {
+				type = all
+				religion = ROOT
+			}
+			karenni_area = {
+				type = all
+				religion = ROOT
+			}	
+		}
+		effect = {
+			add_country_modifier = {
+				name = lxa_religion
+				duration = -1
+			}	
+		}	
+	}
+	
+	lxa_capitals = {
+		icon = mission_conquer_lower_burma_tau
+		required_missions = { }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 614
+				province_id = 615
+				province_id = 608
+				province_id = 1844
+			}	
+			NOT = {
+				development = 15
+			}	
+		}	
+		trigger = {
+			615 = {
+				development = 15
+			}	
+			614 = {
+				development = 15
+			}				
+			1844 = {
+				development = 15
+			}			
+			608 = {
+				development = 15
+			}			
+		}
+		
+		effect = {
+			country_event = { id = events_lxa.1 }
+		}
+	}
+	
+	lxa_develop = {
+		icon = mission_demand_garjat_fealty
+		required_missions = { lxa_capitals }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = south_laos_area
+				province_id = 615
+				province_id = 1823
+				province_id = 2378
+				province_id = 2380
+				province_id = 2376
+			}	
+			NOT = {
+				development = 16
+			}	
+		}	
+		trigger = {
+			south_laos_area = {
+				type = all
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			615 = {
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			1823 = {
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}				
+			2378 = {
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}			
+			2380 = {
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}			
+			2376 = {
+				development = 16
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			country_event = { id = events_lxa.2 }
+		}
+	}	
+}
+	
+lxa_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = LXA
+	}
+	has_country_shield = yes
+		
+	lxa_lanna = {
+		icon = mission_a_million_rice_fields
+		required_missions = { lxa_preparation }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 589
+				province_id = 602
+				province_id = 1817
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			owns_core_province = 589
+			owns_core_province = 602
+			owns_core_province = 1817
+		}
+		effect = {
+			add_permanent_claim = 601			
+			lower_burma_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+	
+	lxa_pegu = {
+		icon = mission_conquer_lower_burma_ori
+		required_missions = { lxa_shan lxa_lanna }
+		position = 4
+		provinces_to_highlight = {
+			area = lower_burma_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			lower_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			arakan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			586 = {
+				if = {
+					limit = {
+						NOT = {
+							province_has_center_of_trade_of_level = 2
+						}
+					}	
+					add_center_of_trade_level = 1
+				}	
+			}	
+		}	
+	}		
+	lxa_follow_irrawaddy = {
+		icon = mission_reduce_champaner
+		required_missions = { lxa_pegu }
+		position = 5
+		provinces_to_highlight = {
+			area = central_burma_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			central_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			upper_burma_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_mil_power = 100
+		}	
+	}	
+	lxa_ava = {
+		icon = mission_restore_pagodas
+		required_missions = { lxa_follow_irrawaddy }
+		position = 6
+		provinces_to_highlight = {
+			area = upper_burma_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			upper_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			country_event = { id = events_lxa.4 }
+		}	
+	}
+	lxa_burma_united = {
+		icon = mission_suppress_the_saophasa
+		required_missions = { lxa_ava }
+		position = 7
+		provinces_to_highlight = {
+			region = burma_region
+			NOT = {
+				owned_by = ROOT
+			}	
+		}		
+		trigger = {
+			burma_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			add_mil_power = 100
+			add_legitimacy = 20
+		}	
+	}	
+}	
+
+lxa_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = LXA
+	}
+	has_country_shield = yes
+	
+	lxa_xiangtaeng = {
+		icon = mission_lower_burma_campaign
+		required_missions = { lxa_preparation }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 1823
+		}	
+		trigger = {
+			owns_core_province = 1823
+		}
+		
+		effect = {
+			1823 = {
+				change_culture = lao
+				add_base_tax = 2
+			}
+			cambodia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	lxa_khorat = {
+		icon = mission_hills_of_gondwana
+		required_missions = { lxa_lanna }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 612	
+		}		
+		trigger = {
+			owns_core_province = 612
+		}
+		effect = {
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}			
+		}
+	}	
+	lxa_ayutthaya = {
+		icon = mission_invade_gujarat
+		required_missions = { lxa_khorat }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = central_thai_area
+				province_id = 601
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}		
+		trigger = {
+			central_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_core_province = 601
+		}
+		effect = {
+			add_prestige = 20
+			600 = {
+				add_base_manpower = -2
+				add_base_tax = -2
+				add_base_production = -2
+			}	
+			capital_scope = {
+				add_base_manpower = 2
+				add_base_tax = 2
+				add_base_production = 2
+			}			
+		}
+	}	
+	lxa_angkor_wat = {
+		icon = mission_conquer_orissa_mug
+		required_missions = { lxa_mekong }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 609
+		}
+		
+		trigger = {
+			609 = {
+				owned_by = ROOT
+				development = 17
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}	
+			}	
+		}
+		
+		effect = {
+			609 = {
+				add_province_modifier = {
+					name = lxa_wat
+					duration = -1
+				}
+				add_base_tax = 2
+				change_culture = lao
+				change_religion = ROOT
+			}			
+		}
+	}
+	lxa_develop_songhong = {
+		icon = mission_clear_the_delta
+		required_missions = { lxa_tonkin }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 616
+					616 = {
+						NOT = {
+							has_development = 15
+						}
+					}
+				}
+				AND = {
+					province_id = 613
+					613 = {
+						NOT = {
+							has_development = 20
+						}
+					}
+				}
+				AND = {
+					province_id = 2372
+					2372 = {
+						NOT = {
+							has_development = 18
+						}
+					}
+				}				
+			}	
+		}
+		
+		trigger = {
+			616 = {
+				development = 15
+			}
+			2372 = {
+				development = 18
+			}
+			613 = {
+				development = 20
+			}	
+		}
+		
+		effect = {
+			country_event = { id = events_lxa.3 }		
+		}
+	}	
+}	
+
+
+lxa_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = LXA
+	}
+	has_country_shield = yes
+
+	lxa_cavalry = {
+		icon = mission_a_million_elephants
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			cavalry_fraction = 0.33	
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = lxa_elephants
+				duration = 9125
+			}	
+		}
+	}
+	
+	lxa_sipsongchautai = {
+		icon = mission_conquer_mewar
+		required_missions = { lxa_preparation lxa_cavalry }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 2371
+		}
+		
+		trigger = {
+			owns_core_province = 2371	
+		}
+		
+		effect = {
+			red_river_delta_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = lxa_protector
+				duration = 7300
+			}			
+		}
+	}
+	
+	lxa_cambodia = {
+		icon = mission_city_of_victory_vij
+		required_missions = { lxa_xiangtaeng }
+		position = 3
+		provinces_to_highlight = {
+			area = cambodia_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}	
+		trigger = {
+			cambodia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_accepted_culture = khmer }
+				}
+				add_accepted_culture = khmer
+			}
+			mekong_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}		
+	}
+	
+	lxa_mekong = {
+		icon = mission_cromandel_coast
+		required_missions = { lxa_cambodia }
+		position = 4
+		provinces_to_highlight = {
+			area = mekong_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}	
+		trigger = {
+			mekong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			mekong_area = {
+				add_province_modifier = {
+					name = lxa_converting
+					duration = 7300
+				}
+			}
+		}
+	}	
+	lxa_mountainpasses = {
+		icon = mission_secure_khandesh
+		required_missions = { lxa_tonkin }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 611
+				province_id = 1016
+			}	
+		}
+		
+		trigger = {
+			611 = {
+				owned_by = ROOT
+				development = 10
+			}
+			1016 = {
+				owned_by = ROOT
+				development = 10
+			}	
+		}
+		
+		effect = {
+			611 = {
+				add_province_modifier = {
+					name = lxa_mountainpassage
+					duration = -1
+				}
+				add_base_manpower = 1
+			}
+			1016 = {
+				add_province_modifier = {
+					name = lxa_mountainpassage
+					duration = -1
+				}
+				add_base_manpower = 1
+			}			
+		}
+	}	
+}
+	
+lxa_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = LXA
+	}
+	has_country_shield = yes
+	
+	lxa_champa = {
+		icon = mission_bengal_campaign
+		required_missions = { lxa_preparation lxa_cavalry }
+		position = 2
+		provinces_to_highlight = {
+			area = champa_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			champa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			607 = {
+				owned_by = ROOT
+			}	
+		}
+		
+		effect = {
+			add_permanent_claim = 2371
+			country_event = { id = events_lxa.7 }
+		}
+	}	
+	
+	lxa_redriverdelta = {
+		icon = mission_conquer_andhra_bah
+		required_missions = { lxa_sipsongchautai lxa_champa }
+		position = 3
+		provinces_to_highlight = {
+			area = red_river_delta_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			red_river_delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			vietnam_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = lxa_naval_opportunities
+				duration = 12775
+			}			
+		}
+	}
+		
+	lxa_tonkin = {
+		icon = mission_junnagadh_fort
+		required_missions = { lxa_redriverdelta }
+		position = 6
+		provinces_to_highlight = {
+			area = vietnam_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			vietnam_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		effect = {
+			country_event = { id = events_lxa.6 }	
+		}
+	}
+
+	lxa_finisher = {
+		icon = mission_rule_indochina
+		required_missions = { lxa_burma_united lxa_tonkin }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = indo_china_region
+				region = burma_region
+				region = xinan_region
+			}	
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}
+		
+		trigger = {
+			indo_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			burma_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			xinan = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			development = 1000
+		}
+		
+		effect = {
+			set_government_rank = 3
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_prestige = 50
+			add_country_modifier = {
+				name = lxa_hegemony
+				duration = -1
+			}
+		}
+	}	
+}	

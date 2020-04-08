@@ -1,3 +1,11 @@
+#Khalifatabad
+vassal = {
+	first = BNG
+	second = KFA
+	start_date = 1444.1.1
+	end_date = 1459.1.1
+}
+	
 #Manipur
 vassal = {
 	first = TAU
@@ -268,23 +276,25 @@ vassal = {
 	end_date = 1801.1.1
 }
 
+#Travancore
+
 vassal = {
 	first = NED
-	second = TRV
+	second = VND
 	start_date = 1729.1.1 # Travancore expands with Dutch aid
-	end_date = 1739.1.1 # Travancore–Dutch War
+	end_date = 1739.1.1 # Travancoreï¿½Dutch War
 }
 
 vassal = {
 	first = GBR
-	second = TRV
+	second = VND
 	start_date = 1788.1.1 # Travancore seeks british aid fearing Mysore
 	end_date = 1795.1.1 # Travancore becomes more dependent of GBR
 }
 
 vassal = {
 	first = GBR
-	second = TRV
+	second = VND
 	start_date = 1795.1.1 # Travancore becomes more dependent of GBR
 	end_date = 1949.1.1
 }
@@ -707,21 +717,6 @@ vassal = {
 }
 
 #Bagelkhand
-
-vassal = {
-	first = JNP
-	second = BGL
-	start_date = 1413.1.1
-	end_date = 1495.1.1
-}
-
-vassal = {
-	first = DLH
-	second = BGL
-	start_date = 1495.1.1
-	end_date = 1526.1.1
-}
-
 vassal = {
 	first = MUG
 	second = BGL
@@ -739,7 +734,7 @@ vassal = {
 vassal = {
 	first = GBR
 	second = BGL
-	start_date = 1809.1.1
+	start_date = 1812.1.1
 	end_date = 1946.1.1
 }
 

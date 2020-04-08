@@ -1,0 +1,140 @@
+namespace = events_jfn
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_jfn.1
+	title = "events_jfn.1.tt"
+	desc = "events_jfn.1.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jfn.1.a" #War it is!	
+		ai_chance = { 
+			factor = 100 
+			modifier = {
+				factor = 0.9
+				is_at_war = yes
+			}	
+		}
+		if = {
+			limit = {
+				2100 = {
+					NOT = { is_claim = VIJ }
+				}
+			}	
+			2100 = { add_claim = VIJ }
+		}		
+		JFN = { country_event = { id = events_jfn.2 } }
+	}
+	option = {
+		name = "events_jfn.1.b" #We are already at war, we can strike later.
+		if = {
+			limit = {
+				2100 = {
+					NOT = { is_claim = VIJ }
+				}
+			}	
+			2100 = { add_core = VIJ }
+		}	
+		VIJ = {
+			add_prestige = -10
+			change_dip = -1
+		}
+		JFN = {
+			grant_independence = yes
+			create_alliance = BAH
+		}
+	}
+}
+
+country_event = {
+	id = events_jfn.2
+	title = "events_jfn.2.tt"
+	desc = "events_jfn.2.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		custom_tooltip = tooltip_jfn.2
+		name = "events_jfn.2.a" #War it is! Seize Madurai (so the strait won't be blockaded the whole time)			
+		JFN = {
+			grant_independence = yes
+			create_alliance = BAH 
+		}	
+		VIJ	= {	
+			add_claim = 2100
+			declare_war_with_cb = {
+				who = JFN
+				casus_belli = cb_conquest
+				war_goal_province = 2100
+			}
+			add_stability = -1
+		}
+		2100 = {
+			infantry = ROOT
+			cavalry = ROOT
+		}		
+		536 = {
+			cede_province = JFN
+			infantry = ROOT
+		}
+		JFN = {
+			add_manpower = -5
+			add_treasury = -20
+		}	
+	}
+}
+
+country_event = {
+	id = events_jfn.3
+	title = "events_jfn.3.tt"
+	desc = "events_jfn.3.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jfn.3.a" #The fools!
+		add_prestige = 10
+	}
+}
+
+country_event = {
+	id = events_jfn.4
+	title = "events_jfn.4.tt"
+	desc = "events_jfn.4.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jfn.4.a" #The tables have turned!
+		hidden_effect = {
+			VIJ = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = tanjore_area
+							area = south_carnatic_area
+							area = madura_area
+							area = north_carnatic_area
+						}	
+						controlled_by = VIJ
+					}
+					change_controller = JFN
+				}
+			}
+		}
+	}
+}

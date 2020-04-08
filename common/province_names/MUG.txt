@@ -1,0 +1,5 @@
+522 = "Shahjahanabad"
+1947 = "Nusratgadh"
+2034 = "Muhiyabad"
+2035 = "Gulbarga"
+4433 = "Gulshanabad"

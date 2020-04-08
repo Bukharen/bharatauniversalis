@@ -1,0 +1,38 @@
+KND_ideas = { #Kandy
+	start = {
+		global_institution_spread = 0.1
+		global_trade_goods_size_modifier = 0.05
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = KND		#will be added at load.
+	}
+	free = yes
+	
+	KND_kandyan_terrain = {
+		defensiveness = 0.25
+	}	
+	KND_temple_of_the_tooth = {
+		legitimacy = 1
+	}
+	KND_kandy_city = {
+		advisor_pool = 1
+	}	
+	KND_central_lankan_trade = {
+		global_trade_power = 0.1
+	}	
+	KND_kodithuwakkuwa = {
+		artillery_power = 0.1
+		artillery_cost = -0.2
+	}	
+	KND_the_last_independent_lankans = {
+		land_morale = 0.1
+	}		
+	KND_holy_buddhist_site = {
+		tolerance_own = 2
+	}
+}

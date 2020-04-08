@@ -1,0 +1,45 @@
+jgd_mountain = {
+	prestige = 1
+}	
+
+jgd_defense = {
+	local_defensiveness = 0.25
+}
+
+jgd_army = {
+	land_morale = 0.05
+	global_manpower_modifier = 0.1
+}	
+
+jgd_conversions = {
+	local_missionary_strength = 0.02
+}
+
+jgd_udaipur = {
+	local_production_efficiency = 0.2
+}
+
+jgd_naval = {
+	naval_morale = 0.1
+	global_sailors_modifier = 0.1
+}
+
+jgd_diplomacy = {
+	diplomatic_reputation = 1
+}	
+
+jgd_defeated_malwa = {
+	army_tradition_decay = -0.01
+}
+
+jgd_finished = {
+	diplomatic_reputation = 1
+	production_efficiency = 0.05
+	trade_efficiency = 0.05
+	years_of_nationalism = -5
+}
+
+jgd_inhumane = {
+	diplomatic_reputation = -1
+	global_unrest = 2
+}	

@@ -1,0 +1,39 @@
+KAT_ideas = {
+	start = {
+		land_attrition = -0.1
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		tolerance_own = 1
+	}
+	
+	trigger = {
+		tag = KAT		#will be added at load.
+	}
+	free = yes
+	
+
+	KAT_diaspora = {
+		range = 0.33
+	}	
+	KAT_chandravanshi = {
+		prestige_decay = -0.01
+	}	
+	KAT_syncretism = {
+		religious_unity = 0.5
+	}	
+	KAT_agriculture = {
+		production_efficiency = 0.05
+	}
+	KAT_jam = {
+		global_autonomy = -0.025
+	}
+	KAT_trade = {
+		global_trade_power = 0.1
+	}			
+	KAT_standardize_kutchi = {
+		culture_conversion_cost = -0.15
+	}
+}	
+	
