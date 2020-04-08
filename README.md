@@ -1,2 +1,2 @@
-# Bharata Universalis
-The Riches of India awaits!
+# India and Beyond
+The repository for the mod 'India and Beyond.'
