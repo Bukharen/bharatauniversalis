@@ -1,0 +1,17 @@
+version="1.29.*"
+tags={
+	"Events"
+	"Expansion"
+	"Fixes"
+	"Gameplay"
+	"Map"
+	"Missions And Decisions"
+	"National Ideas"
+	"New Nations"
+	"Religion"
+	"Technologies"
+	"Historical"
+	"Trade"
+}
+name="India and Beyond"
+supported_version="1.29.5"
