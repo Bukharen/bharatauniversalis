@@ -22,16 +22,17 @@ VND_ideas = {
 	}	
 	VND_women = { #Significance of Women
 		female_advisor_chance = 0.25
+		may_recruit_female_generals = yes
 	}	
 	VND_cheras = { #Legacy of the Cheras
-		army_tradition_decay = -0.01
+		army_tradition_decay = -0.005
 		merchants = 1
 	}
 	VND_western_ghats = { #The Western Ghats
 		defensiveness = 0.2
 	}		
 	VND_philanthropy = { #Prioritize the People
-		global_unrest = -2
+		global_unrest = -1
 	}		
 	VND_dewans = { #Dewans
 		max_states = 5

@@ -284,6 +284,8 @@ trade_company_philippines = {
 		1235 1995 1996 #west_micronesia_area
 		1243 1989 1990 1992 #polynesia_area
 		1241 1991 1993 1994 #micronesia_area
+		#mod
+		5200 5201 5202 5203 5204 5205 5206 5207 5208 5209
 	}
 
 	# Generic

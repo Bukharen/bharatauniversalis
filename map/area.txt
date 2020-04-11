@@ -13,29 +13,46 @@
 #Removed Srihatta (567) from tripura_area
 #Removed Haibatnagar (4478) from east_bengal_area
 #Removed Nasirabad (2046) from north_bengal_area
-
+#Removed Sulu (651) from palawan_area
+#Removed Bicol (2699) from luzon_area
+#Removed Laguna (4349) from luzon_area
+#Removed Panay (2700) from visayas_area
+#Removed Samar (654) from visayas_area
+#Removed Laguna (4349) from southern_luzon_area
 #mod 
-
-vagad_area = { #3
-	4462 4994 4995
-}	
 
 bharatpur_area = { #4
 	 4465 4500 4991 4996
 }
 
+vagad_area = { #3
+	4462 4994 4995
+}	
+
 baroda_area = { #3
 	516 2056 4999
 }
 
-uttarandhra_area = {
-	549 2080 4998
+uttarandhra_area = { #3
+	549 2080 4998 
 }	
 
-silhet_area = {
+silhet_area = { #3
 	567 2046 4478
 }
 
+sulu_area = { #3
+	651 5201 5202
+}
+
+bikol_area = { #5
+	2699 4349 5203 5206 5209
+}
+	
+north_visayas_area = { #4
+	654 2700 5200 5205
+}
+	
 #Sea Areas:
 #No restriction on size.
 
@@ -2348,20 +2365,20 @@ west_mindanao_area = { #3
 	652 653 4354
 }
 
-visayas_area = { #5
-	654 2700 4351 4352 4353
+visayas_area = { #5 #South Visayas
+	4351 4352 4353 5204 5208
 }
 
 palawan_area = { #3
-	651 655 4356
+	655 4356 5207
 }
 
 luzon_area = { #4 (Northern Luzon)
 	657 658 2698 4348
 }
 
-southern_luzon_area = { #5
-	656 2697 2699 4349 4350
+southern_luzon_area = { #3
+	656 2697 4350
 }
 
 north_sumatra_area = { #3

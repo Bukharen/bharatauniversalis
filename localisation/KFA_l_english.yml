@@ -1,3 +1,26 @@
 ﻿l_english:
+#Events
+ events_kfa.1.tt: "The Death of Ulugh Khan Jahan Ali"
+ events_kfa.1.dd: "The Khan-i-Azam of Khalifatabad, Ulugh Khan Jahan Ali, has perished. As we did not decree that his successors would govern these lands too, we could integrate Khalifatabad into our realm now."
+ events_kfa.1.a: "Restore ownership of Khalifatabad."
+ events_kfa.1.b: "They are doing a good job propagating Islam in Bengal."
+ events_kfa.2.tt: "Bengal converts to Hinduism"
+ events_kfa.2.dd: "After being forced to accept the demands of the people, Bengal has switched their state religion away from Islam. As a Theocratic Islamic state, we can not stand for this!"
+ events_kfa.2.a: "We will not be vassals to heathenous rule!"
+ events_kfa.2.b: "We are not strong enough to rebel just yet."
+ events_kfa.3.tt: "Khalifatabad Revolts!"
+ events_kfa.3.dd: "Our Muslim governorate in Khalifatabad has rebelled after finding out of our conversion."
+ events_kfa.3.a: "Suppress this rebellion."
+ events_kfa.3.b: "We are too preoccupied to do anything. Let them free."
+ events_kfa.4.tt: "The Grand Mosque City of Bagerhat"
+ events_kfa.4.dd: "Whilst Khan-i-Azam Ulugh Khan Jahan Ali was in control of Khalifatabad, he built numerous mosques in his domain and propagated Islam all throughout South Bengal. His most notable work was the Mosque City of Bagerhat, which was a mosque complex with elaborate designs that ushered in a golden age of the Khan Jahan art style."
+ events_kfa.4.a: "Build it."
+ events_kfa.4.b: "We do not have the funds."
+ 
+#Tag 
  KFA: "Khalifatabad"
  KFA_ADJ: "Khalifatabadi"
+ 
+#Ruler Titles
+ RELIGIOUS_GOVERNORATE: "Theocratic Governorate"
+ KHANIAZAM: "Khan-i-Azam"
