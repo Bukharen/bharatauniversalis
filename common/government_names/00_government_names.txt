@@ -2,132 +2,6 @@
 # Will pick the first valid one it finds in list
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
-mysorean_titles = {
-	rank = {
-		1 = PRINCEDOM
-		2 = KINGDOM
-		3 = EMPIRE
-	}
-	
-	ruler_male = {
-		1 = WADIYAR
-		2 = WADIYAR
-		3 = WADIYAR
-	}
-	
-	ruler_female = {
-		1 = MATHA
-		2 = RAJAMATHA
-		3 = CHHATRAPATI
-	}
-	
-	consort_male = {
-		1 = WADIYAR
-		2 = WADIYAR
-		3 = WADIYAR
-	}
-	
-	consort_female = {
-		1 = MATHA
-		2 = RAJAMATHA
-		3 = PESHWIN
-	}
-	
-	trigger = {
-		tag = MYS
-		government = monarchy
-		religion = hinduism
-	}
-}
-
-dungarpuri_titles = {
-	rank = {
-		1 = PRINCEDOM
-		2 = KINGDOM
-		3 = EMPIRE
-	}
-	
-	ruler_male = {
-		1 = RAWAL
-		2 = MAHARAWAL
-		3 = CHHATRAPATI
-	}
-	
-	consort_male = {
-		1 = RAWAL
-		2 = MAHARAWAL
-		3 = CHHATRAPATI
-	}
-	
-	trigger = {
-		tag = DUN
-		government = monarchy
-		religion = hinduism
-	}
-}
-
-khalifatabad_vassal_titles = {
-	rank = {
-		1 = RELIGIOUS_GOVERNORATE
-		2 = IMAMATE
-		3 = HIGH_IMAMATE
-	}
-	
-	ruler_male = {
-		1 = KHANIAZAM
-		2 = IMAM
-		3 = HIGH_IMAM
-	}
-	
-	ruler_female = {
-		1 = SHEIKHA
-		2 = IMAM
-		3 = HIGH_IMAM
-	}
-	
-	trigger = {
-		tag = KFA
-		religion_group = muslim
-		OR = {
-			has_reform = feudal_theocracy
-			government = theocracy
-		}
-		is_subject = yes
-	}
-}
-
-khalifatabad_titles = {
-	rank = {
-		1 = SHEIKHDOM
-		2 = IMAMATE
-		3 = HIGH_IMAMATE
-	}
-	
-	ruler_male = {
-		1 = KHANIAZAM
-		2 = IMAM
-		3 = HIGH_IMAM
-	}
-	
-	ruler_female = {
-		1 = SHEIKHA
-		2 = IMAM
-		3 = HIGH_IMAM
-	}
-	
-	trigger = {
-		tag = KFA
-		religion_group = muslim
-		OR = {
-			has_reform = feudal_theocracy
-			government = theocracy
-		}
-		NOT = {
-			is_subject = yes
-		}	
-	}
-}
-
 pirate_government = {
 	rank = {
 		1 = PIRATE_REPUBLIC
@@ -1333,6 +1207,7 @@ kathiawar_tribal_monarchy = { #Sammas of Sindh are also Jams
 		government = monarchy
 		OR = {
 			tag = KAT
+			tag = NVR
 			primary_culture = sindhi
 		}
 	}
@@ -2459,9 +2334,6 @@ hindu_rajput_monarchy = {
 		government = monarchy
 		primary_culture = rajput
 		religion = hinduism
-		NOT = {
-			tag = DUN
-		}	
 	}
 }
 
