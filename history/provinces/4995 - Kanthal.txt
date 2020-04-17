@@ -2,7 +2,7 @@
 
 owner = PRT
 controller = PRT
-culture = rajput
+culture = vagadi
 religion = hinduism
 capital = "Kanthal"
 trade_goods = grain

@@ -1,0 +1,8 @@
+﻿l_english:
+#Choosing Missions
+ choose_missions_title: "Choose Missions"
+ choose_missions_desc: "Choose between Dharma/Vanilla and Mod missions."
+ choose_missions.1.tt: "Choose your missions!"
+ choose_missions.1.dd: "Pick between Dharma/Vanilla missions or mod missions."
+ choose_missions.1.a: "Dharma/Vanilla"
+ choose_missions.1.b: "Mod missions"

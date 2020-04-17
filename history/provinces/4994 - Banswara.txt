@@ -2,7 +2,7 @@
 
 owner = DUN
 controller = DUN
-culture = rajput
+culture = vagadi
 religion = hinduism
 capital = "Banswara"
 trade_goods = tropical_wood

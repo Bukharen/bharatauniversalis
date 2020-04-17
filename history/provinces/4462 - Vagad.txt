@@ -2,7 +2,7 @@
 
 owner = DUN
 controller = DUN
-culture = rajput
+culture = vagadi
 religion = hinduism
 capital = "Dungarpur"
 trade_goods = copper

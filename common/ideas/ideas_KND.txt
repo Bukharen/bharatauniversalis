@@ -5,7 +5,7 @@ KND_ideas = { #Kandy
 	}
 	
 	bonus = {
-		prestige = 1
+		global_missionary_strength = 0.3
 	}
 	
 	trigger = {
@@ -18,6 +18,7 @@ KND_ideas = { #Kandy
 	}	
 	KND_temple_of_the_tooth = {
 		legitimacy = 1
+		prestige = 0.5
 	}
 	KND_kandy_city = {
 		advisor_pool = 1
@@ -27,7 +28,7 @@ KND_ideas = { #Kandy
 	}	
 	KND_kodithuwakkuwa = {
 		artillery_power = 0.1
-		artillery_cost = -0.2
+		artillery_cost = -0.1
 	}	
 	KND_the_last_independent_lankans = {
 		land_morale = 0.1

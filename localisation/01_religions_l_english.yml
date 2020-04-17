@@ -1,0 +1,52 @@
+﻿l_english:
+#Jainism
+ jainism: "Jain"
+ jainism_religion_desc: "Jainism is an extremely ancient religion within India. They advocate for vegetarianism, non-violence in all cases but self defense, and breaking the karmic cycle. It is only a minority and found in its holy sites scattered across India."
+ jainism_rebels_demand: "Convert $COUNTRYNAME$"
+ jainism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ jainism_rebels_title: "Religious"
+ jainism_rebels_name: "$RELIGION$ Zealots"
+ jainism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ jainism_rebels_army: "$RELIGION$ Army"
+
+#Niamtre 
+ niamtre: "Niamtre"
+ niamtre_religion_desc: "Niamtre represents the beliefs of the Pnar/Jaintia people and numerous other tribes in Meghalaya. They are primarly seen in Meghalaya, specifically the territories of the Jaintia kingdom."tilte
+ ANIMISM: "Tribal" 
+ niamtre_rebels_demand: "Convert $COUNTRYNAME$"
+ niamtre_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ niamtre_rebels_title: "Religious"
+ niamtre_rebels_name: "$RELIGION$ Zealots"
+ niamtre_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ niamtre_rebels_army: "$RELIGION$ Army"
+
+#Phiism  
+ phiism: "Phiism"
+ phiism_religion_desc: "Phiism is the traditional beliefs of the Ahom people. Originally of Tai descent, many of them hold on to their roots and maintain the traditions of Tai religion. This religion is most prevalent in Assam until Hinduism becomes the state religion of Ahom."
+ TAIISM: "Tai"
+ phiism_rebels_demand: "Convert $COUNTRYNAME$"
+ phiism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ phiism_rebels_title: "Religious"
+ phiism_rebels_name: "$RELIGION$ Zealots"
+ phiism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ phiism_rebels_army: "$RELIGION$ Army"
+
+#Donyi-Polo  
+ donyipolo: "Donyi-Polo"
+ donyipolo_religion_desc: "Donyi-Polo represents the combined beliefs of many of the Tibeto-Burman cultures of Arunachal Pradesh. It is only found in Arunachal as it slowly loses ground to Hinduism. "
+ donyipolo_rebels_demand: "Convert $COUNTRYNAME$"
+ donyipolo_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ donyipolo_rebels_title: "Religious"
+ donyipolo_rebels_name: "$RELIGION$ Zealots"
+ donyipolo_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ donyipolo_rebels_army: "$RELIGION$ Army"
+
+#Sanamahism
+ sanamahism: "Sanamahist"
+ sanamahism_religion_desc: "Sanamahism represents the collective beliefs of the Meitei people who inhabit the area known as Manipur. Sanamahism is a polytheistic religion, where there are many deities that cover a variety of things from romance to war. Sanamahism only exists within Manipur and disappears by the 18th century."
+ sanamahism_rebels_demand: "Convert $COUNTRYNAME$"
+ sanamahism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ sanamahism_rebels_title: "Religious"
+ sanamahism_rebels_name: "$RELIGION$ Zealots"
+ sanamahism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ sanamahism_rebels_army: "$RELIGION$ Army"

@@ -2,7 +2,7 @@
 
 owner = KAU
 controller = KAU
-culture = rajput
+culture = dhundhari
 religion = hinduism
 capital = "Dholpur"
 trade_goods = dyes

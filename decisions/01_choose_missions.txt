@@ -1,0 +1,27 @@
+country_decisions = {
+
+	choose_missions = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { 
+				has_country_flag = picked_dharma
+			}	
+			ai = no
+			is_playing_custom_nation = no
+		}
+		allow = {
+			NOT = { 
+				has_country_flag = picked_dharma
+			}	
+		}
+		effect = {
+			country_event = { id = choose_missions.1 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 0
+	}
+
+}

@@ -1,6 +1,8 @@
 government = monarchy
 add_government_reform = rajput_kingdom
 primary_culture = rajput
+add_accepted_culture = vagadi
+government_rank = 2
 religion = hinduism
 technology_group = indian
 capital = 4462 #Dungarpur

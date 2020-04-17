@@ -198,9 +198,9 @@ assam_titles = {
 	}
 	
 	ruler_male = {
-		1 = PHA
+		1 = PHA_TITLE
 		2 = SAOPHA
-		3 = SWARAGDEO
+		3 = SWARGADEO
 	}
 	
 	ruler_female = {

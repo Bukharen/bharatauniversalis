@@ -1,0 +1,118 @@
+pagan = {
+
+	donyipolo = {
+		color = { 130 33 94 }
+		icon = 29
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			defensiveness = 0.2
+			diplomats = 1
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			tolerance_heretic = 1
+		}
+		
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = donyipolo
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}
+	
+	niamtre = {
+		color = { 166 0 103 }
+		icon = 31
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			production_efficiency = 0.1
+			yearly_corruption = -0.05
+		}
+		country_as_secondary = {
+			free_policy = 1
+			army_tradition_decay = -0.1
+		}
+		
+		
+		on_convert = {
+			change_religion = niamtre
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}	
+	sanamahism = {
+		color = { 194 231 218 }
+		icon = 30
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			land_attrition = -0.1
+			unjustified_demands = -0.05
+		}
+		country_as_secondary = {
+			hostile_attrition = 1
+			institution_spread_from_true_faith = 0.1
+		}
+		
+		
+		on_convert = {
+			change_religion = sanamahism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}	
+	phiism = {
+		color = { 255 198 217 }
+		icon = 32
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			harmonization_speed = 0.2
+			tolerance_heathen = 1
+		}
+		country_as_secondary = {
+			production_efficiency = 0.1
+			global_institution_spread = 0.1	
+		}
+		
+		on_convert = {
+			change_religion = phiism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { TAIISM }
+	}	
+}	

@@ -19,40 +19,8 @@
 #Removed Panay (2700) from visayas_area
 #Removed Samar (654) from visayas_area
 #Removed Laguna (4349) from southern_luzon_area
-#mod 
+#Temporarily added Arunachal (1788) to assam_area
 
-bharatpur_area = { #4
-	 4465 4500 4991 4996
-}
-
-vagad_area = { #3
-	4462 4994 4995
-}	
-
-baroda_area = { #3
-	516 2056 4999
-}
-
-uttarandhra_area = { #3
-	549 2080 4998 
-}	
-
-silhet_area = { #3
-	567 2046 4478
-}
-
-sulu_area = { #3
-	651 5201 5202
-}
-
-bikol_area = { #5
-	2699 4349 5203 5206 5209
-}
-	
-north_visayas_area = { #4
-	654 2700 5200 5205
-}
-	
 #Sea Areas:
 #No restriction on size.
 
@@ -331,6 +299,40 @@ bahama_channel_area = {
 #Land Areas:
 # A land area is 3 - 10 provinces
 
+#mod 
+
+bharatpur_area = { #4
+	 4465 4500 4991 4996
+}
+
+vagad_area = { #3
+	4462 4994 4995
+}	
+
+baroda_area = { #3
+	516 2056 4999
+}
+
+uttarandhra_area = { #3
+	549 2080 4998 
+}	
+
+silhet_area = { #4
+	567 2046 4478 1950
+}
+
+sulu_area = { #3
+	651 5201 5202
+}
+
+bikol_area = { #5
+	2699 4349 5203 5206 5209
+}
+	
+north_visayas_area = { #4
+	654 2700 5200 5205
+}
+	
 ########################################
 # France					 		   #
 ########################################
@@ -2208,8 +2210,8 @@ berar_area = { #5
 	546 548 2050 4442 4443
 }
 
-assam_area = { #5
-	566 571 2040 2042 4440
+assam_area = { #6 - Temporarily Arunachal
+	566 571 2040 2042 4440 1788
 }
 
 himalayan_hills_area = { #4

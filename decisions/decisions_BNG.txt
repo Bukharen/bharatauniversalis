@@ -1,4 +1,4 @@
-Country_decisions = {
+country_decisions = {
 
     bengali_nation = {
         major = yes
@@ -26,14 +26,15 @@ Country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province _id = 563    #Gauda
-				province _id = 564    #Dhaka
-				province _id = 568    #Chittagong
-				province _id = 4476    #Nadia 
-				province _id = 567    #Silhet
+				province_id = 563    #Gauda
+				province_id = 564    #Dhaka
+				province_id = 568    #Chittagong
+				province_id = 4476   #Nadia 
+				province_id = 4474   #Sonargaon
+				province_id = 567    #Silhet
 			}
 			OR = {
-				NOT = { owned by = ROOT }
+				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
 		}
@@ -43,11 +44,12 @@ Country_decisions = {
 			owns_core_province = 563    #Gauda
 			owns_core_province = 564    #Dhaka
 			owns_core_province = 568    #Chittagong
-			owns_core_province = 4476    #Nadia
+			owns_core_province = 4476   #Nadia
+			owns_core_province = 4474   #Sonargaon
 			owns_core_province = 567    #Silhet
 		}
 		effect = {
-			remove_non_electors_emperor_from_empire_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
