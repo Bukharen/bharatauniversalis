@@ -145,7 +145,7 @@ lxa_slot_1 = {
 	lxa_develop = {
 		icon = mission_demand_garjat_fealty
 		required_missions = { lxa_capitals }
-		position = 7
+		position = 8
 		provinces_to_highlight = {
 			OR = {
 				area = south_laos_area
@@ -430,37 +430,6 @@ lxa_slot_3 = {
 			}			
 		}
 	}	
-	lxa_angkor_wat = {
-		icon = mission_conquer_orissa_mug
-		required_missions = { lxa_mekong }
-		position = 5
-		provinces_to_highlight = {
-			province_id = 609
-		}
-		
-		trigger = {
-			609 = {
-				owned_by = ROOT
-				development = 17
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}	
-			}	
-		}
-		
-		effect = {
-			609 = {
-				add_province_modifier = {
-					name = lxa_wat
-					duration = -1
-				}
-				add_base_tax = 2
-				change_culture = lao
-				change_religion = ROOT
-			}			
-		}
-	}
 	lxa_develop_songhong = {
 		icon = mission_clear_the_delta
 		required_missions = { lxa_tonkin }
@@ -471,7 +440,7 @@ lxa_slot_3 = {
 					province_id = 616
 					616 = {
 						NOT = {
-							has_development = 15
+							development = 15
 						}
 					}
 				}
@@ -479,7 +448,7 @@ lxa_slot_3 = {
 					province_id = 613
 					613 = {
 						NOT = {
-							has_development = 20
+							development = 20
 						}
 					}
 				}
@@ -487,7 +456,7 @@ lxa_slot_3 = {
 					province_id = 2372
 					2372 = {
 						NOT = {
-							has_development = 18
+							development = 18
 						}
 					}
 				}				
@@ -586,7 +555,7 @@ lxa_slot_4 = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { has_accepted_culture = khmer }
+					NOT = { accepted_culture = khmer }
 				}
 				add_accepted_culture = khmer
 			}
@@ -624,6 +593,37 @@ lxa_slot_4 = {
 					duration = 7300
 				}
 			}
+		}
+	}
+	lxa_angkor_wat = {
+		icon = mission_conquer_orissa_mug
+		required_missions = { lxa_mekong }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 609
+		}
+		
+		trigger = {
+			609 = {
+				owned_by = ROOT
+				development = 17
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}	
+			}	
+		}
+		
+		effect = {
+			609 = {
+				add_province_modifier = {
+					name = lxa_wat
+					duration = -1
+				}
+				add_base_tax = 2
+				change_culture = lao
+				change_religion = ROOT
+			}			
 		}
 	}	
 	lxa_mountainpasses = {
@@ -698,7 +698,6 @@ lxa_slot_5 = {
 		}
 		
 		effect = {
-			add_permanent_claim = 2371
 			country_event = { id = events_lxa.7 }
 		}
 	}	
@@ -767,7 +766,6 @@ lxa_slot_5 = {
 			OR = {
 				region = indo_china_region
 				region = burma_region
-				region = xinan_region
 			}	
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -783,10 +781,6 @@ lxa_slot_5 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			xinan = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}	
 			development = 1000
 		}
 		

@@ -11,9 +11,6 @@ jfn_slot_1 = {
 		icon = mission_end_manipuri_raids
 		required_missions = { }
 		position = 1
-		provinces_to_highlight = {
-			province_id = 2100
-		}	
 		
 		trigger = {
 			2100 = {
@@ -28,8 +25,8 @@ jfn_slot_1 = {
 					name = jfn_grander_capital
 					duration = 5475
 				}
-				change_province_name = Yalppanam
-				rename_capital = Yalppanam
+				change_province_name = "Nallur"
+				rename_capital = "Nallur"
 			}
 		}
 	}
@@ -71,7 +68,7 @@ jfn_slot_1 = {
 		position = 6
 		
 		trigger = {
-			4425 = { #Rajamahendravaram
+			4425 = { #Konaseema/Rajamahendravaram
 				has_most_province_trade_power = ROOT
 			}	
 		}
@@ -115,13 +112,15 @@ jfn_slot_2 = {
 		icon = mission_fortify_mandu
 		required_missions = { jfn_develop_yalppanam }
 		position = 2
-		provinces_to_highlight = {
-			province_id = 2100
-		}	
 		
 		trigger = {
 			2100 = {
-				has_building = fort_15th
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}	
 			}	
 		}
 		
@@ -390,7 +389,7 @@ jfn_slot_3 = {
 				religion = hinduism
 			}
 			primary_culture = tamil
-			has_accepted_culture = malayalam
+			accepted_culture = malayalam
 		}
 		
 		effect = {
@@ -505,6 +504,9 @@ jfn_slot_4 = {
 		position = 5
 		provinces_to_highlight = {
 			province_id = 1248
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
 		}
 		
 		trigger = {
@@ -599,23 +601,24 @@ jfn_slot_5 = {
 		icon = mission_konkani_pirates
 		required_missions = { jfn_south_carnatic }
 		position = 6		
+		provinces_to_highlight = {
+			area = malabar_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+		}	
 		
 		trigger = {
-			OR = {
-				534 = {
+			malabar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malabar_area = {
+				OR = {
 					has_building = fort_15th
-				}	
-				535 = {
-					has_building = fort_15th
-				}
-				537 = {
-					has_building = fort_15th
-				}
-				4410 {
-					has_building = fort_15th
-				}
-				4413 = {
-					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
 				}
 			}	
 		}

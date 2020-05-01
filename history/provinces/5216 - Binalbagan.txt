@@ -1,0 +1,22 @@
+#5216 - Binalbagan
+
+owner = MAS
+controller = MAS
+culture = visayan
+religion = anitism
+capital = "Binalbagan"
+trade_goods = tropical_wood
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+add_core = MAS
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1726.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}	

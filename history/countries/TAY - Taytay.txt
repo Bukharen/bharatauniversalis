@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = chinese
+primary_culture = palaweno
+capital = 4356 # Taytay
+religion = anitism

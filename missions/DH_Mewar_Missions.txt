@@ -908,13 +908,6 @@ mer_gondwana = {
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
-			}
-			bastar_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_claim = ROOT
 			}			
 			add_country_modifier = {
 				name = "mer_tribal_recruitment"

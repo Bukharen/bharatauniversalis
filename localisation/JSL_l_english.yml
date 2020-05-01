@@ -1,4 +1,23 @@
 ﻿l_english:
+#Ideas
+ JSL_ideas: "Jaisalmer Ideas"
+ JSL_ideas_start: "Jaisalmer Fort"
+ JSL_ideas_bonus: "Descendants of Krishna"
+ JSL_caravans: "Caravans of Jaisalmer"
+ JSL_caravans_desc: "The vast network of caravans that traverse our nation can be traced all the way back to the heyday of the Silk Road. As an inland oasis of trade in the harsh Thar desert, many caravans travel to Jaisalmer in order to restock and move down into Sindh or up into the Doab."
+ JSL_heartland_thar: "Heartland of the Thar"
+ JSL_heartland_thar_desc: "The vast Thar desert spreads froms Sindh to the west and south all throughout Rajasthan up until around Lahore. Right in the center of this desert is our fine nation, making the most of what we can. It has always been hard for invaders to trespass into our territory thanks to this harsh desert."
+ JSL_jain_traditions: "Rooted Jain Traditions"
+ JSL_jain_traditions_desc: "The city of Jaisalmer has always been a hub of Jainism, and they have contributed tremendously to our city. Many of our sumptuous temples in veneration of the 16th and 23th tirthankaras have been contributed by them and they are a major factor in the economy. Moreover, multiple ancient libraries of cultural and religious significance still stand to this day. Also, our cities of Ludarva and Pokhran are also pilgrimage sites filled with historical artifacts and every year, an influx of yatri arive for pilgrimage."
+ JSL_raid_caravans: "Caravan Raids"
+ JSL_raid_caravans_desc: "All of the caravans of Rajasthan know to fear our Jaisalmeri bandits and raiders. Our raiders strike fear into the hearts of many, and we have made a business of it."
+ JSL_three_capitals: "Three Capitals"
+ JSL_three_capitals_desc: "The three historical capitals of our nation are Jaisalmer, Tanot, and Ludarva. Jaisalmer has been the capital since we established our nation and contains the glorious fort that has withstood many struggles against larger sultanates. Moreover, it contains many temples that venerate the 16th and 23 tirthankaras of Jainism and the ancient libraries are filled with historical artifacts and icons. Tanot is also of importance but the least so, with some religious value. Ludarva has been like our second capital and every year, hundreds, if not thousands of Jain pilgrims flock to it."
+ JSL_three_jauhars: "The Three Jauhars"
+ JSL_three_jauhars_desc: "Throughout our history, there have been three major jauhars that are a token of our harsh past.\nThe first of the jauhars was in 1294. After a harsh, extended 8 year siege on Jaisalmer Fort by Delhian armies led by Alauddin Khilji, 24,000 woman committed jauhar, or ritual suicide, to avoid being captured and sold as slaves or concubines.\nAfter a royal prince raided a Delhian camp and stole his prized steed, Firuz Shah Tugluq sought revenge and laid siege to Jaisalmer Fort. In this unforgettable moment, 16,000 women, the king, his prince, and 1,700 warriors lost their lives.\nThe most horrific of the jauhars was the last, which occured in the late 15th century. An Afghan chieftain by the name of Amir Ali took it upon himself to attack our Jaisalmer Fort and with no time to light the pyre, Rawal Lunakaran slaughtered the women in order to save them. Since there was no pyre, it is not referred to as a full jauhar, but instead a half one. Very tragically, however, was that the Rajputs had preemptively commited to this jauhar when they believed they were going to lose, and the Rajputs eventually won and Amir Ali was defeated and also died of a cannonball. We can not forget our grievous past and instead we must act in order to prevent this from ever occuring again."
+ JSL_never_forget: "The Perilous Delhian Siege"
+ JSL_never_forget_desc: "After a grand Bhati raid on a Delhian camp, Alauddin Khalji, provoked, brought an army and besieged Jaisalmer Fort. Our noble king then decided to send the elderly, sick, and children into a safe refuge in the desert in order to protect them as the warriors expected a fight to the death. For 8 and maybe even 9 long, treacherous years we stood our ground against the vile sultanate until they finally breached our walls and overrun the fort. Attempting to avoid capture, 24,000 woman died, whether it be by jauhar or voluntarily at the hands of their relatives. Most tragically of all, the remaining men walked out and accepted their death. After this, Jaisalmer was an abandoned, barren wasteland for years."
+ 
 #Ruler Titles
  RAWAL: "Rawal"
  MAHARAWAL: "Maharawal"

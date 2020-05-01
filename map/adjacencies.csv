@@ -49,7 +49,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1247;127;sea;1298;-1;-1;-1;-1;Corsica-Sardinia
 394;396;sea;4347;3589;1076;3592;1074;Al Hasa-Bahrain
 395;396;sea;4347;3596;1071;3601;1071;Qatar-Bahrain
-4354;4351;sea;4357;4726;791;4732;786;Zamboanga-Buglas
+4354;5219;sea;4357;4726;791;4732;786;Zamboanga - Dananguet
 654;5209;sea;1397;-1;-1;-1;-1;Samar - Lawan
 648;649;sea;1400;4801;670;4803;667;Halmahera-Ternate
 648;650;sea;1400;4805;640;4803;628;Halmahera-Tidore
@@ -78,9 +78,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 632;633;sea;1355;4666;511;4675;512;Sumbawa-Flores
 633;2695;sea;1401;4749;514;4758;512;Flores-East Timor
 2716;642;sea;1357;4714;569;4712;575;Buton-Kendari
-2700;4351;sea;1397;-1;-1;-1;-1;Buglas-Panay
-4353;4355;sea;1402;4765;804;4761;811;Leyte-Caraga
-2700;4350;sea;1397;4708;838;4702;846;Panay-Mindoro
+2700;5216;sea;1397;-1;-1;-1;-1;Buglas - Binalbagan
 4356;5207;sea;1395;-1;-1;-1;-1;Taytay - Calamianes
 646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram
 2678;622;sea;1361;4446;618;4443;617;Banka-Palembang
@@ -96,17 +94,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3003;164;sea;1319;3190;1287;3191;1286;Euboea - Cyclades
 31;4152;lake;4139;3232;1827;3235;1835;Savolax - Kuusamo
 1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
-4353;5204;sea;1397;-1;-1;-1;-1;Leyte - Bohol
-4351;5208;sea;1397;-1;-1;-1;-1;Buglas - Sialo
+5204;5218;sea;1397;-1;-1;-1;-1;Bohol - Maasin
+5219;5208;sea;1397;-1;-1;-1;-1;Dananguet - Sialo
 2039;4992;sea;1343;-1;-1;-1;-1;Sunderbans - Bhola
-2703;5202;sea;1398;-1;-1;-1;-1;Lehad Datu - Tawi-tawi  #Borrowed from Imperialism Reinvigorated
-4354;5201;sea;1398;-1;-1;-1;-1;Basilan - Zamboanga  #Borrowed from Imperialism Reinvigorated
+2709;5202;sea;1398;-1;-1;-1;-1;Tarakan - Tawi-tawi (Placeholder)
+5201;5210;sea;1398;-1;-1;-1;-1;Basilan - Samboangan #Borrowed from Imperialism Reinvigorated
 5208;5204;sea;1397;-1;-1;-1;-1;Sialo - Bohol
 2699;5203;sea;4358;-1;-1;-1;-1;Catanduanes - Ibalong
 5200;5209;sea;1397;-1;-1;-1;-1;Masbate - Lawan
 4349;5206;sea;1397;-1;-1;-1;-1;Laguna - Marinduque
-4350;5207;sea;1395;-1;-1;-1;-1;Mindoro - Calamianes
 4350;656;sea;1395;-1;-1;-1;-1;Mindoro - Maynila
-4352;4353;sea;1397;-1;-1;-1;-1;Cebu - Leyte
+4352;5217;sea;1397;-1;-1;-1;-1;Cebu -  Kangara
 2700;5205;sea;1397;-1;-1;-1;-1;Panay - Romblon
+5213;5218;sea;1402;-1;-1;-1;-1;Surigao - Maasin
+5214;5213;sea;1402;-1;-1;-1;-1;Dinagat - Surigao
+5214;5218;sea;1402;-1;-1;-1;-1;Dinagat - Maasin
 -1;-1;;-1;-1;-1;-1;-1;-1;

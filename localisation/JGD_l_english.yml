@@ -14,8 +14,6 @@
  jgd_kutch_desc: "The Jadejas of Kutch are threatened by the Gujarati sultanate. Many conflicts have arisen between the two and Kutch is constantly threatened by them. It has also come to our attention that Kutch has easily defendable terrain and would be a much more preferrable location for battle. Furthermore, the Kutchi ruling family is filled with syncretic heathens who do not truly follow the ideals of Hinduism. They shall reign for no longer."
  jgd_sindh_title: "Subdue the Heathens"
  jgd_sindh_desc: "All this time, the Sindhis were committing blasphemy whilst we were too weak to do anything. Now that we are capable of defeating nations the like of Gujarat, it is possible for us to stop the madness in Sindh."
- jgd_treasury_title: "Amass Wealth"
- jgd_treasury_desc: "Thanks to the lucrative trade in Gujarat, our economy is prospering. Our shares in the node provide vast sums of money that help fund our expansion and development. However, it is in our best interest to amass some wealth so that we can improve the conditions of trade and gain yet even more money."
  jgd_palitana_title: "Subjugate Palitana"
  jgd_palitana_desc: "Although Palitana was once an ally and brother of ours, they are now oppose and rival us. Whilst this may put us in jeopardy seeing as they directly border the Gujarati sultanate, it is imperative that we acquire this land before the sultans come knocking at our doorstep."
  jgd_attack_gujarat_title: "Tackle the Gujarati Threat"
@@ -34,18 +32,26 @@
  jgd_malwa_desc: "Deeper into Central India we find yet another troublesome sultanate - this time the Malvi. With our strength acquired from defeating Gujarat, we may now have the power to topple this sultanate that threatens our dynasty."
  jgd_finisher_title: "A Saurashtran Power"
  jgd_finisher_desc: "The time has come to proclaim ourselves a new nation. No longer are we a petty princedom nestled within Saurashtra. We are now a growing kingdom, with domains ranging from Sindh to the Gondi Jungles. We can now proclaim ourselves a new state."
-
- prb_junagadh_title: "Seize Girnar"
- prb_junagadh_desc: "Mount Girnar is a holy site for Hindus, Jains, and Buddhists. Currently, it is controlled by the Chudasama dynasty, our sworn enemies. We can not allow for such an important site to be in enemy hands for any longer." 
  
- nvr_independence_title: "Achieve Independence"
- nvr_independence_desc: "As it stands, we are nominally a subject. However, if we want to unite Saurashtra and forge a new kingdom, we must be independent. No longer shall we be subject to foreign occupation!"
 #Events
  events_jgd.1.tt: "The Gujarati Court"
- events_jgd.1.dd: "As our armies enter Ahmedabad, we discover the Gujarati sultan and his courtiers cowering in fear. Who knew the ruler of such a great nation was a such a coward? It is not honorable to be battling a nation with a weak sultan. What shall we do?"
- events_jgd.1.a: "Let us do the sultanate a favor and rid them of such an incapable ruler."
+ events_jgd.1.dd: "The land we know now as Ahmadabad has a long rich history of pre-sultanate rule. Intially, the area was known as Ashaval, but after Chalukya king Karna annexed it near the turn of the 11th century, it was renamed to Karnavati after him. Since then, Karnavati has been a major settlement along the banks of the Sabarmati river in Gujarat and the rulers of him have commonly came to conquer the rest of Saurashtra. Nevertheless, in the 13th century, it was conquered by the Delhian sultanate as Solanki rule came to an end, ushering in centuries of Muslim rule. In 1411, Muzaffar Shah, a former Delhian governor and the first sultan of the newly established Gujarati sultanate—one of the many sultantes that seceded from the Delhian realm in the wake of the internal instability induced by the sack of Delhi by the Timurids in 1398—seized Karnavati from local rule and refashioned it as Ahmadabad, which later became the capital of the sultanate. Muzaffar Shah went on and founded the Muzaffarid dynasty, the one that is currently in power and Gujarat and the same one that has plagued us for all of this time. Ahmadabad—this capital he founded—is a lavish metropolis that seats the Muzaffarid dynasty and, the Gujarati court, and the royal palace and a city where every culture can be found, and it is now in our hands.\nAs our armies march through the city and ransack it, we realize truly how grand a city it is. There are hundreds of mosques and temples and each and every single one is embellished with sumptuous art and unfathomable quantities of gold. Now that it is in our hands, the Gujarati sultan will be more keen on accepting a surrender as his life is at stake. We can also choose to loot the city and raze it to the ground. What should we do?"
+ events_jgd.1.a: "Demand their unconditional surrender."
  events_jgd.1.b: "Raze Ahmadabad to the ground!"
  events_jgd.1.c: "We need to be humane, or there will be dire consequences awaiting us."
+ events_jgd.2.tt: "An Ultimatum from the Enemy"
+ events_jgd.2.dd: "Our venerable capital of Ahmadabad has fell to the invading Saurashtrians. Our great, benevolent Sultan and his court are already surrounded as the enemy troops ransack the city and loot our extravagant mosques and temples. This ultimatum demands that we cede them Khambhat and Ahmadabad and accept their subserviency at once. With our nation at risk of collapsing, perhaps this is time to surrender."
+ events_jgd.2.a: "It is best that we accept."
+ events_jgd.2.b: "We will never bow down to weaklings!"
+ events_jgd.3.tt: "The Sack of Ahmedabad"
+ events_jgd.3.dd: "The great metropolis of Gujarat, the sumptuous, lavish city renowned for its splendor, is in ruins. Once a marvelous center for all to admire, the city has been reduced to all but rubble as the troops advance further and further through the city. The glorious house of our court and once the home of our great palace is demolished and all that exists is debris and the bodies of our dead men. Ahmadabad, once the mighty capital of the prosperous Gujarati sultanate, is gone."
+ events_jgd.3.a: "This is an outrage!"
+ events_jgd.4.tt: "Gujarat Accepts"
+ events_jgd.4.dd: "Facing near capitulation as our armies have occupied most of their land, Gujarat has chosen to accept the demands of our ultimatum. This means that Ahmadabad and Khambhat will become ours, and Gujarat will accept their fate and become subservient to us."
+ events_jgd.4.a: "Great."
+ events_jgd.5.tt: "Gujarat Rejects Demands"
+ events_jgd.5.dd: "Even whilst under great stress and at risk of capitulation, Gujarat has still foolishly chosen to reject the demands of our ultimatum."
+ events_jgd.5.a: "How troublesome."
  
 #Modifiers
  jgd_mountain: "A Holy Pilgrimage Site" 
@@ -70,7 +76,7 @@
  desc_jgd_inhumane: "Even our aristocrats are horrified by what we committed in Ahmadabad."
   
 #Tooltip
- tooltip_JGD.1: "§YHave you or an ally control Ahmadabad whilst you and your ally have at least 25% war score in a war against Gujarat.§!"
+ tooltip_JGD.1: "§YHave you or an ally control Ahmadabad whilst you and your ally have at least 50% war score in a war against Gujarat.§!"
  
 #Trade Modifier
  CONQUERED_JHALAVAD: "Renewed Trade in Inner Saurashtra"

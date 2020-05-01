@@ -1,7 +1,7 @@
 #5207 - Calamianes
 
-culture = filipino
-religion = animism
+culture = palaweno
+religion = anitism
 capital = "Calamianes"
 trade_goods = unknown
 hre = no
@@ -12,6 +12,7 @@ native_size = 70
 native_ferocity = 7
 native_hostileness = 9
 discovered_by = chinese
+discovered_by = indian
 
 1565.1.1 = {
 	owner = SPA

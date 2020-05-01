@@ -1,0 +1,135 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+bathala =
+{
+	#(Supreme God)
+	province_warscore_cost = -0.1
+	technology_cost = -0.05
+	
+	allow = { religion = anitism }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}		
+	}
+}
+
+idiyanale = 
+{
+	#(Goddess of Labor)
+	production_efficiency = 0.1
+	war_exhaustion = -0.05
+	
+	allow = { religion = anitism }
+	sprite = 14
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}			
+	}	
+}
+
+dimangan =
+{
+	#(Sky God of Harvest - Agriculture/Production)
+	development_cost = -0.1
+	global_trade_power = 0.1
+	
+	allow = { religion = anitism }
+	sprite = 15
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}		
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}			
+	}	
+}
+
+ikapati = 
+{
+	#(Goddess of Cultivated Land - Agriculture)
+	global_tax_modifier = 0.1
+	global_colonial_growth = 10
+	
+	allow = { religion = anitism }
+	sprite = 16
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}	
+		modifier = {
+			factor = 3
+			personality = ai_colonialist
+		}		
+	}	
+}
+
+dumakulem = 
+{ 
+	#(Guardian of the Mountains) 
+	defensiveness = 0.1
+	siege_ability = 0.1
+	
+	allow = { religion = anitism }
+	sprite = 17
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+	}	
+}
+
+apolaki =
+{
+	# (Strategy - Warriors)
+	army_tradition = 0.5
+	discipline = 0.025
+	
+	allow = { religion = anitism }
+	sprite = 18
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}
+

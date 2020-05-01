@@ -20,6 +20,12 @@
 #Removed Samar (654) from visayas_area
 #Removed Laguna (4349) from southern_luzon_area
 #Temporarily added Arunachal (1788) to assam_area
+#Temporarily added Talaud (5212) to spice_islands_area
+#Removed Buglas (4351) and Leyte (4353) from visayas_area
+#Added Buglas (4351) to buglas_area
+#Removed Butuan (2702) from mindanao_area
+#Removed Zamboanga (4354) from west_mindanao_area
+#Added Samar (654) to east_visayas_area
 
 #Sea Areas:
 #No restriction on size.
@@ -329,9 +335,26 @@ bikol_area = { #5
 	2699 4349 5203 5206 5209
 }
 	
-north_visayas_area = { #4
-	654 2700 5200 5205
+north_visayas_area = { #3
+	2700 5200 5205
 }
+
+butuan_area = { #3
+	2702 5213 5214
+}
+
+zamboanga_area = { #3
+	4354 5210 5211
+}
+
+buglas_area = { #4
+	4351 5215 5216 5219
+}
+
+east_visayas_area = { #4
+	654 4353 5217 5218
+}
+
 	
 ########################################
 # France					 		   #
@@ -2359,16 +2382,16 @@ northern_thai_area = { #4
 # Indonesia  	                       #
 ########################################
 
-mindanao_area = { #3 #East Mindanao
-	2701 2702 4355
+mindanao_area = { #2 #East Mindanao - Removed Butuan
+	2701 4355
 }
 
-west_mindanao_area = { #3
-	652 653 4354
+west_mindanao_area = { #2 #Removed Zamboanga (4354)
+	652 653
 }
 
-visayas_area = { #5 #South Visayas
-	4351 4352 4353 5204 5208
+visayas_area = { #3 #Cebu Area - Removed Buglas (4351) and Leyte (4353)
+	4352 5204 5208
 }
 
 palawan_area = { #3
@@ -2435,8 +2458,8 @@ molluca_area = { #4
 	645 2696 2717 2725
 }
 
-spice_islands_area = { #3
-	648 649 650
+spice_islands_area = { #4 #Temporarily added Talaud(5212)
+	648 649 650 5212
 }
 
 ceram_area = { #2

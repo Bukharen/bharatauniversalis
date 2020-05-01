@@ -1,0 +1,40 @@
+SUL_ideas = {
+	start = { #Tausug Identity
+		infantry_shock = 1
+		same_culture_advisor_cost = -0.25
+	}
+	
+	bonus = { #A Maritime Empire
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = SUL		#will be added at load.
+	}
+	free = yes
+	
+
+	SUL_assert_independence = { #Assert Independence from Brunei
+		army_tradition_decay = -0.01	
+	}
+	SUL_first_filipino_mosque = { #Sheik Karimol Makhdum Mosque
+		tolerance_own = 1
+		prestige_decay = -0.01
+	}	
+	SUL_china_trade = { #Chinese Trade
+		global_trade_power = 0.1
+	}	
+	SUL_convert_and_explore = { #Explore and Convert
+		may_explore = yes
+		warscore_cost_vs_other_religion = -0.1
+	}		
+	SUL_double_crossroads = { #Crossroads on Two Fronts
+		range = 0.5
+	}	
+	SUL_piracy_against_spain = { #Raid the Spaniards
+		may_perform_slave_raid_on_same_religion = yes
+	}	
+	SUL_colonize_philippines = { #Colonize the Archipelago
+		colonists = 1
+	}
+}	

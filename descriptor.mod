@@ -14,4 +14,4 @@ tags={
 	"Trade"
 }
 name="India and Beyond"
-supported_version="1.29.5"
+supported_version="1.29.6"

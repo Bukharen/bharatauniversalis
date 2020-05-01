@@ -1,0 +1,64 @@
+namespace = events_kat
+normal_or_historical_nations = yes
+
+#Conversion to Islam!
+country_event = {
+	id = events_kat.1
+	title = events_kat.1.tt
+	desc = events_kat.1.dd
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    
+	option = {
+		name = events_kat.1.a #Embrace the Faith
+		country_event = { id = events_kat.2 } 
+		}
+	option = {
+		name = events_kat.1.b #We can not abandon our roots.
+		add_stability = 1
+	}
+}
+
+#Branches of Islam
+country_event = {
+	id = events_kat.2
+	title = events_kat.2.tt
+	desc = events_kat.2.dd
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+		
+	option = {
+		name = events_kat.2.a #Let us embrace Sunnism.
+		change_religion = sunni
+		set_ruler_religion = sunni 
+		if = {
+			limit = {
+				has_heir = yes
+			}	
+			set_heir_religion = sunni
+		}	
+		add_country_modifier = {
+			name = kat_converting
+			duration = 3650
+		}
+	}
+	option = {
+		name = events_kat.2.b #Let us embrace the Shia branch.
+		change_religion = shiite
+		set_ruler_religion = shiite
+		if = {
+			limit = {
+				has_heir = yes
+			}	
+			set_heir_religion = shiite
+		}	
+		add_country_modifier = {
+			name = kat_converting
+			duration = 3650
+		}
+	}
+}

@@ -1,0 +1,26 @@
+#5214 - Dinagat
+
+culture = butuanon
+religion = anitism
+capital = "Dinagat"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 70
+native_ferocity = 7
+native_hostileness = 9
+discovered_by = chinese
+discovered_by = indian
+
+add_province_triggered_modifier = custodian_of_dinagat_anitist
+add_province_triggered_modifier = religious_center
+
+1565.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	is_city = yes
+	trade_goods = tropical_wood
+}

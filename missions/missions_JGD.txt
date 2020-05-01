@@ -128,10 +128,8 @@ jgd_3 = {
 		position = 1
 
 		trigger = {
-			515 = {
-				army_size_percentage = 1
-				num_of_generals = 1
-			}	
+			army_size_percentage = 1
+			num_of_generals = 1	
 		}	
 		effect = {
 			add_country_modifier = {
@@ -230,24 +228,6 @@ jgd_4 = {
 	}
 	has_country_shield = yes
 	
-	jgd_treasury = {
-		icon = mission_bankers_of_cambay
-		required_missions = { }
-		position = 1
-		
-		trigger = {
-			treasury = 1000
-		}	
-		effect = {
-			add_treasury = -750
-			515 = {
-				center_of_trade = 3
-				add_base_tax = 2
-				add_base_production = 2
-			}	
-		}	
-	}	
-	
 	jgd_palitana = {
 		icon = mission_coromandel_expansion
 		required_missions = { jgd_army }
@@ -295,7 +275,7 @@ jgd_4 = {
 				}
 				war_score_against = {
 					who = GUJ
-					value = 25
+					value = 50
 				}				
 			}		
 		}	
@@ -427,7 +407,7 @@ jgd_5 = {
 	
 	jgd_trade = {
 		icon = mission_dominate_gujarati_trade
-		required_missions = { jgd_treasury jgd_navy }
+		required_missions = { jgd_navy }
 		position = 2
 		
 		trigger = {
@@ -448,10 +428,14 @@ jgd_5 = {
 		position = 3
 		
 		trigger = {
-			any_ally = { 
-				is_rival = GUJ
-				is_neighbor_of = GUJ
-			}
+			OR = {
+				any_ally = { 
+					is_rival = GUJ
+				}
+				any_ally = { 
+					is_neighbor_of = GUJ
+				}
+			}	
 		}	
 		effect = {
 			add_country_modifier = {
@@ -524,7 +508,7 @@ jgd_5 = {
 			}
 		}	
 		effect = {
-			change_government_rank = 2	
+			set_government_rank = 2	
 			deccan_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}

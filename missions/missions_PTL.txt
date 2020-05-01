@@ -1,4 +1,4 @@
-jgd_1 = {
+ptl_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -7,7 +7,7 @@ jgd_1 = {
 	}
 	has_country_shield = yes
 	
-	jgd_navy = {
+	ptl_navy = {
 		icon = mission_dominate_gujarati_trade
 		required_missions = { }
 		position = 1
@@ -24,9 +24,9 @@ jgd_1 = {
 		}	
 	}	
 	
-	jgd_trade = {
+	ptl_trade = {
 		icon = mission_dominate_gujarati_trade
-		required_missions = { jgd_treasury jgd_navy }
+		required_missions = { ptl_navy }
 		position = 2
 		
 		trigger = {
@@ -42,7 +42,7 @@ jgd_1 = {
 	}	
 }	
 
-jgd_porbandar = {
+ptl_porbandar = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -51,27 +51,9 @@ jgd_porbandar = {
 	}
 	has_country_shield = yes	
 	
-	jgd_treasury = {
-		icon = mission_bankers_of_cambay
-		required_missions = { }
-		position = 1
-		
-		trigger = {
-			treasury = 1000
-		}	
-		effect = {
-			add_treasury = -750
-			515 = {
-				center_of_trade = 3
-				add_base_tax = 2
-				add_base_production = 2
-			}	
-		}	
-	}	
-	
-	jgd_jethwas = {
+	ptl_jethwas = {
 		icon = mission_subjugate_saurashtra
-		required_missions = { jgd_army }
+		required_missions = { ptl_army }
 		position = 2
 		provinces_to_highlight = {
 			province_id = 4454
@@ -91,9 +73,9 @@ jgd_porbandar = {
 		}	
 	}	
 	
-	jgd_jhalavad = {
+	ptl_jhalavad = {
 		icon = mission_rajputana_frontier
-		required_missions = { jgd_jethwas jgd_kutch }
+		required_missions = { ptl_jethwas ptl_kutch }
 		position = 4
 		provinces_to_highlight = {
 			province_id = 4456
@@ -115,7 +97,7 @@ jgd_porbandar = {
 	}		
 }
 
-jgd_3 = {
+ptl_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -124,17 +106,15 @@ jgd_3 = {
 	}
 	has_country_shield = yes
 	
-	jgd_army = {
+	ptl_army = {
 		icon = mission_conquer_kannauj
 		required_missions = { }
 		position = 1
 
 		trigger = {
-			515 = {
-				army_size_percentage = 1
-				num_of_generals = 1
-			}	
-		}	
+			army_size_percentage = 1
+			num_of_generals = 1	
+		}
 		effect = {
 			add_country_modifier = {
 				name = jgd_army
@@ -143,9 +123,9 @@ jgd_3 = {
 		}	
 	}
 	
-	jgd_kutch = {
+	ptl_kutch = {
 		icon = mission_demand_garjat_fealty
-		required_missions = { jgd_jethwas prb_junagadh }
+		required_missions = { ptl_jethwas ptl_junagadh }
 		position = 3
 		provinces_to_highlight = {
 			OR = {
@@ -175,9 +155,9 @@ jgd_3 = {
 		}	
 	}	
 	
-	jgd_sindh = {
+	ptl_sindh = {
 		icon = mission_advance_to_the_arabian_sea
-		required_missions = { jgd_kutch jgd_defeat_gujarat }
+		required_missions = { ptl_kutch ptl_defeat_gujarat }
 		position = 6
 		provinces_to_highlight = {
 			OR = {
@@ -223,7 +203,7 @@ jgd_3 = {
 	}		
 }
 
-jgd_4 = {
+ptl_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -232,9 +212,9 @@ jgd_4 = {
 	}
 	has_country_shield = yes
 		
-	prb_junagadh = {
+	ptl_junagadh = {
 		icon = mission_junnagadh_fort
-		required_missions = { jgd_army }
+		required_missions = { ptl_army }
 		position = 2
 		provinces_to_highlight = {
 			OR = {
@@ -262,9 +242,9 @@ jgd_4 = {
 		}	
 	}
 	
-	jgd_attack_gujarat = {
+	ptl_attack_gujarat = {
 		icon = mission_reduce_champaner
-		required_missions = { jgd_kutch prb_junagadh jgd_alliances }
+		required_missions = { ptl_kutch ptl_junagadh ptl_alliances }
 		position = 4
 		provinces_to_highlight = {
 			province_id = 2054	
@@ -287,7 +267,7 @@ jgd_4 = {
 				}
 				war_score_against = {
 					who = GUJ
-					value = 25
+					value = 50
 				}				
 			}		
 		}	
@@ -296,9 +276,9 @@ jgd_4 = {
 		}	
 	}	
 	
-	jgd_defeat_gujarat = {
+	ptl_defeat_gujarat = {
 		icon = mission_growth_of_ahmedabad
-		required_missions = { jgd_attack_gujarat }
+		required_missions = { ptl_attack_gujarat }
 		position = 5
 		provinces_to_highlight = {
 			area = ahmedabad_area
@@ -333,9 +313,9 @@ jgd_4 = {
 		}	
 	}
 
-	jgd_mewar = {
+	ptl_mewar = {
 		icon = mission_defeat_mewar
-		required_missions = { jgd_sindh jgd_defeat_gujarat jgd_malwa }
+		required_missions = { ptl_sindh ptl_defeat_gujarat ptl_malwa }
 		position = 7
 		provinces_to_highlight = {
 			OR = {
@@ -391,7 +371,7 @@ jgd_4 = {
 	}	
 }	
 
-jgd_5 = {
+ptl_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -400,16 +380,20 @@ jgd_5 = {
 	}
 	has_country_shield = yes
 	
-	jgd_alliances = {
+	ptl_alliances = {
 		icon = mission_reliable_allies
 		required_missions = { }
 		position = 3
 		
 		trigger = {
-			any_ally = { 
-				is_rival = GUJ
-				is_neighbor_of = GUJ
-			}
+			OR = {
+				any_ally = { 
+					is_rival = GUJ
+				}
+				any_ally = { 
+					is_neighbor_of = GUJ
+				}
+			}	
 		}	
 		effect = {
 			add_country_modifier = {
@@ -419,9 +403,9 @@ jgd_5 = {
 		}	
 	}	
 	
-	jgd_malwa = {
+	ptl_malwa = {
 		icon = mission_city_of_gondwana
-		required_missions = { jgd_defeat_gujarat }
+		required_missions = { ptl_defeat_gujarat }
 		position = 6
 		provinces_to_highlight = {
 			area = malwa_area
@@ -464,9 +448,9 @@ jgd_5 = {
 			}	
 		}	
 	}		
-	jgd_finisher = {
+	ptl_finisher = {
 		icon = mission_conquer_gujarat_dlh
-		required_missions = { jgd_mewar jgd_malwa }
+		required_missions = { ptl_mewar ptl_malwa }
 		position = 8
 		provinces_to_highlight = {
 			region = west_india_region
@@ -482,7 +466,7 @@ jgd_5 = {
 			}
 		}	
 		effect = {
-			change_government_rank = 2	
+			set_government_rank = 2	
 			deccan_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}

@@ -14,12 +14,13 @@ country_event = {
 	option = { #Pick Dharma/Vanilla
 		name = choose_missions.1.a 
 		ai_chance = { factor = 50 }
-		set_country_flag = picked_dharma
+		set_country_flag = picked_vanilla
 		swap_non_generic_missions = yes
 	}
 	option = { #Picked mod
 		name = choose_missions.1.b 
-		ai_chance = { factor = 50 }		
+		ai_chance = { factor = 50 }
+		highlight = yes
 		set_country_flag = picked_mod
 		swap_non_generic_missions = yes
 	}

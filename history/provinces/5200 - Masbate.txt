@@ -1,7 +1,7 @@
 #5200 - Masbate
 
-culture = filipino
-religion = animism
+culture = visayan
+religion = anitism
 capital = "Masbate"
 trade_goods = unknown
 hre = no
@@ -12,6 +12,7 @@ native_size = 70
 native_ferocity = 7
 native_hostileness = 9
 discovered_by = chinese
+discovered_by = indian
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
  

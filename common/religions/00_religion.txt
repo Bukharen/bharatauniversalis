@@ -1146,7 +1146,7 @@ eastern = {
 		
 		uses_karma = yes
 	}
-
+	
 	confucianism = {
 		color = { 214 229 140 }
 		icon = 9
@@ -1197,8 +1197,6 @@ dharmic = {
 		allowed_conversion = {
 			jainism
 			sikhism
-			buddhism
-			mahayana
 		}
 		country = {
 			tolerance_heathen = 1
@@ -1243,6 +1241,8 @@ dharmic = {
 		province = {
 			local_missionary_strength = -0.01
 		}
+		
+		misguided_heretic = yes
 		
 		on_convert = {
 			change_religion = sikhism

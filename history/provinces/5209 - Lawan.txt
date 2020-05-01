@@ -1,7 +1,7 @@
 #5209 - Lawan
 
-culture = filipino
-religion = animism
+culture = bicolano
+religion = anitism
 capital = "Sawangan"
 trade_goods = grain
 hre = no
@@ -9,10 +9,11 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-owner = CEB
-controller = CEB
-add_core = CEB
+owner = LAW
+controller = LAW
+add_core = LAW
 discovered_by = chinese
+discovered_by = indian
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
 1573.1.1 = {

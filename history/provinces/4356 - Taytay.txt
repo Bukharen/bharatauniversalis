@@ -1,0 +1,25 @@
+#4356 - Taytay
+
+owner = TAY
+controller = TAY
+culture = palaweno
+religion = anitism
+capital = "Taytay"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = TAY
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1623.1.1 = {
+	owner = SPA
+	controller = SPA
+	culture = castillian
+	religion = catholic
+} # Taytay becomes a colony
+1774.1.1 = { add_core = SPA }

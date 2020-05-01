@@ -9,7 +9,7 @@ ori_garjat_missions = {
 		tag = ORI
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = picked_dharma
+		has_country_flag = picked_vanilla
 	}
 	has_country_shield = yes
 	
@@ -76,7 +76,6 @@ ori_garjat_missions = {
 				area = garjat_area
 				area = upper_mahanadi_area
 				area = jharkhand_area
-				area = bastar_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -98,10 +97,6 @@ ori_garjat_missions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			bastar_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}			
 		}
 		effect = {
 			2049 = {
@@ -177,7 +172,7 @@ ori_missions_south = {
 		tag = ORI
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = picked_dharma	
+		has_country_flag = picked_vanilla
 	}
 	has_country_shield = yes
 	
@@ -299,7 +294,7 @@ ori_missions_west = {
 		tag = ORI
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = picked_dharma
+		has_country_flag = picked_vanilla
 	}
 	has_country_shield = yes
 	
@@ -486,7 +481,7 @@ ori_bengal_missions = {
 		tag = ORI
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = picked_dharma
+		has_country_flag = picked_vanilla
 	}
 	has_country_shield = yes
 	
@@ -577,13 +572,6 @@ ori_bengal_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			silhet_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}			
 			arakan_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -650,7 +638,7 @@ ori_religious_missions = {
 		tag = ORI
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = picked_dharma
+		has_country_flag = picked_vanilla
 	}
 	has_country_shield = yes
 	
@@ -760,7 +748,6 @@ ori_religious_missions = {
 				area = west_bengal_area
 				area = north_bengal_area
 				area = east_bengal_area
-				silhet_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -783,10 +770,6 @@ ori_religious_missions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			silhet_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}			
 		}
 		effect = {
 			add_country_modifier = {

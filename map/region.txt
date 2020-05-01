@@ -1044,22 +1044,12 @@ moluccas_region = {
 	areas = {
 		molluca_area
 		sulawesi_area
-		luzon_area
-		southern_luzon_area
-		mindanao_area
-		west_mindanao_area
-		visayas_area
-		palawan_area
 		papua_area
 		vogelkop_area
 		timor_area
 		south_sulawesi_area
 		ceram_area
 		spice_islands_area
-		#mod
-		sulu_area
-		bikol_area
-		north_visayas_area
 	}
 	monsoon = {
 		00.10.01
@@ -1071,7 +1061,33 @@ moluccas_region = {
 	}
 }
 
-
+#mod
+philippines_region = {
+	areas = {
+		luzon_area
+		southern_luzon_area
+		mindanao_area
+		west_mindanao_area
+		visayas_area
+		palawan_area
+		#mod
+		sulu_area
+		bikol_area
+		north_visayas_area
+		east_visayas_area
+		zamboanga_area
+		butuan_area
+		buglas_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}	
+}
 
 indonesia_region = { #Eastern Indonesian/Malayan Islands.
 	areas = {

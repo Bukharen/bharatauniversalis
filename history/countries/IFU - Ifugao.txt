@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = chinese
+primary_culture = ilocano
+capital = 4348 #Ifugao
+religion = anitism
+
+1399.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

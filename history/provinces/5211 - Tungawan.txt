@@ -1,0 +1,22 @@
+#5211 - Tungawan
+
+owner = SUL
+controller = SUL
+culture = mindanaoan
+religion = anitism
+capital = "Tungawan"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+add_core = SUL
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1726.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}	

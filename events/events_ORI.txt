@@ -393,94 +393,18 @@ country_event = {
 	}	
 }
 
-#Orissan Succession War
+# End of Civil War
 country_event = {
 	id = events_ori.9
 	title = events_ori.9.tt
 	desc = events_ori.9.dd
-	picture = CIVIL_WAR_eventPicture
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					any_owned_province = {
-						is_core = ROOT
-						is_capital = no
-						controlled_by = ROOT
-					}
-				}
-				random_owned_province = {
-					limit = {
-						is_core = ROOT 
-						is_capital = no
-					}
-					spawn_rebels = {
-						type = pretender_rebels
-						religion = hinduism
-						size = 2
-						leader = "Hamvira Gajapati"
-						win = yes
-					}
-					add_local_autonomy = 25
-				}
-			}
-			else = {
-				capital_scope = {
-					spawn_rebels = {
-						type = pretender_rebels
-						religion = ROOT
-						size = 2
-						culture = oriya
-						religion = hinduism
-						leader = "Hamvira Gajapati"
-					}
-				}
-			}
-			set_country_flag = had_orissan_succession_war
-		}
-	}
-	
-	
-	option = {
-		name = "events_ori.9.a" #Crush all opposition
-		if = {
-			limit = {
-				NOT = {
-					has_ruler = "Purushottama"
-				}
-			}	
-			define_ruler = {
-				name = "Purushottama"
-				dynasty = "Gajapati"
-				claim = 20
-				age = 38
-				adm = 2
-				max_random_adm = 5
-				dip = 2
-				max_random_dip = 4
-				mil = 5
-			}
-		}	
-	}
-}
-
-# End of Civil War
-country_event = {
-	id = events_ori.10
-	title = events_ori.10.tt
-	desc = events_ori.10.dd
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = events_ori.10.a
+		name = events_ori.9.a
 		add_legitimacy = 10
 		add_stability = 1
 		set_country_flag = orissan_civil_war_over
@@ -489,9 +413,9 @@ country_event = {
 
 #Hamvira's Demands
 country_event = {
-	id = events_ori.11
-	title = events_ori.11.tt
-	desc = events_ori.11.dd
+	id = events_ori.10
+	title = events_ori.10.tt
+	desc = events_ori.10.dd
 	picture = CIVIL_WAR_eventPicture
 	
 	
@@ -499,15 +423,18 @@ country_event = {
 	
 	trigger = {
 		government = monarchy
+		NOT = {
+			has_ruler = "Hamvira"
+		}	
 	}
 	
 	option = {
-		name = events_ori.11.a
+		name = events_ori.10.a
 		add_war_exhaustion = 2
 	}
 	
 	option = {
-		name = events_ori.11.b
+		name = events_ori.10.b
 		if = {
 			limit = {
 				has_heir = yes
@@ -527,179 +454,17 @@ country_event = {
 			disband_rebels = pretender_rebels
 		}
 	}
-	
-}
-
-#Hamvira appeals to Bahmanis
-country_event = {
-	id = events_ori.12
-	title = events_ori.12.tt
-	desc = events_ori.12.dd
-	picture = CIVIL_WAR_eventPicture
-	
-	
-	trigger = {
-		tag = BAH
-		ORI = {
-			has_country_flag = had_orissan_succession_war
-		}
-		NOT = {
-			ORI = {
-				has_country_flag = orissan_civil_war_over
-			}
-		}
-		num_of_cities = 6
-		golconda_area = {
-			type = all
-			owned_by = BAH
-		}	
-	}
-	
-	mean_time_to_happen = {
-		months = 6
-	}	
-	
-	option = {
-		name = events_ori.12.a #Support him
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.25
-				is_at_war = yes
-			}
-		}
-		add_years_of_income = -0.15
-		uttarandhra_area = {
-			limit = {
-				NOT = { is_permanent_claim = BAH }
-				NOT = { is_core = BAH	}
-			}
-			add_permanent_claim = BAH
-		}	
-		ORI = { country_event = { id = events_ori.13 } }
-	}
-	
-	option = {
-		name = events_ori.12.b #Don't support him
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.25
-				is_at_war = no
-			}
-		}
-		add_prestige = -10
-	}	
-}
-
-#Bahmanis backs Hamvira
-country_event = {
-	id = events_ori.13
-	title = events_ori.13.tt
-	desc = events_ori.13.dd
-	picture = CIVIL_WAR_eventPicture
-	
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 6
-	}	
-	
-	option = {
-		name = events_ori.13.a #Ok
-		random_owned_province = {
-			limit = {
-				is_core = ROOT 
-				is_capital = no
-			}
-			spawn_rebels = {
-				type = pretender_rebels
-				religion = hinduism
-				size = 3
-				culture = oriya
-			}
-			add_local_autonomy = 25
-		}
-	}
-		
-}
-
-# Hamvira pays his debts
-country_event = {
-	id = events_ori.14
-	title = events_ori.14.tt
-	desc = events_ori.14.dd
-	picture = LAND_MILITARY_eventPicture
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	trigger = {
-		tag = ORI
-		has_country_flag = ori_hamviras_offer_happened
-		NOT = { had_country_flag = { flag = ori_hamviras_offer_happened days = 3650 } } #Offer expired
-		has_ruler = "Hamvira"
-		dynasty = "Gajapati"
-		uttarandhra_area = {
-			type = all
-			owned_by = ORI
-		}	
-	}
-	
-	option = {
-		name = events_ori.14.a	#This isn't good.
-		tooltip = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						province_id = 549
-						province_id = 2080
-						province_id = 4998
-					}
-				}
-				cede_province = BAH
-			}
-		}
-		BAH = { country_event = { id = events_ori.15 } }
-	}
-}
-
-#Hamvira pays his debts (Bahmanis)
-country_event = {
-	id = events_ori.15
-	title = events_ori.15.tt
-	desc = events_ori.15.dd
-	picture = CITY_VIEW_eventPicture
-	fire_only_once = yes
-
-	is_triggered_only = yes
-	
-	option = {
-		name = events_ori.15.a	#Great!
-		ORI = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						province_id = 549
-						province_id = 2080
-						province_id = 4998
-					}
-				}
-				cede_province = BAH
-			}
-		}
-	}
 }
 
 country_event = {
-	id = events_ori.16
-	title = events_ori.16.tt
-	desc = events_ori.16.dd
+	id = events_ori.11
+	title = events_ori.11.tt
+	desc = events_ori.11.dd
 	picture = KING_SICK_IN_BED_eventPicture
 	fire_only_once = yes
 
 	trigger = {
-		year = 1460
+		is_year = 1460
 		has_ruler = "Kapilendra"	
 	}
 	
@@ -708,16 +473,11 @@ country_event = {
 	}
 	
 	option = {
-		name = events_ori.16.a	#Change Purushottama to heir
+		name = events_ori.11.a	#Change Purushottama to heir
 		define_heir = {
 			name = "Purushottama"
 			dynasty = "Gajapati"
 			claim = 20
-			age = 38
-			adm = 2
-			max_random_adm = 5
-			dip = 3
-			max_random_dip = 4
 			mil = 5
 		}
 	}

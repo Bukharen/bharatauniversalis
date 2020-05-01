@@ -2,8 +2,8 @@
 
 owner = MEW
 controller = MEW
-culture = rajput
-religion = dhundhari
+culture = dhundhari
+religion = hinduism
 capital = "Alwar"
 trade_goods = glass
 hre = no

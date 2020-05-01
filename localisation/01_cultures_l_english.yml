@@ -1,11 +1,20 @@
 ﻿l_english:
 #Western Aryan
- hadotian: "Hadoti"
+ hadotian: "Hadotian"
  marwari: "Marwari"
  dhundhari: "Dhundhari"
  vagadi: "Vagadi"
- rajput: "Mewari"
  
 #Tibeto-Burman 
- chin: "Meitei"
  deori: "Deori"
+ 
+#Filipino
+ filipino_group: "Filipino"
+ bicolano: "Bicolano"
+ ilocano: "Ilocano"
+ mindanaoan: "Mindanaoan"
+ butuanon: "Butuanon"
+ cebuano: "Cebuano"
+ visayan: "Bisayan"
+ palaweno: "Palaweño"
+ tagalog: "Tagalog"

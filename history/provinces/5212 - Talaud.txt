@@ -1,0 +1,22 @@
+#5212 - Talaud
+
+culture = moluccan
+religion = animism
+capital = "Talaud"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 70
+native_ferocity = 7
+native_hostileness = 9
+discovered_by = chinese
+
+1565.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	is_city = yes
+	trade_goods = tropical_wood
+}

@@ -1,0 +1,155 @@
+# Death of Kapilendra
+country_event = {
+	id = flavor_ori.3
+	title = flavor_ori.3.t
+	desc = flavor_ori.3.d
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					culture = telegu
+				}
+				set_province_flag = ori_center_of_hamviras_revolt
+			}
+			every_owned_province = {
+				limit = {
+					is_capital = no
+					culture = telegu
+					NOT = { has_province_flag = ori_center_of_hamviras_revolt }
+				}
+				set_province_flag = ori_hamviras_revolt
+			}
+			random_owned_province = {
+				limit = {
+					is_capital = yes
+				}
+				set_province_flag = ori_center_of_puroshottama_revolt
+			}
+			every_owned_province = {
+				limit = {
+					is_capital = no
+					culture = oriya
+					NOT = { has_province_flag = ori_center_of_puroshottama_revolt }
+				}
+				set_province_flag = ori_puroshottama_revolt
+			}
+		}
+	}
+	
+	option = {
+		name = flavor_ori.3.a	#Purushottama
+		ai_chance = { factor = 95 }
+		hidden_effect = {
+			kill_heir = yes
+			every_neighbor_country = {
+				limit = {
+					NOT = { tag = BAH }
+				}
+			country_event = { id = flavor_ori.4 }
+			}
+			if = {
+				limit = {
+					OR = {
+						2028 = { owned_by = BAH }
+						542 = { owned_by = BAH }
+						2037 = { owned_by = BAH }
+					}
+				}
+				BAH = { country_event = { id = flavor_ori.5 } }
+			}
+			if = {
+				limit = {
+					NOT = {
+						2028 = { owned_by = BAH }
+						542 = { owned_by = BAH }
+						2037 = { owned_by = BAH }
+					}
+				}
+				BAH = { country_event = { id = flavor_ori.4 } }
+			}
+		}
+		define_ruler = {
+			name = "Purushottama"
+			dynasty = "Gajapati"
+			claim = 20
+			mil = 5
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 1
+		}
+		random_owned_province = {
+			limit = {
+				has_province_flag = ori_center_of_hamviras_revolt
+			}
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+				culture = oriya
+				religion = hinduism
+				leader = "Hamvira Gajapati"
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = ori_hamviras_revolt
+			}
+			add_province_modifier = {
+				name = "ori_support_for_pretender"
+				duration = 1095
+			}
+		}
+		custom_tooltip = flavor_ori.3.a.tt
+	}
+	option = {
+		name = flavor_ori.3.b	#Hamvira
+		ai_chance = { factor = 5 }
+		hidden_effect = {
+			kill_heir = yes
+			every_neighbor_country = {
+				country_event = { id = flavor_ori.4 }
+			}
+		}
+		define_ruler = {
+			name = "Hamvira"
+			dynasty = "Gajapati"
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 1
+		}
+		random_owned_province = {
+			limit = {
+				has_province_flag = ori_center_of_puroshottama_revolt
+			}
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 3
+				culture = oriya
+				religion = hinduism
+				leader = "Puroshottama Gajapati"
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = ori_puroshottama_revolt
+			}
+			add_province_modifier = {
+				name = "ori_support_for_pretender"
+				duration = 1095
+			}
+		}
+		custom_tooltip = flavor_ori.3.a.tt
+	}
+}

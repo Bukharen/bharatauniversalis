@@ -12,36 +12,13 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "events_jgd.1.a" #Install a Puppet	
+		name = "events_jgd.1.a" #Send an ultimatum.
 		ai_chance = { 
 			factor = 100 	
 		}
 		GUJ = {
-			white_peace = ROOT
-			kill_ruler = yes
-			kill_heir = yes
-			change_religion = ROOT
-			define_ruler = {
-				dynasty = ROOT
-				culture = ROOT
-				religion = ROOT
-			}	
-			every_subject_country = { 
-				grant_independence = yes		
-			}	
-		}
-		2054 = {
-			cede_province = ROOT
-			change_province_name = "Kavarnati"
-			rename_capital = "Kavarnati"			
-		}
-		2053 = {
-			cede_province = ROOT
-		}
-		4457 = {
-			cede_province = ROOT
-		}
-		vassalize = GUJ
+			country_event = { id = events_jgd.2 }
+		}	
 	}
 	option = {
 		name = "events_jgd.1.b" #Burn it to the ground.
@@ -54,6 +31,9 @@ country_event = {
 			add_base_tax = 3
 			add_base_production = 3
 			add_base_manpower = 3
+		}
+		GUJ = {
+			country_event = { id = events_jgd.3 }
 		}	
 	}
 	option = {
@@ -61,5 +41,115 @@ country_event = {
 		add_stability_or_adm_power = yes
 		add_dip_power = 100
 		add_prestige = -20
+	}	
+}
+
+country_event = {
+	id = events_jgd.2
+	title = "events_jgd.2.tt"
+	desc = "events_jgd.2.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jgd.2.a" #Accept
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 2
+				is_in_war = {
+					war_score = -80
+				}
+			}
+		}
+		FROM = {
+			country_event = { id = events_jgd.4 }
+		}			
+	}
+	option = {
+		name = "events_jgd.2.b" #Refuse to accept.
+		ai_chance = {
+			factor = 65
+		}	
+		add_war_exhaustion = 2
+		FROM = {
+			country_event = { id = events_jgd.5 }
+		}	
+	}	
+}
+
+country_event = {
+	id = events_jgd.3
+	title = "events_jgd.3.tt"
+	desc = "events_jgd.3.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jgd.3.a" #How worrisome.
+		add_war_exhaustion = 2	
+	}	
+}
+
+country_event = {
+	id = events_jgd.4
+	title = "events_jgd.4.tt"
+	desc = "events_jgd.4.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jgd.4.a" #Great
+		GUJ = {
+			white_peace = ROOT
+			kill_ruler = yes
+			kill_heir = yes
+			change_religion = ROOT
+			define_ruler = {
+				dynasty = ROOT
+				culture = ROOT
+				religion = ROOT
+			}    
+			every_subject_country = { 
+				grant_independence = yes        
+			}    
+			2054 = {
+				cede_province = ROOT
+				change_province_name = "Karnavati"
+				rename_capital = "Karnavati"            
+			}
+			2053 = {
+				cede_province = ROOT
+			}
+			4457 = {
+				cede_province = ROOT
+			}
+		}	
+		vassalize = GUJ	
+	}	
+}
+
+country_event = {
+	id = events_jgd.5
+	title = "events_jgd.5.tt"
+	desc = "events_jgd.5.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_jgd.5.a" #How troublesome.
+		add_prestige = -5
 	}	
 }

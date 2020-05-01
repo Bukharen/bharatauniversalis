@@ -1,0 +1,4 @@
+rjk_trade_ambitions = {
+	global_ship_cost = -0.1
+	trade_range_modifier = 0.1
+}

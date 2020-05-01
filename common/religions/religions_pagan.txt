@@ -15,10 +15,6 @@ pagan = {
 			tolerance_heretic = 1
 		}
 		
-		province = {
-			local_missionary_strength = -0.01
-		}
-		
 		on_convert = {
 			change_religion = donyipolo
 			add_prestige = -100
@@ -34,7 +30,7 @@ pagan = {
 	
 	niamtre = {
 		color = { 166 0 103 }
-		icon = 31
+		icon = 11
 		allowed_conversion = {
 			hinduism
 		}
@@ -67,14 +63,14 @@ pagan = {
 			hinduism
 		}
 		country = {
-			land_attrition = -0.1
+			tolerance_own = 1
 			unjustified_demands = -0.05
 		}
 		country_as_secondary = {
 			hostile_attrition = 1
 			institution_spread_from_true_faith = 0.1
 		}
-		
+		personal_deity = yes
 		
 		on_convert = {
 			change_religion = sanamahism
@@ -90,7 +86,7 @@ pagan = {
 	}	
 	phiism = {
 		color = { 255 198 217 }
-		icon = 32
+		icon = 11
 		allowed_conversion = {
 			hinduism
 		}
@@ -102,6 +98,7 @@ pagan = {
 			production_efficiency = 0.1
 			global_institution_spread = 0.1	
 		}
+		uses_harmony = yes
 		
 		on_convert = {
 			change_religion = phiism
@@ -115,4 +112,36 @@ pagan = {
 		
 		heretic = { TAIISM }
 	}	
+	anitism = {
+		color = { 127 183 190 }
+		icon = 11
+		allowed_conversion = {
+			hinduism
+			sunni
+			mahayana
+		}
+		country = {
+			unjustified_demands = -0.1
+			global_institution_spread = -0.1
+		}
+		country_as_secondary = {
+			global_trade_goods_size_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = anitism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}		
 }	

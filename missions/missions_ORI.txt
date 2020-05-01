@@ -4,6 +4,7 @@ ori_1 = {
 	ai = yes
 	potential = {
 		tag = ORI
+		has_country_flag = picked_mod
 	}
 	has_country_shield = yes
 	
@@ -44,9 +45,7 @@ ori_1 = {
 		required_missions = { ori_garjati_fealty }
 		position = 2
 		provinces_to_highlight = {
-			every_owned_province = {
-				NOT = { accepted_culture = ROOT }	
-			}	
+			NOT = { accepted_culture = ROOT }		
 		}		
 		trigger = {
 			OR = {
@@ -151,11 +150,68 @@ ori_1 = {
 			add_dip_power = 100
 		}	
 	}
-	
+	ori_barabati = {
+		icon = mission_conquer_orissa_vij
+		required_missions = { }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 552	
+		}		
+		trigger = {
+			552 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}	
+			}	
+		}	
+		effect = {
+			552 = {
+				add_province_modifier = {
+					name = ori_fort
+					duration = -1
+				}
+			}	
+		}	
+	}	
+	ori_defend_jungle = {
+		icon = mission_a_million_rice_fields
+		required_missions = { ori_barabati }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				culture = garjati
+				culture = gondi
+				culture = jharkhandi
+			}	
+		}		
+		trigger = {
+			any_owned_province = {
+				culture = garjati
+				has_building = fort_15th
+			}
+			any_owned_province = {
+				culture = jharkhandi
+				has_building = fort_15th
+			}
+			any_owned_province = {
+				culture = gondi
+				has_building = fort_15th
+			}			
+		}	
+		effect = {
+			add_country_modifier = {
+				name = ori_junglefort
+				duration = 9125
+			}	
+		}	
+	}
 	ori_navy = {
 		icon = mission_naval_dominance 
 		required_missions = { }
-		position = 7
+		position = 9
 	
 		trigger = {
 			navy_size_percentage = 0.99
@@ -172,7 +228,7 @@ ori_1 = {
 	ori_shipyards = {
 		icon = mission_naval_dominance 
 		required_missions = { ori_navy ori_andamans }
-		position = 8
+		position = 10
 	
 		trigger = {
 			shipyard = 5
@@ -198,6 +254,7 @@ ori_2 = {
 	ai = yes
 	potential = {
 		tag = ORI
+		has_country_flag = picked_mod
 	}
 	has_country_shield = yes
 	
@@ -211,7 +268,7 @@ ori_2 = {
 			num_of_generals = 1
 		}	
 		effect = {
-			bastar_area = {
+			garjat_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -219,10 +276,6 @@ ori_2 = {
 				add_permanent_claim = ROOT
 			}
 			4471 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}			
 		}	
@@ -232,13 +285,13 @@ ori_2 = {
 		required_missions = { ori_prep }
 		position = 2
 		provinces_to_highlight = {
-			area = bastar_area
+			area = garjat_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}		
 		trigger = {
-			bastar_area = {
+			garjat_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}	
@@ -288,7 +341,7 @@ ori_2 = {
 	ori_koch = {
 		icon = mission_conquer_koch
 		required_missions = { ori_bengal }
-		position = 4
+		position = 5
 		provinces_to_highlight = {
 			area = north_bengal_area
 			NOT = {
@@ -314,7 +367,7 @@ ori_2 = {
 	ori_develop_bengal = {
 		icon = mission_clear_the_delta
 		required_missions = { ori_koch }
-		position = 5
+		position = 6
 		provinces_to_highlight = {
 			OR = {
 				area = north_bengal_area
@@ -382,7 +435,7 @@ ori_2 = {
 	ori_bengali_textiles = {
 		icon = mission_general_land_assessment
 		required_missions = { ori_develop_bengal }
-		position = 6
+		position = 8
 		provinces_to_highlight = {
 			OR = {
 				area = north_bengal_area
@@ -424,7 +477,7 @@ ori_2 = {
 	ori_andamans = {
 		icon = mission_grand_bengali_shipyards
 		required_missions = { }
-		position = 7
+		position = 9
 		provinces_to_highlight = {
 			province_id = 574
 		}		
@@ -453,6 +506,7 @@ ori_3 = {
 	ai = yes
 	potential = {
 		tag = ORI
+		has_country_flag = picked_mod
 	}
 	has_country_shield = yes
 	
@@ -507,7 +561,7 @@ ori_3 = {
 	ori_bengal = {
 		icon = mission_steer_trade_to_bengal
 		required_missions = { ori_mallabhum }
-		position = 3
+		position = 4
 		provinces_to_highlight = {
 			OR = {
 				area = west_bengal_area
@@ -652,6 +706,7 @@ ori_4 = {
 	ai = yes
 	potential = {
 		tag = ORI
+		has_country_flag = picked_mod
 	}
 	has_country_shield = yes
 
@@ -691,7 +746,8 @@ ori_4 = {
 		position = 2
 		provinces_to_highlight = {
 			OR = {
-				area = uttarandhra_area
+				province_id = 549
+				province_id = 2080
 				province_id = 2038
 			}
 			NOT = {
@@ -699,10 +755,12 @@ ori_4 = {
 			}	
 		}		
 		trigger = {
-			uttarandhra_area = {
-				type = all
+			2080 = {
 				culture = oriya
 			}
+			549 = {
+				culture = oriya
+			}			
 			2038 = {
 				culture = oriya
 			}	
@@ -738,62 +796,6 @@ ori_4 = {
 			}
 		}
 		
-	}
-	
-	ori_telingana = {
-		icon = mission_rule_the_garjats
-		required_missions = {  }
-		position = 4
-		provinces_to_highlight = {
-			owned_by = TLG
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			OR = {
-				TLG = {
-					exists = yes
-					vassal_of = BAH
-					has_opinion = {
-						who = ROOT
-						value = 100
-					}
-				}
-				AND = {
-					4436 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					4439 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}	
-			}
-		}	
-		effect = {
-			if = {
-				limit = {
-					TLG = {
-						exists = yes
-						vassal_of = BAH
-						has_opinion = {
-							who = ROOT
-							value = 100
-						}
-					}
-				}
-				country_event = { id = events_ori.1 }
-			}
-			else = {
-				telingana_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT	}
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}	
-			}	
-		}	
 	}
 	ori_restore_velama = {
 		icon = mission_rein_in_the_velamas
@@ -969,6 +971,7 @@ ori_5 = {
 	ai = yes
 	potential = {
 		tag = ORI
+		has_country_flag = picked_mod
 	}
 	has_country_shield = yes
 	
@@ -994,8 +997,8 @@ ori_5 = {
 	
 	ori_education = {
 		icon = mission_vedic_education
-		required_missions = { ori_jagannath ori_succession }
-		position = 2
+		required_missions = { ori_jagannath }
+		position = 3
 
 		trigger = {
 			552 = {
@@ -1008,68 +1011,61 @@ ori_5 = {
 			country_event = { id = events_ori.7 }
 		}	
 	}	
-	
-	ori_barabati = {
-		icon = mission_conquer_orissa_vij
-		required_missions = { }
-		position = 3
+	ori_telingana = {
+		icon = mission_rule_the_garjats
+		required_missions = {  }
+		position = 4
 		provinces_to_highlight = {
-			province_id = 552	
-		}		
+			owned_by = TLG
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
 		trigger = {
-			552 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
+			OR = {
+				TLG = {
+					exists = yes
+					vassal_of = BAH
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+				AND = {
+					4436 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4439 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}	
+			}
+		}	
+		effect = {
+			if = {
+				limit = {
+					TLG = {
+						exists = yes
+						vassal_of = BAH
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+				}
+				country_event = { id = events_ori.1 }
+			}
+			else = {
+				telingana_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT	}
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
 				}	
 			}	
 		}	
-		effect = {
-			552 = {
-				add_province_modifier = {
-					name = ori_fort
-					duration = -1
-				}
-			}	
-		}	
-	}	
-	ori_defend_jungle = {
-		icon = mission_a_million_rice_fields
-		required_missions = { ori_barabati }
-		position = 4
-		provinces_to_highlight = {
-			every_owned_province = {
-				OR = {
-					culture = garjati
-					culture = gondi
-					culture = jharkhandi
-				}
-			}	
-		}		
-		trigger = {
-			any_owned_province = {
-				culture = garjati
-				has_building = fort_15th
-			}
-			any_owned_province = {
-				culture = jharkhandi
-				has_building = fort_15th
-			}
-			any_owned_province = {
-				culture = gondi
-				has_building = fort_15th
-			}			
-		}	
-		effect = {
-			add_country_modifier = {
-				name = ori_junglefort
-				duration = 9125
-			}	
-		}	
 	}
-	
 	ori_andhra = {
 		icon = mission_fortify_rajputana
 		required_missions = { ori_telingana }
@@ -1194,7 +1190,7 @@ ori_5 = {
 			}	
 		}	
 	}
-	ori_coromandel_trade = {
+	ori_coromandel_trade_mission = {
 		icon = mission_coromandel_trade
 		required_missions = { ori_city_of_victory }
 		position = 8
@@ -1230,7 +1226,7 @@ ori_5 = {
 	}	
 	ori_lanka = {
 		icon = mission_conquer_lanka
-		required_missions = { ori_coromandel_trade }
+		required_missions = { ori_coromandel_trade_mission }
 		position = 9
 		provinces_to_highlight = {
 			OR = {
@@ -1260,10 +1256,6 @@ ori_5 = {
 				add_permanent_claim = ROOT
 			}
 			1248 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}			
 			add_country_modifier = {
