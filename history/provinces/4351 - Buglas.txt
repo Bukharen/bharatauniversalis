@@ -1,6 +1,6 @@
 #4351 - Buglas
 
-culture = visayan
+culture = cebuano
 religion = anitism
 capital = "Silay"
 trade_goods = unknown

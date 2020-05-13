@@ -1,0 +1,25 @@
+﻿l_english:
+#Generic Saurashtri
+ tooltip_JGD.1: "§YHave you or an ally control Ahmadabad whilst you and your ally have at least 50% war score in a war against Gujarat.§!"
+
+#Jaffna
+ tooltip_jfn.1: "§YThis WILL mean war with Vijayanagar.§!"
+ tooltip_jfn.2: "§YVijayanagar invades.§!"
+ tooltip_jfn.3: "§YAll uncontrolled provinces in the Madura, Tanjore, North Carnatic, and South Carnatic areas will come under Jaffna control.§!" 
+
+#Khmer
+ tooltip_khm.1: "§YDepending on the advisor you employ, you will receive different benefits.§!"
+ tooltip_khm.2: "§YEvery Khmer province§! with a §YTemple§! or a §YCathedral§! will gain a benefit to tax and development cost."
+ tooltip_khm.3: "§YOur monarch has gained a reputation as a liberator of our people and as such will give +1 Yearly Prestige for as long as they reign.§!"
+ 
+#Kotte
+ tooltip_cey.1: "§YThis will risk the wrath of Vijayanagar and will likely lead to war with Jaffna.§!"
+ 
+#Lan Xang
+ tooltip_lxa.1: "§YAll provinces in the new Grand Lao Road will receive benefits to production and movement.§!"
+ tooltip_lxa.2: "§YAll states in the Burma region will become our vassals OR we will get claims on all of their land.§!"
+ 
+#Orissa
+ tooltip_ori.1: "§YThis may mean war with Bahmanis.§!"
+ tooltip_ori.2: "§YThis will anger the Bengalis of our nation.§!"
+ tooltip_ori.3: "§YHas had the succession crisis, or surpassed it.§!"

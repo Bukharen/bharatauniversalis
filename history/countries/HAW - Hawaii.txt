@@ -1,0 +1,100 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hawaiian
+religion = animism
+technology_group = chinese
+capital = 1240 #Hawaii
+
+1435.1.1 = {
+	monarch = {
+		name = "Kihanuilulumoku"
+		dynasty = "Pili"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Liloa"
+		monarch_name = "Liloa"
+		dynasty = "Pili"
+		birth_date = 1435.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Liloa"
+		dynasty = "Pili"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	capital = 5313 #Hamakua
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Hakau"
+		monarch_name = "Hakau"
+		dynasty = "Pili"
+		birth_date = 1465.1.1
+		death_date = 1510.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Hakau"
+		dynasty = "Pili"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "'Umi-a-Liloa"
+		dynasty = "Pili"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1525.1.1 = {
+	monarch = {
+		name = "Keali'iokaloa"
+		dynasty = "Pili"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1545.1.1 = {
+	heir = {
+		name = "Keawe-nui-a-'Umi"
+		monarch_name = "Keawe-nui-a-'Umi"
+		dynasty = "Pili"
+		birth_date = 1505.1.1
+		death_date = 1575.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	capital = 5308 #Hilo
+}

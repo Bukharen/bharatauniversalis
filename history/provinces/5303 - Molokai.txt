@@ -1,0 +1,23 @@
+#5303 - Moloka'i
+
+owner = MOO
+controller = MOO
+culture = hawaiian
+religion = animism
+capital = "Kaunakakai"
+trade_goods = tropical_wood
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_core = MOO
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+
+
+1555.1.1 = { discovered_by = SPA }

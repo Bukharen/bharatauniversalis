@@ -1,0 +1,38 @@
+MAD_ideas = { #Madurai/Pandya
+	start = {
+		infantry_power = 0.1
+		land_morale = 0.1
+	}
+
+	bonus = {
+		development_cost = -0.1
+	}
+	
+	trigger = {
+		tag = MAD
+	}
+	free = yes
+	
+	MAD_links_with_the_past = {
+		legitimacy = 1
+	}
+	MAD_ancient_trade_routes = {
+		trade_efficiency = 0.05
+		trade_range_modifier = 0.2
+	}
+	MAD_centuries_of_conflict = {
+		army_tradition_decay = -0.01
+	}
+	MAD_tamil_literature = {
+		prestige = 1
+	}		
+	MAD_temple_building = {
+		build_cost = -0.2
+	}
+	MAD_schools_of_hinduism = {
+		tolerance_own = 2
+	}	
+	MAD_pearl_fisheries = {
+		production_efficiency = 0.1
+	}
+}

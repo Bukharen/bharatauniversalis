@@ -4,6 +4,10 @@
  marwari: "Marwari"
  dhundhari: "Dhundhari"
  vagadi: "Vagadi"
+ konkani: "Konkani"
+ 
+#Eastern Aryan
+ dhivehi: "Dhivehi"
  
 #Tibeto-Burman 
  deori: "Deori"
@@ -18,3 +22,11 @@
  visayan: "Bisayan"
  palaweno: "Palaweño"
  tagalog: "Tagalog"
+ waray: "Waray"
+ mangyan: "Mangyan"
+ pangasinanan: "Pangasinan"
+ igorot: "Ifugao"
+ 
+#Polynesian
+ polynesian_group: "Polynesian"
+ hawaiian: "Hawai'ian"

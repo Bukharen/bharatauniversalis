@@ -1,0 +1,24 @@
+#5224 - Ibabao
+
+culture = waray
+religion = anitism
+capital = "Ibabao"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 70
+native_ferocity = 7
+native_hostileness = 9
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1565.6.4 = {	
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	is_city = yes
+	religion = catholic
+}

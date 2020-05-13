@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = chinese
+primary_culture = bicolano
+capital = 5209 # Libog
+religion = anitism

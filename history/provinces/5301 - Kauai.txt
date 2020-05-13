@@ -1,0 +1,23 @@
+#5301 - Kaua'i
+
+owner = KAI
+controller = KAI
+culture = hawaiian
+religion = animism
+capital = "Waimea"
+trade_goods = grain
+is_city = yes
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+add_core = KAI
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+
+
+1555.1.1 = { discovered_by = SPA }

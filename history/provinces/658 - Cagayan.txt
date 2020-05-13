@@ -20,7 +20,6 @@ discovered_by = indian
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	culture = castillian
 	religion = catholic
 	capital = "Nueva Segovia"
 	is_city = yes

@@ -1,0 +1,23 @@
+#5304 - Lana'i
+
+owner = MAU
+controller = MAU
+culture = hawaiian
+religion = animism
+capital = "Lana'i"
+trade_goods = fish
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = MAU
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+
+
+1555.1.1 = { discovered_by = SPA }

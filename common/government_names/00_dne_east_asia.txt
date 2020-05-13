@@ -1,0 +1,48 @@
+ruffy_korean_titles = {
+    rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+    }
+    
+    ruler_male = {
+		1 = PRINCE
+		2 = IMGEUM
+		3 = HWANGJAE
+    }
+    
+    ruler_female = {
+		1 = WANGHU
+		2 = WANGHU
+		3 = YEOJAE
+    }
+    
+    consort_male = {
+		1 = GUKSEO
+		2 = GUKSEO
+		3 = GUKSEO
+    }
+    
+    consort_female = {
+		1 = WANGHU
+		2 = WANGHU
+		3 = HWANGHU
+    }
+    
+    heir_male = {
+		1 = SAEJA
+		2 = SAEJA
+		3 = TAEJA
+    }
+    
+    heir_female = {
+		1 = SAENYEO
+		2 = SAENYEO
+		3 = TAENYEO
+    }
+    
+    trigger = {
+        tag = KOR
+        government = monarchy
+    }
+}

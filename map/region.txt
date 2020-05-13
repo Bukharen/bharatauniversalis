@@ -1078,6 +1078,10 @@ philippines_region = {
 		zamboanga_area
 		butuan_area
 		buglas_area
+		samar_area
+		mindoro_area
+		east_bikol_area
+		agno_basin_area
 	}
 	monsoon = {
 		00.10.01
@@ -1089,6 +1093,20 @@ philippines_region = {
 	}	
 }
 
+#mod
+hawaii_region = {
+	areas = {
+		#mod
+		north_hawaii_area
+		south_hawaii_area
+		maui_area
+		kauai_area
+	}
+	monsoon = {
+		00.07.01
+		00.10.30
+	}	
+}	
 indonesia_region = { #Eastern Indonesian/Malayan Islands.
 	areas = {
 		kutai_area

@@ -1,0 +1,22 @@
+#5220 - Siquijor
+
+owner = SIQ
+controller = SIQ
+culture = cebuano
+religion = anitism
+capital = "Siquijor"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = SIQ
+discovered_by = chinese
+discovered_by = indian
+
+1565.1.1 = {
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	add_core = SPA
+}

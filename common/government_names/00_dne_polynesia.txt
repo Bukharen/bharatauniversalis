@@ -1,0 +1,64 @@
+hawaiian_titles = {
+	rank = {
+		1 = CHIEFDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = ALI_I
+		2 = ALI_I
+		3 = ALI_I_NUI
+	}
+	
+	ruler_female = {
+		1 = ALI_I
+		2 = ALI_I
+		3 = ALI_I_NUI
+	}
+	
+	consort_male = {
+		1 = ALI_I
+		2 = ALI_I
+		3 = ALI_I_NUI
+	}
+	
+	consort_female = {
+		1 = ALI_I
+		2 = ALI_I
+		3 = ALI_I_NUI
+	}
+	
+	trigger = {
+		culture = hawaiian
+	}
+}
+
+hawaiian_subject_titles = {
+	rank = {
+		1 = CHIEFDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = KAUKAUALI_I
+	}
+	
+	ruler_female = {
+		1 = KAUKAUALI_I
+	}
+	
+	consort_male = {
+		1 = KAUKAUALI_I
+	}
+	
+	consort_female = {
+		1 = KAUKAUALI_I
+	}
+	
+	trigger = {
+		culture = hawaiian
+		is_subject = yes
+	}
+}

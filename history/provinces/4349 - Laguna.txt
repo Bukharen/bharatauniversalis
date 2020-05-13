@@ -3,7 +3,7 @@
 owner = TDO
 controller = TDO
 add_core = TDO
-culture = bicolano
+culture = tagalog
 religion = anitism
 capital = "Laguna"
 trade_goods = grain

@@ -18,14 +18,18 @@
 #Removed Laguna (4349) from luzon_area
 #Removed Panay (2700) from visayas_area
 #Removed Samar (654) from visayas_area
-#Removed Laguna (4349) from southern_luzon_area
 #Temporarily added Arunachal (1788) to assam_area
 #Temporarily added Talaud (5212) to spice_islands_area
 #Removed Buglas (4351) and Leyte (4353) from visayas_area
 #Added Buglas (4351) to buglas_area
 #Removed Butuan (2702) from mindanao_area
 #Removed Zamboanga (4354) from west_mindanao_area
-#Added Samar (654) to east_visayas_area
+#Added Samar (654) to samar_area
+#Removed Hawai'i (1240) from northern_polynesia_area
+#Temporarily added Sangihe (5221) to spice_islands_area
+#Removed Mindoro (4350) from southern_luzon_area and added it to mindoro_area
+#Removed Ifugao (4348) from luzon_area and added it to southern_luzon_area
+#Removed Pangasinan (2698) from luzon_area and added it to agno_basin_area
 
 #Sea Areas:
 #No restriction on size.
@@ -307,8 +311,24 @@ bahama_channel_area = {
 
 #mod 
 
+maui_area = { #5
+	5303 5304 5305 5306 5307
+}
+
+north_hawaii_area = { #3
+	5311 5312 5313
+}
+
+south_hawaii_area = { #3
+	5308 5309 5310
+}
+
+kauai_area = { #3
+	5302  5300 5301
+}
+
 bharatpur_area = { #4
-	 4465 4500 4991 4996
+	4465 4500 4991 4996
 }
 
 vagad_area = { #3
@@ -331,10 +351,18 @@ sulu_area = { #3
 	651 5201 5202
 }
 
-bikol_area = { #5
-	2699 4349 5203 5206 5209
+bikol_area = { #3
+	2699 5206 5228
 }
-	
+
+east_bikol_area = { #4
+	5203 5209 5229 5231
+}
+
+agno_basin_area = { #2 - Added Ifugao (4349) and Pangasinan (2698)
+	2698 4348
+}
+
 north_visayas_area = { #3
 	2700 5200 5205
 }
@@ -347,14 +375,21 @@ zamboanga_area = { #3
 	4354 5210 5211
 }
 
-buglas_area = { #4
-	4351 5215 5216 5219
+buglas_area = { #5
+	4351 5215 5216 5219 5220
 }
 
-east_visayas_area = { #4
-	654 4353 5217 5218
+east_visayas_area = { #4 #Leyte Area
+	4353 5217 5218
 }
 
+samar_area = { #3
+	654 5223 5224
+}	
+
+mindoro_area = { #4
+	4350 5225 5226 5234
+}
 	
 ########################################
 # France					 		   #
@@ -1741,8 +1776,8 @@ murray_river_area = { #5
 	1086 1087 1088 2735 2736
 }
 
-northern_polynesia_area = { #3
-	979 1240 1997
+northern_polynesia_area = { #2 - Removed Hawai'i
+	979 1997
 }
 
 eastern_polynesia_area = { #3
@@ -2398,12 +2433,12 @@ palawan_area = { #3
 	655 4356 5207
 }
 
-luzon_area = { #4 (Northern Luzon)
-	657 658 2698 4348
+luzon_area = { #5 (Northern Luzon) - Added Batanes (5222), Removed Pangasinan (2698)
+	657 658 5222 5230 5232
 }
 
-southern_luzon_area = { #3
-	656 2697 4350
+southern_luzon_area = { #4 - Removed Mindoro (4350)
+	656 2697 4349 5227
 }
 
 north_sumatra_area = { #3
@@ -2458,8 +2493,8 @@ molluca_area = { #4
 	645 2696 2717 2725
 }
 
-spice_islands_area = { #4 #Temporarily added Talaud(5212)
-	648 649 650 5212
+spice_islands_area = { #5 #Temporarily added Talaud (5212) and Sangihe (5221)
+	648 649 650 5212 5221
 }
 
 ceram_area = { #2

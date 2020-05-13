@@ -1,0 +1,22 @@
+#5313 - Hamakua
+
+owner = HAW
+controller = HAW
+culture = hawaiian
+religion = animism
+capital = "Koholalele"
+trade_goods = fish
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+add_core = HAW
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+
+1555.1.1 = { discovered_by = SPA }

@@ -1,0 +1,49 @@
+MMA_ideas = {
+	start = { #Resist Chinese Treachery
+		land_morale = 0.1
+		shock_damage_received = -0.1
+	}
+	
+	bonus = { #The Nam Mao River
+		development_cost = -0.1
+	}
+	
+	trigger = { #will be added at load.
+		OR = {
+			tag = MMA
+			AND = {
+				tag = MYA
+				has_country_flag = mong_mao_is_now_mong_yang
+			}	
+		}
+	}
+	free = yes
+	
+
+	MMA_suck_up_to_china = { #Chinese Diplomacy
+		diplomats = 1
+	}	
+	MMA_raiding_china = { #Raid Yunnan
+		loot_amount = 0.15
+		leader_land_manuever = 1
+	}	
+	MMA_surviving_on_in_mong_yang = { #Surviving in Mong Yang
+		army_tradition = 0.5
+		fort_maintenance_modifier = -0.1
+	}	
+	MMA_sukaphaa_was_shan = { #Mong Dun Shum Kham
+		prestige_decay = -0.01
+		num_accepted_cultures = 1
+	}
+	MMA_centerpiece_in_hills = { #At Crucial Crossroads
+		caravan_power = 0.15
+		state_maintenance_modifier = -0.1
+	}
+	MMA_conquered_ava_historically = { #Conquerors of Ava
+		free_mil_policy = 1
+	}			
+	MMA_unite_tribes = { #Unite the Diverse Tribes
+		province_warscore_cost = -0.1
+	}
+}	
+	

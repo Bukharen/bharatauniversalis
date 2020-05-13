@@ -2,7 +2,7 @@
 
 owner = IFU
 controller = IFU
-culture = ilocano
+culture = igorot
 religion = anitism
 capital = "Hungduan"
 trade_goods = grain

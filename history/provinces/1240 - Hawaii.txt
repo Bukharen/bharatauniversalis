@@ -1,0 +1,8 @@
+#1240 - Hawai'i
+
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU

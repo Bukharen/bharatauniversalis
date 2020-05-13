@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = chinese
+primary_culture = ilocano
+capital = 5222 #Batanes
+religion = anitism

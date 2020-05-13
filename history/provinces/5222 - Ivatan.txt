@@ -1,0 +1,27 @@
+#5222 - Ivatan
+
+owner = IVA
+controller = IVA
+culture = ilocano
+religion = anitism
+capital = "Ivatan"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = IVA
+discovered_by = chinese
+discovered_by = indian
+fort_15th = yes
+
+1687.1.1 = { 
+	discovered_by = ENG 
+	discovered_by = NED 
+}
+
+1783.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}

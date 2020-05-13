@@ -14,7 +14,7 @@ JFN_ideas = { #Jaffna
 	free = yes		#will be added at load.
 		
 	JFN_tamil_lanka = {
-		army_tradition = 0.25
+		army_tradition = 0.5
 	}
 	JFN_vijayanagari_diplomacy = {
 		improve_relation_modifier = 0.25

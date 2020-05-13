@@ -1,0 +1,18 @@
+#5230 - Kalinga
+
+owner = IFU
+controller = IFU
+culture = igorot
+religion = anitism
+capital = "Kalinga"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = IFU
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan

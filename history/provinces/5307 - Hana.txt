@@ -1,0 +1,23 @@
+#5307 - Hana
+
+owner = HNA
+controller = HNA
+culture = hawaiian
+religion = animism
+capital = "Hana"
+trade_goods = grain
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+add_core = HNA
+fort_15th = yes #Kauwiki
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+
+1555.1.1 = { discovered_by = SPA }

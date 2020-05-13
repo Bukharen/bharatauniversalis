@@ -1,0 +1,40 @@
+DGL_ideas = {
+	start = {
+		merchants = 1 #Trading Heritage
+		navy_tradition = 1
+	}
+	
+	bonus = {
+		yearly_absolutism = 0.1 #Supreme Royal Power
+	}
+	
+	trigger = {
+		tag = DGL		#will be added at load.
+	}
+	free = yes
+	
+	DGL_somali_heritage = { #Royal Somali Heritage
+		num_accepted_cultures = 1
+		possible_adm_policy = 1
+	}
+	DGL_the_cowrie_trade = { #Exporting Cowrie Shells
+		global_tax_modifier = 0.1
+	}	
+	DGL_the_coir_trade = { #Engage in the Coir Trade
+		global_trade_goods_size_modifier = 0.1
+	}	
+	DGL_double_fronted_gateway = { #Gateway to the West and East
+		range = 0.25
+		trade_range_modifier = 0.25
+	}			
+	DGL_lomafanu = { #Lomafanu
+		prestige_decay = -0.01
+	}	
+	DGL_proselytize_maldives = { #Convert the Dhivehi
+		missionaries = 1
+	}		
+	DGL_repel_europe = { #Repel European Advances
+		naval_morale = 0.1
+		hostile_attrition = 1
+	}	
+}	

@@ -2,17 +2,17 @@
 
 graphical_culture = asiangfx
 
-color = { 92 93 141 }
+color = { 56 24 47 }
 
 historical_idea_groups = {
 	defensive_ideas	
 	trade_ideas
-	quality_ideas
-	economic_ideas
-	spy_ideas
-	offensive_ideas
 	maritime_ideas
-	religious_ideas
+	religious_ideas	
+	quality_ideas
+	economic_ideas	
+	offensive_ideas
+	spy_ideas
 }
 
 historical_units = {
@@ -65,5 +65,5 @@ ship_names = {
 	Kulassein Pangutaran Panducan Marunggas Cap
 	Laparan Dammail Lapac Siasi Lungus Tapul 
 	Cabingaan Julu Pata Kalingalan Capual Bangalao
-	Simsa Balanguingle Bucutua Suluan
+	Simsa Balanguingle Bucutua Suluan Samar
 }

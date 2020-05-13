@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = chinese
+primary_culture = waray
+capital = 4353 #Ete/Kankabatok/Tacloban
+religion = anitism

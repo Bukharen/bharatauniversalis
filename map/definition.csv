@@ -649,14 +649,14 @@ province;red;green;blue;x;x
 648;92;48;192;Halmahera;x
 649;220;50;255;Ternate;x
 650;92;52;0;Tidore;x
-651;221;54;64;Sulu;x
-652;93;56;128;Maguindanae;x
-653;221;58;192;Tagoloan;x
-654;93;60;255;Samar;x
-655;221;62;0;Palawan;x
-656;93;64;64;Manila;x
-657;221;66;128;Samtoy;x
-658;94;68;192;Cagayan;x
+651;238;151;218;Sulu;x
+652;251;221;242;Maguindanae;x
+653;248;217;227;Tagoloan;x
+654;193;81;162;Samar;x
+655;233;166;229;Palawan;x
+656;176;71;147;Manila;x
+657;181;127;153;Samtoy;x
+658;243;187;216;Cagayan;x
 659;222;70;255;Riau;x
 660;94;72;0;Xishuan Banna;x
 661;222;74;64;Dali;x
@@ -1238,7 +1238,7 @@ province;red;green;blue;x;x
 1237;185;70;173;Papua;x
 1238;57;172;32;Solomon Islands;x
 1239;185;74;79;Vanuatu;x
-1240;58;76;126;Hawaii;x
+1240;34;23;157;Hawaii;x
 1241;186;78;173;Kiribati;x
 1242;58;180;32;Fiji;x
 1243;186;82;79;Samoa;x
@@ -2695,12 +2695,12 @@ province;red;green;blue;x;x
 2694;136;210;148;East Gangwon;x
 2695;107;66;100;East Timor;x
 2696;181;45;81;Yamdena;x
-2697;163;70;58;Tondo;x
-2698;163;207;58;Pangasinan;x
-2699;255;75;66;Bikol;x
-2700;197;255;53;Panay;x
-2701;219;211;164;Tagloc;x
-2702;65;219;88;Butuan;x
+2697;246;198;225;Tondo;x
+2698;222;163;192;Pangasinan;x
+2699;249;210;234;Bikol;x
+2700;241;190;239;Panay;x
+2701;203;171;179;Tagloc;x
+2702;247;204;229;Butuan;x
 2703;104;158;82;Lehad Datu;x
 2704;132;76;108;Sibu;x
 2705;131;183;111;Kuching;x
@@ -4346,15 +4346,15 @@ province;red;green;blue;x;x
 4345;155;155;198;Saidabad;x
 4346;149;226;227;Qamr Bay;x
 4347;144;206;207;Pirate Coast;x
-4348;198;47;101;Ifuago;x
-4349;105;219;142;Laguna;x
-4350;154;86;212;Mindoro;x
-4351;104;196;152;Buglas;x
-4352;219;168;88;Cebu;x
-4353;89;35;145;Leyte;x
-4354;135;77;125;Zamboanga;x
-4355;248;245;172;Caraga;x
-4356;201;167;29;Taytay;x
+4348;250;215;238;Ifuago;x
+4349;201;145;173;Laguna;x
+4350;230;158;226;Mindoro;x
+4351;244;197;242;Buglas;x
+4352;233;123;205;Cebu;x
+4353;247;205;245;Leyte;x
+4354;245;192;221;Zamboanga;x
+4355;242;181;212;Caraga;x
+4356;235;174;233;Taytay;x
 4357;125;226;241;Visayan Sea;x
 4358;112;219;220;Cuyo Archipelago;x
 4359;185;227;40;Ise;x
@@ -4701,23 +4701,52 @@ province;red;green;blue;x;x
 4997;158;0;49;Sirohi;x
 4998;96;0;71;Visakhapatnam;x
 4999;142;0;69;Champaner;x
-5200;153;221;200;Masbate;x
-5201;149;191;116;Basilan;x
-5202;101;155;94;Tawi-tawi;x
-5203;85;111;68;Catanduanes;x
-5204;40;63;59;Bohol;x
-5205;68;17;81;Romblon;x
-5206;136;54;119;Marinduque;x
-5207;202;97;195;Calamianes;x
-5208;238;133;181;Sialo;x
-5209;255;149;140;Lawan;x
-5210;160;154;188;Samboangan;x
-5211;182;166;202;Tungawan;x
-5212;213;207;225;Talaud;x
-5213;225;222;233;Surigao;x
-5214;212;190;190;Dinagat;x
-5215;166;235;201;Ilog;x
-5216;97;255;126;Binalbagan;x
-5217;94;235;91;Kangara;x
-5218;98;171;55;Maasin;x
-5219;57;52;36;Dananguet;x
+5200;249;184;243;Masbate;x
+5201;243;167;230;Basilan;x
+5202;232;134;206;Tawi-tawi;x
+5203;226;117;194;Catanduanes;x
+5204;238;145;218;Bohol;x
+5205;214;83;169;Romblon;x
+5206;209;67;157;Marinduque;x
+5207;235;134;212;Calamianes;x
+5208;238;182;236;Sialo;x
+5209;244;167;230;Lawan;x
+5210;247;178;236;Samboangan;x
+5211;252;200;249;Tungawan;x
+5212;249;189;243;Talaud;x
+5213;227;101;193;Surigao;x
+5214;230;112;199;Dinagat;x
+5215;227;150;223;Ilog;x
+5216;190;120;186;Binalbagan;x
+5217;252;221;252;Kangara;x
+5218;249;213;249;Maasin;x
+5219;210;91;178;Dananguet;x
+5220;221;163;193;Siquijor;x
+5221;213;148;178;Sangihe;x
+5222;205;133;163;Ivatan;x
+5223;196;118;148;Tiayban;
+5224;179;88;118;Ibabao;x
+5225;189;117;149;Sabaylan;x
+5226;188;103;133;Mait;x
+5227;255;237;248;Pollilo;x
+5228;255;233;244;Quezon;x
+5229;255;229;240;Isarog;x
+5230;255;225;236;Kalinga;x
+5231;255;222;232;Ibalon;x
+5232;255;218;228;Ylokos;x
+5233;232;170;194;Mindoro Range;x
+5234;232;170;232;Pinamalayan;x
+5300;77;62;137;Niihau;x
+5301;69;55;129;Kauai;x
+5302;60;48;120;Oahu;x
+5303;52;41;112;Molokai;x
+5304;43;35;103;Lanai;x
+5305;34;28;94;Kahoolawe;x
+5306;26;21;86;Maui;x
+5307;9;7;69;Hana;x
+5308;114;76;249;Hilo;x
+5309;103;68;236;Puna;x
+5310;91;61;223;Kau;x
+5311;80;53;210;Kona;x
+5312;68;46;197;Kohala;x
+5313;57;38;184;Hamakua;x

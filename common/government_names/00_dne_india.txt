@@ -136,7 +136,7 @@ mewat_titles = {
 	}
 
 	trigger = {
-		tag = JSL
+		tag = MEW
 		religion_group = muslim
 	}
 }
@@ -150,7 +150,7 @@ meitei_titles = {
 	
 	ruler_male = {
 		1 = NINGTHEM
-		2 = GRANDNINGTHEM
+		2 = NINGTHEM
 		3 = GREATNINGTHEM
 	}
 	
@@ -186,7 +186,10 @@ meitei_titles = {
 	
 	trigger = {
 		tag = MLB
-		religion = animism
+		OR = {
+			religion = animism
+			religion = sanamahism
+		}	
 	}
 }
 
@@ -223,7 +226,13 @@ assam_titles = {
 	
 	trigger = {
 		tag = ASS
-		religion = hinduism
+		OR = {
+			religion = hinduism
+			religion = buddhism
+			religion = mahayana
+			religion = vajrayana
+			religion = phiism
+		}	
 	}
 }
 
@@ -261,13 +270,13 @@ calicut_titles = {
 	
 	ruler_male = {
 		1 = SAMOOTHIRI
-		2 = GRANDSAMOOTHIRI
+		2 = SAMOOTHIRI
 		3 = GREATSAMOOTHIRI
 	}
 	
 	consort_male = {
 		1 = SAMOOTHIRI
-		2 = GRANDSAMOOTHIRI
+		2 = SAMOOTHIRI
 		3 = GREATSAMOOTHIRI
 	}
 	
@@ -275,3 +284,17 @@ calicut_titles = {
 		tag = MAB
 		religion = hinduism
 	}
+}
+
+khalifatabad_titles = {
+	rank = {
+		1 = THEOCRATIC_GOVERNORATE
+	}
+	ruler_male = {
+		1 = KHANIAZAM
+	}
+	
+	trigger = {
+		tag = KFA
+	}	
+}	

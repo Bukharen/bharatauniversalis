@@ -1,6 +1,6 @@
 #2698 - Pangasinan
 
-culture = ilocano
+culture = pangasinanan
 religion = anitism
 capital = "Binalatongan"
 trade_goods = salt

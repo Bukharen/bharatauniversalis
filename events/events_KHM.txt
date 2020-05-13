@@ -1,0 +1,215 @@
+namespace = events_khm
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_khm.1
+	title = "events_khm.1.tt"
+	desc = "events_khm.1.dd"
+	picture = BUDDHA_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_khm.1.a" #Convert.
+		add_stability = -1
+		change_religion = hinduism
+		add_country_modifier = {
+			name = khm_new_religion
+			duration = 3650
+		}	
+	}
+	option = {
+		name = "events_khm.1.b" #Don't convert.
+		add_stability_or_adm_power = yes
+		if = {
+			limit = {
+				OR = {
+					religion = buddhism
+					religion = mahayana
+					religion = vajrayana
+				}
+				has_dlc = "Common Sense"
+			}
+			add_karma = 15
+		}
+		add_country_modifier = {
+			name = khm_stayed_buddhist
+			duration = 9125
+		}	
+	}	
+}
+
+country_event = {
+	id = events_khm.2
+	title = "events_khm.2.tt"
+	desc = "events_khm.2.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_khm.2.a" #Move it back to Angkor.
+		add_adm_power = -100
+		609 = {
+			change_province_name = "Yasodharapura"
+			rename_capital = "Yasodharapura"
+			move_capital_effect = yes	
+			add_base_tax = 2
+			if = {
+				limit = {
+					has_owner_religion = no
+				}
+				change_religion = ROOT
+			}	
+			if = {
+				limit = {
+					has_owner_culture = no
+				}
+				change_culture = ROOT
+			}
+			add_province_modifier = {
+				name = khm_new_capital_emigration
+				duration = 7300
+			}	
+		}		
+	}
+	option = {
+		name = "events_khm.2.b" #Move it to Phnom Penh.
+		add_adm_power = -100
+		add_treasury = -50
+		2380 = {
+			change_province_name = "Chaktomuk"
+			rename_capital = "Chaktomuk"
+			move_capital_effect = yes	
+			add_base_production = 1
+			if = {
+				limit = {
+					has_owner_religion = no
+				}
+				change_religion = ROOT
+			}	
+			if = {
+				limit = {
+					has_owner_culture = no
+				}
+				change_culture = ROOT
+			}
+			add_building_construction = {
+				building = fort_15th
+				speed = 0.5
+				cost = 0
+			}			
+			add_province_modifier = {
+				name = khm_new_capital_emigration
+				duration = 7300
+			}			
+		}
+	}	
+	option = {
+		name = "events_khm.2.c" #Oudong is just fine.
+		add_stability_or_adm_power = yes
+	}	
+}
+
+country_event = {
+	id = events_khm.3
+	title = "events_khm.3.tt"
+	desc = "events_khm.3.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_khm.3.a" #Sack it.
+		add_prestige = 20
+		600 = {
+			add_base_tax = -2
+			add_base_production = -2
+			add_base_manpower = -2
+			add_devastation = 100
+		}
+		capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+		every_owned_province = {
+			limit = {
+				culture = central_thai
+			}
+			add_unrest = 5
+		}	
+		AYU = {
+			country_event = { id = events_khm.4 }
+		}	
+	}
+	option = {
+		name = "events_khm.3.b" #Nah fam.
+		add_prestige = -10
+	}		
+}
+
+country_event = {
+	id = events_khm.4
+	title = "events_khm.4.tt"
+	desc = "events_khm.4.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_khm.4.a" #Worrisome.
+		add_stability = -1	
+	}		
+}
+
+country_event = {
+	id = events_khm.5
+	title = "events_khm.5.tt"
+	desc = "events_khm.5.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "events_khm.5.a" #Worrisome.
+		add_dip_power = 100
+		northern_thai_area = {
+			cede_province = LAM
+		}
+		create_march = LAM
+		589 = {
+			change_culture = mon
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			change_province_name = "Haripunchai"
+			rename_capital = "Haripunchai"			
+		}	
+		add_accepted_culture = mon
+		LAM = {
+			define_ruler = {
+				dynasty = "Haripunchai"
+				religion = ROOT
+				culture = mon
+				mil = 4
+			}
+		}
+		add_country_modifier = {
+			name = khm_subjects
+			duration = 9125
+		}	
+	}
+	option = {
+		name = "events_khm.5.b" #Direct control is better.
+		add_adm_power = 100
+		northern_thai_area = {
+			add_local_autonomy = -15
+		}	
+	}	
+}

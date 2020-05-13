@@ -1,0 +1,24 @@
+#5231 - Ibalon
+
+owner = IBA
+controller = IBA
+culture = bicolano
+religion = anitism
+capital = "Ibalon"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = IBA
+discovered_by = chinese
+discovered_by = indian
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+1573.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA 
+	religion = catholic
+}

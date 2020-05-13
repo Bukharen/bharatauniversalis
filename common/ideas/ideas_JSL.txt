@@ -1,10 +1,10 @@
 JSL_ideas = {
-	start = { #Jaisalmer Fort (Fort - Military)
+	start = { #Jaisalmer Fort
 		fort_maintenance_modifier = -0.15
 		defensiveness = 0.1
 	}
 	
-	bonus = { #Descendants of Krishna (Heraldry - Administrative)
+	bonus = { #Descendants of Krishna
 		prestige_from_land = 1
 	}
 	
@@ -14,27 +14,27 @@ JSL_ideas = {
 	free = yes
 	
 
-	JSL_caravans = { #Caravans of Jaisalmer (Trade - Diplomatic)
+	JSL_caravans = { #Caravans of Jaisalmer
 		caravan_power = 0.2
 	}	
-	JSL_heartland_thar = { #Heartland of the Thar (Attrition - Military)
+	JSL_heartland_thar = { #Heartland of the Thar
 		hostile_attrition = 1
 		land_attrition = -0.1
 	}	
-	JSL_jain_traditions = { #Rooted Jain Traditions (Economic - Administrative)
+	JSL_jain_traditions = { #Rooted Jain Traditions
 		free_adm_policy = 1
 	}
-	JSL_raid_caravans = { #Raiders of Caravans (Raids - Military)
+	JSL_raid_caravans = { #Raiders of Caravans)
 		loot_amount = 0.1
 		leader_land_manuever = 1
 	}		
-	JSL_three_capitals = { #Three Historical Capitals (Urban Centers - Administrative)
+	JSL_three_capitals = { #Three Historical Capitals
 		state_maintenance_modifier = -0.15
 	}		
-	JSL_three_jauhars = { #Three Jauhars (Prestigious - Military/Diplomatic)
+	JSL_three_jauhars = { #Three Jauhars
 		land_morale = 0.1
 	}	
-	JSL_never_forget = { #The Perilous Delhian Siege (Prestigious - Military)
+	JSL_never_forget = { #The Perilous Delhian Siege
 		war_exhaustion = -0.03
 	}
 }	
