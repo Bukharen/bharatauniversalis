@@ -189,6 +189,25 @@
  MMA_unite_tribes: "Unite the Diverse Tribes"
  MMA_unite_tribes_desc: "Due to a lack of money to go around, the main source of salary was in land. This meant that many of the able-bodied men in our country were also landholders. With more of our land owned by the people and not by the government, the land is easier to maintain."
  
+#Pangasinan
+ PGS_ideas: "Pangasinanese Ideas"
+ PGS_ideas_start: "Heartland of the Agno"
+ PGS_ideas_bonus: "Resist European Advances"
+ PGS_sinophiles: "Sinicized Culture"
+ PGS_sinophiles_desc: "Thanks to our heavy trade with China and the influx of Chinese merchants to our ports, our culture has become influenced by them and now we have started to adopt many of their traditions. For example, it is not uncommon to see even the commonfolk wear Chinese silk, a testimony to our Sinicized culture."
+ PGS_big_brain_trade: "Extensive Trade Routes"
+ PGS_big_brain_trade_desc: "Our trade routes span from Maynila to the capital of the Chinese empire and even then they span the entire coasts of China and Luzon. These extensive trade routes are the backbone of our economy and source us with lucrative and valuable goods."
+ PGS_defend_our_people: "Defend the Pangasinanese Peoples"
+ PGS_defend_our_people_desc: "As one of the few nations of the Pangasinanese people, it is our rightful duty to defend our population and preserve our culture. No matter how hard the times be, our nation will stand tall and fight on!"
+ PGS_cultural_admixture: "Chinese, Japanese, and Pangasinanese Coexistence"
+ PGS_cultural_admixture_desc: "Within our major cities and especially our capital, the population is extremely diverse. In some corners of the cities, there are large concentrations of Japanese families who live in traditional houses and adhere to their indigenous culture and religion. All throughout the city, there are scattered Chinese merchants and Muslim Chinese immigrants who work at day and sleep in our cities at night. Last, but certainly not least, are the Pangasinanese. As we are situated in their homelands, they comprise the majority of our population and continue to lead our nation's advancements. All three of these cultures coexist and intermingle and our acknowledgment of them has allowed us to become more tolerant than ever."
+ PGS_expand_binalatongan: "Expand Binalatongan"
+ PGS_expand_binalatongan_desc: "Binalatongan is an illustrious historical capital of our nation. Renowned for its regional significance and it's diverse population, merchants from all of the seas flock to the city for its coveted riches."
+ PGS_wokou_piracy: "Wokou Pirates"
+ PGS_wokou_piracy_desc: "Wokou pirates have raided our coasts for generations upon generations. However, we will not simply shun them. No, instead we will pick up on their habits and privateer in these seas. This way, we can dominate trade even more using their stealthy methods."
+ PGS_japanese_gunpowder: "Import Japanese Weaponry"
+ PGS_japanese_gunpowder_desc: "Proving itself as extremely valuable, Japanese gunpowder is ideal on the battlefield as it is technologically superior to the spears and bows that the nearby tribes use. It will help us in many conflicts henceforth." 
+ 
 #Sulu
  SUL_ideas: "Suluan Ideas"
  SUL_ideas_start: "Tausug Identity"
@@ -207,6 +226,25 @@
  SUL_piracy_against_spain_desc: "The foreign Spaniards—originally from the distant lands of Europe—have sailed all around the vast Eastern Ocean and now threaten our timeless dominance over the archipelago. As these lands are so far away from Europe, we can raid them, weaken their colonies, and eventually kick them out."
  SUL_colonize_philippines: "Colonize the Archipelago"
  SUL_colonize_philippines_desc: "Our archipelago is extremely diverse and is divided between many Rajahnates, sultanates, and tribal peoples. We must take it upon ourselves to finally unite them and consolidate our power as a maritime empire."
+ 
+#Tondo
+ TDO_ideas: "Tondoan Ideas"
+ TDO_ideas_start: "Monopoly on Trade and Redistributed Goods"
+ TDO_ideas_bonus: "Dominance over Luzon"
+ TDO_chinese_diplomacy: "Chinese Diplomacy"
+ TDO_chinese_diplomacy_desc: "Since our inception, we have been embroiled in trade and diplomacy with China. At one point, we sent yearly tribute to appease the Ming of Nanjing and later Beijing, and they shipped goods to our ports where we distributed them to even farther lands and made even more profit. Their influence has surely rubbed off on us as we have become better at diplomacy thanks to them."
+ TDO_pu_over_namayan: "Kalangitan and Bagyas Lineages"
+ TDO_pu_over_namayan_desc: "Through the traditional Kalangitan and Bagyas Lineages, Namayan has been a junior partner for ours for centuries. These legendary lineages also legitimize our Lakan and prove that we are destined to rule this land."
+ TDO_gold_smithing: "Goldsmithery and Piloncitos"
+ TDO_gold_smithing_desc: "Goldsmithing has always been a major export of Luzon and there a vast pockets of the mineral scattered all across our archipelago. Piloncitos are small gold ingots that are used as currency and in trade. We must take advantage of the riches of our homeland and make ourselves a renowned producer of the rare, coveted gold."
+ TDO_enforce_castes: "Enforce the Castes"
+ TDO_enforce_castes_desc: "In our society, a Datu hailed from the 'maginoo' caste, a Lakan belonged to a 'Maharlika' or warrior freeman caste, and there were other castes like the slaves. We must enforce the caste system in order to preserve our traditions and keep our people on the right path."
+ TDO_chinese_japanese_merchants: "Chinese and Japanese Merchants"
+ TDO_chinese_japanese_merchants_desc: "Within our ports Chinese and Japanese merchants have established local clusters and have started to become a significant community within our nation. We should use them to their best potential while also learning about other cultures and belief systems."
+ TDO_beliefs: "Hindu-Buddhist-Animist Beliefs"
+ TDO_beliefs_desc: "In our lands, three major religions coexist and slowly combine together—Hinduism, Buddhism, and Animism. Whilst Hinduism has long been a religion of the kings, Buddhist philosophies have deep roots in our culture as well that go centuries back. The traditional beliefs of the populace are still comprised of animistic beliefs, which are an integral factor in the enactment of laws and religious unity of our nation. We have opted to merge these three religions together into a unique blend that is unseen anywhere else."
+ TDO_expand_agriculture: "Expand Rice Production"
+ TDO_expand_agriculture_desc: "Rice has been a major sector of the agriculture industry in Luzon for ages. However, we still do not hold a candle to the mass rice terraces of Java or China. In order to become major producers and exporters of rice, we have to expand the agricultural industry and convert hard-to-traverse mountains into lush rice paddies and terraces."
  
 #Venad
  VND_ideas: "Venad Ideas"

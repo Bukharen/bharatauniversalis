@@ -1,0 +1,42 @@
+MAJ_ideas = {
+	start = { #A Thassalocracy in Nusantara
+		merchants = 1
+		diplomats = 1
+	}
+	
+	bonus = { #Administer the Empire
+		state_maintenance_modifier = -0.25
+	}
+	
+	trigger = {
+		tag = MAJ		#will be added at load.
+	}
+	free = yes
+	
+	MAJ_subjects_of_malaya = { #Subjects All Across Malaya
+		diplomatic_upkeep = 1
+		diplomatic_annexation_cost = -0.1
+	}
+	MAJ_masters_of_spice = { #Masters of Spice
+		trade_efficiency = 0.15
+	}	
+	MAJ_pala_architecture = { #Pala Architecture
+		build_cost = -0.1
+		build_time = -0.1
+	}	
+	MAJ_ousting_yuan_armies = { #Ousting of the Yuan Armies
+		navy_tradition = 1
+	}	
+	MAJ_the_warships = { #Majapahit Warships
+		naval_forcelimit_modifier = 0.15
+		heavy_ship_power = 0.1
+	}	
+	MAJ_patronize_javanese_literature = { #Patronize Javanese Literature
+		advisor_cost = -0.1
+		idea_cost = -0.05
+	}	
+	MAJ_use_the_cetbang = { #Modernize the Cetbang
+		artillery_power = 0.1
+		blockade_efficiency = 0.1
+	}		
+}

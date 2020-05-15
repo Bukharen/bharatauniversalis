@@ -1,0 +1,42 @@
+TDO_ideas = {
+	start = {#Monopoly on Trade and Redistributed Goods
+		trade_efficiency = 0.1
+		free_dip_policy = 1
+	}
+	
+	bonus = { #Dominance over Luzon
+		core_creation = -0.1
+	}
+	
+	trigger = {
+		tag = TDO		#will be added at load.
+	}
+	free = yes
+	
+	TDO_chinese_diplomacy = { #Chinese Diplomacy
+		envoy_travel_time = -0.2
+		improve_relation_modifier = 0.2
+	}
+	TDO_pu_over_namayan = { #Kalangitan and Bagyas Lineages
+		diplomatic_reputation = 1
+		legitimacy = 0.5
+	}	
+	TDO_gold_smithing = { #Goldsmithing and Piloncitos
+		global_trade_goods_size_modifier = 0.1
+	}	
+	TDO_enforce_castes = { #Enforce the Castes
+		harsh_treatment_cost = -0.15
+		global_manpower_modifier = 0.1
+	}			
+	TDO_chinese_japanese_merchants = { #Chinese and Japanese Merchants
+		advisor_pool = 1	
+		num_accepted_cultures = 1
+	}	
+	TDO_beliefs = { #Hindu-Buddhist-Animist Beliefs
+		tolerance_own = 1
+		religious_unity = 0.2
+	}		
+	TDO_expand_agriculture = { #Expand Rice Production
+		production_efficiency = 0.1	
+	}	
+}	

@@ -1,0 +1,40 @@
+PGS_ideas = {
+	start = {#Heartland of the Agno
+		production_efficiency = 0.1
+		ship_durability = 0.05
+	}
+	
+	bonus = { #Resist European Advances
+		war_exhaustion = -0.03
+	}
+	
+	trigger = {
+		tag = PGS		#will be added at load.
+	}
+	free = yes
+	
+	PGS_sinophiles = { #Sinicized Culture
+		improve_relation_modifier = 0.33
+	}
+	PGS_big_brain_trade = { #Extensive Trade Routes
+		trade_steering = 0.15
+		trade_efficiency = 0.1
+	}	
+	PGS_defend_our_people = { #Defend the Pangasinan Peoples
+		land_morale = 0.1
+	}	
+	PGS_cultural_admixture = { #Chinese, Japanese, and Pangasinanese Coexistence
+		global_unrest = -1
+		num_accepted_cultures = 1
+	}	
+	PGS_expand_binalatongan = { #Expand Binalatongan
+		development_cost = -0.1
+	}			
+	PGS_wokou_piracy = { #Wokou Pirates
+		global_ship_trade_power = 0.1
+		privateer_efficiency = 0.15
+	}	
+	PGS_japanese_gunpowder = { #Import Japanese Weaponry
+		siege_ability = 0.1
+	}			
+}	
