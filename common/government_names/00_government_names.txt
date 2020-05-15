@@ -2769,9 +2769,9 @@ filipino_rajanate = {
 	}
 	
 	heir_male = {
-		1 = BAI
-		2 = BAI
-		3 = BAI
+		1 = BAI_TITLE
+		2 = BAI_TITLE
+		3 = BAI_TITLE
 	}
 	trigger = {
 		government = monarchy
