@@ -167,6 +167,22 @@
  events_lxa.7.c: "Raze it to the ground!"
  events_lxa.7.d: "This is not what Buddha has taught us."
 
+#Ming
+ events_mng.1.tt: "Mong Mao's Future"
+ events_mng.1.dd: "The capital of Mong Mao is now in our hands. Our armies have stormed the city and their ruler has fled. Mong Mao is now essentially in shambles. With the peace deal significantly in our favor, we have begun to come with ideas regarding the fate of the disloyal state. One of these options is
+ events_mng.1.a: "Commence with the partition."
+ events_mng.1.b: "We have better plans in mind."
+ events_mng.2.tt: "Fall of the Capital"
+ events_mng.2.dd: "With the fall of our capital to Ming hands, the peace deal turned to their favor. They have decided to partition our lands and now we have been reduced to a fraction of our former size. Our northern Kachin lands have been ceded off and they have directly annexed our lands in Sipsongpanna and Dehong for themselves. Our royal family has fled to Mong Yang where they now rule under a new name."
+ events_mng.2.a: "Worrisome."
+ events_mng.3.tt: "The Luchuan-Pingmian Campaign"
+ events_mng.3.dd: "Since 1438, the Luchuan-Pingmian Campaign has been a series of invasions of ours in Mong Mao. The reason? Mong Mao had invaded and annexed some of our Tusi vassals in Yunnan and complaints reached all the way to the Emperor himself. However, they have clearly not gotten the memo and still reign supreme in the region and threatnen our authority. Is it time to invade once more?"
+ events_mng.3.a: "It is time for another."
+ events_mng.3.b: "Not for now."
+ events_mng.4.tt: "Renewed Ming Invasion!"
+ events_mng.4.dd: "In 1438, we annexed some minor Tusi states nearby without the permission of the Emperor. Because of this, many complaints were sent to the Emperor and he decided to invade. However, all campaigns ended with little to no victory on the side of the Ming as we fought back relentlessly. Ming has again mobilized and has crossed the border in another invasion."
+ events_mng.4.a: "Worrisome."
+ 
 #Pangasinan
  events_pgs.1.tt: "Lim Hong's Invasion"
  events_pgs.1.dd: "The 16th century was marked by extensive piracy all across the coasts of Southern China. Many of them also raided along the coasts of Luzon, Korea, and Japan as well. One of these pirates, Lim Hong, would go on to seize Pangasinan and unsuccessfully attempt to siege Manila twice before the Spanish invaded Pangasinan and he fled, becoming never heard of again."

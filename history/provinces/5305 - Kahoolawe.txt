@@ -8,8 +8,6 @@ capital = "Kaho'olawe"
 trade_goods = fish
 is_city = yes
 hre = no
-base_tax = 0
-base_production = 0
 base_manpower = 1
 add_core = MAU
 discovered_by = HAW
@@ -18,6 +16,8 @@ discovered_by = HNA
 discovered_by = MOO
 discovered_by = KAI
 discovered_by = MAU
+discovered_by = HKA
+discovered_by = HIL
 
 
 1555.1.1 = { discovered_by = SPA }

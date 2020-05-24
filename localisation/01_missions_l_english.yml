@@ -233,6 +233,10 @@
  lxa_mountainpasses_title: "Traversing the Mountains"
  lxa_mountainpasses_desc: "The Annamite Mountains prove hard to cross through and are troublesome as they force us to either travel through harsh terrain or go around it. However, the discovery of a new passage has allowed for faster travel. Let us promote and develop this mountain pass to increase the speed and amount of travel between Laos and Vietnam."
  
+#Ming 
+ mng_eat_mong_mao_title: "Continue the Campaign" 
+ mng_eat_mong_mao_desc: "Not too long ago, Mong Mao illegally annexed some of our subjects in Yunnan. However, most of our attempts to curtail them have ended in repelled invasions. In fact, they have become so powerful that they have had the audacity to invade Yunnan in the past. Clearly, it is high time to end them as a threat to our supremacy in the region once and for all."
+ 
 #Navanagar
  nvr_independence_title: "Achieve Independence"
  nvr_independence_desc: "For decades, we have been subservient to the Jams of Kutch and have been forced to accept their supremacy. This shall last for no longer, as we shall fight for our independence like the true Rajputs we are!"

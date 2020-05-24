@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hawaiian
+religion = animism
+technology_group = chinese
+capital = 5308 #Hilo
+
+1782.6.1 = {
+	monarch = {
+		name = "Keawema'uhili"
+		dynasty = "Keawe"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

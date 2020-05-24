@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hawaiian
+religion = animism
+technology_group = chinese
+capital = 5310 #Kau
+
+1782.6.1 = {
+	monarch = {
+		name = "Keoua Ku'ahu'ula"
+		dynasty = "Keawe"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

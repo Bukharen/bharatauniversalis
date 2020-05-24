@@ -1,0 +1,40 @@
+taungu_ideas = {
+	start =  { #Uniformity under the Mandala System
+		infantry_power = 0.15
+		global_unrest = -1
+	}
+	
+	bonus = { #Steamroll Through Indochina
+		core_creation = -0.15
+	}
+	
+	trigger = {
+		tag = TAU		#will be added at load.
+	}
+	free = yes
+	
+
+	TAU_preserve_religion = { #Preserve Buddhist Philosophies
+		global_missionary_strength = 0.02
+	}	
+	TAU_legal_reforms = { #Institute Legal Reforms
+		stability_cost_modifier = -0.15
+	}	
+	TAU_curtail_sawbwas = { #Curtail the Sawbwas
+		global_autonomy = -0.02
+		years_of_nationalism = -5
+	}	
+	TAU_mahavihara_school = { #Introduction of the Mahavihara School
+		tolerance_own = 2
+	}
+	TAU_mon_burmese_synthesis = { #Promote Mon Alongside Burmese
+		free_leader_pool = 1
+	}
+	TAU_appease_vassals = { #Appease the Vassal Rulers
+		reduced_liberty_desire = 10
+	}			
+	TAU_portuguese_imports = { #Portuguese Firearms and Mercenaries
+		possible_mercenaries = 0.25
+		mil_tech_cost_modifier  = -0.1
+	}
+}

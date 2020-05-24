@@ -10,7 +10,7 @@ is_city = yes
 hre = no
 base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 1
 add_core = HAW
 discovered_by = HAW
 discovered_by = OAH
@@ -20,3 +20,17 @@ discovered_by = KAI
 discovered_by = MAU
 
 1555.1.1 = { discovered_by = SPA }
+
+1782.6.1 = {
+	owner = HIL
+	controller = HIL
+	add_core = HIL
+	remove_core = HAW
+}
+
+1790.1.1 = {
+	owner = HAW
+	controller = HAW
+	add_core = HAW
+	remove_core = HIL
+}

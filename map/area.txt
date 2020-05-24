@@ -315,8 +315,8 @@ maui_area = { #5
 	5303 5304 5305 5306 5307
 }
 
-north_hawaii_area = { #3
-	5311 5312 5313
+north_hawaii_area = { #5
+	5311 5312 5313 5314 5315
 }
 
 south_hawaii_area = { #3
@@ -359,8 +359,12 @@ east_bikol_area = { #4
 	5203 5209 5229 5231
 }
 
-agno_basin_area = { #2 - Added Ifugao (4349) and Pangasinan (2698)
-	2698 4348
+agno_basin_area = { #5 - Added Ifugao (4349) and Pangasinan (2698)
+	2698 4348 5237 5238 5239
+}
+
+bataan_area = { #2
+	5235 5236
 }
 
 north_visayas_area = { #3

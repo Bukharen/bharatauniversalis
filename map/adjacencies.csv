@@ -115,5 +115,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5303;5304;sea;1697;-1;-1;-1;-1;Lana'i - Moloka'i
 5303;5306;sea;1697;-1;-1;-1;-1;Moloka'i - Maui
 5304;5306;sea;1697;-1;-1;-1;-1;Lana'i - Maui
+5304;5305;sea;1697;-1;-1;-1;-1;Lana'i - Kaho'olawe
 5305;5306;sea;1697;-1;-1;-1;-1;Kaho'olawe - Maui
 -1;-1;;-1;-1;-1;-1;-1;-1;

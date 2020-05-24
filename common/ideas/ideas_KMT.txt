@@ -1,0 +1,41 @@
+KMT_ideas = {
+	start = { #True Descendants of Kamarupa
+		legitimacy = 1
+		harsh_treatment_cost = -0.2
+	}
+	
+	bonus = { #Egalitarianism of Eksarana Dharma
+		num_accepted_cultures = 2
+	}
+	
+	trigger = {
+		tag = KMT		#will be added at load.
+	}
+	free = yes
+	
+	KMT_khen_stability = { #Khen-Induced Stability
+		stability_cost_modifier = -0.15
+	}
+	KMT_unite_bhuyans = { #Unite the Baro-Bhuyan Chieftaincies
+		shock_damage = 0.1
+	}
+	KMT_early_assamese = { #Institutionalize Assamese
+		culture_conversion_cost = -0.15
+	}
+	KMT_weaken_bengal = { #Undermine Bengali Authority in Koch
+		rebel_support_efficiency = 0.33
+		spy_offence = 0.1
+	}	
+	KMT_diplomacy_ahom = { #Ahom Ties
+		improve_relation_modifier = 0.1
+		envoy_travel_time = -0.15
+	}	
+	KMT_hajo_pilgrimage = { #Control of Hajo
+		tolerance_own = 1
+		tolerance_heathen = 1
+	}	
+	KMT_brahmaputra_terrains = { #River, Valley, and Plain
+		production_efficiency = 0.05
+		development_cost = -0.05
+	}			
+}	

@@ -1,0 +1,6 @@
+vassal = {
+	first = HAW
+	second = KAI
+	start_date = 1810.4.1
+	end_date = 1924.1.1
+}

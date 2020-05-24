@@ -1,0 +1,28 @@
+mng_luchuan_pingmian = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = MNG
+		has_country_flag = luchuan_pingmian_campaign
+	}
+	has_country_shield = yes
+	
+	mng_eat_mong_mao = {
+		icon = mission_junnagadh_fort
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			at_war_with = MMA
+			MMA = {
+				capital_scope = {
+					controlled_by = ROOT
+				}	
+			}	
+		}	
+		effect = {
+			country_event = { id = events_mng.1 }	
+		}	
+	}
+}	

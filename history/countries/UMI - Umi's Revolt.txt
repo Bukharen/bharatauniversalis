@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hawaiian
+religion = animism
+technology_group = chinese
+capital = 5315 #Waipunalei

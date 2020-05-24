@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "RISE_OF_KAMEHAMEHA_NAME"
+	desc = "RISE_OF_KAMEHAMEHA_DESC"
+	date = 1782.7.1
+	
+	center = 5313 #Waipio
+	
+	
+	country = OAH
+	country = KAI
+	country = MAU
+	country = MOO
+	country = HKA
+	country = HIL
+	
+	easy_country = HAW
+}

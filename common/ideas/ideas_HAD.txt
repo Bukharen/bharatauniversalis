@@ -1,0 +1,39 @@
+HAD_ideas = {
+	start = { #Crossroads of the Aravalli Hills
+		movement_speed = 0.1
+		land_attrition = -0.1
+	}
+	
+	bonus = { #Expand the Weaving Industry
+		global_trade_power = 0.1
+	}
+	
+	trigger = {
+		primary_culture = hadotian
+	}
+	free = yes
+	
+
+	HAD_subjugate_tribes = { #Subjugate the Tribes
+		ae_impact = -0.1
+	}	
+	HAD_valiant_rajputs = { #Valiance of the Warriors
+		army_tradition_decay = -0.1
+	}		
+	HAD_loyalty_to_overlords = { #Unbounding Loyalty
+		diplomatic_reputation = 2
+	}	
+	HAD_shipra_river = { #The Mighty Shipra
+		production_efficiency = 0.05
+		global_tax_modifier = 0.05
+	}	
+	HAD_hada_chauhan_creation_myth = { #Emergence from the Flames
+		leader_land_fire = 1
+	}		
+	HAD_cultural_center = { #Hub of Rajput Culture
+		same_culture_advisor_cost = -0.15
+	}		
+	HAD_kotah_stone = { #Kotah Stone
+		build_time = -0.15
+	}	
+}	

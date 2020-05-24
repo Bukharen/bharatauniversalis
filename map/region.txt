@@ -1082,6 +1082,7 @@ philippines_region = {
 		mindoro_area
 		east_bikol_area
 		agno_basin_area
+		bataan_area
 	}
 	monsoon = {
 		00.10.01

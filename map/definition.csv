@@ -4736,6 +4736,11 @@ province;red;green;blue;x;x
 5232;255;218;228;Ylokos;x
 5233;232;170;194;Mindoro Range;x
 5234;232;170;232;Pinamalayan;x
+5235;240;211;228;Zambales;x
+5236;255;225;249;Bataan;x
+5237;245;221;236;Tarlac;x
+5238;213;177;195;Pinagpanaan;x
+5239;249;231;243;Agoo;x
 5300;77;62;137;Niihau;x
 5301;69;55;129;Kauai;x
 5302;60;48;120;Oahu;x
@@ -4750,3 +4755,5 @@ province;red;green;blue;x;x
 5311;80;53;210;Kona;x
 5312;68;46;197;Kohala;x
 5313;57;38;184;Hamakua;x
+5314;46;22;169;Koholalele;x
+5315;37;15;156;Waipunalei;x

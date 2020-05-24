@@ -1,0 +1,41 @@
+MAB_ideas = {
+	start = { #Major Shareholders in the Spice Trade
+		global_ship_trade_power = 0.25
+		merchants = 1
+	}
+	
+	bonus = { #Constrain the Portuguese
+		army_tradition = 0.5
+	}
+	
+	trigger = {
+		tag = MAB		#will be added at load.
+	}
+	free = yes
+	
+	MAB_muslim_arab_trades = { #Mappila and Paradesi Traders
+		privateer_efficiency = 0.1
+		religious_unity = 0.2
+	}	
+	MAB_overrun_neighbors = { #Overrun Kochin and Kolathunadu
+		infantry_power = 0.1
+	}
+	MAB_economic_policies = { #Economic Policies of the Samoothiri
+		free_adm_policy = 1
+	}
+	MAB_kunjali_marakkars = { #Kunjali Marakkars
+		leader_naval_fire = 1
+		navy_tradition = 1
+	}	
+	MAB_chinese_arabian_trade = { #Chinese and Arabian Trading Links
+		global_trade_power = 0.05
+		global_institution_spread = 0.05
+	}	
+	MAB_thirunavaya_control = { #Sacred Thirunavaya
+		prestige_per_development_from_conversion = 0.5
+	}		
+	MAB_local_chief_subjects = { #Hereditary Chief Vassals
+		vassal_income = 0.1
+		diplomatic_upkeep = 1
+	}	
+}	

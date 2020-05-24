@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+primary_culture = hawaiian
+religion = animism
+technology_group = chinese
+capital = 5314 #Koholalele

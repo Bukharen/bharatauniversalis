@@ -38,7 +38,11 @@
 #Katugasan
  SIQ: "Katugasan"
  SIQ_ADJ: "Katugasan"
- 
+
+#Ka'u/Kau
+ HKA: "Ka'u"
+ HKA_ADJ: "Ka'u"
+
 #Kaua'i/Kauai
  KAI: "Kaua'i"
  KAI_ADJ: "Kaua'ian"
@@ -51,6 +55,10 @@
  KFA: "Khalifatabad"
  KFA_ADJ: "Khalifatabadi"
 
+#Koholalele
+ KOH: "Koholalele"
+ KOH_ADJ: "Koholalele"
+ 
 #Hana
  HNA: "Hana"
  HNA_ADJ: "Hana" 
@@ -59,10 +67,18 @@
  LAM: "Haripunchai"
  LAM_ADJ: "Haripunchaiya"
  
-#Hawai'i/Hawaii
+#Hawai'i/Hawaii (Big Island)
  HAW: "Hawai'i"
  HAW_ADJ: "Hawai'ian"
 
+#Hawai'i/Hawaii (Formable)
+ HWI: "Hawai'i"
+ HWI_ADJ: "Hawai'ian"
+
+#Hilo
+ HIL: "Hilo"
+ HIL_ADJ: "Hilo"
+ 
 #Ibalon
  IBA: "Ibalon"
  IBA_ADJ: "Ibalon"
@@ -98,11 +114,23 @@
 #O'ahu/Oahu
  OAH: "O'ahu"
  OAH_ADJ: "O'ahuan"
+
+#Rapanui
+ RAP: "Rapanui"
+ RAP_ADJ: "Rapanui"
  
 #Sirohi
  SIR: "Sirohi"
  SIR_ADJ: "Sirohian"
  
+#Tamna
+ RUF: "Tamna"
+ RUF_ADJ: "Tamnan" 
+ 
 #Taytay
  TAY: "Taytay"
  TAY_ADJ: "Taytayi" 
+ 
+#Umi's Revolt
+ UMI: "Umi's Revolt"
+ UMI_ADJ: "Umi Revolter"

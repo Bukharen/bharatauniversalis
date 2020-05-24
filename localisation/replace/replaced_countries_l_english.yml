@@ -1,4 +1,32 @@
 ﻿l_english: 
-#Tag
+#Baghelkhand
  BGL: "Rewa"
  BGL_ADJ: "Rewan"
+ 
+#Kham
+ KAM: "Derge"
+ KAM_ADJ: "Derge"
+ 
+#Koch
+ KMT: "Kamata"
+ KMT_ADJ: "Kamatan"
+ 
+ Madyas
+ MAS: "Madja-as"
+ MAS_ADJ: "Madja-asi"
+ 
+#Makassar
+ MKS: "Gowa"
+ MKS_ADJ: "Gowan"
+ 
+#Pangasinan
+ PGS: "Caboloan"
+ PGS_ADJ: "Caboloan"
+ 
+#Tanjore 
+ TNJ: "Thanjavur"
+ TNJ_ADJ: "Thanjavuri"
+
+#Tokugawa
+ TKG: "Matsudaira"
+ TKG_ADJ: "Matsudaira"

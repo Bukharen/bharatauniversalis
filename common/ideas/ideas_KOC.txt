@@ -1,11 +1,11 @@
 KOC_ideas = {
-	start = {
-		religious_unity = 0.25 #Abrahamic Minorities
+	start = { #Abrahamic Minorities
+		religious_unity = 0.25 
 		tolerance_heathen = 1
 	}
 	
-	bonus = {
-		technology_cost = -0.1 #European Influences
+	bonus = { #European Influences
+		technology_cost = -0.1 
 	}
 	
 	trigger = {

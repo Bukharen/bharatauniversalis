@@ -18,5 +18,21 @@ discovered_by = HNA
 discovered_by = MOO
 discovered_by = KAI
 discovered_by = MAU
+discovered_by = HKA
+discovered_by = HIL
 
 1555.1.1 = { discovered_by = SPA }
+
+1782.6.1 = {
+	owner = HIL
+	controller = HIL
+	add_core = HIL
+	remove_core = HAW
+}
+
+1709.1.1 = {
+	owner = HAW
+	controller = HAW
+	add_core = HAW
+	remove_core = HIL
+}

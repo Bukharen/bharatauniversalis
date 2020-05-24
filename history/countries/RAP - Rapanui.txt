@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = polynesian
+religion = animism
+technology_group = chinese
+capital = 1988 #Rapanui

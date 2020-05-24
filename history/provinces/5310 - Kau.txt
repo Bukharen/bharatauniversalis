@@ -20,3 +20,17 @@ discovered_by = KAI
 discovered_by = MAU
 
 1555.1.1 = { discovered_by = SPA }
+
+1782.6.1 = {
+	owner = HKA
+	controller = HKA
+	add_core = HKA
+	remove_core = HAW
+}
+
+1791.1.1 = {
+	owner = HAW
+	controller = HAW
+	add_core = HAW
+	remove_core = HKA
+}

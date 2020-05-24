@@ -3,12 +3,13 @@ add_government_reform = tribal_kingdom
 primary_culture = hawaiian
 religion = animism
 technology_group = chinese
-capital = 1240 #Hawaii
+capital = 5313 #Hamakua
 
 1435.1.1 = {
 	monarch = {
 		name = "Kihanuilulumoku"
 		dynasty = "Pili"
+		birth_date = 1405.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -37,7 +38,6 @@ capital = 1240 #Hawaii
 		dip = 3
 		mil = 4
 	}
-	capital = 5313 #Hamakua
 }
 
 1465.1.1 = {
@@ -48,9 +48,9 @@ capital = 1240 #Hawaii
 		birth_date = 1465.1.1
 		death_date = 1510.1.1
 		claim = 95
-		adm = 1
-		dip = 1
-		mil = 1
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 
@@ -68,9 +68,9 @@ capital = 1240 #Hawaii
 	monarch = {
 		name = "'Umi-a-Liloa"
 		dynasty = "Pili"
-		adm = 4
-		dip = 3
-		mil = 5
+		adm = 5
+		dip = 4
+		mil = 6
 	}
 }
 
@@ -78,13 +78,13 @@ capital = 1240 #Hawaii
 	monarch = {
 		name = "Keali'iokaloa"
 		dynasty = "Pili"
-		adm = 4
-		dip = 4
-		mil = 5
+		adm = 3
+		dip = 3
+		mil = 4
 	}
 }
 
-1545.1.1 = {
+1525.1.1 = {
 	heir = {
 		name = "Keawe-nui-a-'Umi"
 		monarch_name = "Keawe-nui-a-'Umi"
@@ -96,5 +96,221 @@ capital = 1240 #Hawaii
 		dip = 3
 		mil = 3
 	}
-	capital = 5308 #Hilo
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Keawe-nui-a-'Umi"
+		dynasty = "Pili"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	capital = 5308 #Hilo	
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Kaikilani"
+		monarch_name = "Kaikilani"
+		dynasty = "Pili"
+		birth_date = 1550.1.1
+		death_date = 1605.1.1
+		female = yes
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Kaikilani"
+		dynasty = "Pili"
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}	
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Keakealani-kane"
+		monarch_name = "Keakealani-kane"
+		dynasty = "Pili"
+		birth_date = 1575.1.1
+		death_date = 1635.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Keakealani-kane"
+		dynasty = "Pili"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1615.1.1 = {
+	heir = {
+		name = "Keaka-mahana"
+		monarch_name = "Keaka-mahana"
+		dynasty = "Pili"
+		birth_date = 1615.1.1
+		death_date = 1665.1.1
+		female = yes
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "Keaka-mahana"
+		dynasty = "Pili"
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Keakealani-wahine"
+		monarch_name = "Keakealani-wahine"
+		dynasty = "Pili"
+		birth_date = 1640.1.1
+		death_date = 1695.1.1
+		female = yes
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Keakealani-wahine"
+		dynasty = "Pili"
+		female = yes
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1665.1.1 = {
+	heir = {
+		name = "Keaweikekahiali'iokamoku"
+		monarch_name = "Keaweikekahiali'iokamoku"
+		dynasty = "Keawe"
+		birth_date = 1665.1.1
+		death_date = 1725.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1695.1.1 = {
+	monarch = {
+		name = "Keaweikekahiali'iokamoku"
+		dynasty = "Keawe"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1725.1.1 = {
+	monarch = {
+		name = "Alapainuiakauaua"
+		dynasty = "Pili"
+		birth_date = 1700.1.1 #Made up
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1754.1.1 = {
+	monarch = {
+		name = "Kalaniopuu"
+		dynasty = "Keawe"
+		birth_date = 1729.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	heir = {
+		name = "Kiwala'o"
+		monarch_name = "Kiwala'o"
+		dynasty = "Keawe"
+		birth_date = 1760.1.1
+		death_date = 1782.7.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1782.4.1 = {
+	monarch = {
+		name = "Kiwala'o"
+		dynasty = "Pili"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1782.7.1 = {
+	monarch = {
+		name = "Kamehameha I"
+		dynasty = "Kamehameha"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1797.11.1 = {
+	heir = {
+		name = "Liholiho"
+		monarch_name = "Kamehameha II"
+		dynasty = "Kamehameha"
+		birth_date = 1797.11.1
+		death_date = 1824.7.14
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+
+1819.3.20 = {
+	monarch = {
+		name = "Kamehameha II"
+		dynasty = "Kamehameha"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
 }

@@ -1,0 +1,164 @@
+namespace = events_mng
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_mng.1
+	title = "events_mng.1.tt"
+	desc = "events_mng.1.dd"
+	picture = SIEGE_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		custom_tooltip = tooltip_mng.1
+		name = "events_mng.1.a"	#How troublesome.
+		ai_chance = { factor = 100 }
+		MMA = {
+			country_event = { id = events_mng.2 }
+		}	
+	}
+	option = { 
+		name = "events_mng.2.a"	#Nah fam.
+		ai_chance = { factor = 0 }
+		add_prestige = -5	
+	}	
+}
+
+country_event = {
+	id = events_mng.2
+	title = "events_mng.2.tt"
+	desc = "events_mng.2.dd"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = "events_mng.2.a"	#What the thonkity thonk
+		add_stability = -1
+		add_prestige = -15
+		white_peace = MNG
+		2166 = {
+			cede_province = MNG
+			add_core = MNG
+			remove_core = MMA
+		}
+		660 = {
+			cede_province = MNG
+			add_core = MNG
+			remove_core = MMA
+		}
+		if = {
+			limit = {
+				2395 = {
+					owned_by = MMA
+				}
+			}
+			2395 = {
+				cede_province = MKA
+				add_core = MKA
+			}
+		}	
+		if = {
+			limit = {
+				2396 = {
+					owned_by = MMA
+				}
+			}
+			2396 = {
+				cede_province = MKA
+				add_core = MKA
+			}
+		}
+		if = {
+			limit = {
+				4404 = {
+					owned_by = MMA
+				}
+			}
+			4404 = {
+				cede_province = MKA
+				add_core = MKA
+			}
+		}	
+		if = {
+			limit = {
+				582 = {
+					owned_by = MMA
+				}
+			}
+			change_tag = MYA
+			582 = {
+				move_capital_effect = yes
+			}			
+		}		
+		hidden_effect = {
+			set_country_flag = mong_mao_is_now_mong_yang
+		}	
+	}
+}
+
+country_event = {
+	id = events_mng.3
+	title = "events_mng.3.tt"
+	desc = "events_mng.3.dd"
+	picture = BORDER_TENSION_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MNG
+		660 = {
+			owned_by = MMA
+		}
+		2166 = {
+			owned_by = MMA
+		}
+		NOT = {
+			alliance_with = MMA
+		}			
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = { 
+		custom_tooltip = tooltip_mng.2
+		name = "events_mng.3.a"	#This can not be forgiven.
+		ai_chance = { factor = 100 }
+		MMA = {
+			country_event = { id = events_mng.4 }
+		}
+		hidden_effect = {
+			set_country_flag = luchuan_pingmian_campaign
+			swap_non_generic_missions = yes
+		}	
+	}
+	option = { 
+		name = "events_mng.2.a"	#Nah fam.
+		ai_chance = { factor = 0 }
+		add_prestige = -5	
+	}	
+}
+
+country_event = {
+	id = events_mng.4
+	title = "events_mng.4.tt"
+	desc = "events_mng.4.dd"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = "events_mng.4.a"	#Worrisome.
+		MNG = {
+			declare_war_with_cb = {
+				who = MMA
+				casus_belli = cb_vassalize_mission
+			}
+		}	
+	}	
+}

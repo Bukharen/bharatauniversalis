@@ -1,0 +1,38 @@
+IKE_ideas = {
+	start = { #Confucian and Buddhist Scholars
+		global_institution_spread = 0.1
+		idea_cost = -0.05
+	}
+	
+	bonus = { #Koraku-en
+		advisor_cost = -0.2
+	}
+	
+	trigger = {
+		tag = IKE		#will be added at load.
+	}
+	free = yes
+	
+	IKE_bizen_yaki = { #Bizen-yaki
+		production_efficiency = 0.05
+	}
+	IKE_tokugawa_puppets = { #Tokugawa Puppets
+		improve_relation_modifier = 0.33
+	}
+	IKE_seiwa_genji = { #Descendants of Seiwa Genji
+		prestige_decay = -0.01
+	}	
+	IKE_ikeda_sen = { #Legacy of Ikeda Sen
+		may_recruit_female_generals = yes
+		free_leader_pool = 1
+	}		
+	IKE_daisen = { #Daisen
+		global_missionary_strength = 0.02
+	}	
+	IKE_million_koku = { #Hyakumankoku
+		global_manpower_modifier = 0.15
+	}
+	IKE_saigoku_shogun = { #Saigoku no Shogun
+		province_warscore_cost = -0.1
+	}	
+}	

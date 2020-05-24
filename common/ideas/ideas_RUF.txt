@@ -1,0 +1,41 @@
+#Contributed by Ruffy
+RUF_ideas = {
+    start = { #Island of Exiles
+        spy_offence = 0.1
+        idea_cost = -0.05
+    }
+    
+    bonus = { #Legacy of the Sambyeolcho
+        land_morale = 0.1
+    }
+    
+    trigger = {
+        tag = RUF         #will be added at load.
+    }
+    free = yes
+    
+    RUF_seolmundae_granny = { #Legend of the Seolmundae Granny
+        prestige = 1
+    }    
+    RUF_oreum = { #Oreums of Jeju
+        army_tradition = 0.5
+        land_attrition = -0.1
+    }
+    RUF_exotic_goods = { #Exotic Goods of Jeju
+        global_trade_goods_size_modifier = 0.05
+    }
+    RUF_island_shamans = { #Shamans of Tamna
+        warscore_cost_vs_other_religion = -0.1
+    }   
+    RUF_three_more_and_less = { #Three More, Three Less
+        global_unrest = -1
+        female_advisor_chance = 0.2
+    }    
+    RUF_cavalry_ranches = { #Mongol Horse Ranches
+		movement_speed = 0.1
+        cav_to_inf_ratio = 0.15
+    }        
+    RUF_far_east_port = { #Far-Eastern Stopover
+		global_trade_power = 0.1
+    }    
+}

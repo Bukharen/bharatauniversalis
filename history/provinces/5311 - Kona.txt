@@ -18,5 +18,8 @@ discovered_by = HNA
 discovered_by = MOO
 discovered_by = KAI
 discovered_by = MAU
+discovered_by = HKA
+discovered_by = HIL
+
 
 1555.1.1 = { discovered_by = SPA }

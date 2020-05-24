@@ -1,17 +1,17 @@
 country_decisions = {
 
-    bengali_nation = {
+    hawaiian_nation = {
         major = yes
         potential = {
             normal_or_historical_nations = yes
             was_never_end_game_tag_trigger = yes
-            NOT = { has_country_flag = formed_bengal_flag }
+            NOT = { has_country_flag = formed_hawaii_flag }
             OR = {
                 ai = no
                 is_playing_custom_nation = no
             }
-            NOT = { exists = BNG }
-            NOT = { tag = BNG }
+            NOT = { exists = HWI }
+            NOT = { tag = HWI }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
             is_colonial_nation = no
@@ -22,31 +22,23 @@ country_decisions = {
 					ai = no
 				}
 			}
-			primary_culture = bengali
+			primary_culture = hawaiian
 		}
 		provinces_to_highlight = {
-			OR = {
-				province_id = 563    #Gauda
-				province_id = 564    #Dhaka
-				province_id = 568    #Chittagong
-				province_id = 4476   #Nadia 
-				province_id = 4474   #Sonargaon
-				province_id = 567    #Silhet
-			}
+			region = hawaii_region
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			}
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			owns_core_province = 563    #Gauda
-			owns_core_province = 564    #Dhaka
-			owns_core_province = 568    #Chittagong
-			owns_core_province = 4476   #Nadia
-			owns_core_province = 4474   #Sonargaon
-			owns_core_province = 567    #Silhet
+			hawaii_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -61,11 +53,11 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			set_country_flag = formed_bengali_nation
-			change_tag = BNG
+			set_country_flag = formed_hawaiian_nation
+			change_tag = HWI
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 400
 		}
     }
 }

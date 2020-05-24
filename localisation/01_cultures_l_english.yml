@@ -1,16 +1,9 @@
 ﻿l_english:
-#Western Aryan
- hadotian: "Hadotian"
- marwari: "Marwari"
- dhundhari: "Dhundhari"
- vagadi: "Vagadi"
- konkani: "Konkani"
+#Burman
+ deori: "Deori"
  
 #Eastern Aryan
  dhivehi: "Dhivehi"
- 
-#Tibeto-Burman 
- deori: "Deori"
  
 #Filipino
  filipino_group: "Filipino"
@@ -27,6 +20,16 @@
  pangasinanan: "Pangasinan"
  igorot: "Ifugao"
  
+#Koreanic
+ jejuan: "Jeju"
+ 
 #Polynesian
  polynesian_group: "Polynesian"
  hawaiian: "Hawai'ian"
+ 
+#Western Aryan
+ hadotian: "Hadotian"
+ marwari: "Marwari"
+ dhundhari: "Dhundhari"
+ vagadi: "Vagadi"
+ konkani: "Konkani" 

@@ -1,10 +1,10 @@
 KAT_ideas = {
-	start = {
+	start = { #The Mighty Rann
 		land_attrition = -0.1
 		hostile_attrition = 1
 	}
 	
-	bonus = {
+	bonus = { #Devotion to Ashapura Mata
 		tolerance_own = 1
 	}
 	
@@ -14,25 +14,25 @@ KAT_ideas = {
 	free = yes
 	
 
-	KAT_diaspora = {
+	KAT_diaspora = { #The Kutchi Diaspore
 		range = 0.33
 	}	
-	KAT_chandravanshi = {
+	KAT_chandravanshi = { #Chandravanshi Heritage
 		prestige_decay = -0.01
 	}	
-	KAT_syncretism = {
+	KAT_syncretism = { #Hindu-Islamic Syncretism
 		religious_unity = 0.5
 	}	
-	KAT_agriculture = {
-		production_efficiency = 0.05
+	KAT_agriculture = { #Expand the Agricultural Sector
+		production_efficiency = 0.1
 	}
-	KAT_jam = {
+	KAT_jam = { #A Great Jam
 		global_autonomy = -0.025
 	}
-	KAT_trade = {
+	KAT_trade = { #Arabian Trade
 		global_trade_power = 0.1
 	}			
-	KAT_standardize_kutchi = {
+	KAT_standardize_kutchi = { #Standarize the Kutchi Language
 		culture_conversion_cost = -0.15
 	}
 }	

@@ -1,11 +1,11 @@
-KND_ideas = { #Kandy
-	start = {
-		global_institution_spread = 0.1
-		global_trade_goods_size_modifier = 0.05
+KND_ideas = {
+	start = { #Cinnamon and Pepper Trade
+		global_trade_goods_size_modifier = 0.1
+		trade_steering = 0.1
 	}
 	
-	bonus = {
-		global_missionary_strength = 0.3
+	bonus = { #Lankan Guerilla Warfare
+		hostile_attrition = 1
 	}
 	
 	trigger = {
@@ -13,27 +13,28 @@ KND_ideas = { #Kandy
 	}
 	free = yes
 	
-	KND_kandyan_terrain = {
-		defensiveness = 0.25
-	}	
-	KND_temple_of_the_tooth = {
-		legitimacy = 1
-		prestige = 0.5
-	}
-	KND_kandy_city = {
+	KND_senkadagalapura = { #Senkadagalapura
 		advisor_pool = 1
+	}
+	KND_temple_of_the_tooth = {Temple of the Tooth
+		missionaries = 1
+		legitimacy = 1
 	}	
-	KND_central_lankan_trade = {
-		global_trade_power = 0.1
-	}	
-	KND_kodithuwakkuwa = {
-		artillery_power = 0.1
+	KND_mercs_south_indian = { #Tamil and Telugu Mercenaries
+		mercenary_discipline = 0.05
+		possible_mercenaries = 0.15
+	}			
+	KND_frescoes = { #Kandyan Frescoes
+		adm_advisor_cost = -0.1
+	}
+	KND_kodithuwakkuwa = { #Kodhithuwakkuwa
+		artillery_power = 0.05
 		artillery_cost = -0.1
 	}	
-	KND_the_last_independent_lankans = {
-		land_morale = 0.1
-	}		
-	KND_holy_buddhist_site = {
-		tolerance_own = 2
-	}
-}
+	KND_logistical_reforms = { #Institute Logistical Reforms
+		leader_land_manuever = 1
+	}	
+	KND_iron_industry = { #Cultivate the Iron Industry
+		infantry_cost = -0.1
+	}	
+}	

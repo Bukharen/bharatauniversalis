@@ -45,6 +45,10 @@ country_event = {
 			culture = hakka
 			religion = confucian
 			male = yes
+			adm = 2
+			dip = 5
+			mil = 3
+			fixed = yes
 		}
 	}
 	option = {
@@ -74,6 +78,15 @@ country_event = {
 		2698 = {
 			cede_province = PGS
 		}
+		if = {
+			limit = {
+				5239 = {
+					owned_by = ROOT
+				}
+				NOT = { capital = 5239 }
+			}
+			cede_province = 5239
+		}
 		PGS = {
 			if = {
 				limit = {
@@ -90,6 +103,10 @@ country_event = {
 				culture = hakka
 				religion = confucian
 				male = yes
+				adm = 2
+				dip = 5
+				mil = 3
+				fixed = yes				
 			}
 			declare_war_with_cb = {
 				who = ROOT
@@ -129,6 +146,15 @@ country_event = {
 		2698 = {
 			cede_province = PGS
 		}
+		if = {
+			limit = {
+				5239 = {
+					owned_by = ROOT
+				}
+				NOT = { capital = 5239 }
+			}
+			cede_province = 5239
+		}
 		PGS = {
 			if = {
 				limit = {
@@ -154,6 +180,13 @@ country_event = {
 			}
 			add_claim = PGS
 		}
+		bataan_area = {
+			limit = {
+				NOT = { is_core = PGS }
+				NOT = { is_claim = PGS }
+			}
+			add_claim = PGS
+		}		
 		hidden_effect = {
 			2698 = {
 				infantry = PGS

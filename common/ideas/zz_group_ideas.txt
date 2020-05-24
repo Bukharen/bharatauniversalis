@@ -2431,9 +2431,7 @@ malabari_ideas = {
 	}
 	
 	trigger = {
-		tag = DGL
-		primary_culture = dutch
-		religion = catholic
+		always = no
 	}
 	free = yes
 	

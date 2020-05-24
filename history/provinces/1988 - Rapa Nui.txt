@@ -1,0 +1,24 @@
+#1988 - Rapanui
+
+culture = polynesian
+religion = animism
+capital = "Atakena"
+trade_goods = tropical_wood
+is_city = yes
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = RAP
+controller = RAP
+add_core = RAP
+
+1722.4.5 = {
+	discovered_by = NED	# Jacob Roggeveen
+}
+1770.11.15 = {
+	discovered_by = SPA	# The ships San Lorenzo and Santa Rosalia
+}
+1774.1.1 = {
+	discovered_by = GBR	# James Cook, date unknown
+}

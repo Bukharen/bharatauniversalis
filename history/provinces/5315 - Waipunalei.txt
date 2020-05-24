@@ -1,0 +1,25 @@
+#5315 - Waipunalei
+
+owner = HAW
+controller = HAW
+culture = hawaiian
+religion = animism
+capital = "Waipunalei"
+trade_goods = grain
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = HAW
+discovered_by = HAW
+discovered_by = OAH
+discovered_by = HNA
+discovered_by = MOO
+discovered_by = KAI
+discovered_by = MAU
+discovered_by = HKA
+discovered_by = HIL
+
+
+1555.1.1 = { discovered_by = SPA }
