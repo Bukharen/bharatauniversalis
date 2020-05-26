@@ -40,6 +40,11 @@
  events_malayalam.10.dd: "Achyutha Pisharadi is another celebrated prodigy of Kerala. The disciple of Jyesthadeva and the tutor of many including none other than Melpathur Narayana Bhattathiri, he played a large significant in the writing of the Narayaneeyam. In addition, if it wasn't for Bhattathiri's devotion to his teacher, the Narayaneeyam wouldn't have ever been written or recommended to Bhattathiri by Ezhuthachan. Besides the Narayaneeyam, however, many other great works were produced by Pisharadi. We should invite this revered talent to our court."
  events_malayalam.10.a: "He will make a great courtier."
  
-#Modifiers 
+#Provincial Trade Good Change Events
+ events_trade_good_changes.1.tt: "Discovery of Gold at Aikawa"
+ events_trade_good_changes.1.dd: "The island of Sado has long been at most a place to send exiles. However, with the discovery of gold at Aikawa, thousands of men are flocking to the island to mine this coveted good and invest into the lucrative gold trade. It seems that this island had more potential than we ever expected."
+ events_trade_good_changes.1.a: "Interesting, though those exiles are getting more than they deserve."
+ 
+#Generic Event Modifiers 
  malayalam_kerala_school: "Kerala School of Astronomy and Mathematics"
  desc_malayalam_kerala_school: "Through the great efforts of the philosophers of the Kerala School of Astronomy and Mathematics, more and more technological advancements in sciences and astrology will be made." 

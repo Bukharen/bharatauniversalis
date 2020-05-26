@@ -1028,7 +1028,7 @@ province;red;green;blue;x;x
 1027;155;34;79;Hitachi;x
 1028;27;36;126;Musashi;x
 1029;155;38;173;Kai;x
-1030;28;40;32;Owari;x
+1030;221;0;67;Owari;x
 1031;156;42;79;Kamikawa;x
 1032;28;44;126;Kurils;x
 1033;156;46;173;Sakhalin;x
@@ -4757,3 +4757,4 @@ province;red;green;blue;x;x
 5313;57;38;184;Hamakua;x
 5314;46;22;169;Koholalele;x
 5315;37;15;156;Waipunalei;x
+5401;158;43;37;Sado;x

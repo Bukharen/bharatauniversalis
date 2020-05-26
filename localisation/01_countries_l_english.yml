@@ -22,7 +22,39 @@
 #Dungarpur
  DUN: "Dungarpur"
  DUN_ADJ: "Dungarpuri" 
+ 
+#Hana
+ HNA: "Hana"
+ HNA_ADJ: "Hana" 
+ 
+#Haripunchai
+ LAM: "Haripunchai"
+ LAM_ADJ: "Haripunchaiya"
+ 
+#Hawai'i/Hawaii (Big Island)
+ HAW: "Hawai'i"
+ HAW_ADJ: "Hawai'ian"
 
+#Hawai'i/Hawaii (Formable)
+ HWI: "Hawai'i"
+ HWI_ADJ: "Hawai'ian"
+
+#Hilo
+ HIL: "Hilo"
+ HIL_ADJ: "Hilo"
+ 
+#Honma
+ HON: "Honma"
+ HON_ADJ: "Honman"
+ 
+#Ibalon
+ IBA: "Ibalon"
+ IBA_ADJ: "Ibalon"
+ 
+#Ifugao
+ IFU: "Ifugao"
+ IFU_ADJ: "Ifugaon"
+ 
 #Ivatan
  IVA: "Ivatan"
  IVA_ADJ: "Ivatanon"
@@ -58,34 +90,6 @@
 #Koholalele
  KOH: "Koholalele"
  KOH_ADJ: "Koholalele"
- 
-#Hana
- HNA: "Hana"
- HNA_ADJ: "Hana" 
- 
-#Haripunchai
- LAM: "Haripunchai"
- LAM_ADJ: "Haripunchaiya"
- 
-#Hawai'i/Hawaii (Big Island)
- HAW: "Hawai'i"
- HAW_ADJ: "Hawai'ian"
-
-#Hawai'i/Hawaii (Formable)
- HWI: "Hawai'i"
- HWI_ADJ: "Hawai'ian"
-
-#Hilo
- HIL: "Hilo"
- HIL_ADJ: "Hilo"
- 
-#Ibalon
- IBA: "Ibalon"
- IBA_ADJ: "Ibalon"
- 
-#Ifugao
- IFU: "Ifugao"
- IFU_ADJ: "Ifugaon"
  
 #Ma-i/Mai
  BAI: "Ma-i"

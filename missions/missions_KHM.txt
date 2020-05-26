@@ -32,13 +32,13 @@ khm_1 = {
 				}
 				country_event = { id = events_khm.1 }	
 			}
+			else = {
+				add_country_modifier = {
+					name = khm_new_religion
+					duration = 3650
+				}
+			}	
 		}
-		else = {
-			add_country_modifier = {
-				name = khm_new_religion
-				duration = 3650
-			}
-		}	
 	}
 	
 	khm_develop_angkor = {

@@ -9,9 +9,9 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
-owner = PGS
-controller = PGS
-add_core = PGS
+owner = TDO
+controller = TDO
+add_core = TDO
 discovered_by = chinese
 discovered_by = indian
 

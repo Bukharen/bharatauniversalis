@@ -30,7 +30,7 @@ discovered_by = HIL
 	remove_core = HAW
 }
 
-1709.1.1 = {
+1791.1.1 = {
 	owner = HAW
 	controller = HAW
 	add_core = HAW

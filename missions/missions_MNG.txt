@@ -14,7 +14,7 @@ mng_luchuan_pingmian = {
 		position = 1
 		
 		trigger = {
-			at_war_with = MMA
+			war_with = MMA
 			MMA = {
 				capital_scope = {
 					controlled_by = ROOT

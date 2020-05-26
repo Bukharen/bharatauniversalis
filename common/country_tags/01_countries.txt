@@ -39,5 +39,8 @@ ANG = "countries/Angkor.txt"
 KEN = "countries/Kengtung.txt"
 LAM = "countries/Haripunchai.txt"
 
+#Japan
+HON = "countries/Honma.txt"
+
 #Miscellaneous
 RUF = "countries/Tamna.txt"

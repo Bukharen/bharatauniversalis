@@ -30,6 +30,7 @@
 #Removed Mindoro (4350) from southern_luzon_area and added it to mindoro_area
 #Removed Ifugao (4348) from luzon_area and added it to southern_luzon_area
 #Removed Pangasinan (2698) from luzon_area and added it to agno_basin_area
+#Added Sado (5401) to hokuriku_area
 
 #Sea Areas:
 #No restriction on size.
@@ -2549,8 +2550,8 @@ hokkaido_area = { #5
 	1031 1032 1847 1852 4193
 }
 
-hokuriku_area = { #3
-	1023 1024 1837
+hokuriku_area = { #4 - Added Sado (5401)
+	1023 1024 1837 5401
 }
 
 kanto_area = { #3 #Western Kanto

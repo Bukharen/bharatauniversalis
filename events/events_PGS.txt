@@ -85,7 +85,9 @@ country_event = {
 				}
 				NOT = { capital = 5239 }
 			}
-			cede_province = 5239
+			5239 = {
+				cede_province = PGS
+			}
 		}
 		PGS = {
 			if = {
@@ -153,7 +155,9 @@ country_event = {
 				}
 				NOT = { capital = 5239 }
 			}
-			cede_province = 5239
+			5239 = {
+				cede_province = PGS
+			}
 		}
 		PGS = {
 			if = {

@@ -28,9 +28,16 @@ discovered_by = MAU
 	remove_core = HAW
 }
 
+1790.6.1 = {
+	owner = HIL
+	controller = HIL
+	add_core = HIL
+	remove_core = HKA
+}
+	
 1791.1.1 = {
 	owner = HAW
 	controller = HAW
 	add_core = HAW
-	remove_core = HKA
+	remove_core = HIL
 }

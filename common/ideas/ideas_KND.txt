@@ -16,7 +16,7 @@ KND_ideas = {
 	KND_senkadagalapura = { #Senkadagalapura
 		advisor_pool = 1
 	}
-	KND_temple_of_the_tooth = {Temple of the Tooth
+	KND_temple_of_the_tooth = { #Temple of the Tooth
 		missionaries = 1
 		legitimacy = 1
 	}	
