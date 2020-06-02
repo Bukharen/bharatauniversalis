@@ -31,6 +31,10 @@
 #Removed Ifugao (4348) from luzon_area and added it to southern_luzon_area
 #Removed Pangasinan (2698) from luzon_area and added it to agno_basin_area
 #Added Sado (5401) to hokuriku_area
+#Added Awaji (5402) to shikoku_area
+#Removed Buton (2716) from south_sulawesi_area
+#Added Wowoni (5500) to south_sulawesi_area
+#Added Bombona (5503) to south_sulawesi_area
 
 #Sea Areas:
 #No restriction on size.
@@ -311,6 +315,10 @@ bahama_channel_area = {
 # A land area is 3 - 10 provinces
 
 #mod 
+
+buton_area = {#4
+	2716 5501 5502
+}
 
 maui_area = { #5
 	5303 5304 5305 5306 5307
@@ -2518,8 +2526,8 @@ sulawesi_area = { #4
 	643 644 2713 2714
 }
 
-south_sulawesi_area = { #4
-	641 642 2715 2716
+south_sulawesi_area = { #5 - Removed Buton (2716) and added Bombona (5503) and Wowoni (5500)
+	641 642 2715 5500 5503
 }
 
 ########################################
@@ -2570,8 +2578,8 @@ northern_kyushu = {
 	1014 1818 4182 4651
 }
 
-shikoku_area = { #3
-	1819 1820 4186
+shikoku_area = { #4 - Added Awaji (5402)
+	1819 1820 4186 5402
 }
 
 eastern_chubu_area = { #4

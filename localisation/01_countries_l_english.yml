@@ -23,6 +23,10 @@
  DUN: "Dungarpur"
  DUN_ADJ: "Dungarpuri" 
  
+#Hachisuka
+ HAC: "Hachisuka"
+ HAC_ADJ: "Hachisukan"
+ 
 #Hana
  HNA: "Hana"
  HNA_ADJ: "Hana" 
@@ -111,6 +115,10 @@
  MAU: "Maui"
  MAU_ADJ: "Mauian"
  
+#Miyoshi
+ MIY: "Miyoshi"
+ MIY_ADJ: "Miyoshi"
+ 
 #Moloka'i/Molokai
  MOO: "Moloka'i"
  MOO_ADJ: "Moloka'ian"
@@ -122,6 +130,10 @@
 #Rapanui
  RAP: "Rapanui"
  RAP_ADJ: "Rapanui"
+ 
+#Sengoku
+ SEN: "Sengoku"
+ SEN_ADJ: "Sengoku"
  
 #Sirohi
  SIR: "Sirohi"

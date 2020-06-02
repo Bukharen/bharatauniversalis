@@ -1,4 +1,11 @@
 ﻿l_english:
+#Ayutthaya
+ events_ayu.1.tt: "Rise of Naresuan"
+ events_ayu.1.dd: "Our fateful war with the Burmese has finally come, but we are getting overwhelmed quickly. The Burmese have access to powerful weapons from Portuguese traders, and their troops quickly advance on Ayutthaya itself! Our hope turns to a young Sukhothai prince, Naret, to turn the tide against the Burmese and secure our sovereignty. A promising young general, he may be resourceful enough to win the engagements necessary, even with the Burmese technological advantage."
+ events_ayu.1.a: "He will lead our armies to victory!"
+ events_ayu.1.b: "He shows more promise than even the current heir."
+ events_ayu.1.c: "He is not needed."
+ 
 #Bikaner/Jangladesh
  events_jan.1.tt: "The Founding of Bikaner"
  events_jan.1.dd: "The vast, barren desert known as Jangladesh has long been divided among regional Jat clans vying for dominance over this sparse land. Throughout the latter half of the 1460s, however, this would change. The first son of Rao Jodha—the same Jodha as the one of Jodhpur in Marwar—sought to establish his own kingdom and traveled to the oasis of Bikaner. Rao Bika went on to take advantage of the disunited Jat clans and unite all of Jangladesh under his rule. He then founded the city of Bikaner, which he named after himself, and built Junagarh fort in 1478. Just ten years later, Bikaner state was formally established under the Rathore dynasty, controlling the lands for almost the next five centuries."
@@ -39,6 +46,12 @@
  events_jfn.4.dd: "Vijayanagar, the city of victory itself, is in our hands! Now we have the opportunity to enforce our demands onto our former overlords."
  events_jfn.4.a: "Jaffna will rise!"
 
+#Kedah
+ events_ked.1.tt: "Islam in Kedah"
+ events_ked.1.dd: "Kedah has retained its Hindu roots for centuries. However, the tides have changed, and all of neighbors have begun to embrace the Islamic way of life. Many Arabian and Islamic merchants flock to our ports every year, and the religion has gained traction among both the nobles and peasantry. Even our ruler has debated whether conversion is for the best. Is it time to adopt Islam?"
+ events_ked.1.a: "For Allah!"
+ events_ked.1.b: "We must not abandon our roots."
+ 
 #Khmer
  events_khm.1.tt: "Back to the Old Ways?"
  events_khm.1.dd: "Centuries ago, many conflicts arose because of the large Hindu populations and the royal family's gradual conversion to Buddhism. For example, the city of Angkor was once a grand Hindu temple, but was soon converted to a Buddhist one with the ascension of a Buddhist king to the throne. Whilst we are currently Buddhist, a sizable portion of our land is Hindu. Since both religions are deeply rooted in our culture, it is not impossible for us to maintain our Buddhist-like syncretism or even revert back to Hinduism."

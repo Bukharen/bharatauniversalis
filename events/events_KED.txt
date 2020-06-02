@@ -1,0 +1,40 @@
+namespace = events_ked
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_ked.1
+	title = "events_ked.1.tt"
+	desc = "events_ked.1.dd"
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KED
+		NOT = { religion_group = muslim }
+		is_year = 1465
+		is_at_war = no
+	}
+	option = {
+		name = "events_ked.1.a" #For Allah!
+		ai_chance = { factor = 100 }
+		add_stability = -1
+		change_religion = sunni
+		capital_scope = {
+			if = {
+				limit = {
+					NOT = { 
+						religion_group = muslim
+					}
+				}
+				change_religion = sunni
+			}
+		}	
+		add_piety = 0.1
+	}
+	option = {
+		name = "events_ked.1.b" #We must not abandon our roots.
+		ai_chance = { factor = 0 }
+		add_prestige = 10	
+	}
+}

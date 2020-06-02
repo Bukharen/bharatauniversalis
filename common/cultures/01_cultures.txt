@@ -849,3 +849,35 @@ korean_g = {
 		}
 	}
 }	
+
+dravidian = {
+	brahui = {
+		dynasty_names = {
+			"Aravidu" "Talpura" "Velama" "Saluva" "Tuluva" "Sangama" "Pemmasani" "Tupakula"
+			# CKII
+			"Nanduri" "Chalukya" "Pattavardhani" "Chola"
+		}
+		male_names = {
+			"Quli" "Jamshid" "Subhan Quli" "Ibrahim" "Muhammed Quli" "Muhammed" "'Abdullah" "Abul'l-Hassan" "Kabir" 
+			"Mir Musa" "Quli Sultan" "Mahmud Gawan" "Sayid Hanif" "Imad al-Mulk" "Saif Allah" "Iftikhar al-Mulk" "Mir Abu'l-Qasim" "Ubbaid Allah" "Sayid Nasir al-Din" "Shah Khalil Allah" "Mullah Qutb al-Din" "Abd Allah" 
+			"Rustam Khan" "Mir Shams al-Din" "Qasim Beg" "Khwaja Imad al-Din" "Mir Ali" "Khusrau" "Daud Khan" "Mujahid" 
+			"Quazi Siraj-ud-din" "Fulad Khan" "Jamal-ud-din" "Abdul" "Malik" "Ala-ud-din" "Malik-ut-Tujjar" "Sikandar" 
+			"Hakim"
+			Allada Allayavema Amma Ammaraja Anavema Anavota Ayyapayya Baladitya Ballaladeva Beta Bhima 
+			Bhandanaditya Chennappa 
+			Danamava Devanayaka Durgaraja Ganapathideva Ganapathinayaka Indrabhattaraka Jayasimha 
+			Kaapayanayaka Kadeyaraja Kalakampa 
+			Kammanayaka Katayavema Kumaragiri Kubjavishnuvardhana Mahadeva Mahakala Mangiyuvaraja Mallapa 
+			Nachana Narendra 
+			Niravadyadhavala Nrpakama Pandaranga Prataparudra Prola Prolayanayak Prolayavema Prthiviyaraja 
+			Rajanayaka Rajaraja 
+			Rudradeva Saktivarman Singamanayaka Somaditya Vengabhupathi Vijayaditya Vimaladitya Virabhadra 
+			Vishnuvardhana 
+			Yuddamalla Yuddamalla Yuddhamalla Yuddamalla
+		}
+		female_names = {
+			Anitalli Chamekamba Chandena Chellava Gamakamba Hariharamba Nagipoti Pammava Rudramba 
+			Rudramadevi Srimahadevi Tundaka "Bashirunissa" "Umda" "Samiya" "Dawudunissa"
+		}
+	}
+}

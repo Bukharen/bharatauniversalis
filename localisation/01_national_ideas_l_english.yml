@@ -18,6 +18,25 @@
  MBL_salary: "Land-Based Salary"
  MBL_salary_desc: "Due to a lack of money to go around, the main source of salary was in land. This meant that many of the able-bodied men in our country were also landholders. With more of our land owned by the people and not by the government, the land is easier to maintain."
 
+#Brunei
+ BEI_ideas: "Bruneian Ideas"
+ BEI_ideas_start: "Thassalocratic Traditions"
+ BEI_ideas_bonus: "Expand into the Interior"
+ BEI_idea_1: "Advantages of the Sea"
+ BEI_idea_1_desc: "Surrounding Brunei and the island of Borneo are seas, rich in economic activity, while the interior of Borneo is dense and consists of almost inhospitable jungles, inhabited sparsely by the Dayak people. As it is almost impossible to control interior of Borneo given the thalassocratic status of our state, is only logical for us to focus on the economic advantages of seafaring and trade. "
+ BEI_idea_2: "Kerajaan, Kuripan, and Tulin"
+ BEI_idea_2_desc: "Throughout our state, land is divided into three main categories; division in land allocation into the Kerajaan, which lies in the hands of the Sultan, the Kuripan, and Tulin, private property in the control of peasants. Tjese increase the economic productivity of our lands and provide an incentive for productivity. "
+ BEI_idea_3: "Aid of the Seafarers"
+ BEI_idea_3_desc: "The various islands of the Nusantara offer the perfect conditions necessary for the fostering of various peoples and the development of many cultures. Amongst our neighbors are the Orang Laut and the Bajau, both peoples acquainted with the sea and other oceanic activities. Considering our thalassocracy, an alliance or cooperation with those peoples will be advantageous to our interests. "
+ BEI_idea_4: "Diplomatic Balance with Europeans"
+ BEI_idea_4_desc: "With the arrival of many powerful European states, each having superior naval and land strength, we must be carefully balance our trade and economic interests with the security and survival of our state. While the Europeans could easily takeover our realm, similarly to Malacca, we could take advantage of competitions amongst European states and prove our value as a trading ally to prevent such an action."
+ BEI_idea_5: "Resist the Suluan Rise"
+ BEI_idea_5_desc: "Not only are there challenges from European maritime empires, but also from our neighbors. The Sulu people, originating from an archipelago adjacent to Borneo, have consolidated their power and have become a threat and barrier to our economic and political stability and well-being. Actions must be taken to counter and defend against their rise or we may find ourselves subjugated. "
+ BEI_idea_6: "Succession in Check"
+ BEI_idea_6_desc: "With the delicate politics in our region and Southeast Asia as a whole, and with many competing players such as the Suluans and Europeans each wanting to expand their footprint, it is essential to avoid internal strifes and to shore up and resolve any succession issues. Other states will inevitably want to take advantage of and fill any the power vacuum in the region."
+ BEI_idea_7: "Hold Firm Against Imperialism"
+ BEI_idea_7_desc: "As Europeans develop better technologies to not only improve links between the Orient and Europe but to also find ways to treat diseases such as malaria that had previously been a barrier to conquest beyond a few major coastal cities, their ability to expand their empires in the name of imperialism have dramatically increased. We must stay alert and protect ourselves in the case of an invasion or take-over attempt. "
+ 
 #Hadoti
  HAD_ideas: "Hadotian Ideas"
  HAD_ideas_start: "Crossroads of the Aravalli Hills"
@@ -37,6 +56,24 @@
  HAD_kotah_stone: "Kotah Stone"
  HAD_kotah_stone_desc: "The vast quarries of Kotah produce the finest varieties of limesone in all of Hadoti. Because of their extravagant colors, the stone is used in many of our architectural projects, and since it is mined locally in Kotah, it is easily shipped all across our nation."
 
+#Ikeda
+ IKE_ideas: "Ikedan Ideas"
+ IKE_ideas_start: "Buddhist and Confucian Scholars"
+ IKE_ideas_bonus: "Koraku-en"
+ IKE_bizen_yaki: "Bizen-yaki"
+ IKE_bizen_yaki_desc: ""
+ IKE_tokugawa_puppets: "Tokugawa Puppets"
+ IKE_tokugawa_puppets_desc: ""
+ IKE_seiwa_genji: "Descendants of Seiwa Genji"
+ IKE_seiwa_genji_desc: ""
+ IKE_ikeda_sen: "Legacy of Ikeda Sen"
+ IKE_ikeda_sen_desc: ""
+ IKE_daisen: "Daisen"
+ IKE_daisen_desc: ""
+ IKE_million_koku: "Hyakumankoku"
+ IKE_million_koku_desc: ""
+ IKE_saigoku_shogun: "Saigoku no Shogun"
+ IKE_saigoku_shogun_desc: ""
  
 #Jaffna
  JFN_ideas: "Aryachakravartin Ideas"

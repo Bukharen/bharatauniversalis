@@ -730,12 +730,12 @@ province;red;green;blue;x;x
 729;232;82;255;Wusuli;x
 730;104;84;0;Haixi;x
 731;232;86;64;Ninguta;x
-732;104;88;128;Hamheung;x
-733;232;90;192;Hwangju;x
-734;104;92;255;Gangwon;x
-735;153;134;173;Hanseong;x
-736;217;164;164;Sangju;x
-737;233;98;128;Jeonju;x
+732;249;221;118;Hamheung;x
+733;255;214;92;Hwangju;x
+734;236;251;55;Gangwon;x
+735;247;211;80;Hanseong;x
+736;240;240;5;Sangju;x
+737;246;206;60;Jeonju;x
 738;105;100;192;Taiwan;x
 739;233;102;255;Kashgar;x
 740;105;104;0;Chanderi;x
@@ -1010,26 +1010,26 @@ province;red;green;blue;x;x
 1009;153;126;173;Atikaki;x
 1010;25;128;32;Manitoba;x
 1011;153;130;79;Woods Cree;x
-1012;25;132;126;Satsuma;x
-1013;233;94;0;Cheongju;x
-1014;25;136;32;Bungo;x
-1015;153;138;79;Okinawa;x
+1012;255;51;10;Satsuma;x
+1013;234;186;11;Cheongju;x
+1014;242;2;26;Bungo;x
+1015;255;119;92;Okinawa;x
 1016;26;140;126;Nghe An;x
-1017;154;142;173;Suo;x
-1018;26;144;32;Izumo;x
-1019;154;146;79;Harima;x
-1020;26;148;126;Kyoto;x
-1021;154;150;173;Settsu;x
+1017;244;1;1;Suo;x
+1018;253;33;55;Izumo;x
+1019;255;51;58;Harima;x
+1020;222;39;2;Kyoto;x
+1021;253;69;33;Settsu;x
 1022;26;152;32;Amaravati;x
-1023;155;154;79;Echizen;x
-1024;27;156;126;Echigo;x
-1025;155;158;173;Dewa;x
-1026;27;32;32;Mutsu;x
-1027;155;34;79;Hitachi;x
-1028;27;36;126;Musashi;x
-1029;155;38;173;Kai;x
+1023;242;14;2;Echizen;x
+1024;254;84;72;Echigo;x
+1025;254;11;11;Dewa;x
+1026;223;1;1;Mutsu;x
+1027;208;37;54;Hitachi;x
+1028;224;0;7;Musashi;x
+1029;255;71;78;Kai;x
 1030;221;0;67;Owari;x
-1031;156;42;79;Kamikawa;x
+1031;233;46;32;Kamikawa;x
 1032;28;44;126;Kurils;x
 1033;156;46;173;Sakhalin;x
 1034;28;48;32;Kamchatka;x
@@ -1816,41 +1816,41 @@ province;red;green;blue;x;x
 1815;77;88;32;Ayeyarwady;x
 1816;205;90;79;Hejian;x
 1817;77;92;126;Nan;x
-1818;205;94;173;Chikuzen;x
-1819;77;96;32;Tosa;x
-1820;205;98;79;Awa;x
+1818;253;13;37;Chikuzen;x
+1819;254;52;52;Tosa;x
+1820;228;98;79;Awa;x
 1821;78;100;126;Nanjing;x
 1822;206;102;173;Shangai;x
 1823;78;104;32;Stung Treng;x
 1824;206;106;79;Wenzhou;x
-1825;78;108;126;Aki;x
+1825;254;65;52;Aki;x
 1826;206;110;173;Lika;x
 1827;78;112;32;Raska;x
 1828;207;114;79;Soli;x
 1829;79;116;126;Xiamen;x
-1830;207;118;173;Tajima;x
+1830;255;92;97;Tajima;x
 1831;79;120;32;Travunia;x
-1832;207;122;79;Yamato;x
+1832;222;13;2;Yamato;x
 1833;79;124;126;Ji'an;x
 1834;207;126;173;Dorpat;x
-1835;80;128;32;Mino;x
+1835;237;71;74;Mino;x
 1836;208;130;79;Nanyang;x
-1837;80;132;126;Etchu;x
+1837;253;44;43;Etchu;x
 1838;208;134;173;Hefei;x
-1839;80;136;32;Totomi;x
+1839;242;42;2;Totomi;x
 1840;208;138;79;Guilin;x
 1841;80;140;126;Marienburg;x
 1842;209;142;173;Narva;x
-1843;81;144;32;Kozuke;x
+1843;244;17;1;Kozuke;x
 1844;209;146;79;Xiankhouang;x
-1845;81;148;126;Pyeongyang;x
+1845;224;198;0;Pyeongyang;x
 1846;209;150;173;Amasya;x
-1847;81;152;32;Shiribeshi;x
+1847;223;35;22;Shiribeshi;x
 1848;209;154;79;Hamid;x
 1849;82;156;126;Hama;x
 1850;210;158;173;Mudanjiang;x
 1851;82;32;32;Ribatejo;x
-1852;210;34;79;Tokachi;x
+1852;255;85;51;Tokachi;x
 1853;82;36;126;Kozani;x
 1854;210;38;173;Jaffa;x
 1855;82;40;32;Sidon;x
@@ -2692,7 +2692,7 @@ province;red;green;blue;x;x
 2691;216;58;34;Kediri;x
 2692;216;67;201;Madura;x
 2693;104;16;91;Lombok;x
-2694;136;210;148;East Gangwon;x
+2694;245;201;41;East Gangwon;x
 2695;107;66;100;East Timor;x
 2696;181;45;81;Yamdena;x
 2697;246;198;225;Tondo;x
@@ -2714,7 +2714,7 @@ province;red;green;blue;x;x
 2713;255;228;94;Gorontalo;x
 2714;255;89;185;Palu;x
 2715;127;150;255;Palopo;x
-2716;137;255;124;Buton;x
+2716;158;250;183;Buton;x
 2717;201;219;43;Sula;x
 2718;241;207;129;Fak-Fak;x
 2719;119;128;17;Madang;x
@@ -2739,11 +2739,11 @@ province;red;green;blue;x;x
 2738;186;139;0;Waitaha;x
 2739;152;83;186;Kirikiriroa;x
 2740;249;177;179;Borneo;x
-2741;138;58;45;Jeju;x
-2742;162;64;128;Yukjin;x
-2743;209;139;185;Gyeongseong;x
-2744;122;48;97;Nyeongbyeon;x
-2745;134;53;105;West Gyeongsang;x
+2741;255;194;10;Jeju;x
+2742;255;199;31;Yukjin;x
+2743;245;184;0;Gyeongseong;x
+2744;255;224;133;Nyeongbyeon;x
+2745;244;196;21;West Gyeongsang;x
 2746;213;38;84;Vidin;x
 2747;106;186;80;Khara Narin Ula;x
 2748;80;32;128;Jianchang;x
@@ -4179,19 +4179,19 @@ province;red;green;blue;x;x
 4178;16;119;24;Pontic Mountains;x
 4179;24;212;37;Armenian Highlands;x
 4180;224;105;71;Hyuga;x
-4181;171;64;58;Higo;x
-4182;222;162;158;Hizen;x
-4183;148;243;182;Iwami;x
-4184;29;167;101;Bizen;x
-4185;136;40;113;Tango;x
-4186;164;211;156;Iyo;x
-4187;137;170;36;Kii;x
-4188;219;191;83;Shinano;x
-4189;183;128;213;Sagami;x
-4190;74;53;198;Shimousa;x
-4191;150;104;225;Shimotsuke;x
-4192;207;150;214;Ugo;x
-4193;102;179;145;Oshima;x
+4181;253;75;91;Higo;x
+4182;255;102;71;Hizen;x
+4183;254;25;11;Iwami;x
+4184;218;47;64;Bizen;x
+4185;232;47;78;Tango;x
+4186;235;63;51;Iyo;x
+4187;245;0;8;Kii;x
+4188;223;16;1;Shinano;x
+4189;255;31;38;Sagami;x
+4190;255;10;18;Shimousa;x
+4191;221;64;80;Shimotsuke;x
+4192;222;2;24;Ugo;x
+4193;254;32;32;Oshima;x
 4194;94;52;48;Yongping;x
 4195;151;185;125;Zhending;x
 4196;104;143;106;Haizhou;x
@@ -4225,12 +4225,12 @@ province;red;green;blue;x;x
 4224;36;150;179;Tokai Sea;x
 4225;64;173;200;Coast of Hokkaido;x
 4226;29;124;148;North Japan Basin;x
-4227;105;96;64;Daegu;x
-4228;195;44;140;Naju;x
-4229;188;200;56;Chungju;x
-4230;158;186;44;Suwon;x
-4231;231;184;20;Haeju;x
-4232;145;81;35;Ganggye;x
+4227;252;252;98;Daegu;x
+4228;248;216;98;Naju;x
+4229;220;220;4;Chungju;x
+4230;251;251;75;Suwon;x
+4231;255;255;128;Haeju;x
+4232;255;204;51;Ganggye;x
 4233;31;182;184;Bahai Sea;x
 4234;45;117;167;Eastern Yellow Sea;x
 4235;144;225;232;Vistula Lagoon;x
@@ -4357,8 +4357,8 @@ province;red;green;blue;x;x
 4356;235;174;233;Taytay;x
 4357;125;226;241;Visayan Sea;x
 4358;112;219;220;Cuyo Archipelago;x
-4359;185;227;40;Ise;x
-4360;235;159;33;Mikawa;x
+4359;254;47;32;Ise;x
+4360;253;53;73;Mikawa;x
 4361;203;124;124;East March;x
 4362;220;22;22;West March;x
 4363;212;118;56;Argyll;x
@@ -4649,13 +4649,13 @@ province;red;green;blue;x;x
 4648;2;69;200;Acaxee;x
 4649;62;137;250;Mayo;x
 4650;82;176;150;Opata;x
-4651;214;134;156;Tsushima;x
+4651;254;74;73;Tsushima;x
 4652;140;69;200;Haicheng;
 4653;117;192;171;Maolian;x
 4654;60;240;76;Fuerhe;x
 4655;194;93;131;Shilimian;x
 4656;95;228;201;Wolanhe;x
-4657;220;32;204;Changbai Mountains;x
+4657;180;180;4;Changbai Mountains;x
 4658;245;120;6;Nanghaer;x
 4659;237;134;253;Tulutingshan;x
 4660;130;176;43;Tunhe;x
@@ -4757,4 +4757,9 @@ province;red;green;blue;x;x
 5313;57;38;184;Hamakua;x
 5314;46;22;169;Koholalele;x
 5315;37;15;156;Waipunalei;x
-5401;158;43;37;Sado;x
+5401;255;68;31;Sado;x
+5402;254;74;73;Awaji;x
+5500;42;244;96;Wowoni;x
+5501;197;252;212;Muna;x
+5502;119;248;154;Kabaena;x
+5503;81;246;125;Bombana;x

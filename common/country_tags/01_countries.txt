@@ -40,7 +40,10 @@ KEN = "countries/Kengtung.txt"
 LAM = "countries/Haripunchai.txt"
 
 #Japan
+HAC = "countries/Hachisuka.txt"
 HON = "countries/Honma.txt"
+MIY = "countries/Miyoshi.txt"
+SEN = "countries/Sengoku.txt"
 
 #Miscellaneous
 RUF = "countries/Tamna.txt"

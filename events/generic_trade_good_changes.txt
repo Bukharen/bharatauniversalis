@@ -26,6 +26,7 @@ country_event = {
 		name = "events_trade_good_changes.1.a" #Splendid.
 		add_treasury = 100
 		5401 = {
+			change_trade_goods = gold
 			add_base_tax = 1
 			add_base_production = 2
 			add_base_manpower = 1

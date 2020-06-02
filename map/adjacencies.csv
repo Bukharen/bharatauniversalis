@@ -42,7 +42,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1215;387;sea;1330;3482;849;3484;853;Tajura-Mocha
 112;1774;sea;1308;2996;1430;2994;1434;Venice-Treviso
 54;4141;sea;1268;2945;1599;2943;1597;Stade-Dithmarschen
-1820;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
 4131;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
 1032;1852;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
 1199;1201;sea;1448;-1;-1;-1;-1;Bagamoyo-Zanzibar
@@ -77,7 +76,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2693;632;sea;1355;-1;-1;-1;-1;Lombok-Sumbawa
 632;633;sea;1355;4666;511;4675;512;Sumbawa-Flores
 633;2695;sea;1401;4749;514;4758;512;Flores-East Timor
-2716;642;sea;1357;4714;569;4712;575;Buton-Kendari
+2716;642;sea;1357;-1;-1;-1;-1;Buton-Kendari
 2700;5216;sea;1397;-1;-1;-1;-1;Buglas - Binalbagan
 4356;5207;sea;1395;-1;-1;-1;-1;Taytay - Calamianes
 646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram
@@ -117,4 +116,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5304;5306;sea;1697;-1;-1;-1;-1;Lana'i - Maui
 5304;5305;sea;1697;-1;-1;-1;-1;Lana'i - Kaho'olawe
 5305;5306;sea;1697;-1;-1;-1;-1;Kaho'olawe - Maui
+5402;1021;sea;1391;-1;-1;-1;-1;Awaji - Settsu
+5402;1820;sea;1391;-1;-1;-1;-1;Awaji - Tosa
+642;5500;sea;1357;-1;-1;-1;-1;Kendari - Wowoni
+2716;5500;sea;1357;-1;-1;-1;-1;Buton - Wowoni
+2716;5501;sea;1357;-1;-1;-1;-1;Buton - Muna
+642;5501;sea;1357;-1;-1;-1;-1;Muna - Kendari
+5501;5502;sea;1357;-1;-1;-1;-1;Muna - Kabaena
+5502;5503;sea;1357;-1;-1;-1;-1;Kabaena - Bombana
 -1;-1;;-1;-1;-1;-1;-1;-1;

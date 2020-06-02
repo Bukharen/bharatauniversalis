@@ -1,0 +1,83 @@
+namespace = events_ayu
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_ayu.1
+	title = "events_ayu.1.tt"
+	desc = "events_ayu.1.dd"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AYU
+		OR = {
+			TAU = {
+				is_in_war = {
+					attacker_leader = TAU
+					war_score = -15
+				}
+			}	
+			any_country = {
+				capital_scope = {
+					region = burma_region
+				}
+				total_development = 100
+				OR = {
+					culture_group = burman
+					culture = mon
+				}
+				is_subject = no
+				offensive_war_with = ROOT
+				war_score_against = {
+					who = ROOT
+					value = 15
+				}
+			}	
+		}
+		owns_core_province = 601
+		is_year = 1575
+		NOT = { is_year = 1625 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24 
+	}	
+	
+	option = {
+		name = "events_ayu.1.a" #He will lead our armies to victory!
+		add_prestige = 10	
+		define_general = {
+			name = "Naresuan"
+			shock = 3
+			fire = 4
+			manuever = 4
+			siege = 2
+			trait = born_to_the_saddle_personality
+		}
+	}
+	option = {
+		name = "events_ayu.2.a" #He shows even more promise than our current heir.
+		define_heir = {
+			dynasty = ROOT
+			age = 13
+			adm = 2
+			mil = 4
+			claim = 95
+			no_consort_with_heir = yes
+		}
+		define_heir_to_general = {
+			shock = 3
+			fire = 4
+			manuever = 4
+			siege = 2
+			trait = born_to_the_saddle_personality
+		}
+		add_stability = -1
+		add_legitimacy = -20
+	}
+	option = {
+		name = "events_ayu.3.a" #How about no.
+		add_prestige = -10	
+	}
+}

@@ -1,0 +1,40 @@
+BEI_ideas = {
+    start = { #Thalassocratic Traditions
+        merchants = 1
+        navy_tradition = 1  
+    }
+    
+    bonus = { #Expand into the Interior
+        infantry_combat_ability = 0.1
+    }
+    
+    trigger = {
+        tag = BEI        #will be added at load.
+    }
+    free = yes
+    
+    BEI_idea_1 = { #Advantages of the Sea
+        naval_forcelimit_modifier = 0.1
+        global_ship_cost = -0.1
+    }    
+    BEI_idea_2 = { #Kerajaan, Kuripan, and Tulin   
+        production_efficiency = 0.1   
+    }
+    BEI_idea_3 = { #Aid of the Seafarers
+        trade_efficiency = 0.1
+        improve_relation_modifier = 0.2
+    }    
+    BEI_idea_4 = { #Diplomatic Balance with Europeans
+        global_trade_power = 0.1
+        diplomatic_upkeep = 1
+    }    
+    BEI_idea_5 = { #Resist the Suluan Rise
+        discipline = 0.05
+    }    
+    BEI_idea_6 = { #Succession in Check
+        stability_cost_modifier = -0.15
+    }        
+    BEI_idea_7 = { #Hold Firm Against Imperialism
+        land_morale = 0.1
+    }
+}
