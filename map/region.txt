@@ -1142,6 +1142,8 @@ oceanea_region = {
 		te_waipounamu_area
 		northern_polynesia_area
 		eastern_polynesia_area
+		#mod
+		fiji_area
 	}
 	monsoon = {
 		00.07.01

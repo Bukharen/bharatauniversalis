@@ -1240,7 +1240,7 @@ province;red;green;blue;x;x
 1239;185;74;79;Vanuatu;x
 1240;34;23;157;Hawaii;x
 1241;186;78;173;Kiribati;x
-1242;58;180;32;Fiji;x
+1242;142;38;186;Fiji;x
 1243;186;82;79;Samoa;x
 1244;58;84;126;Tahiti;x
 1245;186;86;173;Irian;x
@@ -4757,6 +4757,7 @@ province;red;green;blue;x;x
 5313;57;38;184;Hamakua;x
 5314;46;22;169;Koholalele;x
 5315;37;15;156;Waipunalei;x
+5316;129;35;169;Vanua Levu;x
 5401;255;68;31;Sado;x
 5402;254;74;73;Awaji;x
 5500;42;244;96;Wowoni;x

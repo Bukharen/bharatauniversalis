@@ -35,6 +35,7 @@
 #Removed Buton (2716) from south_sulawesi_area
 #Added Wowoni (5500) to south_sulawesi_area
 #Added Bombona (5503) to south_sulawesi_area
+#Removed Fiji (1242) from melanesia_area and added it to fiji_area
 
 #Sea Areas:
 #No restriction on size.
@@ -316,7 +317,11 @@ bahama_channel_area = {
 
 #mod 
 
-buton_area = {#4
+fiji_area = { #2 - Added Fiji (1242)
+	1242 5316
+}
+
+buton_area = { #3
 	2716 5501 5502
 }
 
@@ -1753,8 +1758,8 @@ vogelkop_area = { #4
 	1245 2718 2723 2724
 }
 
-melanesia_area = { #5
-	1236 1238 1239 1242 1986
+melanesia_area = { #4 - Removed Fiji (1242)
+	1236 1238 1239 1986
 }
 
 micronesia_area = { #4

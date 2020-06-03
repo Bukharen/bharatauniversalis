@@ -21,6 +21,7 @@ SIQ = "countries/Katugasan.txt"
 TAY = "countries/Taytay.txt"
 
 #Polynesia
+FIJ = "countries/Fiji.txt"
 HAW = "countries/Hawaii.txt"
 HKA = "countries/Kau.txt"
 HIL = "countries/Hilo.txt"

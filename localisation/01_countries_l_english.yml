@@ -23,6 +23,10 @@
  DUN: "Dungarpur"
  DUN_ADJ: "Dungarpuri" 
  
+#Fiji
+ FIJ: "Fiji"
+ FIJ_ADJ: "Fijian"
+ 
 #Hachisuka
  HAC: "Hachisuka"
  HAC_ADJ: "Hachisukan"

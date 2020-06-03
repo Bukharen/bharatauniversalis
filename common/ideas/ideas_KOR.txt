@@ -1,0 +1,42 @@
+KOR_ideas = {
+	start = { #
+		
+	}
+	
+	bonus = { #
+		
+	}
+	
+	trigger = {
+		tag = KOR		#will be added at load.
+	}
+	free = yes
+	
+	KOR_ = { #
+	
+	}
+	KOR_ = { #
+	
+	}
+	KOR_ = { #
+	
+	}	
+	KOR_ = { #
+	
+	}	
+	KOR_ = { #
+	
+	}		
+	KOR_ = { #
+	
+	}
+	KOR_ = { #
+	
+	}	
+}	
+
+#Hangul in Korean Court
+#Geobukseon
+#Resist the Jurchens
+#Gyorin
+#
