@@ -1818,7 +1818,7 @@ province;red;green;blue;x;x
 1817;77;92;126;Nan;x
 1818;253;13;37;Chikuzen;x
 1819;254;52;52;Tosa;x
-1820;228;98;79;Awa;x
+1820;228;70;79;Awa;x
 1821;78;100;126;Nanjing;x
 1822;206;102;173;Shangai;x
 1823;78;104;32;Stung Treng;x
@@ -1835,7 +1835,7 @@ province;red;green;blue;x;x
 1834;207;126;173;Dorpat;x
 1835;237;71;74;Mino;x
 1836;208;130;79;Nanyang;x
-1837;253;44;43;Etchu;x
+1837;253;44;33;Etchu;x
 1838;208;134;173;Hefei;x
 1839;242;42;2;Totomi;x
 1840;208;138;79;Guilin;x
@@ -4179,7 +4179,7 @@ province;red;green;blue;x;x
 4178;16;119;24;Pontic Mountains;x
 4179;24;212;37;Armenian Highlands;x
 4180;224;105;71;Hyuga;x
-4181;253;75;91;Higo;x
+4181;253;73;91;Higo;x
 4182;255;102;71;Hizen;x
 4183;254;25;11;Iwami;x
 4184;218;47;64;Bizen;x
