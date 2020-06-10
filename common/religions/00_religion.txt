@@ -830,7 +830,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -850,7 +850,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
@@ -871,7 +871,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -891,7 +891,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
@@ -911,7 +911,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -931,7 +931,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
@@ -951,7 +951,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = sunni }
@@ -971,7 +971,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
@@ -992,7 +992,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = shiite }
@@ -1012,7 +1012,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
@@ -1035,7 +1035,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = shiite }
@@ -1055,7 +1055,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
@@ -1075,7 +1075,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
-				adm_power = 50
+				adm_power_cost = 50
 				if = {
 					limit = {
 						NOT = { religion = shiite }
@@ -1095,7 +1095,7 @@ muslim = {
 
 			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
 			on_invite_scholar = {
-				add_adm_power = -50
+				adm_power_cost = 50
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
@@ -1273,7 +1273,7 @@ eastern = {
 		
 		uses_karma = yes
 	}
-	
+
 	confucianism = {
 		color = { 214 229 140 }
 		icon = 9
@@ -1322,12 +1322,13 @@ dharmic = {
 		color = { 0 204 204 }
 		icon = 8
 		allowed_conversion = {
-			jainism
 			sikhism
+			jainism
 		}
 		country = {
 			tolerance_heathen = 1
 			tolerance_own = 1
+			brahmins_hindu_influence_modifier = 0.2
 		}
 		country_as_secondary = {
 			tolerance_heretic = 1
@@ -1335,6 +1336,7 @@ dharmic = {
 		}
 		
 		personal_deity = yes
+		misguided_heretic = yes
 		
 		on_convert = {
 			change_religion = hinduism
@@ -1479,6 +1481,7 @@ pagan = {
 		country = {
 			land_morale = 0.1
 			global_unrest = -2
+			burghers_influence_modifier = -0.05
 		}
 		country_as_secondary = {
 			land_morale = 0.05
