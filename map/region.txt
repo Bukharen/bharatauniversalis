@@ -1113,6 +1113,8 @@ moluccas_region = {
 		south_sulawesi_area
 		ceram_area
 		spice_islands_area
+		#mod
+		buton_area
 	}
 	monsoon = {
 		00.10.01
