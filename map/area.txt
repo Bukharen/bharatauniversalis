@@ -3733,12 +3733,16 @@ windward_islands_area = { #5
     497 498 499 500 501
 }
 
+transvaal_area = { #4
+	4781 4782 4783 4784
+}
+
 #############################
 #Deprecated:
 #############################
 
 great_moluccas_area = {
-	
+
 }
 
 khorasan_area = {
@@ -3815,7 +3819,6 @@ sarat_area = {
 }
 
 ad_dahna_area = {
-
 }
 
 najd_area = {
@@ -3836,9 +3839,6 @@ western_ireland_area = {
 
 
 seine_area = {
-}
-
-brabant_area = {
 }
 
 luxemburg_liege_area = {
@@ -3869,3 +3869,7 @@ pomerelia_area = { }
 sonora_y_sinaloa_area  = { }
 
 magadan_area = { }
+
+netherlands_area = { }
+
+iceland_area = { }
