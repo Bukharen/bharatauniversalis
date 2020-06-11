@@ -35,6 +35,6 @@ VND_ideas = {
 		global_unrest = -1
 	}		
 	VND_dewans = { #Dewans
-		max_states = 5
+		governing_capacity_modifier = 0.1
 	}	
 }	
