@@ -2703,10 +2703,7 @@ TAU_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = TAU
-			tag = BPR
-		}
+		always = no
 	}
 	free = yes
 	
@@ -4074,10 +4071,7 @@ javan_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = MAJ
-			tag = SUN
-		}
+		always = no
 	}
 	free = yes
 	
@@ -6810,10 +6804,7 @@ CEY_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = CEY
-			tag = KND
-		}
+		always = no
 	}
 	free = yes		#will be added at load.
 	
@@ -10584,7 +10575,7 @@ TKD_ideas = {
 	}
 
 	trigger = {
-		tag = TKD
+		always = no
 	}
 	free = yes
 	

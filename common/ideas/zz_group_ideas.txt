@@ -374,11 +374,7 @@ bengali_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = bengali
-			TAG = KMT
-			TAG = KAC
-		}
+		always = no
 	}
     free = yes       #will be added at load.
     
@@ -2300,11 +2296,7 @@ luzon_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = PGS
-			tag = TDO
-			tag = MNA
-		}
+		always = no
 	}
 	
 	free = yes
@@ -2506,7 +2498,7 @@ malabari_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = malayalam
+		always = no
 	}
 	free = yes
 	

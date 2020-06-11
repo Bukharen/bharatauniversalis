@@ -399,9 +399,9 @@
  SUN_moats_desc: "Over the years, many kings constructed elaborate moats surrounding our major cities in order to defend them and prevent any invasion from larger nations. These moats remain intact and help us secure our most important metropolitan centers."
  
 #Takeda
- TKD_ideas: Takedan Ideas"
- TKD_ideas_start: "Takeda Nijushi-sho"
- TKD_ideas_bonus: "The Four Diamonds"
+ TKD_ideas_iandb: Takedan Ideas"
+ TKD_ideas_iandb_start: "Takeda Nijushi-sho"
+ TKD_ideas_iandb_bonus: "The Four Diamonds"
  TKD_takeda_cavalry: "Takedan Cavalry"
  TKD_takeda_cavalry_desc: "The mere mention of the cavalry of Takeda instills fear into the hearts of many. As wielders of some of the best horses in all of Nippon, we are Under the tactical geniuses that lead our daimyo, we continue to utilize our cavalry to threaten all those around us and dominate eastern Honshu."
  TKD_famine_relief: "Famine Relief"

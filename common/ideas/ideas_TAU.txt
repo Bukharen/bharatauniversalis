@@ -34,7 +34,7 @@ taungu_ideas = {
 		reduced_liberty_desire = 10
 	}			
 	TAU_portuguese_imports = { #Portuguese Firearms and Mercenaries
-		possible_mercenaries = 0.25
+		mercenary_manpower = 0.1
 		mil_tech_cost_modifier  = -0.1
 	}
 }
