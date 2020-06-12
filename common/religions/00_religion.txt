@@ -1388,6 +1388,37 @@ dharmic = {
 		date = 1499.01.01
 	}
 	
+	jainism = {
+		color = { 205 159 204 }
+		icon = 34
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			global_missionary_strength = -0.02
+			religious_unity = 0.75
+		}
+		country_as_secondary = {
+			religious_unity = 0.33
+			tolerance_heathen = 3
+		}
+		
+		misguided_heretic = yes
+		uses_karma = yes
+		
+		on_convert = {
+			change_religion = jainism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { BHAKTI }
+	}
+	
 	harmonized_modifier = harmonized_dharmic
 	
 	crusade_name = CRUSADE
@@ -1551,6 +1582,151 @@ pagan = {
 		can_have_secondary_religion = yes
 		heretic = { OLD_TENGRI }
 	}
+	
+	donyipolo = {
+		color = { 130 33 94 }
+		icon = 29
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			defensiveness = 0.2
+			diplomats = 1
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			tolerance_heretic = 1
+		}
+		
+		on_convert = {
+			change_religion = donyipolo
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}
+	
+	niamtre = {
+		color = { 166 0 103 }
+		icon = 11
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			production_efficiency = 0.1
+			yearly_corruption = -0.05
+		}
+		country_as_secondary = {
+			free_policy = 1
+			army_tradition_decay = -0.1
+		}
+		
+		
+		on_convert = {
+			change_religion = niamtre
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}	
+	sanamahism = {
+		color = { 194 231 218 }
+		icon = 30
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			tolerance_own = 1
+			unjustified_demands = -0.05
+		}
+		country_as_secondary = {
+			hostile_attrition = 1
+			institution_spread_from_true_faith = 0.1
+		}
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = sanamahism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}	
+	phiism = {
+		color = { 255 198 217 }
+		icon = 11
+		allowed_conversion = {
+			hinduism
+		}
+		country = {
+			harmonization_speed = 0.2
+			tolerance_heathen = 1
+		}
+		country_as_secondary = {
+			production_efficiency = 0.1
+			global_institution_spread = 0.1	
+		}
+		uses_harmony = yes
+		
+		on_convert = {
+			change_religion = phiism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { TAIISM }
+	}	
+	anitism = {
+		color = { 127 183 190 }
+		icon = 11
+		allowed_conversion = {
+			hinduism
+			sunni
+			mahayana
+		}
+		country = {
+			unjustified_demands = -0.1
+			global_institution_spread = -0.1
+		}
+		country_as_secondary = {
+			global_trade_goods_size_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = anitism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ANIMISM }
+	}	
 	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan

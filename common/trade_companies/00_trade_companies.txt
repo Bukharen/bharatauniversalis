@@ -147,7 +147,7 @@ trade_company_burma = {
 		582 2395 2396 4404 4405 #kachin_area
 		2091 4473 #tripura_area
 		#mod
-		1750 1988		
+		1788 1950		
 	}
 	
 	# Generic

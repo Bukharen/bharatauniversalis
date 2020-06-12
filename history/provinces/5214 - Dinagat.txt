@@ -14,8 +14,6 @@ native_hostileness = 9
 discovered_by = chinese
 discovered_by = indian
 
-add_province_triggered_modifier = custodian_of_dinagat_anitist
-add_province_triggered_modifier = religious_center
 
 1565.1.1 = {
 	owner = SPA

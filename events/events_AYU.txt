@@ -71,7 +71,6 @@ country_event = {
 			fire = 4
 			manuever = 4
 			siege = 2
-			trait = born_to_the_saddle_personality
 		}
 		add_stability = -1
 		add_legitimacy = -20
