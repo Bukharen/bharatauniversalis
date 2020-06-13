@@ -4,6 +4,21 @@
  fiji_area_name: "Fiji"
  fiji_area_adj: "Fijian"
  
+#Hawaii
+ hawaii_region: "Hawai'i"
+ maui_area: "Maui"
+ maui_area_name: "Hawai'i"
+ maui_area_adj: "Maui"  
+ north_hawaii_area: "North Hawai'i"
+ north_hawaii_area_name: "Hawai'i"
+ north_hawaii_area_adj: "Northern Hawai'ian" 
+ south_hawaii_area: "South Hawai'i"
+ south_hawaii_area_name: "Hawai'i"
+ south_hawaii_area_adj: "Southern Hawai'ian"  
+ kauai_area: "Kaua'i"
+ kauai_area_name: "Hawai'i"
+ kauai_area_adj: "Kaua'ian"  
+ 
 #India
  vagad_area: "Vagad"
  vagad_area_name: "Vagad"
@@ -20,6 +35,11 @@
  silhet_area: "Sylhet"
  silhet_area_name: "Sylhet"
  silhet_area_adj: "Sylheti"
+ 
+#Japan
+ oshima_area: "Oshima"
+ oshima_area_name: "Ezo"
+ oshima_area_adj: "Oshiman"
  
 #Philippines 
  philippines_region: "The Philippines"
@@ -61,21 +81,6 @@
  agno_basin_area: "Agno Basin"
  agno_basin_area_name: "Agno Basin"
  agno_basin_area_adj: "Agnoan" 
- 
-#Hawaii
- hawaii_region: "Hawai'i"
- maui_area: "Maui"
- maui_area_name: "Hawai'i"
- maui_area_adj: "Maui"  
- north_hawaii_area: "North Hawai'i"
- north_hawaii_area_name: "Hawai'i"
- north_hawaii_area_adj: "Northern Hawai'ian" 
- south_hawaii_area: "South Hawai'i"
- south_hawaii_area_name: "Hawai'i"
- south_hawaii_area_adj: "Southern Hawai'ian"  
- kauai_area: "Kaua'i"
- kauai_area_name: "Hawai'i"
- kauai_area_adj: "Kaua'ian"  
  
  #Sulawesi
  buton_area: "Buton"

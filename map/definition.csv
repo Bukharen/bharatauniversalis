@@ -4184,7 +4184,7 @@ province;red;green;blue;x;x
 4183;254;25;11;Iwami;x
 4184;218;47;64;Bizen;x
 4185;232;47;78;Tango;x
-4186;235;63;51;Iyo;x
+4186;240;63;51;Iyo;x
 4187;245;0;8;Kii;x
 4188;223;16;1;Shinano;x
 4189;255;31;38;Sagami;x
@@ -4649,7 +4649,7 @@ province;red;green;blue;x;x
 4648;2;69;200;Acaxee;x
 4649;62;137;250;Mayo;x
 4650;82;176;150;Opata;x
-4651;254;74;73;Tsushima;x
+4651;254;74;72;Tsushima;x
 4652;140;69;200;Haicheng;
 4653;117;192;171;Maolian;x
 4654;60;240;76;Fuerhe;x
@@ -4855,7 +4855,10 @@ province;red;green;blue;x;x
 5315;37;15;156;Waipunalei;x
 5316;129;35;169;Vanua Levu;x
 5401;255;68;31;Sado;x
-5402;254;74;73;Awaji;x
+5402;254;66;39;Awaji;x
+5403;240;20;60;Usukeshi;x
+5404;255;55;82;Esashi;x
+5405;235;35;32;Setana;x
 5500;42;244;96;Wowoni;x
 5501;197;252;212;Muna;x
 5502;119;248;154;Kabaena;x

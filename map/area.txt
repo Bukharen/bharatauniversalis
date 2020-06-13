@@ -36,6 +36,7 @@
 #Added Wowoni (5500) to south_sulawesi_area
 #Added Bombona (5503) to south_sulawesi_area
 #Removed Fiji (1242) from melanesia_area and added it to fiji_area
+#Removed Matsumae (4193) from hokkaido_area and added it to oshima_area
 
 # A province can only belong to one area!
 
@@ -318,6 +319,10 @@ bahama_channel_area = {
 # A land area is 3 - 10 provinces
 
 #mod 
+
+oshima_area = { #4 - Added Matsumae (4193)
+	4193
+}
 
 fiji_area = { #2 - Added Fiji (1242)
 	1242 5316

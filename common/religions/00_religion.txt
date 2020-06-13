@@ -1387,7 +1387,7 @@ dharmic = {
 
 		date = 1499.01.01
 	}
-	
+
 	jainism = {
 		color = { 205 159 204 }
 		icon = 34
@@ -1417,7 +1417,7 @@ dharmic = {
 		}
 		
 		heretic = { BHAKTI }
-	}
+	}	
 	
 	harmonized_modifier = harmonized_dharmic
 	
@@ -1726,7 +1726,7 @@ pagan = {
 		}
 		
 		heretic = { ANIMISM }
-	}	
+	}		
 	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan

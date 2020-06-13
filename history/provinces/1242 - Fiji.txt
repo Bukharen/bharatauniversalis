@@ -5,11 +5,14 @@ religion = animism
 capital = "Fiji"
 trade_goods = naval_supplies
 hre = no
+is_city = yes
 base_tax = 2
 base_production = 2
 base_manpower = 2
 owner = FIJ 
 controller = FIJ
 controller = FIJ
+
+discovered_by = FIJ
 
 1643.1.1 = { discovered_by = NED } # Abel Tasman

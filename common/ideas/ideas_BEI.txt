@@ -5,7 +5,7 @@ BEI_ideas = {
     }
     
     bonus = { #Expand into the Interior
-        infantry_combat_ability = 0.1
+        infantry_power = 0.1
     }
     
     trigger = {
