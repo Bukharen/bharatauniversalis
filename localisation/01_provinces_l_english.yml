@@ -143,6 +143,8 @@
  PROV_ADJ5404: "Esashian"
  PROV5405: "Setana"
  PROV_ADJ5405: "Setanese"
+ PROV5406: "Osumi"
+ PROV_ADJ5406: "Osumese" 
  PROV5500: "Wowoni"
  PROV_ADJ5500: "Wowonian"
  PROV5501: "Muna"

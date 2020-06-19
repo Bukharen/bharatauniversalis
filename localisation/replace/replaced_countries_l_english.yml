@@ -3,6 +3,10 @@
  BGL: "Rewa"
  BGL_ADJ: "Rewan"
  
+#Iroquois
+ IRO: "Haudenosaunee"
+ IRO_ADJ: "Haudenosaunee"
+ 
 #Kham
  KAM: "Derge"
  KAM_ADJ: "Derge"
@@ -11,7 +15,7 @@
  KMT: "Kamata"
  KMT_ADJ: "Kamatan"
  
- #Madyas
+#Madyas
  MAS: "Madja-as"
  MAS_ADJ: "Madja-asi"
  

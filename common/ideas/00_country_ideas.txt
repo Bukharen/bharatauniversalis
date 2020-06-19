@@ -3628,7 +3628,7 @@ IRO_ideas = {
 	}
 	
 	trigger = {
-		tag = IRO
+		always = no
 	}
 	free = yes		# will be added at load
 	
@@ -6218,7 +6218,7 @@ LXA_ideas = {
 	}
 	
 	trigger = {
-		tag = LXA
+		always = no
 	}
 	free = yes
 	

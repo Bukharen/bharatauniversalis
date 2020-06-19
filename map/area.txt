@@ -37,6 +37,7 @@
 #Added Bombona (5503) to south_sulawesi_area
 #Removed Fiji (1242) from melanesia_area and added it to fiji_area
 #Removed Matsumae (4193) from hokkaido_area and added it to oshima_area
+#Added Osumi (5406) to kyushu_area
 
 # A province can only belong to one area!
 
@@ -2642,8 +2643,8 @@ eastern_kanto_area = { #3
 	1027 4190 4191
 }
 
-kyushu_area = { #4 #Southern Kyushu
-	1012 1015 4180 4181
+kyushu_area = { #4 #Southern Kyushu - Added Osumi (5406)
+	1012 1015 4180 4181 5406
 }
 
 northern_kyushu = {
