@@ -1,4 +1,4 @@
-MBL_ideas = {
+MBL_ideas_iandb = {
 	start = { #Jungle Kings
 		land_attrition = -0.1
 		movement_speed = 0.1

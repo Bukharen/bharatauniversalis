@@ -38,6 +38,7 @@
 #Removed Fiji (1242) from melanesia_area and added it to fiji_area
 #Removed Matsumae (4193) from hokkaido_area and added it to oshima_area
 #Added Osumi (5406) to kyushu_area
+#Added Aloubaéra (5700) to guyana_area
 
 # A province can only belong to one area!
 
@@ -322,7 +323,7 @@ bahama_channel_area = {
 #mod 
 
 oshima_area = { #4 - Added Matsumae (4193)
-	4193
+	4193 5403 5404 5405
 }
 
 fiji_area = { #2 - Added Fiji (1242)
@@ -2627,8 +2628,8 @@ south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
 	 737 1013 2741 4228 4229
 }
 
-hokkaido_area = { #5
-	1031 1032 1847 1852 4193
+hokkaido_area = { #4 - Removed Matsumae (4193)
+	1031 1032 1847 1852
 }
 
 hokuriku_area = { #4 - Added Sado (5401)
@@ -3140,8 +3141,8 @@ banda_oriental_area = { #5
 	772 773 2850 2851 2852
 }
 
-guyana_area = { #4
-	502 743 744 2803 
+guyana_area = { #5 - Added Aloubaéra (5700)
+	502 743 744 2803 5700
 }
 
 suriname_area = { #3

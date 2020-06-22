@@ -1,11 +1,11 @@
-VND_ideas = {
+VND_ideas_iandb = {
 	start = { #Cultural and Religious Tolerance
 		no_religion_penalty = yes
 		num_accepted_cultures = 1
 	}
 	
-	bonus = { #
-		discipline = 0.05 #Westernized Army
+	bonus = { #Westernized Army
+		discipline = 0.05 
 	}
 	
 	trigger = {
@@ -21,7 +21,7 @@ VND_ideas = {
 		heir_chance = 0.5
 	}	
 	VND_women = { #Significance of Women
-		female_advisor_chance = 0.25
+		female_advisor_chance = 0.2
 		may_recruit_female_generals = yes
 	}	
 	VND_cheras = { #Legacy of the Cheras

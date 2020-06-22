@@ -298,3 +298,15 @@ khalifatabad_titles = {
 		tag = KFA
 	}	
 }	
+
+khalifatabad_titles = {
+
+	ruler_male = {
+		1 = KHANIKHANAN
+	}
+	
+	trigger = {
+		tag = SRH
+		has_ruler = "Bahlûl"
+	}	
+}	

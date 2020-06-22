@@ -18,7 +18,7 @@ IRO_ideas_iandb = {
 	}
 	IRO_mourning_wars = { #Mourning Wars
 		manpower_recovery_speed = 0.10
-		war_exhaustion_cost = -0.05
+		war_exhaustion_cost = -0.1
 	}
 	IRO_fifty_sachems = { #The 50 Sachems
 		advisor_pool = 1

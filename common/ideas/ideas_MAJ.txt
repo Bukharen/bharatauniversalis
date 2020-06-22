@@ -1,4 +1,4 @@
-MAJ_ideas = {
+MAJ_ideas_iandb = {
 	start = { #A Thassalocracy in Nusantara
 		merchants = 1
 		diplomats = 1

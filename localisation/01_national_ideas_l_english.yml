@@ -1,8 +1,8 @@
 ﻿l_english: 
 #Bishnupur
- MBL_ideas: "Mallabhumi Ideas"
- MBL_ideas_start: "Jungle Kings"
- MBL_ideas_bonus: "Bishnupriya Tussar Silk"
+ MBL_ideas_iandb: "Mallabhumi Ideas"
+ MBL_ideas_iandb_start: "Jungle Kings"
+ MBL_ideas_iandb_bonus: "Bishnupriya Tussar Silk"
  MBL_terracotta: "Expand the Terracotta Industry"
  MBL_terracotta_desc: "Our capital is renowned for its terracotta, whether it be in our grand temples, or in our earthworks. As a major source of income for our nation, we should seek to expand the terracotta industry for the sake of commerce."
  MBL_bipodtarini: "Bipodtarini Devi"
@@ -19,9 +19,9 @@
  MBL_salary_desc: "Due to a lack of money to go around, the main source of salary was in land. This meant that many of the able-bodied men in our country were also landholders. With more of our land owned by the people and not by the government, the land is easier to maintain."
 
 #Brunei
- BEI_ideas: "Bruneian Ideas"
- BEI_ideas_start: "Thassalocratic Traditions"
- BEI_ideas_bonus: "Expand into the Interior"
+ BEI_ideas_iandb: "Bruneian Ideas"
+ BEI_ideas_iandb_start: "Thassalocratic Heritage"
+ BEI_ideas_iandb_bonus: "Expand into the Interior"
  BEI_idea_1: "Advantages of the Sea"
  BEI_idea_1_desc: "Surrounding Brunei and the island of Borneo are seas, rich in economic activity, while the interior of Borneo is dense and consists of almost inhospitable jungles, inhabited sparsely by the Dayak people. As it is almost impossible to control interior of Borneo given the thalassocratic status of our state, is only logical for us to focus on the economic advantages of seafaring and trade. "
  BEI_idea_2: "Kerajaan, Kuripan, and Tulin"
@@ -38,9 +38,9 @@
  BEI_idea_7_desc: "As Europeans develop better technologies to not only improve links between the Orient and Europe but to also find ways to treat diseases such as malaria that had previously been a barrier to conquest beyond a few major coastal cities, their ability to expand their empires in the name of imperialism have dramatically increased. We must stay alert and protect ourselves in the case of an invasion or take-over attempt. "
  
 #Calicut
- MAB_ideas: "Calicut Ideas"
- MAB_ideas_start: "Major Shareholders in the Spice Trade"
- MAB_ideas_bonus: "Constrain the Portuguese"
+ MAB_ideas_iandb: "Calicut Ideas"
+ MAB_ideas_iandb_start: "Major Shareholders in the Spice Trade"
+ MAB_ideas_iandb_bonus: "Constrain the Portuguese"
  MAB_muslim_arab_trades: "Mappila and Paradesi Traders"
  MAB_muslim_arab_trades_desc: "Mappila and Paradesi traders are the Muslim and Arabic merchants respectively that are employed by our Samoothiri as our national Arabian sea traders. Because of their religious beliefs, we have grown to accept Islamic culture as well and they no longer are seen as a threat to our Hindu heritage."
  MAB_overrun_neighbors: "Overrun Kochin and Kolathunadu"
@@ -57,9 +57,9 @@
  MAB_local_chief_subjects_desc: "Within Kerala, there are hundreds of minor nobles who hold sway over estates of varying sizes and surrounding regions. And with each and every conquest, we simply cannot keep assigning governors and displacing the hereditary chiefs who have minor regional authority. Therefore, we should instead maintain the traditional chieftancies and have them bow down to us and send us vassal taxes."
  
 #Hadoti
- HAD_ideas: "Hadotian Ideas"
- HAD_ideas_start: "Crossroads of the Aravalli Hills"
- HAD_ideas_bonus: "Expand the Weaving Industry"
+ HAD_ideas_iandb: "Hadotian Ideas"
+ HAD_ideas_iandb_start: "Crossroads of the Aravalli Hills"
+ HAD_ideas_iandb_bonus: "Expand the Weaving Industry"
  HAD_subjugate_tribes: "Subjugate the Tribes"
  HAD_subjugate_tribes_desc: "In the initial consolidation of the Hadotian state, we subjugated many minor tribes and clans and united Hadoti under our rule. However, these tribes never truly lost their regional authority and retained levels of autonomy in their respective lands. We can no longer allow minor chiefs to hold sway over more of the land than the Rao himself."
  HAD_valiant_rajputs: "Valiance of the Warriors"
@@ -95,9 +95,9 @@
  IRO_beaver_wars_desc: "The Beaver Wars were a series of conflicts between us backed by the English and Dutch against the French and many opposing tribes. Over the course of a century, many battles and treaties were fought as smallpox continued to eat away at our population. Emerging from this war still intact, we have gained experience fighting against the Europeans and have begun the importation and use of their advanced firearms and other modern weapons."
  
 #Ikeda
- IKE_ideas: "Ikedan Ideas"
- IKE_ideas_start: "Buddhist and Confucian Scholars"
- IKE_ideas_bonus: "Koraku-en"
+ IKE_ideas_iandb: "Ikedan Ideas"
+ IKE_ideas_iandb_start: "Buddhist and Confucian Scholars"
+ IKE_ideas_iandb_bonus: "Koraku-en"
  IKE_bizen_yaki: "Bizen-yaki"
  IKE_bizen_yaki_desc: "Bizen-yaki is traditional pottery that has gained traction because of its high quality. As major producers of it, we gain great profit from it and have gained a reputation for good pottery."
  IKE_tokugawa_puppets: "Tokugawa Puppets"
@@ -114,9 +114,9 @@
  IKE_saigoku_shogun_desc: "Our great rulers quickly became dubbed the shoguns of Saigoku. There is great prestige in this title, but moreover, it raises nationalism in our people and increases their morale."
  
 #Jaffna
- JFN_ideas: "Aryachakravartin Ideas"
- JFN_ideas_start: "Jaffna, a Coastal Center"
- JFN_ideas_bonus: "Jaffnan Administration"
+ JFN_ideas_iandb: "Aryachakravartin Ideas"
+ JFN_ideas_iandb_start: "Jaffna, a Coastal Center"
+ JFN_ideas_iandb_bonus: "Jaffnan Administration"
  JFN_tamil_lanka: "Jaffnan Tamils"
  JFN_tamil_lanka_desc: "Whilst the majority of Lanka is Sinhalese, Jaffna has been Tamil since the Chola invasions of Lanka in the early 11th century. However, the rest of our island is Sinhalese, which partially isolated us from the people down south. The Tamils of our nation are fierce fighters and will never be subject to Sinhalese rule."
  JFN_vijayanagari_diplomacy: "Vijayanagari Diplomacy"
@@ -133,9 +133,9 @@
  JFN_trade_desc: "Jaffna has been a center of trade between Arabia, Persia, India, and China for as long ago as the Sassanian era. Through proper utilization of our pivotal location, we can import and export and grow our economy exponentially."
 
 #Jaisalmer
- JSL_ideas: "Jaisalmer Ideas"
- JSL_ideas_start: "Jaisalmer Fort"
- JSL_ideas_bonus: "Descendants of Krishna"
+ JSL_ideas_iandb: "Jaisalmer Ideas"
+ JSL_ideas_iandb_start: "Jaisalmer Fort"
+ JSL_ideas_iandb_bonus: "Descendants of Krishna"
  JSL_caravans: "Caravans of Jaisalmer"
  JSL_caravans_desc: "The vast network of caravans that traverse our nation can be traced all the way back to the heyday of the Silk Road. As an inland oasis of trade in the harsh Thar desert, many caravans travel to Jaisalmer in order to restock and move down into Sindh or up into the Doab."
  JSL_heartland_thar: "Heartland of the Thar"
@@ -152,9 +152,9 @@
  JSL_never_forget_desc: "After a grand Bhati raid on a Delhian camp, Alauddin Khalji, provoked, brought an army and besieged Jaisalmer Fort. Our noble king then decided to send the elderly, sick, and children into a safe refuge in the desert in order to protect them as the warriors expected a fight to the death. For 8 and maybe even 9 long, treacherous years we stood our ground against the vile sultanate until they finally breached our walls and overrun the fort. Attempting to avoid capture, 24,000 woman died, whether it be by jauhar or voluntarily at the hands of their relatives. Most tragically of all, the remaining men walked out and accepted their death. After this, Jaisalmer was an abandoned, barren wasteland for years."
  
 #Kandy
- KND_ideas: "Kandyan Ideas"
- KND_ideas_start: "Cinnamon and Pepper Trade"
- KND_ideas_bonus: "Lankan Guerilla Warfare"
+ KND_ideas_iandb: "Kandyan Ideas"
+ KND_ideas_iandb_start: "Cinnamon and Pepper Trade"
+ KND_ideas_iandb_bonus: "Lankan Guerilla Warfare"
  KND_senkadagalapura: "Senkadagalapura"
  KND_senkadagalapura_desc: "For most of Lankan history, Kandy, also known as Senkadagalapura, was one of the largest cities on the island, only rivaled by Kotte and Nallur. However, something that sets us apart is the religious significance of our city to Theravada Buddhism. Thousands from across East and Southeast Asia flock to Kandy every year, and some of our visitors could help improve our nation if utilized well."
  KND_temple_of_the_tooth: "Temple of the Tooth"
@@ -171,9 +171,9 @@
  KND_iron_industry_desc: "It has come to our attention that Uva in south-central Lanka has untapped iron mines locked within its hills. We should immediately begin the mining of iron and establish it as an export of our nation alongside cinnamon and pepper."
  
 #Kolathunad 
- KLT_ideas: "Kolathunadi Ideas"
- KLT_ideas_start: "Decentralised State"
- KLT_ideas_bonus: "Matrilineal Administration"
+ KLT_ideas_iandb: "Kolathunadi Ideas"
+ KLT_ideas_iandb_start: "Decentralised State"
+ KLT_ideas_iandb_bonus: "Matrilineal Administration"
  KLT_samoothiri: "Resist the Samoothiri"
  KLT_samoothiri_desc: "The pesky Samoothiri, or Zamorin, of Calicut continues in their attempts to subjugate us. But time and time again, we manage to hold them off. For Kolathunad and our people, we should resist for as long as possible."
  KLT_descendants: "Both Ancestor and Descendant"
@@ -190,9 +190,9 @@
  KLT_survival_desc: "Even though we have been invaded so many times, we have never been force to kneel under others and continue to thrive. This can be attributed to our troops' high morale and discipline. Thanks to this, Kolathunad will stand up strong and never fall."
  
 #Koch
- KMT_ideas: "Kamata Ideas"
- KMT_ideas_start: "True Descendants of Kamarupa"
- KMT_ideas_bonus: "Egalitarianism of Eksarana Dharma"
+ KMT_ideas_iandb: "Kamata Ideas"
+ KMT_ideas_iandb_start: "True Descendants of Kamarupa"
+ KMT_ideas_iandb_bonus: "Egalitarianism of Eksarana Dharma"
  KMT_khen_stability: "Khen-Induced Stability"
  KMT_khen_stability_desc: "Baro-Bhuyan rule over Koch led to instability and the kingdom collapsed in itself. In the wake of this, Niladhwaj seized the nation's thrnone and established the Khen dynasty. Under them, we enjoyed a period of relative stability that never truly wore off even when not ruled by them."
  KMT_unite_bhuyans: "Unite the Baro-Bhuyan Chieftaincies"
@@ -209,9 +209,9 @@
  KMT_brahmaputra_terrains_desc: "The lands surrounding the meandering Brahmaputra River form the Brahmaputran plain. Coupled with the river's many tributaries, our lands are irrigated by the river and production is efficient. Moreover, our position nestled in the Brahmaputran valley helps our fine yearly harvests remain intact. Thanks to these three things, the development of our nation can continue to advance smoothly." 
  
 #Kochin
- KOC_ideas: "Kochin Ideas"
- KOC_ideas_start: "Abrahamic Minorities"
- KOC_ideas_bonus: "European Influence"
+ KOC_ideas_iandb: "Kochin Ideas"
+ KOC_ideas_iandb_start: "Abrahamic Minorities"
+ KOC_ideas_iandb_bonus: "European Influence"
  KOC_diplomacy: "Centuries of Diplomacy"
  KOC_diplomacy_desc: "Whether it be with Ming China, Portugal, the Dutch, or the British, Kochin has always been a hub of diplomacy and a way for outsiders to protect us from the Samoothiri of Calicut."
  KOC_buddhism: "Buddhism in Kochin"
@@ -228,9 +228,9 @@
  KOC_lineage_desc: "The lineage of the Kochi crown can be traced back 700 years. This allows us to connect with our ancestors and legitimize our claim to the throne."
  
 #Kutch
- KAT_ideas: "Kutchi Ideas"
- KAT_ideas_start: "The Mighty Rann"
- KAT_ideas_bonus: "Devotion to Ashapura Mata"
+ KAT_ideas_iandb: "Kutchi Ideas"
+ KAT_ideas_iandb_start: "The Mighty Rann"
+ KAT_ideas_iandb_bonus: "Devotion to Ashapura Mata"
  KAT_diaspora: "The Kutchi Diaspora"
  KAT_diaspora_desc: "Many Kutchi merchants and their families live in scattered ports around the Arabian Sea. These merchants of ours allow for our trade to reach faraway lands that we couldn't before."
  KAT_chandravanshi: "Ties to the Lunar Dynasty"
@@ -245,6 +245,25 @@
  KAT_trade_desc: "With the desert and Great Rann of Kutch in our inland areas, most of our cities and centers are along the coast. Because of this, trade and commerce has been big since our inception. With our coast, we are large shareholders in the monopoly that is Arabian trade."
  KAT_standardize_kutchi: "Standardize the Kutchi Language"
  KAT_standardize_kutchi_desc: "The Samma Rajputs, our senior branch, speak Sindhi. Some traders in our nation speak Gujarati, Arabic, and Persian. But Kutchi remains a language only spoken by some. We shall change this by standardizing the Kutchi language and make it known in all our courts what it is that we speak."
+ 
+#Lan Na
+ LNA_ideas_iandb: "Lan Na Ideas"
+ LNA_ideas_iandb_start: "Land of a Million Rice Fields"
+ LNA_ideas_iandb_bonus: "Opposition of Ayuttaya"
+ LNA_legendary_found_mangrai: "Mangrai's Legacy"
+ LNA_legendary_found_mangrai_desc: ""
+ LNA_subjects_of_the_mandala: "Mandala Subjects"
+ LNA_subjects_of_the_mandala_desc: ""
+ LNA_sukhothai_phichai_revolt: "Defection of Phichai-Sawankhalok"
+ LNA_sukhothai_phichai_revolt_desc: ""
+ LNA_emerald_buddha: "Emerald Buddha"
+ LNA_emerald_buddha_desc: ""
+ LNA_tail_cutting: "Anti-Elephant Tactics"
+ LNA_tail_cutting_desc: ""
+ LNA_friends_of_lan_xang: "Lao Alignment"
+ LNA_friends_of_lan_xang_desc: ""
+ LNA_shan_hill_expeditions: "Shan Hill Expeditions"
+ LNA_shan_hill_expeditions_desc: ""
  
 #Lan Xang Hom Khao
  LXA_ideas_iandb: "Lan Xang Hom Khao Ideas"
@@ -266,9 +285,9 @@
  LXA_phra_bang_desc: "The Phra Bang is the paramount icon of our nation. It is so important that one of our most important cities, Luang Prabang, ends with 'Prabang' which is variant of Phra Bang with the words combined. This tall standing Buddha has been an icon of Buddhism in our nation since it was gifted to Fa Ngum, our first king, by his father-in-law that ruled Angkor. As its custodians, we are revered by many and are regarded as competent rulers."
  
 #Madurai
- MAD_ideas: "Pandyan Ideas"
- MAD_ideas_start: "Pandyan Resistance"
- MAD_ideas_bonus: "Developing the Jungles"
+ MAD_ideas_iandb: "Pandyan Ideas"
+ MAD_ideas_iandb_start: "Pandyan Resistance"
+ MAD_ideas_iandb_bonus: "Developing the Jungles"
  MAD_links_with_the_past: "Pandyan Heritage"
  MAD_links_with_the_past_desc: "The royal line of the Pandyan dynasty goes back almost 2000 years. With our royal line being traced back so far, there is no doubt that we are the true rulers of Tamilakam."
  MAD_ancient_trade_routes: "Ancient Trade Routes"
@@ -285,9 +304,9 @@
  MAD_pearl_fisheries_desc: "Tamilakam was always a hub of trade in pearls. Fishing for pearls has been a tradition maintained for over two thousand years. With our control of valuable fisheries, we can produce more strategic goods for trade."
  
 #Majapahit 
- MAJ_ideas: "Majapahit Ideas"
- MAJ_ideas_start: "A Thassalocracy in Nusantara"
- MAJ_ideas_bonus: "Administer the Empire"
+ MAJ_ideas_iandb: "Majapahit Ideas"
+ MAJ_ideas_iandb_start: "A Thassalocracy in Nusantara"
+ MAJ_ideas_iandb_bonus: "Administer the Empire"
  MAJ_subjects_of_malaya: "Subjects All Across Malaya"
  MAJ_subjects_of_malaya_desc: "According to the renowned Nagarakretagama, our empire had 98 subjects that paid tribute and submitted to the power of Trowulan. Whilst that golden age has long since ended, we still retain many loyal subjects who continue to pay us in spices and tribute."
  MAJ_masters_of_spice: "Masters of Spice"
@@ -304,9 +323,9 @@
  MAJ_use_the_cetbang_desc: "Thanks to imports obtained by the Yuan dynasty, we were able to develop cetbang. Cetbang are a form of breech-loading artillery that can be equipped on ships and can allow us to domniate the seas. However, since the time that it was first designed, artillery has technologically advanced significantly and the cetbang are becoming obsolete. Therefore, we should modernize it and reimplement it in order to allow us to continously bombard our enemies and rule the seas."
 
 #Malacca
- MLC_ideas: "Malaccan Ideas"
- MLC_ideas_start: "Our Naval Heritage"
- MLC_ideas_bonus: "Unite Malaya"
+ MLC_ideas_iandb: "Malaccan Ideas"
+ MLC_ideas_iandb_start: "Our Naval Heritage"
+ MLC_ideas_iandb_bonus: "Unite Malaya"
  MLC_idea_1: "Merchant Hotspot"
  MLC_idea_1_desc: "Arabic for 'congregation of merchants, Malacca was the home of merchants from far and wide. Thanks to this, we have developed a unique blend of Arabic, Indochinese, and Malay influences and new institutions rapidly grow within our cities."
  MLC_idea_2: "Thai Rivalries"
@@ -323,9 +342,9 @@
  MLC_idea_7_desc: "Malacca is a home of all merchants and its strategic position on the coast facing the Straits of Malacca allow it to hold great sway over trade and politics in the region. From Malacca, we dominate Malayan trade and influence all those around us. "
  
 #Maldives
- DGL_ideas: "Maldivian Ideas"
- DGL_ideas_start: "Trading Heritage"
- DGL_ideas_bonus: "Supreme Royal Power"
+ DGL_ideas_iandb: "Maldivian Ideas"
+ DGL_ideas_iandb_start: "Trading Heritage"
+ DGL_ideas_iandb_bonus: "Supreme Royal Power"
  DGL_somali_heritage: "Royal Somali Heritage"
  DGL_somali_heritage_desc: "For centuries, we have been ruled by Somalis, whether it be through noble ascension or the intermarrriage between their and our aristocrats. The long-lasting Hilalee dynasty is also said to be of Somali descent. Our royal family has retained aspects of its Somali heritage and their culture still is an integral part of our society."
  DGL_the_cowrie_trade: "Exporting Cowrie Shells"
@@ -342,9 +361,9 @@
  DGL_repel_europe_desc: "The amount of times the pale-faced Europeans have attempted to conquer our islands is numerous. No matter what, however, the Dhivehi identity shall be protected and all European attempts to erase us will be repelled for as long as our people live on this land."
  
 #Mong Mao
- MMA_ideas: "Mong Mao Ideas"
- MMA_ideas_start: "Resist Chinese Treachery"
- MMA_ideas_bonus: "The Nam Mao River"
+ MMA_ideas_iandb: "Mong Mao Ideas"
+ MMA_ideas_iandb_start: "Resist Chinese Treachery"
+ MMA_ideas_iandb_bonus: "The Nam Mao River"
  MMA_suck_up_to_china: "Chinese Diplomacy"
  MMA_suck_up_to_china_desc: "For centuries, we have attempted to resist the Chinese dynasties but we are simply incapable of standing ground in war. Clearly, we should seek to diplomatically align with them and prevent conflict from brewing in the first place."
  MMA_raiding_china: "Raid Yunnan"
@@ -361,9 +380,9 @@
  MMA_unite_tribes_desc: "Due to a lack of money to go around, the main source of salary was in land. This meant that many of the able-bodied men in our country were also landholders. With more of our land owned by the people and not by the government, the land is easier to maintain."
  
 #Pangasinan
- PGS_ideas: "Pangasinanese Ideas"
- PGS_ideas_start: "Heartland of the Agno"
- PGS_ideas_bonus: "Resist European Advances"
+ PGS_ideas_iandb: "Pangasinanese Ideas"
+ PGS_ideas_iandb_start: "Heartland of the Agno"
+ PGS_ideas_iandb_bonus: "Resist European Advances"
  PGS_sinophiles: "Sinicized Culture"
  PGS_sinophiles_desc: "Thanks to our heavy trade with China and the influx of Chinese merchants to our ports, our culture has become influenced by them and now we have started to adopt many of their traditions. For example, it is not uncommon to see even the commonfolk wear Chinese silk, a testimony to our Sinicized culture."
  PGS_big_brain_trade: "Extensive Trade Routes"
@@ -380,9 +399,9 @@
  PGS_japanese_gunpowder_desc: "Proving itself as extremely valuable, Japanese gunpowder is ideal on the battlefield as it is technologically superior to the spears and bows that the nearby tribes use. It will help us in many conflicts henceforth." 
  
 #Rapanui
- RAP_ideas: "Rapanui Ideas"
- RAP_ideas_start: "Settlement by Polynesians"
- RAP_ideas_bonus: "Resistance Against Imperialism"
+ RAP_ideas_iandb: "Rapanui Ideas"
+ RAP_ideas_iandb_start: "Settlement by Polynesians"
+ RAP_ideas_iandb_bonus: "Resistance Against Imperialism"
  RAP_power_of_the_aliki: "Power of the Aliki"
  RAP_power_of_the_aliki_desc: "The Aliki of Rapa Nui holds absolute power vested in him by the ancestors of every noble on the island. All must bend to his whims, for he is chosen by the spirits themselves."
  RAP_polynesian_isolation: "Polynesian Isolation"
@@ -398,10 +417,29 @@
  RAP_expansion_beyond_rapanui: "Expansion Beyond Rapanui"
  RAP_expansion_beyond_rapanui_desc: "Our island is frankly too small to accomplish much of note. To make our ventures lined with glory, we must expand beyond our island and into the east and west seas! Only then will we be truly glorious."
  
+#Ryukyu
+ RYU_ideas_iandb: "Ryukyuan Ideas"
+ RYU_ideas_iandb_start: "Sanzan"
+ RYU_ideas_iandb_bonus: "Cultivation of Naafa Harbor"
+ RYU_trading_medium: "Medium of Trade"
+ RYU_trading_medium_desc: ""
+ RYU_kumemura_kuninda: "Kuninda"
+ RYU_kumemura_kuninda_desc: ""
+ RYU_castle_of_shuri: "Sui Gushiku"
+ RYU_castle_of_shuri_desc: ""
+ RYU_ming_investiture: "Chinese Investiture"
+ RYU_ming_investiture_desc: ""
+ RYU_priestesses: "Onarigami"
+ RYU_priestesses_desc: ""
+ RYU_fancy_rare_goods: "Trading Exotic Goods"
+ RYU_fancy_rare_goods_desc: ""
+ RYU_two_overlords: "Dual Subordination"
+ RYU_two_overlords_desc: ""
+ 
 #Sulu
- SUL_ideas: "Suluan Ideas"
- SUL_ideas_start: "Tausug Identity"
- SUL_ideas_bonus: "A Maritime Empire"
+ SUL_ideas_iandb: "Suluan Ideas"
+ SUL_ideas_iandb_start: "Tausug Identity"
+ SUL_ideas_iandb_bonus: "A Maritime Empire"
  SUL_assert_independence: "Assert Independence from Brunei"
  SUL_assert_independence_desc: "Our nation and our politics are still dominated by the Bruneians to our southwest. We must finally break all ties with them and consolidate our power as an independent sultanate."
  SUL_first_filipino_mosque: "Sheik Karimol Makhdum Mosque"
@@ -418,9 +456,9 @@
  SUL_colonize_philippines_desc: "Our archipelago is extremely diverse and is divided between many Rajahnates, sultanates, and tribal peoples. We must take it upon ourselves to finally unite them and consolidate our power as a maritime empire."
  
 #Sunda
- SUN_ideas: "Sundanese Ideas"
- SUN_ideas_start: "Pepper Cultivation"
- SUN_ideas_bonus: "All Roads Lead to Kalapa"
+ SUN_ideas_iandb: "Sundanese Ideas"
+ SUN_ideas_iandb_start: "Pepper Cultivation"
+ SUN_ideas_iandb_bonus: "All Roads Lead to Kalapa"
  SUN_bubat: "Remember Bubat"
  SUN_bubat_desc: "The Battle of Bubat was a horrific incident in where our gullible selves believed that we could trust the Majapahit.\nAs history tells it, our royal family was invited to their court at Trowulan for a royal marriage between their king and our princess. However, what we did not expect was their betrayal and subsequent ambush. In just a few hours, over a hundred royal family members, servants, guards, and courtiers were massacred, the poor princess committing suicide.\n Knowing the treachery of Majapahit as it is passed down through our oral history allows us to preserve our past and also being stronger, practical people."
  SUN_integration_of_galuh: "Rein in Galuh"
@@ -456,9 +494,9 @@
  TKD_legends_of_kawanakajima_desc: "Within the lands near the Ogasawara clans' domain were the multiple battles of Kawanakajima, fought just at the plain near Nagano. These legendary battles saw countless defeats of our longtime rivals the Uesugi as they retreated time and time again because of our might and power."
  
 #Tamna
- RUF_ideas: "Tamnan Ideas"
- RUF_ideas_start: "Island of Exiles"
- RUF_ideas_bonus: "Legacy of the Sambyeolcho"
+ RUF_ideas_iandb: "Tamnan Ideas"
+ RUF_ideas_iandb_start: "Island of Exiles"
+ RUF_ideas_iandb_bonus: "Legacy of the Sambyeolcho"
  RUF_seolmundae_granny: "Legend of the Seolmundae Granny"
  RUF_seolmundae_granny_desc: "The Seolmundae Granny is the ancient legendary world-building-giantess whose tale has descended orally from generation to generation. Unlike the supreme deities of Japan and China, the giant is female, clumsy, and tsundere-like. This difference distnguishes the mythology and differentiates the nationality of the our people from our neighbors and overlords."
  RUF_oreum: "Oreums of Jeju"
@@ -475,9 +513,9 @@
  RUF_far_east_port_desc: "The geographical advantage of our island makes it a center of intermediate trade. The main route for Japanese ships going to China was passing through the south part of Korea, where the Wokou pirates thrived off of the pillaging the southern states. The alternative was to detour the south around the coast if Jeju island. Even though the sea is more harsh, but less pirates to worry about. Promoting the ports here could benefit commercially."
  
 #Taungu
- taungu_ideas: "Taunguan Ideas"
- taungu_ideas_start: "Uniformity under the Mandala System"
- taungu_ideas_bonus: "Steamroll Through Indochina"
+ TAU_ideas_iandb: "Taunguan Ideas"
+ TAU_ideas_iandb_start: "Uniformity under the Mandala System"
+ TAU_ideas_iandb_bonus: "Steamroll Through Indochina"
  TAU_preserve_religion: "Preserve Buddhist Philosophies"
  TAU_preserve_religion_desc: "As benefactors of Buddhism, we adhere to it unconditionally and spread the religion all across our nation. However, many of our people still follow traditional Animist beliefs and some are beginning to embrace Abrahamic beliefs. For the sake of our religion and culture, we must preserve Burmese Buddhism and proselytize the populace."
  TAU_legal_reforms: "Institute Legal Reforms"
@@ -494,9 +532,9 @@
  TAU_portuguese_imports_desc: "Through interactions with European merchants, we have learned of their vastly superior technology and have begun to import it for our armies. Compared to the generic weapons of our neighbors, our military is now in top shape and these Portuguese firearms decimate all of our opponents."
  
 #Tondo
- TDO_ideas: "Tondoan Ideas"
- TDO_ideas_start: "Monopoly on Trade and Redistributed Goods"
- TDO_ideas_bonus: "Dominance over Luzon"
+ TDO_ideas_iandb: "Tondoan Ideas"
+ TDO_ideas_iandb_start: "Monopoly on Trade and Redistributed Goods"
+ TDO_ideas_iandb_bonus: "Dominance over Luzon"
  TDO_chinese_diplomacy: "Chinese Diplomacy"
  TDO_chinese_diplomacy_desc: "Since our inception, we have been embroiled in trade and diplomacy with China. At one point, we sent yearly tribute to appease the Ming of Nanjing and later Beijing, and they shipped goods to our ports where we distributed them to even farther lands and made even more profit. Their influence has surely rubbed off on us as we have become better at diplomacy thanks to them."
  TDO_pu_over_namayan: "Kalangitan and Bagyas Lineages"
@@ -513,9 +551,9 @@
  TDO_expand_agriculture_desc: "Rice has been a major sector of the agriculture industry in Luzon for ages. However, we still do not hold a candle to the mass rice terraces of Java or China. In order to become major producers and exporters of rice, we have to expand the agricultural industry and convert hard-to-traverse mountains into lush rice paddies and terraces."
  
 #Venad
- VND_ideas: "Venad Ideas"
- VND_ideas_start: "Cultural and Religious Tolerance"
- VND_ideas_bonus: "Westernization of the Armies"
+ VND_ideas_iandb: "Venad Ideas"
+ VND_ideas_iandb_start: "Cultural and Religious Tolerance"
+ VND_ideas_iandb_bonus: "Westernization of the Armies"
  VND_arab_trade: "Trade in the Arabian Sea"
  VND_arab_trade_desc: "The Arabian Sea, stretching from the top end of Somalia to Kanyakumari in our borders, has been a hub of Indo-Arabian trade for centuries. Our  "
  VND_adoption: "Adopted Kolathiri Heirs"
@@ -532,9 +570,9 @@
  VND_dewans_desc: "Similar to the Mughals, much of Travancore, the successor state and a continuation of Venad, was governed by dewans. This allows for our nation to be administered more effectively."
   
 #Xiu
- XIU_ideas: "Xiu Ideas"
- XIU_ideas_start: "Heart of Mayapan"
- XIU_ideas_bonus: "Dominance over Yucatan"
+ XIU_ideas_iandb: "Xiu Ideas"
+ XIU_ideas_iandb_start: "Heart of Mayapan"
+ XIU_ideas_iandb_bonus: "Dominance over Yucatan"
  XIU_quetzalcoatl_kukulkan: "Kukulkan's Devotees"
  XIU_quetzalcoatl_kukulkan_desc: "Until not long ago, the primary place of worsip for Kukulkan was located in Mani within our borders. Even after the relocation of the religious center of the god, we will not venerate Kukulkan any less. Kukulkan is deeply enrooted in our nation and will always be of utmost importance."
  XIU_kuchkabal_conquers: "Unite the Kuchkabals"
@@ -551,9 +589,9 @@
  XIU_cenotes_desc: "Cenotes are natural sinkholes that are present all throughout Yucatan. Many of them, unfortunately, are under enemy rule who foolishly disregard the significance of these cenotes. It is clear in our minds that all cenote must be ours so that they may be venerated and valued like they should be."
  
 #Yokotan
- YOK_ideas: "Yokotan Ideas"
- YOK_ideas_start: "Tabasco, Our Lifeline"
- YOK_ideas_bonus: "Tabscoob's Legacy"
+ YOK_ideas_iandb: "Yokotan Ideas"
+ YOK_ideas_iandb_start: "Tabasco, Our Lifeline"
+ YOK_ideas_iandb_bonus: "Tabscoob's Legacy"
  YOK_extensive_naval_trade: "Extensive Maritime Trade"
  YOK_extensive_naval_trade_desc: "The naval trade industry of our nation continues to flourish even whilst at war. Our many ships and canoes aid us in the excelling of trade"
  YOK_olmec_descendants: "Descendants of the Olmec"

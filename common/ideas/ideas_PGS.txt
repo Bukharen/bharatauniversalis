@@ -1,4 +1,4 @@
-PGS_ideas = {
+PGS_ideas_iandb = {
 	start = {#Heartland of the Agno
 		production_efficiency = 0.1
 		ship_durability = 0.05

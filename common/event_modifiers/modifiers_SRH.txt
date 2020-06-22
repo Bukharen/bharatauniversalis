@@ -1,0 +1,9 @@
+srh_bahluls_army = {
+	siege_ability = 0.1
+	army_tradition = 0.25
+}
+
+srh_bahluls_horses = {	
+	cavalry_cost = -0.1
+	cavalry_power = 0.1 
+}	

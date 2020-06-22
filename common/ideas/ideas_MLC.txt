@@ -1,4 +1,4 @@
-MLC_ideas = { #Malacca
+MLC_ideas_iandb = { #Malacca
     start = { #Our Naval Heritage
         naval_morale = 0.1
         trade_efficiency = 0.1   

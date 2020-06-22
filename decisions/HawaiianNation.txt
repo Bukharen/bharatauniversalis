@@ -1,0 +1,67 @@
+country_decisions = {
+
+    hawaiian_nation = {
+        major = yes
+        potential = {
+            normal_or_historical_nations = yes
+            was_never_end_game_tag_trigger = yes
+            NOT = { has_country_flag = formed_hawaii_nation }
+            OR = {
+                ai = no
+                is_playing_custom_nation = no
+            }
+            NOT = { exists = HWI }
+            NOT = { tag = HWI }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+            is_colonial_nation = no
+            OR = {
+                is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			primary_culture = hawaiian
+		}
+		provinces_to_highlight = {
+			region = hawaii_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			hawaii_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}			
+			add_prestige = 25
+			set_country_flag = formed_hawaiian_nation
+			change_tag = HWI
+		}
+		ai_will_do = {
+			factor = 400
+		}
+    }
+}

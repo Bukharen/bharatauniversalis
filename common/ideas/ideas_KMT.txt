@@ -1,4 +1,4 @@
-KMT_ideas = {
+KMT_ideas_iandb = {
 	start = { #True Descendants of Kamarupa
 		legitimacy = 1
 		harsh_treatment_cost = -0.2

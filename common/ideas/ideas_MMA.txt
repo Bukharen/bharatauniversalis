@@ -1,4 +1,4 @@
-MMA_ideas = {
+MMA_ideas_iandb = {
 	start = { #Resist Chinese Treachery
 		land_morale = 0.1
 		shock_damage_received = -0.1
@@ -40,7 +40,7 @@ MMA_ideas = {
 		state_maintenance_modifier = -0.1
 	}
 	MMA_conquered_ava_historically = { #Conquerors of Ava
-		free_mil_policy = 1
+		army_tradition_decay = -0.01
 	}			
 	MMA_unite_tribes = { #Unite the Diverse Tribes
 		province_warscore_cost = -0.1

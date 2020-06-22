@@ -1,4 +1,4 @@
-JSL_ideas = {
+JSL_ideas_iandb = {
 	start = { #Jaisalmer Fort
 		fort_maintenance_modifier = -0.15
 		defensiveness = 0.1
@@ -22,7 +22,8 @@ JSL_ideas = {
 		land_attrition = -0.1
 	}	
 	JSL_jain_traditions = { #Rooted Jain Traditions
-		free_adm_policy = 1
+		tolerance_heretic = 2
+		interest = -0.5
 	}
 	JSL_raid_caravans = { #Raiders of Caravans)
 		loot_amount = 0.1

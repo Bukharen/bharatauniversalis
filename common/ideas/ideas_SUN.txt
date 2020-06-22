@@ -1,4 +1,4 @@
-SUN_ideas = {
+SUN_ideas_iandb = {
 	start = { #Pepper Cultivation
 		trade_efficiency = 0.1
 		global_prov_trade_power_modifier = 0.05

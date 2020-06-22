@@ -1,4 +1,4 @@
-KND_ideas = {
+KND_ideas_iandb = {
 	start = { #Cinnamon and Pepper Trade
 		global_trade_goods_size_modifier = 0.1
 		trade_steering = 0.1

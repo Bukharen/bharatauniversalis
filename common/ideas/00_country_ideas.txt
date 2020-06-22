@@ -3058,7 +3058,7 @@ RYU_ideas = {
 	}
 	
 	trigger = {
-		tag = RYU
+		always = no
 	}
 	free = yes
 	
@@ -7336,7 +7336,7 @@ LNA_ideas = {
     }
  
     trigger = {
-		tag = LNA
+		always = no
     }
     free = yes
  

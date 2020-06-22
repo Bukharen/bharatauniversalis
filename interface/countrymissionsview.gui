@@ -39,7 +39,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 1100 y = -1 }
+			position = { x = 1057 y = -1 }
 			quadTextureSprite ="GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
@@ -62,7 +62,7 @@ guiTypes = {
 			name = "countrymissionsview_missions_gridbox_listbox"
 			position = { x=10 y =122}
 			backGround=""
-			size = { x=1084 y=412 }
+			size = { x=1057 y=412 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0

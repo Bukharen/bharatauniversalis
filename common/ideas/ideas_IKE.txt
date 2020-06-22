@@ -1,4 +1,4 @@
-IKE_ideas = {
+IKE_ideas_iandb = {
 	start = { #Buddhist and Confucian Scholars
 		global_institution_spread = 0.1
 		idea_cost = -0.05

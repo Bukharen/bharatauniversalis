@@ -1,4 +1,4 @@
-KLT_ideas = {
+KLT_ideas_iandb = {
 	start = {
 		years_of_nationalism = -5
 		global_unrest = -1

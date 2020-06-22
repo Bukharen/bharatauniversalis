@@ -1,5 +1,5 @@
 #Contributed by Ruffy
-RUF_ideas = {
+RUF_ideas_iandb = {
     start = { #Island of Exiles
         spy_offence = 0.1
         idea_cost = -0.05

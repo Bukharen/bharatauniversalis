@@ -1,4 +1,4 @@
-XIU_ideas = {
+XIU_ideas_iandb = {
 	start = { #Heart of Mayapan
 		governing_capacity_modifier = 0.1
 		caravan_power = 0.15

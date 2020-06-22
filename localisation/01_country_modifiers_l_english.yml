@@ -155,4 +155,10 @@
  
 #Rajkot
  rjk_trade_ambitions: "Maritime Ambitions"
- desc_rjk_trade_ambitions: "Now that we are no longer landlocked, we have unlocked a new avenue of trade—maritime."
+ desc_rjk_trade_ambitions: "Now that we are no longer landlocked, we have unlocked a new avenue of trade; maritime."
+ 
+#Sirhind
+ srh_bahluls_army: "Enhanced Armies"
+ desc_srh_bahluls_army: "As our armies' ranks begin to swell once more, our army grows stronger than ever."
+ srh_bahluls_horses: "Quality Sirhindi Horses"
+ desc_srh_bahluls_horses: "As breeders of the finest quality of horses, they are tailored to our military needs and are more common and effective." 

@@ -8,6 +8,9 @@ KFA = "countries/Khalifatabad.txt"
 PRT = "countries/Kanthal.txt"
 SIR = "countries/Sirohi.txt"
 
+#North America
+WAB = "countries/Wabanaki.txt"
+
 #Philippines
 BAI = "countries/Ma-i.txt"
 DAP = "countries/Dapitan.txt"

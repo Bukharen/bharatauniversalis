@@ -1,4 +1,4 @@
-RAP_ideas = {
+RAP_ideas_iandb = {
 	start = { #Settlement by Polynesians
 		range = 0.5
 		naval_attrition = -0.15

@@ -1,4 +1,4 @@
-YOK_ideas = {
+YOK_ideas_iandb = {
 	start = { #Tabasco, Our Lifeline
 		development_cost = -0.1
 		global_unrest = -1

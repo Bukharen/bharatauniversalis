@@ -1,4 +1,4 @@
-KOC_ideas = {
+KOC_ideas_iandb = {
 	start = { #Abrahamic Minorities
 		religious_unity = 0.25 
 		tolerance_heathen = 1

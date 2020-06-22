@@ -1,4 +1,4 @@
-HAD_ideas = {
+HAD_ideas_iandb = {
 	start = { #Crossroads of the Aravalli Hills
 		movement_speed = 0.1
 		land_attrition = -0.1

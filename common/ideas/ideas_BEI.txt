@@ -1,4 +1,4 @@
-BEI_ideas = {
+BEI_ideas_iandb = {
     start = { #Thalassocratic Traditions
         merchants = 1
         navy_tradition = 1  
