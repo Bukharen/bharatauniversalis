@@ -16,6 +16,7 @@ country_event = {
 		owns_core_province = 559
 		is_year = 1525
 		NOT = { is_year = 1550 }
+		capital = 559
 	}
 	
 	mean_time_to_happen = {
@@ -45,7 +46,6 @@ country_event = {
 			}	
 			change_province_name = "Orchha"
 			rename_capital = "Orchha"
-			move_capital_effect = yes
 		}	
 	}
 }

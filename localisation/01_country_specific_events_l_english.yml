@@ -152,6 +152,11 @@
  events_mng.4.dd: "In 1438, we annexed some minor Tusi states nearby without the permission of the Emperor. Because of this, many complaints were sent to the Emperor and he decided to invade. However, all campaigns ended with little to no victory on the side of the Ming as we fought back relentlessly. Ming has again mobilized and has crossed the border in another invasion."
  events_mng.4.a: "Worrisome."
  
+#Multan
+ events_mul.1.tt: "Ascension of the Langa"
+ events_mul.1.dd: "Multan has been in a state of turmoil since the sack of Delhi by Tamerlane in 1398. For all this time, we have suffered from internal strife and incompetent rulers whose courts do not even reside in the Panjabi heartland. However, a turn for the better came; an influential Sheikh was elected into power and stability seemed to be returning. But in 1443, a conspiracy led by Rae Sahra of the Afghan Langas exiled the Sheikh to Delhi and Sahra installed himself as Sultan. Under this new dynasty, we can only hope that order can return to Multan once more." 
+ events_mul.1.a: "The time for them to accept their new sultans has not yet come." 
+ 
 #Pangasinan
  events_pgs.1.tt: "Lim Hong's Invasion"
  events_pgs.1.dd: "The 16th century was marked by extensive piracy all across the coasts of Southern China. Many of them also raided along the coasts of Luzon, Korea, and Japan as well. One of these pirates, Lim Hong, would go on to seize Pangasinan and unsuccessfully attempt to siege Manila twice before the Spanish invaded Pangasinan and he fled, becoming never heard of again."
@@ -168,7 +173,7 @@
  
 #Orissa
  events_ori.1.tt: "The Velama Revolt"
- events_ori.1.dd: "Between 1424 and 1425, Ahmad Shah Al Wali, the then-current sultan of the Bahmani sultanate, launched an expeditionary force into Telingana with the intent of subjugating the independent Velama Nayaks. Throughout this, hundreds of thousands of Telugu civillians were massacred and the major centers of culture like Devarakonda and Warangal were razed to the ground. Since then, the autonomous Velama chiefs have been subservient to Bahmani treachery and have been forced to be subject to their oppression and violation of their nation and people. However, fed up with this, the Nayaks have decided to openly rebel against their overlords and seek to rid foreign rule. They have approached us with an offer: if we were to help them, they would willingly become our subject as long as we defend them. Whilst this is a convenient offer seeing as we would like to expand into the Deccan anyways, it will risk a war with the Bahmani sultanate. Are we prepared for that?"
+ events_ori.1.dd: "Between 1424 and 1425, Ahmad Shah al-Wali, the then-current sultan of the Bahmani sultanate, launched an expeditionary force into Telingana with the intent of subjugating the independent Velama Nayaks. Throughout this, hundreds of thousands of Telugu civillians were massacred and the major centers of culture like Devarakonda and Warangal were razed to the ground. Since then, the autonomous Velama chiefs have been subservient to Bahmani treachery and have been forced to be subject to their oppression and violation of their nation and people. However, fed up with this, the Nayaks have decided to openly rebel against their overlords and seek to rid foreign rule. They have approached us with an offer: if we were to help them, they would willingly become our subject as long as we defend them. Whilst this is a convenient offer seeing as we would like to expand into the Deccan anyways, it will risk a war with the Bahmani sultanate. Are we prepared for that?"
  events_ori.1.a: "No longer shall we tolerate sultanate supremacism."
  events_ori.1.b: "We can not afford war." 
  events_ori.2.tt: "Orissa backs the Velama Nayaks"
