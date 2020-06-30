@@ -2,13 +2,13 @@
 
 culture = carib
 religion = animism
-capital = Aloubaéra"
+capital = "Aloubaéra"
 trade_goods = unknown
 hre = no 
 base_tax = 2
 base_production = 2
 base_manpower = 1
-native_size = 25
+native_size = 15
 native_ferocity = 2
 native_hostileness = 9 
 
@@ -17,32 +17,209 @@ native_hostileness = 9
 discovered_by = south_american
 
 
-1498.7.31 = {
+1498.8.14 = {
 	discovered_by = CAS
-	owner = CAS
-	controller = CAS
-	culture = castillian
-	add_core = CAS
-	religion = catholic
-	is_city = yes
-	trade_goods = cocoa
 } # Christopher Columbus
-1516.1.23 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
+1628.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	is_city = yes
+	trade_goods = tobacco
+	culture = dutch
+	religion = reformed
+	capital = "Nieuw Walcheren"
+	fort_15th = yes
 }
-1690.1.1 = { unrest = 5 } # Religious convertion of the natives
-1699.1.1 = { unrest = 0 revolt = { type = nationalist_rebels size = 2 } controller = REB } # Arena Massacre, Indian uprising
-1700.1.1 = {
-	revolt = {}
-	controller = SPA
+1636.12.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = NED
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+	fort_15th = no
+	
 }
-1797.10.18 = { controller = GBR } # Occupied by British forces
+1637.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	is_city = yes
+	trade_goods = tobacco
+	culture = english
+	religion = anglican
+}
+1642.1.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = NED
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+}
+1654.1.1 = {
+	owner = KUR
+	controller = KUR
+	add_core = KUR
+	is_city = yes
+	trade_goods = tobacco
+	religion = protestant
+	culture = livonian
+	capital = "Jacobusstadt"
+	fort_15th = yes
+}
+1659.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = KUR
+	culture = dutch
+	religion = reformed
+	capital = "Lampsinsstad"
+}
+1665.9.1 = {
+	controller = ENG
+}
+1666.8.1 = {
+	controller = NED
+}
+1672.5.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = NED
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+	fort_15th = no
+}
+1628.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	is_city = yes
+	trade_goods = tobacco
+	capital = "Lampsinsstad"
+	culture = dutch
+	religion = reformed
+	fort_15th = yes
+}
+1678.6.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = NED
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+	fort_15th = no
+}
+1680.1.1 = {
+	owner = KUR
+	controller = KUR
+	add_core = KUR
+	is_city = yes
+	trade_goods = tobacco
+	religion = protestant
+	culture = livonian
+	capital = "Jacobusstadt"
+	fort_15th = yes
+}
+1683.1.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = KUR
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+	fort_15th = no
+}
+1686.1.1 = {
+	owner = KUR
+	controller = KUR
+	add_core = KUR
+	is_city = yes
+	trade_goods = tobacco
+	religion = protestant
+	culture = livonian
+	fort_15th = yes
+}
+1687.1.1 = {
+	is_city = no
+	native_size = 15
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = ---
+	controller = ---
+	remove_core = KUR
+	culture = carib
+	religion = animism
+	trade_goods = unknown
+	capital = "Aloubaéra"
+	fort_15th = no
+}
+1693.1.1 = { discovered_by = DAN }
+1763.2.10 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	is_city = yes
+	trade_goods = sugar
+	culture = english
+	religion = anglican
+	capital = "Lampsinsstad
+	fort_15th = yes
+	
+}
+1765.1.1 = {
+	capital = "Scarborough"
+}
+1781.1.1 = {
+	controller = FRA
+}
+1783.9.3 = {
+	owner = FRA
+	add_core = FRA
+	remove_core = GBR
+}
+1787.1.1 = {
+	capital = "Fort Louis"
+}
+1793.1.1 = {
+	controller = GBR
+}
 1802.3.25 = {
+	controller = FRA
+}
+1803.6.1 = {
+	controller = GBR
+}
+1814.5.30 = {
 	owner = GBR
 	add_core = GBR
-	remove_core = SPA
-} # Treaty of Amiens
+	remove_core = FRA
+}
