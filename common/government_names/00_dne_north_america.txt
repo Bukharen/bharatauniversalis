@@ -1,0 +1,36 @@
+haudenosaunee_titles = {
+    rank = {
+         1 = IROQUOIS_CONFEDERACY
+         2 = IROQUOIS_CONFEDERACY
+         3 = GRAND_CONFEDERACY
+    }
+    
+    ruler_male = {
+        1 = TAHODAHO
+        2 = TAHODAHO
+        3 = GREAT_TAHODAHO
+    }
+    
+    ruler_female = {
+        1 = CLAN_MOTHER
+        2 = CLAN_MOTHER
+        3 = GRAND_CLAN_MOTHER
+    }
+    
+    consort_male = {
+        1 = TAHODAHO
+        2 = TAHODAHO 
+        3 = GREAT_TAHODAHO
+    }
+    
+    consort_female = {
+       1 = CLAN_MOTHER
+        2 = CLAN_MOTHER
+        3 = GRAND_CLAN_MOTHER
+    }
+    
+    trigger = {
+        tag = IRO
+        religion = totemism
+    }
+}

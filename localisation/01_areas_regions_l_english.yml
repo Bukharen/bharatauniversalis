@@ -35,6 +35,12 @@
  silhet_area: "Sylhet"
  silhet_area_name: "Sylhet"
  silhet_area_adj: "Sylheti"
+ chitral_river_area: "Kunar"
+ chitral_river_area_name: "Baltistan"
+ chitral_river_area_adj: "Kunari"
+ baltistan_area: "Baltistan"
+ baltistan_area_name: "Baltistan"
+ baltistan_area_adj: "Balti"
  
 #Japan
  oshima_area: "Oshima"

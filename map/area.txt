@@ -39,6 +39,7 @@
 #Removed Matsumae (4193) from hokkaido_area and added it to oshima_area
 #Added Osumi (5406) to kyushu_area
 #Added Aloubaéra (5700) to guyana_area
+#Removed Baltistan (2073) from kashmir_area and moved it to baltistan_area
 
 # A province can only belong to one area!
 
@@ -321,6 +322,14 @@ bahama_channel_area = {
 # A land area is 3 - 10 provinces
 
 #mod 
+
+chitral_river_area = { #4
+	5000 5001 5004 5005
+}
+
+baltistan_area = { #3 - Added Baltistan (2073)
+	2073 5002 5003
+}
 
 oshima_area = { #4 - Added Matsumae (4193)
 	4193 5403 5404 5405
@@ -2375,8 +2384,8 @@ bhutan_area = {
 	565 4481 4482
 }
 
-kashmir_area = { #5
-	508 2073 2074 4449 4521
+kashmir_area = { #4 - Removed Baltistan (2073)
+	508 2074 4449 4521
 }
 
 lanka_area = { #North Lanka #3
@@ -2414,8 +2423,8 @@ upper_burma_area = { #3
 	584 2399 581
 }
 
-central_burma_area = {
-	4394 4396 585 4395 
+central_burma_area = { #5 - Added Tharrawaddy (5250)
+	4394 4396 585 4395 5250
 }
 
 chindwin_area = {

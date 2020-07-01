@@ -722,6 +722,9 @@ hindusthan_region = {
 		baisi_rajya_area
 		bundelkhand_area
 		sind_sagar_area
+		#mod
+		baltistan_area
+		chitral_river_area
 	}
 	monsoon = {
 		00.07.01

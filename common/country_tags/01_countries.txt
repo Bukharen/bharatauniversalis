@@ -2,9 +2,13 @@
 BNI = "countries/Bonai.txt"
 BNS = "countries/Banswara.txt"
 CER = "countries/Chero.txt"
+CTR = "countries/Chitral.txt"
+DIR = "countries/Dir.txt"
 DUN = "countries/Dungarpur.txt"
+HNZ = "countries/Hunza.txt"
 KAU = "countries/Karauli.txt"
 KFA = "countries/Khalifatabad.txt"
+NGR = "countries/Nagar.txt"
 PRT = "countries/Kanthal.txt"
 SIR = "countries/Sirohi.txt"
 

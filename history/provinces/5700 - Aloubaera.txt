@@ -191,7 +191,7 @@ discovered_by = south_american
 	trade_goods = sugar
 	culture = english
 	religion = anglican
-	capital = "Lampsinsstad
+	capital = "Lampsinsstad"
 	fort_15th = yes
 	
 }

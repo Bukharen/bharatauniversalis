@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = kashmiri
+religion = shiite
+technology_group = indian
+capital = 5003 
+fixed_capital = 5003 # Cannot move capital away from this province & no power cost to move to it
+religious_school = ismaili_school

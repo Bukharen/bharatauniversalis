@@ -1,0 +1,35 @@
+tlaxcalan_confederacy = {
+	rank = {
+		1 = CONFEDERATION
+		2 = CONFEDERATION
+		3 = GRAND_CONFEDERACY
+	}
+
+	ruler_male = {
+		1 = TEUCTLI
+		2 = TEUCTLI
+		3 = TEUCTLI
+	}
+
+	trigger = {
+		tag = TLX
+	}
+}
+
+purepecha_cazonci = {
+	rank = {
+		1 = ALTEPETL
+		2 = ALTEPETL_FEDERATION
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = CAZONCI
+		2 = CAZONCI
+		3 = CAZONCI
+	}
+
+	trigger = {
+		tag = TAR
+	}
+}

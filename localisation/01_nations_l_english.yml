@@ -15,9 +15,17 @@
  CER: "Chero"
  CER_ADJ: "Chero"
  
+#Chitral
+ CTR: "Chitral"
+ CTR_ADJ: "Chitrali"
+ 
 #Dapitan
  DAP: "Dapitan"
  DAP_ADJ: "Dapitani"
+ 
+#Dir
+ DIR: "Dir"
+ DIR_ADJ: "Dir"
  
 #Dungarpur
  DUN: "Dungarpur"
@@ -54,6 +62,10 @@
 #Honma
  HON: "Honma"
  HON_ADJ: "Honman"
+ 
+#Hunza
+ HNZ: "Hunza"
+ HNZ_ADJ: "Hunzan"
  
 #Ibalon
  IBA: "Ibalon"
@@ -126,6 +138,10 @@
 #Moloka'i/Molokai
  MOO: "Moloka'i"
  MOO_ADJ: "Moloka'ian"
+ 
+#Nagar
+ NGR: "Nagar"
+ NGR_ADJ: "Nagari"
  
 #O'ahu/Oahu
  OAH: "O'ahu"
