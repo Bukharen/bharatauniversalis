@@ -1,0 +1,39 @@
+KAC_ideas_iandb = {
+	start = { #Dimasan Animism
+		religious_unity = 0.2
+		num_accepted_cultures = 1
+	}
+	
+	bonus = { #Hardened by Conflicts
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = KAC	#will be added at load.
+	}
+	free = yes
+	
+	KAC_southern_brahmaputra = { #The Southern Brahmaputra
+		global_own_trade_power = 0.15
+	}
+	KAC_jungle_defenses = { #Jungle Defenses
+		hostile_attrition = 1
+	}
+	KAC_ahomian_rivalry = { #Ahom Hostilities
+		army_tradition_decay = -0.01
+	}	
+	KAC_brick_architecture = { #Brick-Based Architecture
+		build_cost = -0.1
+	}	
+	KAC_advisory_council = { #Patra and Bhandari
+		advisor_pool = 1
+	}		
+	KAC_hindu_transition = { #Transition to Hinduism
+		brahmin_loyalty_modifier = 0.05
+		missionary_maintenance_cost = -0.1
+	}
+	KAC_sengphongs_for_the_people = { #Sengphongs of the People
+		global_unrest = -2
+	}	
+}	
+	

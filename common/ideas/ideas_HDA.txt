@@ -1,0 +1,40 @@
+HDA_ideas_iandb = {
+	start = { #Potlatches
+		global_unrest = -1
+		prestige = 1
+	}
+	
+	bonus = { #Pioneers of Naval Warfare
+		dip_tech_cost_modifier = -0.1
+	}
+	
+	trigger = {
+		tag = HDA	#will be added at load.
+	}
+	free = yes
+	
+	HDA_spiritual_totems = { #Gyáa'aang
+		stability_cost_modifier = -0.1
+		tolerance_own = 1
+	}
+	HDA_slave_raids = { #Slave Raids
+		may_perform_slave_raid = yes
+	}
+	HDA_chilkat_weaving = { #Chilkat Weaving
+		production_efficiency = 0.1
+	}	
+	HDA_haida_canoes = { #Haida Canoes
+		light_ship_power = 0.15
+	}	
+	HDA_generational_feuds = { #Generational Feuds
+		power_projection_from_insults = 1
+	}		
+	HDA_european_trade = { #Trading with Settlers
+		merchants = 1
+	}
+	HDA_engagement_rules = { #Rules of Engagement
+		army_tradition = 0.5
+		navy_tradition = 1
+	}	
+}	
+	

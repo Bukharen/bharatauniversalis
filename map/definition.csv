@@ -658,7 +658,7 @@ province;red;green;blue;x;x
 657;181;127;153;Samtoy;x
 658;243;187;216;Cagayan;x
 659;222;70;255;Riau;x
-660;94;72;0;Xishuan Banna;x
+660;234;144;16;Xishuan Banna;x
 661;222;74;64;Dali;x
 662;94;76;128;Yunnan;x
 663;222;78;192;Wenshan;x
@@ -4844,6 +4844,8 @@ province;red;green;blue;x;x
 5238;213;177;195;Pinagpanaan;x
 5239;249;231;243;Agoo;x
 5250;251;139;36;Tharrawaddy;x
+5251;232;136;2;Moeng La;x
+5252;239;155;32;Moeng Lem;x
 5300;77;62;137;Niihau;x
 5301;69;55;129;Kauai;x
 5302;60;48;120;Oahu;x
@@ -4872,3 +4874,4 @@ province;red;green;blue;x;x
 5502;119;248;154;Kabaena;x
 5503;81;246;125;Bombana;x
 5700;71;178;0;Aloubaera;x
+5750;7;42;200;Kuskatan;x

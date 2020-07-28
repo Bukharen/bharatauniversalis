@@ -1,0 +1,38 @@
+JML_ideas_iandb = {
+	start = { #Cornerstone of the Baise Rajya
+		diplomatic_upkeep = 1
+		fabricate_claims_cost = -0.25
+	}
+	
+	bonus = { #Unite the Baise Rajya
+		years_of_nationalism = -5
+	}
+	
+	trigger = {
+		tag = JML	#will be added at load.
+	}
+	free = yes
+	
+	JML_khasa_capital = { #Capital of the Khasa Kingdom
+		prestige = 1
+	}
+	JML_varied_elevations = { #Adapted to Various Elevations
+		movement_speed = 0.1
+	}
+	JML_rajput_traditions = { #Rajput Heritage
+		army_tradition = 0.5
+	}	
+	JML_marshi_rice = { #Jumla Marshi Rice
+		land_maintenance_modifier = -0.05
+	}	
+	JML_rudra_followers = { #Rudra's Devotees
+		leader_land_shock = 1
+	}		
+	JML_succeeding_khasa = { #Succeeding the Khasa Kingdom
+		core_creation = -0.1
+	}
+	JML_mustang_appropriation = { #Appropriation of Mustang
+		trade_steering = 0.15
+	}	
+}	
+	

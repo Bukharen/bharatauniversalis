@@ -1,0 +1,251 @@
+namespace = events_dai
+normal_or_historical_nations = yes
+
+country_event = {
+	id = events_dai.1
+	title = "events_dai.1.tt"
+	desc = "events_dai.1.dd"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = DAI
+		owns_core_province = 2373
+		CHA = {
+			exists = yes
+			has_ruler = "Maha Vijaya"
+		}
+		NOT = { is_year = 1450 }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}	
+	
+	option = {
+		name = "events_dai.1.a" #It is our duty to humble them and show them their place in this world.
+		ai_factor = {
+			factor = 75
+			modifier = {
+				factor = 0
+				OR = {
+					is_at_war = yes
+					has_any_disaster = yes
+					is_bankrupt = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = naive_personality
+					ruler_has_personality = fierce_negotiator_personality
+				}
+			}
+		}
+		2373 = {
+			add_devastation = 25
+			add_base_tax = -1
+		}
+		if = {
+			limit = {
+				1022 = {
+					owned_by = DAI
+				}
+			}
+			1022 = {
+				add_devastation = 25
+				add_base_tax = -1
+			}	
+		}
+		add_opinion = {
+			who = CHA
+			modifier = dai_hoa_chau_raids
+		}
+		add_casus_belli = {
+			target = CHA
+			type = cb_border_war
+			months = 60
+		}
+	}
+	
+	option = {
+		name = "events_dai.1.b" #Alleviate the devastated lands instead.
+		ai_factor = {
+			factor = 20
+			modifier = {
+				factor = 0
+				OR = {
+					is_at_war = yes
+					has_any_disaster = yes
+					is_bankrupt = yes
+					ruler_has_personality = cruel_personality
+				}
+			}
+			modifier =  {
+				factor = 4
+				OR = {
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = just_personality
+					ruler_has_personality = midas_touched_personality
+					ruler_has_personality = kind_hearted_personality
+				}
+			}
+		}		
+		add_years_of_income = -0.25	
+		2373 = {
+			add_devastation = 25
+			add_base_tax = -1
+			add_province_modifier = {
+				name = dai_hoa_chau_raids_recovery
+				duration = 5475
+			}
+		}
+		if = {
+			limit = {
+				1022 = {
+					owned_by = DAI
+				}
+			}
+			1022 = {
+				add_devastation = 25
+				add_base_tax = -1
+				add_province_modifier = {
+					name = dai_hoa_chau_raids_recovery
+					duration = 5475
+				}
+			}	
+		}		
+		add_opinion = {
+			who = CHA
+			modifier = dai_hoa_chau_raids
+		}
+	}
+	
+	option = {
+		name = "events_dai.1.c" #This happens often. Get used to it.	
+		ai_factor = {
+			factor = 5
+			modifier = {
+				factor = 2
+				OR = {
+					is_at_war = yes
+					has_any_disaster = yes
+					is_bankrupt = yes
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					ruler_has_personality = cruel_personality
+				}
+			}			
+		}			
+		add_prestige = -10
+		2373 = {
+			add_devastation = 25
+			add_base_tax = -1
+			add_base_production = -1
+		}
+		if = {
+			limit = {
+				1022 = {
+					owned_by = DAI
+				}
+			}
+			1022 = {
+				add_devastation = 25
+				add_base_tax = -1
+				add_base_production = -1
+			}	
+		}	
+		add_opinion = {
+			who = CHA
+			modifier = dai_hoa_chau_raids
+		}
+	}
+}
+
+country_event = {
+	id = events_dai.2
+	title = "events_dai.2.tt"
+	desc = "events_dai.2.dd"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = DAI
+		owns_core_province = 613
+		has_ruler = "Bang Co"
+		NOT = { is_year = 1450 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+	
+	option = {
+		name = "events_dai.2.a" #Interesting yet worrisome.
+		add_stability = -1
+		define_ruler = {
+			name = "Thi Anh Nguyen"
+			dynasty = "Lê"
+			adm = 2
+			dip = 1
+			mil = 1
+			age = 23
+			claim = 95
+			regent = yes
+			female = yes
+			fixed = yes
+		}
+		define_heir = {
+			name = "Bang Co"
+			dynasty = "Lê"
+			adm = 3
+			dip = 3
+			mil = 1
+			male = yes
+			age = 3
+			claim = 90
+			fixed = yes
+		}
+	}
+}
+
+country_event = {
+	id = events_dai.3
+	title = "events_dai.3.tt"
+	desc = "events_dai.3.dd"
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = DAI
+		owns_core_province = 610
+		OR = {
+			has_ruler = "Bang Co"
+			has_ruler = "Thi Anh"
+		}
+		NOT = { is_year = 1451 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}	
+	
+	option = {
+		name = "events_dai.3.a" #This sure shakes things up.
+		add_adm_power = -50
+		define_advisor = {
+			type = statesman
+			name = "Trinh Kha"
+			culture = vietnamese
+			religion = confucian
+			discount = yes
+			skill = 3
+		}
+	}
+}

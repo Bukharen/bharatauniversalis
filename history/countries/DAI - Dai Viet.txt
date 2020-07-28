@@ -107,18 +107,19 @@ capital = 613	# Hanoi
 		name = "Nguyen Xi"
 		type = general
 
-		fire = 3
+		fire = 2
 		shock = 3
 		manuever = 2
-		siege = 1
+		siege = 4
 		death_date = 1465.9.5
+		personality = siege_specialist_personality
 	}
 }
 
 1427.1.1 = {
 	monarch = {
 		name = "Loi" #Lê Loi
-		dynasty = "Le"
+		dynasty = "Lê"
 		adm = 3
 		dip = 3
 		mil = 5
@@ -152,14 +153,14 @@ capital = 613	# Hanoi
 
 1442.9.8 = {
 	monarch = {
-		name = "Thi Anh Nguyen" #Nguyen Thi Anh
-		dynasty = "Lê"
+		name = "Thi Anh" #Nguyen Thi Anh
+		dynasty = "Nguyen"
 		regent = yes
 		female = yes
 		birth_date = 1422.1.1
-		adm = 2
-		dip = 1
-		mil = 1
+		adm = 4
+		dip = 2
+		mil = 2
 	}
 }
 

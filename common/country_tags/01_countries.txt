@@ -13,6 +13,7 @@ PRT = "countries/Kanthal.txt"
 SIR = "countries/Sirohi.txt"
 
 #North America
+KUS = "countries/Kuskatan.txt"
 WAB = "countries/Wabanaki.txt"
 
 #Philippines
@@ -46,6 +47,8 @@ UMI = "countries/UmiRevolt.txt"
 ANG = "countries/Angkor.txt"
 KEN = "countries/Kengtung.txt"
 LAM = "countries/Haripunchai.txt"
+LEM = "countries/MongLem.txt"
+SIP = "countries/Sipsongpanna.txt"
 
 #Japan
 HAC = "countries/Hachisuka.txt"

@@ -1,10 +1,13 @@
 ﻿l_english:
-#Fiji
+#China
+ sipsongpanna_area: "Sipsongpanna"
+ sipsongpanna_area_name: "Sipsongpanna"
+ sipsongpanna_area_adj: "Sipsongpannan"
+ 
+#Polynesia
  fiji_area: "Fiji"
  fiji_area_name: "Fiji"
  fiji_area_adj: "Fijian"
- 
-#Hawaii
  hawaii_region: "Hawai'i"
  maui_area: "Maui"
  maui_area_name: "Hawai'i"

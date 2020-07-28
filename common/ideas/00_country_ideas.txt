@@ -5580,7 +5580,7 @@ CHM_ideas = {
 	}
 	
 	trigger = {
-		tag = CHM
+		always = no
 	}
 	free = yes
 	

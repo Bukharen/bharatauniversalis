@@ -40,7 +40,7 @@
 #Added Osumi (5406) to kyushu_area
 #Added Aloubaéra (5700) to guyana_area
 #Removed Baltistan (2073) from kashmir_area and moved it to baltistan_area
-
+#Removed Chiang Hung (660) from yun_gui_borderland_area and added it to sipsongpanna_area
 # A province can only belong to one area!
 
 #Sea Areas:
@@ -323,6 +323,10 @@ bahama_channel_area = {
 
 #mod 
 
+sipsongpanna_area = { #3 - Added Chiang Hung (660)
+	660 5251 5252
+}
+	
 chitral_river_area = { #4
 	5000 5001 5004 5005
 }
@@ -2966,8 +2970,8 @@ yun_gui_area = { #5 (Yun-Gui Hinterland)
 	662 663 673 674 4199
 }
 
-yun_gui_borderland_area = { #5
-	660 661 2165 2166 2167
+yun_gui_borderland_area = { #4 - Removed Chiang Hung (660)
+	661 2165 2166 2167
 }
 
 sichuan_area = { #3
@@ -3693,8 +3697,8 @@ campeche_area = { #3
     845 2632 2650 
 }
 
-guatemala_area = { #4
-   839 841 2653 4587
+guatemala_area = { #5 - Added Kuskatan (5750)
+   839 841 2653 4587 5750
 }
 
 guatemala_lowlands_area = { #5

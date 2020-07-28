@@ -57,7 +57,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "events_ayu.2.a" #He shows even more promise than our current heir.
+		name = "events_ayu.1.b" #He shows even more promise than our current heir.
 		define_heir = {
 			dynasty = ROOT
 			age = 13

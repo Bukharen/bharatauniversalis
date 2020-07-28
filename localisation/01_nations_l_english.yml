@@ -111,14 +111,10 @@
  KOH: "Koholalele"
  KOH_ADJ: "Koholalele"
  
-#Ma-i/Mai
- BAI: "Ma-i"
- BAI_ADJ: "Ma-i"
+#Kuskatan
+ KUS: "Kuskatan"
+ KUS_ADJ: "Kuskatan"
  
-#Mairete
- ETE: "Mairete"
- ETE_ADJ: "Mairetean"
-
 #Lawan
  LAW: "Lawan"
  LAW_ADJ: "Lawan"
@@ -126,6 +122,14 @@
 #Ibat/Libog
  SAW: "Libog"
  SAW_ADJ: "Libog"
+ 
+#Ma-i/Mai
+ BAI: "Ma-i"
+ BAI_ADJ: "Ma-i"
+ 
+#Mairete
+ ETE: "Mairete"
+ ETE_ADJ: "Mairetean"
  
 #Maui
  MAU: "Maui"
@@ -138,10 +142,18 @@
 #Moloka'i/Molokai
  MOO: "Moloka'i"
  MOO_ADJ: "Moloka'ian"
+
+#Mong Lem
+ LEM: "Mong Lem"
+ LEM_ADJ: "Mong Lem"
  
 #Nagar
  NGR: "Nagar"
  NGR_ADJ: "Nagari"
+ 
+#Philippines 
+ PHI: "The Philippines"
+ PHI_ADJ: "Filipino"
  
 #O'ahu/Oahu
  OAH: "O'ahu"
@@ -162,6 +174,10 @@
 #Tamna
  RUF: "Tamna"
  RUF_ADJ: "Tamnan" 
+ 
+#Sipsongpanna
+ SIP: "Sipsongpanna"
+ SIP_ADJ: "Sipsongpannan"
  
 #Taytay
  TAY: "Taytay"
