@@ -42,6 +42,9 @@
  jfn_navy: "Jaffnan Navy"
  desc_jfn_navy: "Our naval might has been proven!"
  
+#Kotte
+ cey_works_of_thera: "Thotagamuwe Sri Rahula Thera"
+ 
 #Kutch/Navanagar/Rajkot
  kat_converting: "Conversion of the Populace"
  desc_kat_converting: "With the advent of a new state religion it is imperative we proselytize them and maintain religious unity." 
@@ -166,3 +169,6 @@
  desc_srh_bahluls_army: "As our armies' ranks begin to swell once more, our army grows stronger than ever."
  srh_bahluls_horses: "Quality Sirhindi Horses"
  desc_srh_bahluls_horses: "As breeders of the finest quality of horses, they are tailored to our military needs and are more common and effective." 
+ 
+#Vijayanagara 
+ vij_devaraya_literature: "Patrons of Literature"

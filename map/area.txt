@@ -41,6 +41,9 @@
 #Added Aloubaéra (5700) to guyana_area
 #Removed Baltistan (2073) from kashmir_area and moved it to baltistan_area
 #Removed Chiang Hung (660) from yun_gui_borderland_area and added it to sipsongpanna_area
+#Removed Kalpitiya (4408) from lanka_area and added it to kotte_area
+#Removed Kotte (572) from south_lanka_area and added it to kotte_area
+#Removed Trincomalee (4409) from lanka_area and added it to south_lanka_area
 # A province can only belong to one area!
 
 #Sea Areas:
@@ -322,6 +325,11 @@ bahama_channel_area = {
 # A land area is 3 - 10 provinces
 
 #mod 
+
+kotte_area = { #5 - Added Kotte (572) and Kalpitiya (4408)
+	572 4408 5007 5009 5011
+}
+
 
 sipsongpanna_area = { #3 - Added Chiang Hung (660)
 	660 5251 5252
@@ -2392,12 +2400,12 @@ kashmir_area = { #4 - Removed Baltistan (2073)
 	508 2074 4449 4521
 }
 
-lanka_area = { #North Lanka #3
-	2100 4408 4409
+lanka_area = { #Jaffna #2 - Removed Kalpitiya (4408) and Trincomalee (4409)
+	2100 5006
 }
 
-south_lanka_area = { #3
-	572 2099 4407
+south_lanka_area = { #Kandy #5 - Removed Kotte (572) and added Trincomalee (4409)
+	2099 4407 4409 5008 5010
 }
 
 ahmedabad_area = { #4

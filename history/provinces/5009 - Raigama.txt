@@ -1,0 +1,46 @@
+#5009 - Raigama
+
+owner = CEY
+controller = CEY
+culture = sinhala
+religion = buddhism
+capital = "Bandaraigama"
+trade_goods = grain	#Cinnamon
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = CEY
+add_core = RAI
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+
+1405.1.1 = { discovered_by = chinese }
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+1521.1.1 = {
+	owner = RAI
+	add_core = RAI
+	controller = RAI
+	remove_core = CEY
+}
+1538.1.1 = {
+	owner = SIT
+	controller = SIT
+	add_core = SIT
+	remove_core = RAI
+}
+1594.1.1 = {
+	owner = KND
+	controller = KND
+	add_core = KND
+	remove_core = SIT
+}
+1802.3.25 = {
+	owner = GBR
+	add_core = GBR
+	controller = GBR
+} # Treaty of Amiens

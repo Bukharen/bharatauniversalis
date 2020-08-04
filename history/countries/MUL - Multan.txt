@@ -15,7 +15,7 @@ religious_school = hanafi_school
 		name = "Qutbudin"
 		dynasty = "Langa"
 		culture = afghan
-		ADM = 5
+		ADM = 4 
 		DIP = 3
 		MIL = 3
 	}

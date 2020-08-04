@@ -1,0 +1,41 @@
+namespace = events_cey
+normal_or_historical_nations = yes
+
+#Sangharaja Thotagamuwe Sri Rahula Thera
+country_event = {
+	id = events_cey.1
+	title = events_cey.1.tt
+	desc = events_cey.1.dd
+	picture = ADVISOR_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		owns_core_province = 572
+		NOT = { is_year = 1485 }
+		primary_culture = sinhala
+		religion = buddhism
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	
+	option = { 
+		name = events_cey.1.a	#Invite him to court.
+		add_adm_power = 25
+		add_meritocracy_effect = yes
+		define_advisor = {
+			type = theologian
+			name = "Thotagamuwe Sri Rahula Thera"
+			culture = sinhala
+			religion = buddhism
+			discount = yes
+			skill = 2
+		}
+		add_country_modifier = {
+			name = cey_works_of_thera
+			duration = 7300
+		}
+	}	
+}

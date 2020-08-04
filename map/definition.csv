@@ -570,7 +570,7 @@ province;red;green;blue;x;x
 569;209;146;255;Bijapur;x
 570;81;148;0;Naga;x
 571;209;150;64;Darrang;x
-572;81;152;128;Kotte;x
+572;23;171;252;Kotte;x
 573;209;154;192;Kachar;x
 574;82;156;255;The Andamans;x
 575;210;158;0;Eastern Makran;x
@@ -2097,8 +2097,8 @@ province;red;green;blue;x;x
 2096;210;243;194;Damin;x
 2097;95;101;222;Baghelkhand;x
 2098;148;136;138;Surguja;x
-2099;193;207;44;Kandy;x
-2100;195;123;121;Vanni;x
+2099;89;190;252;Kandy;x
+2100;82;171;252;Vanni;x
 2101;186;239;22;Tirunelveli;x
 2102;215;191;26;Urkan;x
 2103;103;132;224;Udi;x
@@ -4405,9 +4405,9 @@ province;red;green;blue;x;x
 4404;186;179;78;Minsin;x
 4405;135;83;198;Katha;x
 4406;131;123;246;Mong Kung;x
-4407;231;58;53;Ruhunu;x
-4408;227;170;169;Salavata;x
-4409;154;153;27;Trincomale;x
+4407;89;147;252;Ruhunu;x
+4408;23;155;252;Kalpitiya;x
+4409;23;190;252;Trincomale;x
 4410;166;186;106;Kumari;x
 4411;212;178;42;Samana;x
 4412;133;65;23;Dindigul;x
@@ -4803,6 +4803,12 @@ province;red;green;blue;x;x
 5003;2;195;189;Hunza;x
 5004;9;134;126;Dir;x
 5005;2;182;176;Timergara;x
+5006;23;163;252;Jaffna;x
+5007;23;128;252;Kurunegala;x
+5008;23;167;252;Anuradhapura;x
+5009;23;137;252;Raigama;x
+5010;23;140;252;Batticaloa;x
+5011;22;124;226;Sitawaka;;x
 5200;249;184;243;Masbate;x
 5201;243;167;230;Basilan;x
 5202;232;134;206;Tawi-tawi;x

@@ -806,10 +806,7 @@ on_monarch_death = {
 			}	
         }
 		BNG = {
-			country_event = { 
-				id = events_bng.1
-				days = 4
-			}
+			country_event = { id = events_bng.1 }
 		}	
     }	
 	burgundian_inheritance_start_effect = yes

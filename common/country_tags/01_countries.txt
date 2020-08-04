@@ -1,4 +1,4 @@
-#India
+#Indian Subcontinent
 BNI = "countries/Bonai.txt"
 BNS = "countries/Banswara.txt"
 CER = "countries/Chero.txt"
@@ -10,7 +10,9 @@ KAU = "countries/Karauli.txt"
 KFA = "countries/Khalifatabad.txt"
 NGR = "countries/Nagar.txt"
 PRT = "countries/Kanthal.txt"
+RAI = "countries/Raigama.txt"
 SIR = "countries/Sirohi.txt"
+SIT = "countries/Sitawaka.txt"
 
 #North America
 KUS = "countries/Kuskatan.txt"
@@ -23,6 +25,7 @@ IBA = "countries/Ibalon.txt"
 IFU = "countries/Ifugao.txt"
 IVA = "countries/Ivatan.txt"
 ETE = "countries/Mairete.txt"
+PHI = "countries/Philippines.txt"
 LAW = "countries/Lawan.txt"
 SAW = "countries/Libog.txt"
 SIQ = "countries/Katugasan.txt"

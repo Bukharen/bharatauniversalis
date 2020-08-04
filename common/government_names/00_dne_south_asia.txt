@@ -442,6 +442,9 @@ sirhindi_titles = {
 }	
 
 chitral_titles = {
+	ruler_male = {
+		1 = NAWABATE
+	}
 
 	ruler_male = {
 		1 = MEHTAR
@@ -453,7 +456,10 @@ chitral_titles = {
 }	
 
 hunza_nagar_titles = {
-
+	ruler_male = {
+		1 = NAWABATE
+	}
+	
 	ruler_male = {
 		1 = MIR_title
 	}
@@ -470,7 +476,10 @@ hunza_nagar_titles = {
 }	
 
 burusho_hunza_titles = {
-
+	ruler_male = {
+		1 = NAWABATE
+	}
+	
 	ruler_male = {
 		1 = THUM
 	}

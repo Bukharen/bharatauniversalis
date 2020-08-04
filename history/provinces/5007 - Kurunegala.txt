@@ -1,0 +1,38 @@
+#5007 - Kurunegala
+
+owner = CEY
+controller = CEY
+culture = sinhala
+religion = buddhism
+capital = "Kurunegala"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = CEY
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+
+1405.1.1 = { discovered_by = chinese }
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+1565.1.1 = {
+	owner = SIT
+	controller = SIT
+	add_core = SIT
+}
+1594.1.1 = {
+	owner = KND
+	controller = KND
+	add_core = KND
+	remove_core = SIT
+}
+1802.3.25 = {
+	owner = GBR
+	add_core = GBR
+	controller = GBR
+} # Treaty of Amiens

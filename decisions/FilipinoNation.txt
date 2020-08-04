@@ -10,12 +10,11 @@ country_decisions = {
                 ai = no
                 is_playing_custom_nation = no
             }
-            NOT = { exists = PHI  }
+            NOT = { exists = PHI }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			NOT = { tag = BEI }
 			
-            is_colonial_nation = no
             OR = {
                 is_former_colonial_nation = no
 				AND = {

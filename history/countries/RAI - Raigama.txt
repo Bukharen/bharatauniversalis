@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = nayankara_reform
+technology_group = indian
+religion = buddhism
+primary_culture = sinhala
+capital = 5009 #Raigama
+
+1521.1.1 = {
+	monarch = {
+		name = "Raigama Bandara"
+		dynasty = "Savulu"
+		ADM = 3
+		DIP = 1
+		MIL = 1
+	}
+}

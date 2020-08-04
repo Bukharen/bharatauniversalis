@@ -92,6 +92,11 @@
  events_khm.5.a: "Reinstate Haripunchai as our puppet."
  events_khm.5.b: "Direct control is the way to go."
  
+#Kotte
+ events_cey.1.tt: "Sangharaja Thotagamuwe Sri Rahula Thera"
+ events_cey.1.dd: ""
+ events_cey.1.a: "What an interesting man."
+ 
 #Kutch/Navanagar/Rajkot
  events_kat.1.tt: "Conversion to Islam?"
  events_kat.1.dd: "For generations, our royal family of Jadeja Rajputs has maintained a syncretic Hindu-Islamic religion. However, with steady rate of converts to Islam in our country and our senior branch, the Samma, already having converted, perhaps it is time to fully embrace Islam."
@@ -235,3 +240,7 @@
  events_ori.11.dd: "Our heir, Hamvira, has proven himself as truly a son of Kapilendra with his military genius. He has managed to expand on two fronts against the Rajahmundry Reddis and also the Bengalis to the north. However, all this time, Purushottama, the youngest son and the product of Kapilendra's philandering and a lowly concubine, has steadily increased his influence in the court in Puri. So much so, in fact, that Kapilendra has decided to designate Purushottama as the new heir."
  events_ori.11.a: "This will surely anger Hamvira."
  
+#Vijayanagara
+ events_vij.1.tt: "Deva Raya Sangama, a Patron of Literature"
+ events_vij.1.dd: "Whilst renowned for his military prowess and success in establishing ties with the Reddy Nayaks, Devaraya Sangama has led the Vijayanagari empire to a new zenith. Bearing a title as menacing as 'killer of elephants,' his extensive patronage of literature and the arts is surprising. Within his court, many famous poets the likes of Kumara Vyasa or Narayanappan and Chamarasa flourished, and many new great Kannada works were authored. The legendary epic of the Mahabharata was translated into Kannada, and Devaraya himself wrote many Sanskrit and Kannada texts. Even scholars and Telugu poets also called this Raja's court home."
+ events_vij.1.a: "What a fine king he is!"

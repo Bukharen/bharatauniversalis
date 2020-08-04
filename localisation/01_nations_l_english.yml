@@ -159,6 +159,10 @@
  OAH: "O'ahu"
  OAH_ADJ: "O'ahuan"
 
+#Raigama
+ RAI: "Raigama"
+ RAI_ADJ: "Raigaman"
+ 
 #Rapanui
  RAP: "Rapanui"
  RAP_ADJ: "Rapanui"
@@ -178,6 +182,10 @@
 #Sipsongpanna
  SIP: "Sipsongpanna"
  SIP_ADJ: "Sipsongpannan"
+ 
+#Sitawaka
+ SIT: "Sitawaka"
+ SIT_ADJ: "Sitawakan"
  
 #Taytay
  TAY: "Taytay"

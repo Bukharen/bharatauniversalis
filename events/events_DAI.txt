@@ -25,7 +25,7 @@ country_event = {
 	
 	option = {
 		name = "events_dai.1.a" #It is our duty to humble them and show them their place in this world.
-		ai_factor = {
+		ai_chance = {
 			factor = 75
 			modifier = {
 				factor = 0
@@ -71,7 +71,7 @@ country_event = {
 	
 	option = {
 		name = "events_dai.1.b" #Alleviate the devastated lands instead.
-		ai_factor = {
+		ai_chance = {
 			factor = 20
 			modifier = {
 				factor = 0
@@ -124,7 +124,7 @@ country_event = {
 	
 	option = {
 		name = "events_dai.1.c" #This happens often. Get used to it.	
-		ai_factor = {
+		ai_chance = {
 			factor = 5
 			modifier = {
 				factor = 2
