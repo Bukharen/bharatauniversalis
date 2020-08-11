@@ -28,6 +28,12 @@ add_province_triggered_modifier = theravada_kotte
 	controller = SIT
 	remove_core = CEY
 }
+1594.1.1 = {
+	owner = KND
+	controller = KND
+	add_core = KND
+	remove_core = SIT
+}
 1802.3.25 = {
 	owner = GBR
 	add_core = GBR

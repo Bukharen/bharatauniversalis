@@ -44,6 +44,13 @@
 #Removed Kalpitiya (4408) from lanka_area and added it to kotte_area
 #Removed Kotte (572) from south_lanka_area and added it to kotte_area
 #Removed Trincomalee (4409) from lanka_area and added it to south_lanka_area
+#Added Pratapgarh (5012) to tripura_area
+#Removed Cheongju (1013) and Chungju (4229) and moved them to chungcheong_area
+#Removed Wonju (734) and Gangneung (2694) and moved them to gangwon_area
+#Removed Hanseong (735) and Suwon (4230) and moved them to gyeonggi_area
+#Added Tenkasi (5014), Thoothukudi (5015), and Ramanathapuram (5016) to madura_area
+#Added Pudukkottai (5017) to tanjore_area
+#Added Banganapalle (5013) to rayalaseema_area
 # A province can only belong to one area!
 
 #Sea Areas:
@@ -325,6 +332,19 @@ bahama_channel_area = {
 # A land area is 3 - 10 provinces
 
 #mod 
+
+gyeonggi_area = { #3
+	735 4230 5414
+}
+
+gangwon_area = { #4 - Added Wonju (734) and Gangneung (2694)
+	734 2694 5409 5411
+}
+
+chungcheong_area = { #4 - Added Cheongju (1013) and Chungju (4229)
+	1013 4229 5412 5418
+	
+}
 
 kotte_area = { #5 - Added Kotte (572) and Kalpitiya (4408)
 	572 4408 5007 5009 5011
@@ -2217,8 +2237,8 @@ north_bengal_area = { #3
 	562 2045 4486
 }
 
-tripura_area { #2 - Removed Srihatta (567)
-	2091 4473
+tripura_area { #3 - Removed Srihatta (567) and added Pratapgarh (5012)
+	2091 4473 5012
 }
 
 bihar_area = { #4
@@ -2289,8 +2309,8 @@ khandesh_area = {
 	527 4434 4453
 }
 
-rayalaseema_area = { #5
-	541 1949 2090 4423 4424
+rayalaseema_area = { #6 - Added Banganapalle (5013)
+	541 1949 2090 4423 4424 5013
 }
 
 malabar_area = { #5
@@ -2336,12 +2356,12 @@ south_carnatic_area = { #5 (Only the Golcondan Karnatak)
 	539 540 1947 2027 4417 
 }
 
-madura_area = { #3
-	536 2101 4412
+madura_area = { #6 - Added Tenkasi (5014), Thoothukudi (5015), and Ramanathapuram (5016)
+	536 2101 4412 5014 5015 5016
 }
 
-tanjore_area = { #3
-	2026 4415 4416
+tanjore_area = { #4 - Added Pudukkottai (5017)
+	2026 4415 4416 5017
 }
 
 kongu_area = {
@@ -2629,24 +2649,24 @@ south_sulawesi_area = { #5 - Removed Buton (2716) and added Bombona (5503) and W
 # Korea & Japan                        #
 ########################################
 
-pyongan_area = { #3
-	1845 2744 4232
+pyongan_area = { #4
+	1845 2744 4232 5408
 }
 
-hamgyeong_area = { #3
-	732 2742 2743
+hamgyeong_area = { #4
+	732 2742 2743 5407
 }
 
-western_korea_area = { #4 (Hwanghae + Gyeonggi)
-	733 735 4230 4231
+western_korea_area = { #3 - Removed Hanseong (735) and Suwon (4230)
+	733 4231 5410
 }
 
-eastern_korea_area = { #5 (Gangwon +  Gyeongsang)
-	734 736 2694 2745 4227
+eastern_korea_area = { #5 - Removed Wonju (734) and Gangneung (2694)
+	736 2745 4227 5415 5416
 }
 
-south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
-	 737 1013 2741 4228 4229
+south_korea_area = { #4 - Removed Cheongju (1013) and Chungju (4229)
+	737 2741 4228 5417
 }
 
 hokkaido_area = { #4 - Removed Matsumae (4193)

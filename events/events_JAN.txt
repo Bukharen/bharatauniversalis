@@ -12,11 +12,9 @@ country_event = {
 	
 	trigger = {
 		tag = JAN
-		is_subject = no
-		owns_core_province = 512
+		capital = 512
 		is_year = 1470
 		NOT = { is_year = 1490 }
-		capital = 512
 	}
 	
 	mean_time_to_happen = {

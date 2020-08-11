@@ -5,6 +5,10 @@ religion = confucianism
 add_harmonized_religion = mahayana
 technology_group = chinese
 capital = 735	# Hanseong
+add_country_modifier = {
+	name = kor_hermitage
+	duration = -1
+}
 
 1393.1.1 = {
 	monarch = {

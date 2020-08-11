@@ -1,0 +1,30 @@
+﻿l_english:
+ #Korea
+ south_korea_area: "Jeolla"
+ south_korea_area_name: "Korea"
+ south_korea_area_adj: "Jeollan"
+ western_korea_area: "Hwanghae"
+ western_korea_area_name: "Korea"
+ western_korea_area_adj: "Hwanghaean"
+ pyongan_area: "Pyeongan"
+ pyongan_area_name: "Korea"
+ pyongan_area_adj: "Pyeongan"
+ hamgyeong_area: "Hamgyeong"
+ hamgyeong_area_name: "Korea"
+ hamgyeong_area_adj: "Hamgyeongan"
+ eastern_korea_area: "Gyeongsang"
+ eastern_korea_area_name: "Korea"
+ eastern_korea_area_adj: "Gyeongsangan"
+
+#Indian Subcontinent
+ south_lanka_area: "Kandy"
+ south_lanka_area_name: "Ceylon"
+ south_lanka_area_adj: "Kandyan"
+ lanka_area: "Jaffna"
+ lanka_area_name: "Ceylon"
+ lanka_area_adj: "Jaffnan" 
+ 
+#Philippines
+ visayas_area: "Central Visayas"
+ visayas_area_name: "Visayas"
+ visayas_area_adj: "Central Visayan"

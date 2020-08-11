@@ -684,6 +684,10 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		#mod
+		chungcheong_area
+		gangwon_area
+		gyeonggi_area
 	}
 	monsoon = {
 		00.06.01
@@ -1436,7 +1440,6 @@ american_east_coast_region = {
 mediterrenean_region = {
 	areas = {
 		eastern_mediterrenean_area
-		western_mediterrenean_area
 		black_sea_area
 	}
 }

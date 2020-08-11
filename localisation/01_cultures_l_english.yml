@@ -11,28 +11,38 @@
 #Filipino
  filipino_group: "Filipino"
  bicolano: "Bicolano"
- ilocano: "Ilocano"
- mindanaoan: "Mindanaoan"
- butuanon: "Butuanon"
  cebuano: "Cebuano"
- visayan: "Bisayan"
- palaweno: "Palaweño"
- tagalog: "Tagalog"
- waray: "Waray"
- mangyan: "Mangyan"
- pangasinanan: "Pangasinan"
+ butuanon: "Butuanon"
  igorot: "Ifugao"
+ ilocano: "Ilocano"
+ mangyan: "Mangyan"
+ mindanaoan: "Mindanaoan"
+ palaweno: "Palaweño"
+ pangasinanan: "Pangasinan"
+ tagalog: "Tagalog"
+ visayan: "Bisayan"
+ waray: "Waray"
  
 #Koreanic
- jejuan: "Jeju"
+ gwanbuk: "Gwanbuk"
+ gwandong: "Gwandong"
+ gwanseo: "Gwanseo"
+ haeseo: "Haeseo"
+ honam: "Honam"
+ hoseo: "Hoseo"
+ jejuan: "Jejuan"
+ yeongnam: "Yeongnam"
+
+#Manchu
+ yukjin: "Yukjin"
  
 #Polynesian
  polynesian_group: "Polynesian"
  hawaiian: "Hawai'ian"
  
 #Western Aryan
- hadotian: "Hadotian"
- marwari: "Marwari"
  dhundhari: "Dhundhari"
- vagadi: "Vagadi"
+ hadotian: "Hadotian"
  konkani: "Konkani" 
+ marwari: "Marwari"
+ vagadi: "Vagadi"

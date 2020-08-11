@@ -1,0 +1,50 @@
+#Baluchi Band
+merc_baluchi_band_iandb = {
+    regiments_per_development = 0.025
+    cavalry_weight = 0.4
+	home_province = 2079
+	cavalry_cap = 10
+	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		custom_trigger_tooltip = {
+			tooltip = tooltip_mul.2
+			has_global_flag = mul_baluchi_migrations
+		}
+		capital_scope = { superregion = india_superregion }
+	}
+	modifier = { }
+}
+
+#Pindari
+merc_pindaris_iandb = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+    home_province = 519
+    cost_modifier = 0.75
+	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			superregion = india_superregion
+		}
+	}
+	modifier = {
+       fire_damage = 0.1
+		loot_amount = 0.1
+	}
+}
+
+#Mukkuvars
+merc_mukkuvars_iandb = {
+    regiments_per_development = 0.025
+	cavalry_weight = 0.1
+    home_province = 5010
+    cost_modifier = 1
+	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			superregion = india_superregion
+		}
+	}
+	modifier = {
+	}
+}

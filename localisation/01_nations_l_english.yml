@@ -155,6 +155,10 @@
  PHI: "The Philippines"
  PHI_ADJ: "Filipino"
  
+#Pratapgarh (Bengal) 
+ PRA: "Pratapgarh"
+ PRA_ADJ: "Pratapgarhi"
+ 
 #O'ahu/Oahu
  OAH: "O'ahu"
  OAH_ADJ: "O'ahuan"

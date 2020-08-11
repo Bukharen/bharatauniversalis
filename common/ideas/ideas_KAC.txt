@@ -29,7 +29,9 @@ KAC_ideas_iandb = {
 		advisor_pool = 1
 	}		
 	KAC_hindu_transition = { #Transition to Hinduism
-		brahmin_loyalty_modifier = 0.05
+		brahmins_hindu_loyalty_modifier = 0.05
+		brahmins_muslim_loyalty_modifier = 0.05
+		brahmins_other_loyalty_modifier = 0.05
 		missionary_maintenance_cost = -0.1
 	}
 	KAC_sengphongs_for_the_people = { #Sengphongs of the People

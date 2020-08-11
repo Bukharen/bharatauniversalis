@@ -114,6 +114,9 @@
  khm_subjects: "Marches of Northern Thailand"
  desc_khm_subjects: "We have opted to install a puppet state in Northern Thailand, and it has been beneficial as they contribute to our armies and economy whilst protecting our lands."
  
+#Korea
+ kor_hermitage: "The Hermit Kingdom" 
+
 #Orissa
  ori_gonds: "Expansion into Jharkhandi Land"
  desc_ori_gonds: "As we expand into more land of different cultures, we should accept their culture to represent their population."

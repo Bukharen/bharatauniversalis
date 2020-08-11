@@ -1,0 +1,38 @@
+KHD_ideas_iandb = {
+	start = { #Land of the Khans
+		fire_damage = 0.1
+		global_tax_modifier = 0.1
+	}
+	
+	bonus = { #Umar's Descendants
+		legitimacy = 1
+	}
+	
+	trigger = {
+		tag = KHD	#will be added at load.
+	}
+	free = yes
+	
+	KHD_gujarati_subjects = { #Gujarati Subjects
+		diplomatic_reputation = 1
+	}
+	KHD_deccani_heartland = { #Heart of the Deccan
+		trade_range_modifier = 0.1
+		envoy_travel_time = -0.2
+	}		
+	KHD_many_rebellions = { #Rebellion after Rebellion
+		army_tradition_decay = -0.01
+	}
+	KHD_enlist_foreign_aid = { #Enlist Foreign Aid
+		diplomatic_upkeep = 1
+	}	
+	KHD_burhanpur_splendor = { #Splendor of Burhanpur
+		global_trade_power = 0.1
+	}	
+	KHD_rout_gonds = { #Rout the Gonds
+		infantry_power = 0.1
+	}		
+	KHD_shahi_qila = { #Shahi Qila
+		garrison_size = 0.1
+	}
+}	

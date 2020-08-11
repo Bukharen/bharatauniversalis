@@ -1,0 +1,7 @@
+kor_hermitage = {
+	fire_damage_received = 0.1
+	shock_damage_received = 0.1
+	recover_army_morale_speed = -0.1
+	discipline = -0.05
+	naval_morale = -0.1
+}

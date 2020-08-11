@@ -38,7 +38,7 @@
  BEI_idea_7_desc: "As Europeans develop better techologies to not only improve links between the Orient and Europe but to also find ways to treat diseases such as malaria that had previously been a barrier to conquest beyond a few major coastal cities, their ability to expand their empires in the name of imperialism have dramatically increased. We must stay alert and protect ourselves in the case of an invasion or take-over attempt. "
  
 #Calicut
- MAB_ideas_iandb: "Calicut Ideas"
+ MAB_ideas_iandb: "Kozhikodi Ideas"
  MAB_ideas_iandb_start: "Spice Trade Shareholders"
  MAB_ideas_iandb_bonus: "Constrain the Portuguese"
  MAB_muslim_arab_trades: "Mappila and Paradesi Traders"
@@ -95,7 +95,7 @@
  HAD_kotah_stone_desc: "The vast quarries of Kotah produce the finest varieties of limesone in all of Hadoti. Because of their extravagant colors, the stone is used in many of our architectural projects, and since it is mined locally in Kotah, it is easily shipped all across our nation."
 
 #Haida
- HDA_ideas_iandb: "Haida Ideas"
+ HDA_ideas_iandb: "Haidan Ideas"
  HDA_ideas_iandb_start: "Potlatches"
  HDA_ideas_iandb_bonus: "Pioneers of Naval Warfare"
  HDA_spiritual_totems: "Gyáa'aang"
@@ -152,7 +152,7 @@
  IKE_saigoku_shogun_desc: "Our great rulers quickly became dubbed the shoguns of Saigoku. There is great prestige in this title, but moreover, it raises nationalism in our people and increases their morale."
  
 #Jaffna
- JFN_ideas_iandb: "Aryachakravartin Ideas"
+ JFN_ideas_iandb: "Jaffnan Ideas"
  JFN_ideas_iandb_start: "Jaffna, a Coastal Center"
  JFN_ideas_iandb_bonus: "Jaffnan Administration"
  JFN_tamil_lanka: "Jaffnan Tamils"
@@ -171,7 +171,7 @@
  JFN_trade_desc: "Jaffna has been a center of trade between Arabia, Persia, India, and China for as long ago as the Sassanian era. Through proper utilization of our pivotal location, we can import and export and grow our economy exponentially."
 
 #Jaisalmer
- JSL_ideas_iandb: "Jaisalmer Ideas"
+ JSL_ideas_iandb: "Jaisalmeri Ideas"
  JSL_ideas_iandb_start: "Jaisalmer Fort"
  JSL_ideas_iandb_bonus: "Descendants of Krishna"
  JSL_caravans: "Caravans of Jaisalmer"
@@ -266,7 +266,7 @@
  KLT_survival_desc: "Even though we have been invaded so many times, we have never been force to kneel under others and continue to thrive. This can be attributed to our troops' high morale and discipline. Thanks to this, Kolathunad will stand up strong and never fall."
  
 #Koch
- KMT_ideas_iandb: "Kamata Ideas"
+ KMT_ideas_iandb: "Kamatan Ideas"
  KMT_ideas_iandb_start: "True Descendants of Kamarupa"
  KMT_ideas_iandb_bonus: "Egalitarianism of Eksarana Dharma"
  KMT_khen_stability: "Khen-Induced Stability"
@@ -302,6 +302,25 @@
  KOC_coast_desc: "Our location near the tip of India coupled with our navy allows for us to easily defend our lands from outside invaders. Although our sandy banks can't protect us much, the shape of our coast can help us tremendously."
  KOC_lineage: "Traceable Lineage"
  KOC_lineage_desc: "The lineage of the Kochi crown can be traced back 700 years. This allows us to connect with our ancestors and legitimize our claim to the throne."
+ 
+#Korea
+ KOR_ideas_iandb: "Korean Ideas"
+ KOR_ideas_iandb_start: "Korean Isolationism"
+ KOR_ideas_iandb_bonus: "Reinstitutite the Mun"
+ KOR_artillery_only: "Hwacha"
+ KOR_artillery_only_desc: "As Japanese raiders continued to raid our coasts, and internal defense at an all time low, some of our brighest minds realized that our military needed change. Realizing that firearms were the best form of defense, the hwacha was developed. Unlike heavy artillery, hwacha employ the use of thin, light arrows, which made it easy to maneuver."
+ KOR_language: "Hangul in Korean Court"
+ KOR_language_desc: "For the longest time, Hanja, a form of Classical Chinese calligraphy, was used. However, due to the many significant differences between Chinese and Korean, many were illiterate because learning Chinese proved a struggle. Possibly with the help of the Hall of Worthies, the great Sejong invented a new writing system, easy enough that 'a wise man can acquaint himself with them before the morning is over; even a stupid man can learn them in the space of ten days.' The invention of such a system has made literacy rate skyrocket, and has also allowed us to develop a unique Korean identity."
+ KOR_gyorin: "Gyorin"
+ KOR_gyorin_desc: ""
+ KOR_seowon: "Localized Seowon"
+ KOR_seowon_desc: ""
+ KOR_hyangyak: "The Hyangyak System"
+ KOR_hyangyak_desc: ""
+ KOR_turtle_ships: "Geobukseon"
+ KOR_turtle_ships_desc: ""
+ KOR_resist_jurchens: "Resist the Jurchens"
+ KOR_resist_jurchens_desc: "" 
  
 #Kutch
  KAT_ideas_iandb: "Kutchi Ideas"
@@ -455,6 +474,25 @@
  MMA_unite_tribes: "Unite the Diverse Tribes"
  MMA_unite_tribes_desc: "Due to a lack of money to go around, the main source of salary was in land. This meant that many of the able-bodied men in our country were also landholders. With more of our land owned by the people and not by the government, the land is easier to maintain."
   
+#Multan
+ MUL_ideas_iandb: "Multani Ideas"
+ MUL_ideas_iandb_start: "City of Saints"
+ MUL_ideas_iandb_bonus: "Irrigated by Many Rivers"
+ MUL_langa_policies: "Langa Immigration Policies"
+ MUL_langa_policies_desc: "During the Langa dynasty and especially during the reign of Hussain Shah, many Balochi tribes emigrated to our lands and settled in our fertile valleys. Promoted by the state themself, they quickly made the lands their new homes and became a part of our growing population."
+ MUL_rebellious_birth: "Born from Rebellion"
+ MUL_rebellious_birth_desc: "The history of our dynasty is a long tale; but in short, we emerged from a successful rebellion against the tyrannical sultans of Delhi. Remembering our past and our successful secession from the Delhian sultanate is a source of pride and morale for our fierce warriors."
+ MUL_caravans: "Multani Caravans"
+ MUL_caravans_desc: "Caravans from Multan travel all across the continent in the name of trade. Caravanserai in cities the likes of Baku and Bukhara are testimonies to our extensive land trade routes. In addition, the city of Multan is the beginning of the road to Kandahar through which all the trade of the subcontinent flows."
+ MUL_balochi_mercs_governors: "Balochi Mercenaries and Governors"
+ MUL_balochi_mercs_governors_desc: "Many Balochi chiefs settled in our lands as a result of immigration promoted under the Langa dynasty. Of these tribes, many became mercenary bands who fought for the highest payer, and others were employed by the state in governing unruly territories. So far, they have proved monumental in both."
+ MUL_tomb_structures: "Mausoleum Architecture"
+ MUL_tomb_structures_desc: "During the golden age of Islam, many mausoleums were constructed in cities the likes of Multan and the Deras; Dera Ghazi Khan and Dera Ismail Khan. Thanks to experience, we have developed a unique form of building these elaborate tombs, truly fit to contain the remains of once-great people."
+ MUL_chiefs_of_punjab: "Afghan Chiefs of Punjab"
+ MUL_chiefs_of_punjab_desc: "The Langa tribe has its origin in the Afghan mountains. However, the people that we rule over are not entirely Afghan, with many being Balochi and Panjabi. Though they may not be of our kin, they are brothers of the faith nevertheless, and we will continue to treat them as our subjects as long as we rule them."
+ MUL_balochi_settlements: "Balochi Settlements"
+ MUL_balochi_settlements_desc: "The Balochi culture is very much different from the Afghan and Panjabi that we have encountered, with the nobles being Afghan and the population being Panjabi. As the Balochi began to settle in our land, though, their culture began to assimilate with ours and they became fully-fleged members of our society, including our armies."
+ 
 #Pangasinan
  PGS_ideas_iandb: "Pangasinanese Ideas"
  PGS_ideas_iandb_start: "Heartland of the Agno"
@@ -475,7 +513,7 @@
  PGS_japanese_gunpowder_desc: "Proving itself as extremely valuable, Japanese gunpowder is ideal on the battlefield as it is technologically superior to the spears and bows that the nearby tribes use. It will help us in many conflicts henceforth." 
  
 #Pasai
- PSA_ideas_iandb: "Pasai Ideas"
+ PSA_ideas_iandb: "Pasaian Ideas"
  PSA_ideas_iandb_start: "Shafi'i Madhhab"
  PSA_ideas_iandb_bonus: "Growth of the Pepper Trade"
  PSA_arab_indian_merchants: "Arab and Indian Merchants"

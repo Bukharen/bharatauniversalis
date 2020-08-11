@@ -1998,7 +1998,7 @@ KOR_ideas = {
 	}
 	
 	trigger = {
-		tag = KOR
+		always = no
 	}
 	free = yes
 	

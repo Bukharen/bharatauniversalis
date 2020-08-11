@@ -442,7 +442,7 @@ sirhindi_titles = {
 }	
 
 chitral_titles = {
-	ruler_male = {
+	rank = {
 		1 = NAWABATE
 	}
 
@@ -456,7 +456,7 @@ chitral_titles = {
 }	
 
 hunza_nagar_titles = {
-	ruler_male = {
+	rank = {
 		1 = NAWABATE
 	}
 	
@@ -476,7 +476,7 @@ hunza_nagar_titles = {
 }	
 
 burusho_hunza_titles = {
-	ruler_male = {
+	rank = {
 		1 = NAWABATE
 	}
 	

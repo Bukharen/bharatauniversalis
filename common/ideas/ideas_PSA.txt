@@ -1,7 +1,7 @@
 PSA_ideas_iandb = {
 	start = { #Shafi'i Madhhab
 		trade_steering = 0.2
-		burgher_loyalty_modifier = 0.05
+		burghers_loyalty_modifier = 0.05
 	}
 	
 	bonus = { #Growth of the Pepper Trade
@@ -18,7 +18,7 @@ PSA_ideas_iandb = {
 		merchants = 1
 	}
 	PSA_safety_from_piracy = { #Safefty from the Southern Pirates
-		navy_tradition_decay = -0.1
+		navy_tradition_decay = -0.01
 	}
 	PSA_western_trade = { #Western Trade Links
 		trade_range_modifier = 0.33

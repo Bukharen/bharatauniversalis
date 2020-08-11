@@ -69,6 +69,7 @@ religious_school = ismaili_school
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = tolerant_personality
+	set_estate_privilege = estate_brahmins_guaranteed_autonomy
 }
 
 1440.1.1 = {
@@ -96,6 +97,7 @@ religious_school = ismaili_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = drunkard_personality
 	add_ruler_personality = sinner_personality
+	remove_estate_privilege = estate_brahmins_guaranteed_autonomy
 }
 
 1470.5.12 = {

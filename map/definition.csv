@@ -734,7 +734,7 @@ province;red;green;blue;x;x
 733;255;214;92;Hwangju;x
 734;236;251;55;Gangwon;x
 735;247;211;80;Hanseong;x
-736;240;240;5;Sangju;x
+736;240;240;5;Andong;x
 737;246;206;60;Jeonju;x
 738;105;100;192;Taiwan;x
 739;233;102;255;Kashgar;x
@@ -2110,7 +2110,7 @@ province;red;green;blue;x;x
 2109;100;90;80;Boduna;x
 2110;99;86;240;Yehe;x
 2111;199;223;102;Hetu Ala;x
-2112;115;210;143;Andong;x
+2112;115;210;143;Dandong;x
 2113;193;133;132;Gaizhou;x
 2114;106;172;160;Ereen;x
 2115;107;180;224;Chahar;x
@@ -4227,7 +4227,7 @@ province;red;green;blue;x;x
 4226;29;124;148;North Japan Basin;x
 4227;252;252;98;Daegu;x
 4228;248;216;98;Naju;x
-4229;220;220;4;Chungju;x
+4229;220;220;4;Cheongju;x
 4230;251;251;75;Suwon;x
 4231;255;255;128;Haeju;x
 4232;255;204;51;Ganggye;x
@@ -4808,7 +4808,13 @@ province;red;green;blue;x;x
 5008;23;167;252;Anuradhapura;x
 5009;23;137;252;Raigama;x
 5010;23;140;252;Batticaloa;x
-5011;22;124;226;Sitawaka;;x
+5011;22;124;226;Sitawaka;x
+5012;255;155;113;Pratapgarh;x
+5013;116;174;246;Banganapalle;x
+5014;61;186;255;Tenkasi;x
+5015;84;178;242;Thoothukudi;x
+5016;33;145;251;Ramanathapuram;x
+5017;93;170;246;Pudukkottai;x
 5200;249;184;243;Masbate;x
 5201;243;167;230;Basilan;x
 5202;232;134;206;Tawi-tawi;x
@@ -4875,6 +4881,22 @@ province;red;green;blue;x;x
 5404;255;55;82;Esashi;x
 5405;235;35;32;Setana;x
 5406;255;47;93;Osumi;x
+5407;255;242;117;Gilju;x
+5408;255;225;86;Yeongbyun;x
+5409;255;255;170;Deokwon;x
+5410;255;238;147;Gaesong;x
+5411;249;240;182;Chuncheon;x
+5412;226;255;0;Hongju;x
+5413;255;232;39;Chungju;x
+5414;249;239;76;Yeoju;x
+5415;254;244;74;Sangju;x
+5416;247;235;74;Changwon;x
+5417;247;236;71;Gwangju;x
+5418;220;229;4;Gongju;x
+5419;137;137;4;Sobaek;x
+5420;153;153;4;Taebaek;x
+5421;130;130;3;Rangrim;x
+5422;117;117;3;Hamgyong;x
 5500;42;244;96;Wowoni;x
 5501;197;252;212;Muna;x
 5502;119;248;154;Kabaena;x

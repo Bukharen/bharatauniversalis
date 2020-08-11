@@ -12,11 +12,9 @@ country_event = {
 	
 	trigger = {
 		tag = BND
-		is_subject = no
-		owns_core_province = 559
+		capital = 559
 		is_year = 1525
 		NOT = { is_year = 1550 }
-		capital = 559
 	}
 	
 	mean_time_to_happen = {

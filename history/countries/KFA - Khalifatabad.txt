@@ -5,6 +5,7 @@ primary_culture = bengali
 religion = sunni
 technology_group = indian
 capital = 2039 #Khalifatabad
+religious_school = hanafi_school
 
 1444.1.1 = {
 	monarch = {

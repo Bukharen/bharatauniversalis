@@ -1280,12 +1280,12 @@ guiTypes = {
 			{
 				name ="deity_icon"
 				spriteType = "GFX_hindu_deities_strip"
-				position = { x= 25 y = -41 }
+				position = { x= 30 y = -41 }
 			}
 			
 			instantTextBoxType = {
 				name = "deity_name"
-				position = { x= 104 y = -46 }
+				position = { x= 106 y = -46 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "RV_NO_DEITY"	
@@ -1297,7 +1297,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "deity_effect"
-				position = { x = 78 y = -25 }
+				position = { x = 90 y = -25 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""	
@@ -2309,12 +2309,12 @@ guiTypes = {
 		{
 			name ="deity_item_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 30 y = -4 }
+			position = { x= 55 y = -4 }
 		}
 		
 		instantTextBoxType = {
 			name = "deity_item_name"
-			position = { x= -45 y = 7 }
+			position = { x= -40 y = 7 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"	
@@ -2326,7 +2326,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "deity_item_effect"
-			position = { x = 85 y = -2 }
+			position = { x = 100 y = -2 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"	

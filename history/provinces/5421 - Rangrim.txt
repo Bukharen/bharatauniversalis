@@ -1,0 +1,4 @@
+#5421 - Rangrim
+
+discovered_by = chinese
+discovered_by = nomad_group

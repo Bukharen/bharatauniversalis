@@ -196,7 +196,7 @@ country_event = {
 			mil = 1
 			age = 23
 			claim = 95
-			regent = yes
+			regency = yes
 			female = yes
 			fixed = yes
 		}
@@ -207,9 +207,9 @@ country_event = {
 			dip = 3
 			mil = 1
 			male = yes
+			fixed = yes
 			age = 3
 			claim = 90
-			fixed = yes
 		}
 	}
 }

@@ -4,6 +4,17 @@
  sipsongpanna_area_name: "Sipsongpanna"
  sipsongpanna_area_adj: "Sipsongpannan"
  
+#Korea
+ chungcheong_area: "Chungcheong"
+ chungcheong_area_name: "Korea"
+ chungcheong_area_adj: "Chungcheongan"
+ gangwon_area: "Gangwon"
+ gangwon_area_name: "Korea"
+ gangwon_area_adj: "Gangwon"
+ gyeonggi_area: "Gyeonggi"
+ gyeonggi_area_name: "Korea"
+ gyeonggi_area_adj: "Gyeonggi" 
+ 
 #Polynesia
  fiji_area: "Fiji"
  fiji_area_name: "Fiji"
@@ -47,12 +58,6 @@
  kotte_area: "Kotte"
  kotte_area_name: "Ceylon"
  kotte_area_adj: "Kotte"
- south_lanka_area: "Kandy"
- south_lanka_area_name: "Ceylon"
- south_lanka_area_adj: "Kandyan"
- lanka_area: "Jaffna"
- lanka_area_name: "Ceylon"
- lanka_area_adj: "Jaffnan"
  
 #Japan
  oshima_area: "Oshima"
@@ -72,9 +77,6 @@
  bikol_area: "West Bikol"
  bikol_area_name: "West Bikol"
  bikol_area_adj: "Bikolano"
- visayas_area: "Central Visayas"
- visayas_area_name: "Visayas"
- visayas_area_adj: "Central Visayan"
  east_visayas_area: "East Visayas"
  east_visayas_area_name: "Visayas"
  east_visayas_area_adj: "Eastern Visayan"
