@@ -1,4 +1,4 @@
-DGL_ideas = {
+DGL_ideas_iandb = {
 	start = {
 		merchants = 1 #Trading Heritage
 		navy_tradition = 1
@@ -15,7 +15,6 @@ DGL_ideas = {
 	
 	DGL_somali_heritage = { #Royal Somali Heritage
 		num_accepted_cultures = 1
-		possible_adm_policy = 1
 	}
 	DGL_the_cowrie_trade = { #Exporting Cowrie Shells
 		global_tax_modifier = 0.1

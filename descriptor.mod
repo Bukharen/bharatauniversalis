@@ -1,4 +1,4 @@
-version="1.29.*"
+version="1.30.*"
 tags={
 	"Events"
 	"Expansion"
@@ -14,4 +14,4 @@ tags={
 	"Trade"
 }
 name="India and Beyond"
-supported_version="1.29.6"
+supported_version="1.30.6"

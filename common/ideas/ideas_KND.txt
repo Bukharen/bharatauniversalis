@@ -1,4 +1,4 @@
-KND_ideas = {
+KND_ideas_iandb = {
 	start = { #Cinnamon and Pepper Trade
 		global_trade_goods_size_modifier = 0.1
 		trade_steering = 0.1
@@ -22,7 +22,7 @@ KND_ideas = {
 	}	
 	KND_mercs_south_indian = { #Tamil and Telugu Mercenaries
 		mercenary_discipline = 0.05
-		possible_mercenaries = 0.15
+		mercenary_manpower = 0.15
 	}			
 	KND_frescoes = { #Kandyan Frescoes
 		adm_advisor_cost = -0.1

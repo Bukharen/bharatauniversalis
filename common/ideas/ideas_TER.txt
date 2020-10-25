@@ -1,0 +1,38 @@
+TER_ideas_iandb = {
+    start = { #Maluku Mercantilism
+       global_ship_trade_power = 0.1 
+       merchants = 1
+    }
+    
+    bonus = { #Malay Thassalocracy
+        infantry_power = 0.1
+    }
+    
+    trigger = {
+        tag = TER        #will be added at load.
+    }
+    free = yes
+    
+    TER_idea_1 = { #Clove Production
+       global_trade_goods_size_modifier = 0.1
+    }    
+    TER_idea_2 = { #Islamic Syncretism
+        tolerance_heathen = 2
+    }
+    TER_idea_3 = { #Rivalry with Tidore
+        spy_offence = 0.15
+		province_warscore_cost = -0.05
+    }    
+    TER_idea_4 = { #Anti-Portuguese Stance
+        heavy_ship_power = 0.1
+    }    
+    TER_idea_5 = { #Marketplace of Nusantara
+		global_trade_power = 0.1
+    }    
+    TER_idea_6 = { #From Sulawesi to Papua
+       core_creation = -0.15
+    }        
+    TER_idea_7 { #Great City of Ternate
+        development_cost = -0.1
+    }
+}

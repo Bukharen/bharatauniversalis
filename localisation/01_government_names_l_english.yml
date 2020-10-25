@@ -6,10 +6,20 @@
  BORKUNWORI: "Bor Kunwori"
  CHARINGRAJA: "Charing Raja"
  
+#Burmese
+ MIN_TITLE: "Min"
+ MAHE: "Mahe"
+ DEVI: "Devi"
+ EINSHAY_MINTHA: "Einshay Mintha"
+ TABINDAING_MINTHAMI: "Tabindaing Minthami"
+ 
 #Calicut
  SAMOOTHIRI: "Samoothiri"
  GREATSAMOOTHIRI: "Great Samoothiri"
 
+#Chitral
+ MEHTAR: "Mehtar"
+ 
 #Filipino Rajahnates
  DAYANG: "Dayang"
  HARA: "Hara"
@@ -25,10 +35,21 @@
  ALI_I_NUI: "Ali'i Nui"
  KAUKAUALI_I: "Kaukau Ali'i"
  
+#Hunza/Nagar
+ THUM: "Thum"
+ MIR_title: "Mir"
+ 
 #Jaisalmer
  RAWAL: "Rawal"
  MAHARAWAL: "Maharawal"
 
+#Iroquois     
+ IROQUOIS_CONFEDERACY: "Iroquois Confederacy"
+ TAHODAHO: "Tahodaho"
+ GREAT_TAHODAHO: "Great Tahodaho"
+ CLAN_MOTHER: "Clan Mother"
+ GRAND_CLAN_MOTHER: "Grand Clan Mother"
+ 
 #Khalifatabad
  THEOCRATIC_GOVERNORATE: "Theocratic Governorate"
  KHANIAZAM: "Khan-i-Azam"
@@ -53,7 +74,10 @@
  WANGOLNINGTHOU: "Wangol Ningthou"
  SHIJA: "Shija"
  
- #Mewat
+#Marathi
+ DESHMUKH: "Deshmukh"
+ 
+#Mewat
  WALIEMEWAT: "Wali-e-Mewat"
  SHAHEMEWAT: "Shah-e-Mewat"
  PADISHAHEMEWAT: "Padishah-e-Mewat"
@@ -65,6 +89,10 @@
  MATHA: "Matha"
  RAJAMATHA: "Rajamatha"
 
+#Nepali
+ RAJADHIRAJA: "Rajadhiraja"
+ MAHARAJADHIRAJA: "Maharajadhiraja"
+ 
 #Rapanui
  ARIKI_RAP: "'Ariki"
  ARIKI_MAU_RAP: "'Ariki Mau"
@@ -73,3 +101,17 @@
  GAYAPAL: "Gayapal"
  GAURINARAYAN: "Gaurinarayan"
  CHATRADHARI: "Chatra-dhari"
+ 
+#Sirhind
+ KHANIKHANAN: "Khan-i-Khanan"
+ 
+ #Southeastasian Hindu
+ DEVARAJA: "Devaraja"
+ DEVARANI: "Devarani"
+ 
+#Tlaxcala
+ TEUCTLI: "Teuctli"
+ GRAND_CONFEDERACY: "Grand Confederation"
+ 
+#Tarascan/Purepecha
+ CAZONCI: "Cazonci" 

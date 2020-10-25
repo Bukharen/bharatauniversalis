@@ -570,7 +570,7 @@ province;red;green;blue;x;x
 569;209;146;255;Bijapur;x
 570;81;148;0;Naga;x
 571;209;150;64;Darrang;x
-572;81;152;128;Kotte;x
+572;23;171;252;Kotte;x
 573;209;154;192;Kachar;x
 574;82;156;255;The Andamans;x
 575;210;158;0;Eastern Makran;x
@@ -658,7 +658,7 @@ province;red;green;blue;x;x
 657;181;127;153;Samtoy;x
 658;243;187;216;Cagayan;x
 659;222;70;255;Riau;x
-660;94;72;0;Xishuan Banna;x
+660;234;144;16;Xishuan Banna;x
 661;222;74;64;Dali;x
 662;94;76;128;Yunnan;x
 663;222;78;192;Wenshan;x
@@ -734,7 +734,7 @@ province;red;green;blue;x;x
 733;255;214;92;Hwangju;x
 734;236;251;55;Gangwon;x
 735;247;211;80;Hanseong;x
-736;240;240;5;Sangju;x
+736;240;240;5;Andong;x
 737;246;206;60;Jeonju;x
 738;105;100;192;Taiwan;x
 739;233;102;255;Kashgar;x
@@ -2097,8 +2097,8 @@ province;red;green;blue;x;x
 2096;210;243;194;Damin;x
 2097;95;101;222;Baghelkhand;x
 2098;148;136;138;Surguja;x
-2099;193;207;44;Kandy;x
-2100;195;123;121;Vanni;x
+2099;89;190;252;Kandy;x
+2100;82;171;252;Vanni;x
 2101;186;239;22;Tirunelveli;x
 2102;215;191;26;Urkan;x
 2103;103;132;224;Udi;x
@@ -2110,7 +2110,7 @@ province;red;green;blue;x;x
 2109;100;90;80;Boduna;x
 2110;99;86;240;Yehe;x
 2111;199;223;102;Hetu Ala;x
-2112;115;210;143;Andong;x
+2112;115;210;143;Dandong;x
 2113;193;133;132;Gaizhou;x
 2114;106;172;160;Ereen;x
 2115;107;180;224;Chahar;x
@@ -4184,7 +4184,7 @@ province;red;green;blue;x;x
 4183;254;25;11;Iwami;x
 4184;218;47;64;Bizen;x
 4185;232;47;78;Tango;x
-4186;235;63;51;Iyo;x
+4186;240;63;51;Iyo;x
 4187;245;0;8;Kii;x
 4188;223;16;1;Shinano;x
 4189;255;31;38;Sagami;x
@@ -4227,7 +4227,7 @@ province;red;green;blue;x;x
 4226;29;124;148;North Japan Basin;x
 4227;252;252;98;Daegu;x
 4228;248;216;98;Naju;x
-4229;220;220;4;Chungju;x
+4229;220;220;4;Cheongju;x
 4230;251;251;75;Suwon;x
 4231;255;255;128;Haeju;x
 4232;255;204;51;Ganggye;x
@@ -4405,9 +4405,9 @@ province;red;green;blue;x;x
 4404;186;179;78;Minsin;x
 4405;135;83;198;Katha;x
 4406;131;123;246;Mong Kung;x
-4407;231;58;53;Ruhunu;x
-4408;227;170;169;Salavata;x
-4409;154;153;27;Trincomale;x
+4407;89;147;252;Ruhunu;x
+4408;23;155;252;Kalpitiya;x
+4409;23;190;252;Trincomale;x
 4410;166;186;106;Kumari;x
 4411;212;178;42;Samana;x
 4412;133;65;23;Dindigul;x
@@ -4649,7 +4649,7 @@ province;red;green;blue;x;x
 4648;2;69;200;Acaxee;x
 4649;62;137;250;Mayo;x
 4650;82;176;150;Opata;x
-4651;254;74;73;Tsushima;x
+4651;254;74;72;Tsushima;x
 4652;140;69;200;Haicheng;
 4653;117;192;171;Maolian;x
 4654;60;240;76;Fuerhe;x
@@ -4692,6 +4692,102 @@ province;red;green;blue;x;x
 4691;255;227;0;As;x
 4692;255;213;0;Turgay;x
 4693;254;103;217;Keriya;x
+4694;172;194;112;Foix;x
+4695;195;118;123;Carcassonne;x
+4696;243;42;7;Toulon;x
+4697;22;120;77;La Marche;x
+4698;223;0;153;Cephalonia;x
+4699;164;48;47;Arta;x
+4700;137;22;12;Lesbos;x
+4701;135;128;17;Corinth;x
+4702;68;83;143;Siroz;x
+4703;190;143;135;Kostendil;x
+4704;213;232;183;Tirnovo;x
+4705;203;245;164;Gumulcine;x
+4706;94;32;199;Tolcu;x
+4707;86;92;128;Rosenheim;x
+4708;136;148;128;Freising;x
+4709;71;104;32;Passau;x
+4710;48;231;108;Bregenz;x
+4711;226;210;106;Donauwörth;x
+4712;27;146;0;Konstanz;x
+4713;185;110;79;Urach;x
+4714;139;150;128;Durlach;x
+4715;135;130;221;Rothenburg;x
+4716;223;230;73;Coburg;x
+4717;184;22;22;Bayreuth;x
+4718;8;175;128;Aschaffenburg;x
+4719;161;116;28;Annecy;x
+4720;29;123;204;Geneva;x
+4721;192;98;255;Fribourg;x
+4722;33;178;172;Illanz;x
+4723;63;106;212;Opole;x
+4724;28;140;117;Pardubice;x
+4725;182;22;144;Jindrichuv Hradec;x
+4726;14;8;38;Ostrava;x
+4727;11;159;77;Saluzzo;x
+4728;23;128;70;Pavia;x
+4729;111;248;124;Padova;x
+4730;24;248;124;Bologna;x
+4731;50;217;66;Spoleto;x
+4732;216;236;203;Terracina;x
+4733;144;222;92;Molise;x
+4734;239;33;241;Avellino;x
+4735;77;22;255;Arborea;x
+4736;255;193;247;Trapani;x
+4737;172;68;159;Girgenti;x
+4738;110;243;21;Trieste;x
+4739;255;193;31;Bergamo;x
+4740;123;111;79;Como;x
+4741;206;82;89;Halle;x
+4742;24;36;126;Nordhausen;x
+4743;70;32;26;Weimar;x
+4744;35;63;199;Zwickau;x
+4745;86;194;97;Rügen;x
+4746;213;132;0;Wolgast;x
+4747;111;118;8;Dramburg;x
+4748;170;79;248;Brandenburg;x
+4749;39;120;238;Stargardland;x
+4750;167;101;106;Kruje;x
+4751;162;186;147;Cilli;x
+4752;232;189;231;Rijeka;x
+4753;144;219;143;Zadar;x
+4754;177;229;130;Kotor;x
+4755;224;202;77;Podrinje;x
+4756;163;165;183;Bjelovar;x
+4757;133;229;130;Kolubara;x
+4758;186;81;38;Etsch;x
+4759;220;54;163;Upper Carinthia;x
+4760;194;192;231;Innviertel;x
+4761;154;237;147;Traungau;x
+4762;243;138;80;Wienerwald;x
+4763;238;230;38;Alps6;x
+4764;179;106;111;Salins;x
+4765;255;253;196;Mulhouse;x
+4766;138;136;91;Verdun;x
+4767;253;135;143;Zweibrucken;x
+4768;253;215;143;Julich;x
+4769;125;215;143;Lille;x
+4770;181;160;75;s-Hertogenbosch;x
+4771;52;36;48;Verden;x
+4772;228;189;115;Celle;x
+4773;70;135;54;Göttingen;x
+4774;175;138;37;Fulda;x
+4775;199;14;89;Bielefeld;x
+4776;177;186;20;Blois;x
+4777;202;126;16;Forez;x
+4778;32;31;94;Görlitz;x
+4779;124;10;162;Gallipoli;x
+4780;25;224;138;Ohrid;x
+4781;197;9;45;Transvaal;x
+4782;45;197;9;Tswana;x
+4783;9;45;197;Swazi;x
+4784;135;45;9;Upper Limpopo;x
+4785;98;179;208;Sheffield;x
+4786;45;27;97;Priegnitz;x
+4787;91;178;26;Ribatejo;x
+4788;168;196;4;Plasencia;x
+4789;254;145;124;Segovia;x
 4991;119;0;88;Dholpur;x
 4992;204;88;3;Bhola;x
 4993;226;113;29;Bonai;x
@@ -4701,6 +4797,24 @@ province;red;green;blue;x;x
 4997;158;0;49;Sirohi;x
 4998;96;0;71;Visakhapatnam;x
 4999;142;0;69;Champaner;x
+5000;0;185;174;Chitral;x
+5001;4;139;139;Mastuj;x
+5002;0;159;147;Nagar;x
+5003;2;195;189;Hunza;x
+5004;9;134;126;Dir;x
+5005;2;182;176;Timergara;x
+5006;23;163;252;Jaffna;x
+5007;23;128;252;Kurunegala;x
+5008;23;167;252;Anuradhapura;x
+5009;23;137;252;Raigama;x
+5010;23;140;252;Batticaloa;x
+5011;22;124;226;Sitawaka;x
+5012;255;155;113;Pratapgarh;x
+5013;116;174;246;Banganapalle;x
+5014;61;186;255;Tenkasi;x
+5015;84;178;242;Thoothukudi;x
+5016;33;145;251;Ramanathapuram;x
+5017;93;170;246;Pudukkottai;x
 5200;249;184;243;Masbate;x
 5201;243;167;230;Basilan;x
 5202;232;134;206;Tawi-tawi;x
@@ -4741,6 +4855,9 @@ province;red;green;blue;x;x
 5237;245;221;236;Tarlac;x
 5238;213;177;195;Pinagpanaan;x
 5239;249;231;243;Agoo;x
+5250;251;139;36;Tharrawaddy;x
+5251;232;136;2;Moeng La;x
+5252;239;155;32;Moeng Lem;x
 5300;77;62;137;Niihau;x
 5301;69;55;129;Kauai;x
 5302;60;48;120;Oahu;x
@@ -4759,8 +4876,30 @@ province;red;green;blue;x;x
 5315;37;15;156;Waipunalei;x
 5316;129;35;169;Vanua Levu;x
 5401;255;68;31;Sado;x
-5402;254;74;73;Awaji;x
+5402;254;66;39;Awaji;x
+5403;240;20;60;Usukeshi;x
+5404;255;55;82;Esashi;x
+5405;235;35;32;Setana;x
+5406;255;47;93;Osumi;x
+5407;255;242;117;Gilju;x
+5408;255;225;86;Yeongbyun;x
+5409;255;255;170;Deokwon;x
+5410;255;238;147;Gaesong;x
+5411;249;240;182;Chuncheon;x
+5412;226;255;0;Hongju;x
+5413;255;232;39;Chungju;x
+5414;249;239;76;Yeoju;x
+5415;254;244;74;Sangju;x
+5416;247;235;74;Changwon;x
+5417;247;236;71;Gwangju;x
+5418;220;229;4;Gongju;x
+5419;137;137;4;Sobaek;x
+5420;153;153;4;Taebaek;x
+5421;130;130;3;Rangrim;x
+5422;117;117;3;Hamgyong;x
 5500;42;244;96;Wowoni;x
 5501;197;252;212;Muna;x
 5502;119;248;154;Kabaena;x
 5503;81;246;125;Bombana;x
+5700;71;178;0;Aloubaera;x
+5750;7;42;200;Kuskatan;x

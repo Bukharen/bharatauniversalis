@@ -1,0 +1,42 @@
+TKD_ideas_iandb = {
+	start = { #The Twenty-Four Generals
+		general_cost = -0.1
+		free_leader_pool = 1
+    }
+    
+	bonus = { #The Four Diamonds
+		prestige = 1
+    }
+
+	trigger = {
+        tag = TKD
+	}
+	
+	free = yes
+    
+	TKD_takeda_cavalry = { #Takedan Cavalry
+        cavalry_cost = -0.15
+        cav_to_inf_ratio = 0.2
+    }
+    TKD_famine_relief = { #Famine Relief
+        development_cost = -0.1
+    }	
+    TKD_tiger_of_kai = { #Tiger of Kai
+        shock_damage = 0.05
+    }
+    TKD_koshu_hatto_no_shidai = { #Koshu Hatto no Shidai
+        global_autonomy = -0.025
+        state_maintenance_modifier = -0.1
+    }
+    TKD_furinkazan = { #Furinzakan
+        leader_land_manuever = 1
+    }
+    TKD_the_kai_goldmine = { #Gold of Kai
+        production_efficiency = 0.1
+		land_maintenance_modifier = -0.05
+    }	
+    TKD_legends_of_kawanakajima = { #Legends of Kawanakajima
+        cavalry_flanking = 0.25
+		cavalry_power = 0.1
+    }
+}

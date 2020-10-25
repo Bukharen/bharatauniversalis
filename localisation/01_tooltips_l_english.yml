@@ -23,6 +23,10 @@
  tooltip_mng.1: "§YThis will cede you Dehong and Xishuangbanna (Sipsongpanna), whilst Mong Kawng will be released and Mong Mao will change to Mong Yang.§!"
  tooltip_mng.2: "§YMing declares war on Mong Mao.§!"
  
+#Multan
+ tooltip_mul.1: "§YThe Baluchi Band company is now available, centered in [2079.GetName].§!"
+ tooltip_mul.2: "§YThe Baluchi Band company is enabled.§!"
+ 
 #Orissa
  tooltip_ori.1: "§YThis may mean war with Bahmanis.§!"
  tooltip_ori.2: "§YThis will anger the Bengalis of our nation.§!"

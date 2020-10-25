@@ -446,3 +446,13 @@
  rjk_finisher_desc: "Just some years ago, we were a vulnerable petty princedom that had recently declared independence from Kutch. From these humble beginnings, we have conquered swathes of land and can proclaim ourselves a new nation—the kingdom of the Saurashtrans. "
  rjk_islam_title: "Follow the Sindhi"
  rjk_islam_desc: "Both the Jadeja Rajput dynasty and its senior branch, the Samma, have a long history of Islamic influences. Whilst the Samma have fully embraced Islam, our royal family has maintained its Hindu-Muslim syncretism. With the steady conversion of the subcontinent to Islam and the influx of Arab and Muslim merchants, perhaps it may be in our interest to follow suit."  
+ 
+#Sirhind
+ srh_amass_army_title: "Bahlûl's Armies"
+ srh_amass_army_desc: "For years we have attempted to increase our power in the Delhian court in hopes of an eventual usurpation by our charismatic Khan-i-Khanan. However, the diplomatic game has proven itself too slow and we are nowhere near the point where we can stage a rebellion. Instead, we must use brute military force to seize Delhi for ourselves and install our Khan-i-Khanan as ruler. But there cannot be a battle without a good army!"
+ srh_seize_delhi_title: "Not Just Khan-i-Khanan"
+ srh_seize_delhi_desc: "Not long ago—actually, just back in 1443—we failed in an attempt to seize Delhi for ourselves. However, there were many flaws in that scheme that we will never repeat again. With the armies we have amassed, the weakened shadow of its former self can't stand a chance against our might."
+ srh_stabilize_punjab_title: "Stabilize Punjab"
+ srh_stabilize_punjab_desc: "After succeeding to the title of governor of Sirhind, our not yet great Khan-i-Khanan Bahlûl Lodi sought to increase his influence and eventually gained control over most of the heartland of Punjab. Nevertheless, our lack of focus towards stability has weakened us internally. Punjab is continuing to grow restless, and we fear that it may rise up against us soon. Before this happens, we must bring order to stability to Punjab and prevent any dissent from growing out of hand."
+ srh_quality_horses_title: "Sirhindi Horses"
+ srh_quality_horses_desc: "In Khan-i-Khanan Bahlûl's youth, he traded the highest quality of specially bred bred with the former Sultan Muhammad Shah Sayyid and was granted a district and the status of amir. With the vast lands acquired by us since then, we can expand the horse industry to a new zenith and become renowned horse traders."

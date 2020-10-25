@@ -1,4 +1,4 @@
-KAT_ideas = {
+KAT_ideas_iandb = {
 	start = { #The Mighty Rann
 		land_attrition = -0.1
 		hostile_attrition = 1

@@ -1,0 +1,39 @@
+CHM_ideas_iandb = {
+	start = { #Moche Legacy
+		diplomatic_reputation = 1
+		production_efficiency = 0.1
+	}
+	
+	bonus = { #Lunar Worship
+		global_missionary_strength = 0.02
+	}
+	
+	trigger = {
+		tag = CHM	#will be added at load.
+	}
+	free = yes
+	
+	CHM_irrigated_valleys = { #Irrigated Valleys
+		development_cost = -0.1
+	}
+	CHM_rivalry_with_the_inca = { #Incan Rivalry
+		infantry_power = 0.1
+	}
+	CHM_four_level_hierarchy = { #Four-Level Hierarchy
+		state_maintenance_modifier = -0.15
+	}	
+	CHM_ciudadelas_idea = { #Ciudadelas
+		defensiveness = 0.2
+	}	
+	CHM_shells_and_textiles = { #Shells and Textiles
+		global_prov_trade_power_modifier = 0.1
+	}		
+	CHM_split_inheritance = { #Split Inheritance
+		nobles_loyalty_modifier = 0.05
+		build_cost = -0.1
+	}
+	CHM_advanced_metalworking = { #Advanced Metallurgy
+		infantry_cost = -0.2
+	}	
+}	
+	

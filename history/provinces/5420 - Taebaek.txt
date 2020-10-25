@@ -1,0 +1,4 @@
+#5420 - Taebaek
+
+discovered_by = chinese
+discovered_by = nomad_group

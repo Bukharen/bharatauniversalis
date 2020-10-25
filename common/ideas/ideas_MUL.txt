@@ -1,0 +1,39 @@
+MUL_ideas_iandb = {
+	start = { #City of Saints
+		missionaries = 1
+		warscore_cost_vs_other_religion = -0.1
+	}
+	
+	bonus = { #Irrigated by Many Rivers
+		production_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = MUL	#will be added at load.
+	}
+	free = yes
+	
+	MUL_langa_policies = { #Langa Immigration Policies
+		development_cost = -0.1
+	}
+	MUL_rebellious_birth = { #Born from Rebellion
+		land_morale = 0.1
+	}			
+	MUL_caravans = { #Multani Caravans
+		caravan_power = 0.2
+	}
+	MUL_balochi_mercs_governors = { #Balochi Mercenaries and Governors
+		merc_maintenance_modifier = -0.1
+		governing_capacity_modifier = 0.1
+	}	
+	MUL_tomb_structures = { #Mausoleum Architecture
+		build_cost = -0.1
+	}	
+	MUL_chiefs_of_punjab = { #Afghan Chiefs of Punjab
+		years_of_nationalism = -5
+	}
+	MUL_balochi_settlements = { #Baluchi Settlements
+		global_manpower_modifier = 0.1
+		num_accepted_cultures = 1
+	}	
+}	

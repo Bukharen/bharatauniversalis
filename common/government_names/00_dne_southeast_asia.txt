@@ -1,0 +1,106 @@
+filipino_rajanate = {
+	rank = {
+		1 = BARANGAY
+		2 = GRAND_BARANGAY
+		3 = GREAT_BARANGAY
+	}
+
+	ruler_male = {
+		1 = DATU
+		2 = RAJA
+		3 = MAHARAJA
+	}
+
+	ruler_female = {
+		1 = DAYANG
+		2 = HARA
+		3 = MAHARANI
+	}
+	
+	heir_male = {
+		1 = BAI
+		2 = BAI
+		3 = BAI
+	}
+	trigger = {
+		government = monarchy
+		OR = {
+			tag = BTU
+			tag = MNA
+			tag = CEB
+		}
+	}
+}
+
+burman_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = MIN_TITLE
+		2 = KING
+		3 = CHHATRAPATI
+	}
+
+	ruler_female = {
+		1 = MIN_TITLE
+		2 = MAHE
+		3 = DEVI
+	}
+	
+	consort_female = {
+		1 = MIN_TITLE
+		2 = MAHE
+		3 = DEVI
+	}	
+
+	heir_male = {
+		1 = EINSHAY_MINTHA
+		2 = EINSHAY_MINTHA
+		3 = EINSHAY_MINTHA
+	}
+	
+	heir_female = {
+		1 = TABINDAING_MINTHAMI
+		2 = TABINDAING_MINTHAMI
+		3 = TABINDAING_MINTHAMI
+	}
+
+	trigger = {
+		government = monarchy
+		culture_group = burman
+	}
+}
+
+southeastasian_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = PRINCE
+		2 = KING
+		3 = DEVARAJA
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = QUEEN
+		3 = DEVARANI
+	}
+
+	trigger = {
+		government = monarchy
+		NOT = { government = tribal }
+		religion = hinduism
+		OR = {
+			culture = khmer
+			culture = javanese
+		}
+	}
+}

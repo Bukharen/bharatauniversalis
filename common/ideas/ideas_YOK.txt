@@ -1,0 +1,39 @@
+YOK_ideas_iandb = {
+	start = { #Tabasco, Our Lifeline
+		development_cost = -0.1
+		global_unrest = -1
+	}
+	
+	bonus = { #Tabscoob's Legacy
+		land_morale = 0.15
+	}
+	
+	trigger = {
+		tag = YOK	#will be added at load.
+	}
+	free = yes
+	
+	YOK_extensive_naval_trade = { #Extensive Maritime Trade
+		merchants = 1
+		naval_forcelimit_modifier = 0.1
+	}
+	YOK_olmec_descendants = { #Descendants of the Olmec
+		legitimacy = 1
+	}
+	YOK_acalan_eclipse = { #Eclipse Acalan
+		province_warscore_cost = -0.05
+	}	
+	YOK_potonchan_entrepot = { #Entrepot of Potonchan
+		global_own_trade_power = 0.1
+	}	
+	YOK_xicalango_seizing = { #Seizing of Xicalango
+		siege_ability = 0.05
+	}
+	YOK_maya_surrounded_by_nahua = { #Maya in a Nahua Sea
+		war_exhaustion = -0.02
+	}	
+	YOK_mayapan_influence = { #Mayapan Influence
+		max_absolutism = 5
+	}			
+}	
+	

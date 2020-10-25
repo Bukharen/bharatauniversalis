@@ -1,4 +1,4 @@
-SUL_ideas = {
+SUL_ideas_iandb = {
 	start = { #Tausug Identity
 		infantry_shock = 1
 		same_culture_advisor_cost = -0.25

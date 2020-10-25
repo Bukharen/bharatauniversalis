@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = afghani
+government_rank = 1
+religion = sunni
+technology_group = muslim
+capital = 5004
+fixed_capital = 5004 # Cannot move capital away from this province & no power cost to move to it
+religious_school = hanafi_school

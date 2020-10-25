@@ -1,0 +1,3 @@
+dai_hoa_chau_raids_recovery = {
+	local_monthly_devastation = -0.1
+}

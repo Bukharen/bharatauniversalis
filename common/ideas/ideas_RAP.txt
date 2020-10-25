@@ -1,4 +1,4 @@
-RAP_ideas = {
+RAP_ideas_iandb = {
 	start = { #Settlement by Polynesians
 		range = 0.5
 		naval_attrition = -0.15
@@ -14,7 +14,7 @@ RAP_ideas = {
 	free = yes 
 
 	RAP_power_of_the_aliki = { #Power of the Aliki
-		years_of_separatism = -5
+		years_of_nationalism = -5
 	}
 
 	RAP_polynesian_isolation = { #Polynesian Isolation

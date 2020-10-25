@@ -1,4 +1,4 @@
-MAB_ideas = {
+MAB_ideas_iandb = {
 	start = { #Major Shareholders in the Spice Trade
 		global_ship_trade_power = 0.25
 		merchants = 1

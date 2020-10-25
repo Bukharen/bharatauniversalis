@@ -1,0 +1,4 @@
+dai_hoa_chau_raids = {
+	opinion = -50
+	yearly_decay = 2
+}

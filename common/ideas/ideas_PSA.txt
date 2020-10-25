@@ -1,0 +1,41 @@
+PSA_ideas_iandb = {
+	start = { #Shafi'i Madhhab
+		trade_steering = 0.2
+		burghers_loyalty_modifier = 0.05
+	}
+	
+	bonus = { #Growth of the Pepper Trade
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = PSA	#will be added at load.
+	}
+	free = yes
+	
+	PSA_arab_indian_merchants = { #Arab and Indian Merchants
+		mercantilism_cost = -0.1
+		merchants = 1
+	}
+	PSA_safety_from_piracy = { #Safefty from the Southern Pirates
+		navy_tradition_decay = -0.01
+	}
+	PSA_western_trade = { #Western Trade Links
+		trade_range_modifier = 0.33
+		global_trade_power = 0.1
+	}		
+	PSA_spread_malay = { #Spreading Malay Culture
+		culture_conversion_cost = -0.2
+	}		
+	PSA_foreigner_reliant_foundation = { #Foreigner-Reliant Foundation
+		free_adm_policy = 1
+	}
+	PSA_scholarly_proponents = { #Scholarly Proponents
+		technology_cost = -0.05
+		monthly_piety = 0.001
+	}	
+	PSA_convert_indonesia = { #Expand the Eastern Dar al-Islam
+		missionaries = 1
+	}	
+}	
+	

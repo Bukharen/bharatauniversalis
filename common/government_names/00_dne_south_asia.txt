@@ -1,0 +1,493 @@
+mysorean_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = WADIYAR
+		2 = GRANDWADIYAR
+		3 = GREATWADIYAR
+	}
+	
+	ruler_female = {
+		1 = MATHA
+		2 = RAJAMATHA
+		3 = MAHARANI
+	}
+	
+	consort_male = {
+		1 = WADIYAR
+		2 = GRANDWADIYAR
+		3 = GREATWADIYAR
+	}
+	
+	consort_female = {
+		1 = MATHA
+		2 = RAJAMATHA
+		3 = MAHARANI
+	}
+	
+	trigger = {
+		tag = MYS
+		government = monarchy
+		religion = hinduism
+	}
+}
+
+bundi_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAO
+		2 = RAORAJA
+		3 = MAHARAO
+	}
+	
+	consort_male = {
+		1 = RAO
+		2 = RAORAJA
+		3 = MAHARAO
+	}
+
+	trigger = {
+		tag = HAD
+		religion = hinduism
+	}
+}
+
+bikaner_titles = { #Every Rathore kingdom (Bikaner, Marwar, and Idar the only ones in vanilla)
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAO
+		2 = RAJA
+		3 = MAHARAJA
+	}
+	
+	consort_male = {
+		1 = RAO
+		2 = RAJA
+		3 = MAHARAJA
+	}
+
+	trigger = {
+		OR = {
+			tag = JAN
+			tag = MAW
+			tag = IDR
+			dynasty = "Rathore"
+		}	
+		religion = hinduism
+	}
+}
+
+jaisalmer_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAWAL
+		2 = MAHARAWAL
+		3 = MAHARAWAL
+	}
+	
+	consort_male = {
+		1 = RAWAL
+		2 = MAHARAWAL
+		3 = MAHARAWAL
+	}
+
+	trigger = {
+		tag = JSL
+		religion = hinduism
+	}
+}
+
+mewat_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = WALIEMEWAT
+		2 = SHAHEMEWAT
+		3 = PADISHAHEMEWAT
+	}
+	
+	consort_male = {
+		1 = WALIEMEWAT
+		2 = SHAHEMEWAT
+		3 = PADISHAHEMEWAT
+	}
+
+	trigger = {
+		tag = MEW
+		religion_group = muslim
+	}
+}
+
+meitei_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = NINGTHEM
+		2 = NINGTHEM
+		3 = GREATNINGTHEM
+	}
+	
+	ruler_female = {
+		1 = MEITEILEEMA
+		2 = MEITEILEEMA
+		3 = MEITEILEEMA
+	}
+	
+	consort_male = {
+		1 = WANGAM
+		2 = WANGAM
+		3 = WANGAM
+	}
+
+	consort_female = {
+		1 = MEITEILEEMA
+		2 = MEITEILEEMA
+		3 = MEITEILEEMA
+	}
+	
+	heir_male = {
+		1 = WANGOLNINGTHOU
+		2 = WANGOLNINGTHOU
+		3 = WANGOLNINGTHOU
+	}
+
+	heir_female = {
+		1 = SHIJA
+		2 = SHIJA
+		3 = SHIJA
+	}
+	
+	trigger = {
+		tag = MLB
+	}
+}
+
+assam_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = PHA_TITLE
+		2 = SAOPHA
+		3 = SWARGADEO
+	}
+	
+	ruler_female = {
+		1 = KUNWORI
+		2 = KUNWORI
+		3 = KUNWORI
+	}
+
+	consort_female = {
+		1 = KUNWORI
+		2 = KUNWORI
+		3 = BORKUNWORI
+	}
+	
+	heir_male = {
+		1 = CHARINGRAJA
+		2 = CHARINGRAJA
+		3 = CHARINGRAJA
+	}
+	
+	trigger = {
+		tag = ASS
+	}
+}
+
+sadiya_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = GAYAPAL
+		2 = GAURINARAYAN
+		3 = CHATRADHARI
+	}
+	
+	consort_male = {
+		1 = GAYAPAL
+		2 = GAURINARAYAN
+		3 = CHATRADHARI
+	}
+	
+	trigger = {
+		tag = SDY
+	}
+}
+
+calicut_titles = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = SAMOOTHIRI
+		2 = SAMOOTHIRI
+		3 = GREATSAMOOTHIRI
+	}
+	
+	consort_male = {
+		1 = SAMOOTHIRI
+		2 = SAMOOTHIRI
+		3 = GREATSAMOOTHIRI
+	}
+	
+	trigger = {
+		tag = MAB
+	}
+}	
+
+hindu_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAJA
+		2 = RAJADHIRAJA
+		3 = MAHARAJADHIRAJA
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = CHHATRAPATI
+	}
+	
+	heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+	
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		government = monarchy
+		religion = hinduism
+		primary_culture = nepali
+	}
+}
+
+maratha_peshwas = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAJA
+		2 = DESHMUKH
+		3 = PESHWA
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = PESHWA
+	}
+	
+	consort_male = {
+		1 = RAJA
+		2 = DESHMUKH
+		3 = PESHWA
+	}
+
+	consort_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = PESHWIN
+	}
+	
+	heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+	
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		OR = {
+			has_reform = administrative_monarchy
+			has_reform = clergy_in_administration_reform
+			has_reform = of_noble_bearing_reform
+			has_reform = meritocratic_focus_reform
+		}
+		primary_culture = marathi
+		religion = hinduism
+	}
+}
+
+hindu_maratha_monarchy = {
+	rank = {
+		1 = PRINCEDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAJA
+		2 = DESHMUKH
+		3 = CHHATRAPATI
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = CHHATRAPATI
+	}
+	
+	consort_male = {
+		1 = RAJA
+		2 = DESHMUKH
+		3 = PESHWA
+	}
+
+	consort_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = PESHWIN
+	}
+	
+	heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+	
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		government = monarchy
+		primary_culture = marathi
+		religion = hinduism
+	}
+}
+
+khalifatabad_titles = {
+	rank = {
+		1 = THEOCRATIC_GOVERNORATE
+	}
+	ruler_male = {
+		1 = KHANIAZAM
+	}
+	
+	trigger = {
+		tag = KFA
+	}	
+}	
+
+sirhindi_titles = {
+
+	ruler_male = {
+		1 = KHANIKHANAN
+	}
+	
+	trigger = {
+		tag = SRH
+		has_ruler = "Bahlûl"
+	}	
+}	
+
+chitral_titles = {
+	rank = {
+		1 = NAWABATE
+	}
+
+	ruler_male = {
+		1 = MEHTAR
+	}
+	
+	trigger = {
+		tag = CTR
+	}	
+}	
+
+hunza_nagar_titles = {
+	rank = {
+		1 = NAWABATE
+	}
+	
+	ruler_male = {
+		1 = MIR_title
+	}
+	
+	trigger = {
+		OR = {
+			AND = {
+				tag = HNZ
+				is_year = 1500
+			}
+			tag = NGR
+		}
+	}	
+}	
+
+burusho_hunza_titles = {
+	rank = {
+		1 = NAWABATE
+	}
+	
+	ruler_male = {
+		1 = THUM
+	}
+	
+	trigger = {
+		tag = HNZ
+		NOT = {	
+			is_year = 1500
+		}	
+	}	
+}	

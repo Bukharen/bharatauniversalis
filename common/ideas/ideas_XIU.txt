@@ -1,0 +1,38 @@
+XIU_ideas_iandb = {
+	start = { #Heart of Mayapan
+		governing_capacity_modifier = 0.1
+		caravan_power = 0.15
+	}
+	
+	bonus = { #Dominance over Yucatan
+		core_creation = -0.1
+	}
+	
+	trigger = {
+		tag = XIU	#will be added at load.
+	}
+	free = yes
+	
+	XIU_quetzalcoatl_kukulkan = { #Kukulkan's Devotees
+		global_missionary_strength = 0.02
+	}
+	XIU_kuchkabal_conquers = { #Unite the Kuchkabals
+		ae_impact = -0.15
+	}
+	XIU_we_hate_cocomes = { #The Cocom Rivalry
+		infantry_power = 0.1
+	}
+	XIU_kings_of_uxmal = { #Esteemed Kings of Uxmal
+		prestige_decay = -0.01
+	}	
+	XIU_owners_of_chichen_itza = { #Custodians of Chichen Itza
+		missionaries = 1
+	}		
+	XIU_spanish_alliance = { #Align with the Spanish
+		improve_relation_modifier = 0.25
+	}
+	XIU_cenotes = { #All Cenote Belong to Xiu
+		unjustified_demands = -0.1
+	}	
+}	
+	

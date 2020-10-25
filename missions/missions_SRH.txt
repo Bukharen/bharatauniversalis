@@ -1,0 +1,156 @@
+srh_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SRH
+	}
+	has_country_shield = yes
+	
+	srh_amass_army = {
+		icon = mission_persian_soldiers
+		required_missions = {  }
+		position = 1
+		
+		trigger = {
+			num_of_generals = 1
+			army_size_percentage = 0.9
+			num_of_cavalry = 4
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+				}	
+				num_of_rajput = 1
+			}
+		}	
+		effect = {
+			add_country_modifier = {
+				name = srh_bahluls_army
+				duration = 7300
+			}
+		}	
+	}
+	srh_seize_delhi = {
+		icon = mission_crush_delhi
+		required_missions = { srh_amass_army srh_stabilize_punjab  }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = upper_doab_area
+				province_id = 2065
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		trigger = {
+			owns_core_province = 2065
+			upper_doab_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}	
+		effect = {
+			upper_doab_area = {
+				add_local_autonomy = -20
+			}
+			2065 = {
+				add_local_autonomy = -20
+			}
+			add_mil_power = 100
+		}	
+	}	
+}	
+
+srh_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SRH
+	}
+	has_country_shield = yes
+	
+	srh_stabilize_punjab = {
+		icon = mission_conquer_punjab
+		required_missions = {  }
+		position = 1
+		
+		trigger = {
+			sirhind_area = {
+				type = all
+				OR = {
+					AND = {
+						owned_by = ROOT
+						NOT = { 
+							unrest = 3
+							local_autonomy = 40
+						}
+					}
+					province_id = 2065
+				}
+			}
+			lahore_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					unrest = 3
+					local_autonomy = 40
+				}
+			}
+			4511 = {
+				owned_by = ROOT
+				NOT = {
+					unrest = 3
+					local_autonomy = 40
+				}
+			}
+		}	
+		effect = {
+			add_stability_or_adm_power = yes
+		}	
+	}
+}
+
+srh_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = SRH
+	}
+	has_country_shield = yes
+	
+	srh_quality_horses = {
+		icon = mission_marwari_horses
+		required_missions = {  }
+		position = 1
+		
+		trigger = {
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+				}
+				estate_influence = {
+					estate = estate_rajput
+					influence = 60
+				}
+				estate_loyalty = {
+					estate = estate_rajput
+					loyalty = 60
+				}
+			}	
+			num_of_owned_provinces_with = {
+				has_building = barracks
+				trade_goods = livestock 
+				value = 5
+			}
+		}	
+		effect = {
+			add_country_modifier = {
+				name = srh_bahluls_horses
+				duration = 10950
+			}
+		}	
+	}
+}	

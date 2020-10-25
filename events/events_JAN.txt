@@ -12,8 +12,7 @@ country_event = {
 	
 	trigger = {
 		tag = JAN
-		is_subject = no
-		owns_core_province = 512
+		capital = 512
 		is_year = 1470
 		NOT = { is_year = 1490 }
 	}
@@ -45,7 +44,6 @@ country_event = {
 			}	
 			change_province_name = "Bikaner"
 			rename_capital = "Bikaner"
-			move_capital_effect = yes
 		}	
 	}
 }

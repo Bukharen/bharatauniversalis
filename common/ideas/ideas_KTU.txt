@@ -1,0 +1,40 @@
+KTU_ideas_iandb = {
+	start = { #Kathmandu Valley
+		development_cost = -0.1
+		leader_land_manuever = 1
+	}
+	
+	bonus = { #Patronize the Usage of Maithili
+		free_adm_policy = 1
+	}
+	
+	trigger = {
+		tag = KTU	#will be added at load.
+	}
+	free = yes
+	
+	KTU_nepalese_heart = { #Heart of Nepal
+		caravan_power = 0.2
+	}
+	KTU_hindu_buddhist_temples = { #Hindu and Buddhist Temples
+		tolerance_own = 1
+		tolerance_heathen = 2
+	}
+	KTU_malla_heritage = { #Malla Heritage
+		leader_land_shock = 1
+	}	
+	KTU_control_of_tibetan_trade_routes = { #Control Tibetan Trade Routes
+		global_own_trade_power = 0.2
+	}	
+	KTU_three_divided_princedoms = { #Three Divided Petty Princedoms
+		ae_impact = -0.1
+	}		
+	KTU_embrace_mughal_institutions = { #Embrace Mughal Institutions
+		global_institution_spread = 0.1
+		embracement_cost = -0.1
+	}
+	KTU_tirhuti_soldiers = { #Enlist Tirhuti Soldiers
+		merc_maintenance_modifier = -0.15
+	}	
+}	
+	

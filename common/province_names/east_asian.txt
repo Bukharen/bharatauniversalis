@@ -86,6 +86,7 @@
 637 = "Api"
 652 = "Minto-lang"
 656 = "Mali-lu"
+660 = { "Jinghong" "Jinghong" }
 2698 = "Fengjiashilan"
 2702 = "Puotuan"
 4350 = "Mayi"

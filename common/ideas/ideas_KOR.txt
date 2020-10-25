@@ -1,10 +1,11 @@
-KOR_ideas = {
-	start = { #
-		
+KOR_ideas_iandb = {
+	start = { #Korean Isolationism
+		defensiveness = 0.2
+		development_cost = -0.1
 	}
 	
-	bonus = { #
-		
+	bonus = { #Reinstitute the Mun
+		global_tax_modifier = 0.1
 	}
 	
 	trigger = {
@@ -12,31 +13,28 @@ KOR_ideas = {
 	}
 	free = yes
 	
-	KOR_ = { #
-	
+	KOR_artillery_only = { #Hwacha
+		artillery_power = 0.05
+		siege_ability = 0.05
 	}
-	KOR_ = { #
-	
+	KOR_language = { #Hangul in Korean Court
+		idea_cost = -0.05
+		adm_tech_cost_modifier = -0.05
 	}
-	KOR_ = { #
-	
+	KOR_gyorin = { #Gyorin
+		improve_relation_modifier = 0.33
 	}	
-	KOR_ = { #
-	
-	}	
-	KOR_ = { #
-	
-	}		
-	KOR_ = { #
-	
+	KOR_seowon = { #Localized Seowon
+		global_institution_spread = 0.1
 	}
-	KOR_ = { #
-	
+	KOR_hyangyak = { #Hyangyak System
+		state_maintenance_modifier = -0.2
 	}	
+	KOR_turtle_ships = { #Geobukseon
+		ship_durability = 0.1
+		naval_morale = 0.1
+	}	
+	KOR_resist_jurchens = { #Resist the Jurchens
+		shock_damage_received = -0.1
+	}			
 }	
-
-#Hangul in Korean Court
-#Geobukseon
-#Resist the Jurchens
-#Gyorin
-#

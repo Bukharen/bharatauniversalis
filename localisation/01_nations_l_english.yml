@@ -1,0 +1,204 @@
+﻿l_english:
+#Angkor
+ ANG: "Angkor"
+ ANG_ADJ: "Angkorian"
+
+#Banswara
+ BNS: "Banswara"
+ BNS_ADJ: "Banswaran"
+
+#Bonai
+ BNI: "Bonai"
+ BNI_ADJ: "Bonaire"
+ 
+#Chero
+ CER: "Chero"
+ CER_ADJ: "Chero"
+ 
+#Chitral
+ CTR: "Chitral"
+ CTR_ADJ: "Chitrali"
+ 
+#Dapitan
+ DAP: "Dapitan"
+ DAP_ADJ: "Dapitani"
+ 
+#Dir
+ DIR: "Dir"
+ DIR_ADJ: "Dir"
+ 
+#Dungarpur
+ DUN: "Dungarpur"
+ DUN_ADJ: "Dungarpuri" 
+ 
+#Fiji
+ FIJ: "Fiji"
+ FIJ_ADJ: "Fijian"
+ 
+#Hachisuka
+ HAC: "Hachisuka"
+ HAC_ADJ: "Hachisukan"
+ 
+#Hana
+ HNA: "Hana"
+ HNA_ADJ: "Hana" 
+ 
+#Haripunchai
+ LAM: "Haripunchai"
+ LAM_ADJ: "Haripunchaiya"
+ 
+#Hawai'i/Hawaii (Big Island)
+ HAW: "Hawai'i"
+ HAW_ADJ: "Hawai'ian"
+
+#Hawai'i/Hawaii (Formable)
+ HWI: "Hawai'i"
+ HWI_ADJ: "Hawai'ian"
+
+#Hilo
+ HIL: "Hilo"
+ HIL_ADJ: "Hilo"
+ 
+#Honma
+ HON: "Honma"
+ HON_ADJ: "Honman"
+ 
+#Hunza
+ HNZ: "Hunza"
+ HNZ_ADJ: "Hunzan"
+ 
+#Ibalon
+ IBA: "Ibalon"
+ IBA_ADJ: "Ibalon"
+ 
+#Ifugao
+ IFU: "Ifugao"
+ IFU_ADJ: "Ifugaon"
+ 
+#Ivatan
+ IVA: "Ivatan"
+ IVA_ADJ: "Ivatanon"
+ 
+#Kanthal/Pratapgarh (Rajputana)
+ PRT: "Kanthal"
+ PRT_ADJ: "Kanthali"
+ 
+#Karauli
+ KAU: "Karauli"
+ KAU_ADJ: "Kauralian"
+
+#Katugasan
+ SIQ: "Katugasan"
+ SIQ_ADJ: "Katugasan"
+
+#Ka'u/Kau
+ HKA: "Ka'u"
+ HKA_ADJ: "Ka'u"
+
+#Kaua'i/Kauai
+ KAI: "Kaua'i"
+ KAI_ADJ: "Kaua'ian"
+ 
+#Kengtung
+ KEN: "Kengtung"
+ KEN_ADJ: "Kengtung"
+ 
+#Khalifatabad
+ KFA: "Khalifatabad"
+ KFA_ADJ: "Khalifatabadi"
+
+#Koholalele
+ KOH: "Koholalele"
+ KOH_ADJ: "Koholalele"
+ 
+#Kuskatan
+ KUS: "Kuskatan"
+ KUS_ADJ: "Kuskatan"
+ 
+#Lawan
+ LAW: "Lawan"
+ LAW_ADJ: "Lawan"
+ 
+#Ibat/Libog
+ SAW: "Libog"
+ SAW_ADJ: "Libog"
+ 
+#Ma-i/Mai
+ BAI: "Ma-i"
+ BAI_ADJ: "Ma-i"
+ 
+#Mairete
+ ETE: "Mairete"
+ ETE_ADJ: "Mairetean"
+ 
+#Maui
+ MAU: "Maui"
+ MAU_ADJ: "Mauian"
+ 
+#Miyoshi
+ MIY: "Miyoshi"
+ MIY_ADJ: "Miyoshi"
+ 
+#Moloka'i/Molokai
+ MOO: "Moloka'i"
+ MOO_ADJ: "Moloka'ian"
+
+#Mong Lem
+ LEM: "Mong Lem"
+ LEM_ADJ: "Mong Lem"
+ 
+#Nagar
+ NGR: "Nagar"
+ NGR_ADJ: "Nagari"
+ 
+#Philippines 
+ PHI: "The Philippines"
+ PHI_ADJ: "Filipino"
+ 
+#Pratapgarh (Bengal) 
+ PRA: "Pratapgarh"
+ PRA_ADJ: "Pratapgarhi"
+ 
+#O'ahu/Oahu
+ OAH: "O'ahu"
+ OAH_ADJ: "O'ahuan"
+
+#Raigama
+ RAI: "Raigama"
+ RAI_ADJ: "Raigaman"
+ 
+#Rapanui
+ RAP: "Rapanui"
+ RAP_ADJ: "Rapanui"
+ 
+#Sengoku
+ SEN: "Sengoku"
+ SEN_ADJ: "Sengoku"
+ 
+#Sirohi
+ SIR: "Sirohi"
+ SIR_ADJ: "Sirohian"
+ 
+#Tamna
+ RUF: "Tamna"
+ RUF_ADJ: "Tamnan" 
+ 
+#Sipsongpanna
+ SIP: "Sipsongpanna"
+ SIP_ADJ: "Sipsongpannan"
+ 
+#Sitawaka
+ SIT: "Sitawaka"
+ SIT_ADJ: "Sitawakan"
+ 
+#Taytay
+ TAY: "Taytay"
+ TAY_ADJ: "Taytayi" 
+ 
+#Umi's Revolt
+ UMI: "Umi's Revolt"
+ UMI_ADJ: "Umi Revolter"
+ 
+#Wabanaki
+ WAB: "Wabanaki"
+ WAB_ADJ: "Wabanaki"

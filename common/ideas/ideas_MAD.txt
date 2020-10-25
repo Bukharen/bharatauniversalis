@@ -1,4 +1,4 @@
-MAD_ideas = { #Madurai/Pandya
+MAD_ideas_iandb = { #Madurai/Pandya
 	start = {
 		infantry_power = 0.1
 		land_morale = 0.1

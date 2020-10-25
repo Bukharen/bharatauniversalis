@@ -1,0 +1,39 @@
+BPR_ideas_iandb = {
+	start = { #Reclaim Bagan
+		diplomats = 1
+		shock_damage_received = -0.1
+	}
+	
+	bonus = { #Support the Shan Confederacy
+		manpower_recovery_speed = 0.2
+	}
+	
+	trigger = {
+		tag = BPR	#will be added at load.
+	}
+	free = yes
+	
+	BPR_pagodan_city = { #A New City of Pagodas
+		development_cost = -0.1
+		build_cost = -0.05
+	}	
+	BPR_bagan_legacy = { #Legacy of Bagan
+		fabricate_claims_cost = -0.25
+	}
+	BPR_forty_years = { #Memories of the Fourty Years' War
+		army_tradition = 0.5
+	}		
+	BPR_political_meddling = { #Political Meddling
+		spy_offence = 0.25
+	}
+	BPR_bagan_dynasty = { #Bagan Dynasty
+		legitimacy = 1
+	}	
+	BPR_old_governors = { #Formerly Governors
+		state_governing_cost = -0.2
+	}		
+	BPR_avan_rebel = { #Rebellion and Secession
+		recover_army_morale_speed = 0.05
+	}
+}	
+	

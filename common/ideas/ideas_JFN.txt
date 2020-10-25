@@ -1,4 +1,4 @@
-JFN_ideas = { #Jaffna
+JFN_ideas_iandb = { #Jaffna
 	start = {
 		ship_durability = 0.05
 		tolerance_heathen = 2

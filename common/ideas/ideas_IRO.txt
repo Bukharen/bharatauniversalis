@@ -1,0 +1,41 @@
+IRO_ideas_iandb = {
+	start = { #People of the Longhouse
+		global_unrest = -1
+		build_cost = -0.1
+	}
+	
+	bonus = { #Ontarioan Settlements
+		global_colonial_growth = 20
+	}
+	
+	trigger = {
+		tag = IRO	#will be added at load.
+	}
+	free = yes
+	
+	IRO_great_law_of_peace = { #Kainerekowa
+		stability_cost_modifier = -0.15
+	}
+	IRO_mourning_wars = { #Mourning Wars
+		manpower_recovery_speed = 0.10
+		war_exhaustion_cost = -0.1
+	}
+	IRO_fifty_sachems = { #The 50 Sachems
+		advisor_pool = 1
+	}	
+	IRO_wampum = { #Wampum
+		prestige_decay = -0.01
+	}	
+	IRO_eternal_fire = { #Keepers of the Eternal Fire
+		diplomats = 1
+	}		
+	IRO_assimilate_and_adopt = { #Assimilation and Adoption
+		native_assimilation = 0.33
+		global_manpower_modifier = 0.1
+	}
+	IRO_beaver_wars = { #Beaver Wars
+		free_mil_policy = 1
+		diplomatic_reputation = 1
+	}	
+}	
+	

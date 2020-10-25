@@ -1,0 +1,116 @@
+country_decisions = {
+
+	wabanaki_nation = {
+        major = yes
+        potential = {
+            normal_or_historical_nations = yes
+            was_never_end_game_tag_trigger = yes
+            NOT = { has_country_flag = formed_wabanaki_nation }
+            OR = {
+                ai = no
+                is_playing_custom_nation = no
+            }
+            NOT = { exists = WAB }
+            NOT = { tag = WAB }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+            is_colonial_nation = no
+            OR = {
+                is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				tag = ABE
+				tag = MIK
+				primary_culture = abenaki
+				primary_culture = mikmaq
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = upper_acadia_area
+				area = lower_acadia_area
+				area = maine_area
+				area = great_woods_area
+				province_id = 969  #Pocumtuk
+				province_id = 2563 #Missisquoi
+				province_id = 2012 #Arsigantegok
+				province_id = 2582 #Maliseet
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+		}
+		allow = {
+			is_subject = no
+			if = {
+				limit = {
+					tag = ABE
+				}
+				OR = {
+					NOT = { exists = MIK }
+					MIK = {
+						vassal_of = ROOT
+					}
+				}
+			}
+			else = {
+				OR = {
+					NOT = { exists = ABE }
+					ABE = {
+						vassal_of = ROOT
+					}
+				}
+			}
+			upper_acadia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lower_acadia_area = {
+				type = all
+				owned_by = ROOT
+			}	
+			maine_area = {
+				type = all
+				owned_by = ROOT
+			}
+			great_woods_area = {
+				type = all
+				owned_by = ROOT
+			}
+			owns_core_province = 969  #Pocumtuk
+			owns_core_province = 2563 #Missisquoi
+			owns_core_province = 2012 #Arsigantegok
+			owns_core_province = 2582 #Maliseet
+			stability = 2
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}			
+			add_prestige = 25
+			set_country_flag = formed_wabanaki_nation
+			change_tag = WAB
+		}
+		ai_will_do = {
+			factor = 400
+		}
+    }
+}

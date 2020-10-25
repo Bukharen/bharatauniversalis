@@ -1,0 +1,43 @@
+#2100 - Vanni
+
+owner = JFN
+controller = JFN
+culture = tamil
+religion = hinduism
+capital = "Wanni"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = JFN
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+discovered_by = east_african
+add_local_autonomy = 50
+
+1432.1.1 = {
+	owner = JFN
+	controller = JFN
+}	#Reconquest by Vijayanagar
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+1619.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+}
+1658.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = POR
+} # Dutch control
+1799.8.1 = { controller = GBR } # Occupied by England
+1802.3.25 = {
+	owner = GBR
+	add_core = GBR
+	remove_core = NED
+} # Treaty of Amiens

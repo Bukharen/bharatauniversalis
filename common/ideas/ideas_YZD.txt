@@ -1,0 +1,41 @@
+YZD_ideas_iandb = {
+	start = { #The Beating Heart of Persia
+		prestige = 0.5
+		free_leader_pool = 1
+	}
+	
+	bonus = { #Legacy of the Anauša
+		global_manpower_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = YZD	#will be added at load.
+	}
+	free = yes
+	
+	YZD_silk_tapestries = { #Silk Tapestries
+		trade_efficiency = 0.1
+	}
+	YZD_final_flames = { #Fanning the Final Flame
+		cb_on_religious_enemies = yes 
+		global_heretic_missionary_strength = 0.02
+	}
+	YZD_sassanian_architecture = { #Sassanian Architecture
+		build_cost = -0.1
+	}	
+	YZD_wisdom_above_all_else = { #Wisdom Above All Else
+		technology_cost = -0.05	
+	}	
+	YZD_meritocracy_not_nobility = { #Meritocracy, Not Nobility
+		yearly_corruption = -0.1
+	}		
+	YZD_bane_crescent_star = { #Bane of the Crescent Star
+		defensiveness = 0.1
+		global_garrison_growth = 0.1
+	}
+	YZD_apadana_palace = { #Apadana Palace
+		governing_capacity_modifier = 0.1
+		improve_relation_modifier = 0.25
+	}	
+}	
+	

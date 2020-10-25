@@ -1,0 +1,39 @@
+LNA_ideas_iandb = {
+	start = { #Land of a Million Rice Fields
+		global_trade_goods_size_modifier = 0.1
+		land_attrition = -0.1
+	}
+	
+	bonus = { #Opposition of Ayutthaya
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = LNA	#will be added at load.
+	}
+	free = yes
+	
+	LNA_legendary_found_mangrai = { #Mangrai's Legacy
+		army_tradition = 0.5
+	}
+	LNA_subjects_of_the_mandala = { #Mandala Subjects
+		vassal_income = 0.25
+	}
+	LNA_sukhothai_phichai_revolt = { #Defection of Phichai-Sawankhalok
+		rebel_support_efficiency = 0.20
+	}	
+	LNA_emerald_buddha = { #Emerald Buddha
+		tolerance_own = 1
+		prestige = 0.5
+	}	
+	LNA_tail_cutting = { #Anti-Elephant Tactics
+		shock_damage_received = -0.1
+	}		
+	LNA_friends_of_lan_xang = { #Lao Alignment
+		diplomatic_upkeep = 1
+	}
+	LNA_shan_hill_expeditions = { #Shan Hill Expeditions
+		movement_speed = 0.1
+	}	
+}	
+	

@@ -12,8 +12,7 @@ country_event = {
 	
 	trigger = {
 		tag = BND
-		is_subject = no
-		owns_core_province = 559
+		capital = 559
 		is_year = 1525
 		NOT = { is_year = 1550 }
 	}
@@ -45,7 +44,6 @@ country_event = {
 			}	
 			change_province_name = "Orchha"
 			rename_capital = "Orchha"
-			move_capital_effect = yes
 		}	
 	}
 }

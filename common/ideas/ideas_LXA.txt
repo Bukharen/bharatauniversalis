@@ -1,0 +1,40 @@
+LXA_ideas_iandb = {
+	start = { #Land of a Million Elephants
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
+	}
+	
+	bonus = { #Suppress the Mueangs
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	
+	trigger = {
+		tag = LXA	#will be added at load.
+	}
+	free = yes
+	
+	LXA_mekong_river_idea = { #The Mighty Mekong
+		development_cost = -0.1
+	}
+	LXA_minorities = { #Khmuic and Katuic Minorities
+		promote_culture_cost = -0.25
+	}
+	LXA_lao_sangha = { #Lan Xangi Sangha
+		reform_progress_growth = 0.1
+		church_loyalty_modifier = 0.1
+	}	
+	LXA_pali_scriptures_in_lao = { #Translation of Pali Scriptures
+		global_missionary_strength = 0.02
+	}	
+	LXA_indochinese_trading_hub = { #Indochinese Trading Hub
+		global_own_trade_power = 0.1
+	}		
+	LXA_lao_golden_age = { #Lao Golden Age
+		global_institution_spread = 0.1
+		idea_cost = -0.05
+	}
+	LXA_phra_bang = { #Phra Bang
+		tolerance_own = 1
+		global_unrest = -1
+	}	
+}	
